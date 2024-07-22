@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="FormLinesx" text="Danh mục Line sản xuất" />
+
+  <layout id ="colLinesxNo" text ="Line số" />
+<layout id="colStockCode" text="Kho" />
+<layout id="colNangsuatLot" text="Trọng lượng mẻ" />
+<layout id="colNangsuat" text="Công suất/h" />
+<layout id="colDescription" text="Ghi chú" />
+  <layout id ="colUserCreated" text ="Người tạo" />
+  <layout id ="colDateCreated" text ="Ngày tạo"/>
+  <layout id ="colUserUpdated" text ="Người sửa"/>
+  <layout id ="colDateUpdated" text ="Ngày sửa" />
+  <message id ="INSERT-2" text="Line này đã tồn tại" />
+  <message id ="VALIDATE-1" text="Bạn chưa nhập Line"/>
+  <message id ="VALIDATE-2" text ="Bạn chưa chọn Kho" />
+</root>

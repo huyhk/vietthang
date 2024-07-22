@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+	<message id="VALIDATE-1" text="Chưa nhập mã công thức!"/>
+	<message id="VALIDATE-2" text="Số lượng không được âm!"/>
+	<message id="VALIDATE-3" text="Có chi tiết chưa nhập mã nguyên liệu!"/>
+	<message id="VALIDATE-4" text="Không thể lưu vì tất cả các chi tiết đều bằng 0!"/>
+	<message id="VALIDATE-5" text="Không thể có 2 chi tiết cùng mã nguyên liệu!"/>
+	<message id="VALIDATE-6" text="Chưa nhập chi tiết!"/>
+	<message id="VALIDATE-7" text="Mã công thức đã tồn tại!"/>
+
+	<message id="INSERT-1" text="Thêm mới/cập nhật công thức không thành công!"/>
+	<message id="INSERT-3" text="Trùng mã công thức!"/>
+	<message id="INSERT-4" text="Không có mã công thức nào được cập nhật, có thể đã bị xoá bởi user khác!"/>
+	<message id="INSERT-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+	<message id="INSERT-6" text="Mã nguyên liệu đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-1" text="Cập nhật mã công thức không thành công!"/>
+	<message id="UPDATE-3" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-4" text="Mã nguyên liệu đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-6" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+</root>
+

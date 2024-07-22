@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnCancel" text="Bỏ qua" />
+	<layout id="btnSave" text="Lưu" />
+	<layout id="txtDescription" text="" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="txtEncryptCode" text="" />
+	<layout id="lbEncryptCode" text="Mã" />
+
+	<message id="VALIDATE-1" text="Bạn chưa nhập mã mẫu!"/>
+	<message id="INSERT-1" text="Số phiếu kiểm tương ứng đã bị xóa!"/>
+	<message id="INSERT-2" text="Mã mẫu đã tồn tại!"/>
+	<message id="UPDATE-1" text="Mã mẫu đã tồn tại!"/>
+	<message id="UPDATE-2" text="Mã mẫu đã bị xóa!"/>
+	<message id="DELETE-1" text="Mã mẫu đã bị xóa trước đó!"/>
+</root>
+

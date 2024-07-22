@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormUserGroup" text="Danh mục nhóm người sử dụng" />
+  <layout id="lbMemberID" text="Mã nhóm" />
+  <layout id="lbMemberName" text="Tên nhóm" />
+  <layout id="lbDescription" text="Ghi chú" />
+  <layout id="groupBox1" text="" />
+  <layout id="colMemberID" text="Mã" />
+  <layout id="colMemberName" text="Tên" />
+  <layout id="gridColumn2" text="Tên" />
+  <layout id="gridColumn1" text="Mã" />
+  
+<!--setting for Gridcontrol-->
+
+  <layout id="colMemberID1" text="Mã nhóm" />
+  <layout id="colMemberName1" text="Tên nhóm" />
+  <layout id="colDescription1" text="Ghi chú" />
+
+</root>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormManufacturePlanWeek" text="Kế hoạch sản xuất theo tuần." />
+	<layout id="lbOutStock" text="Nhà máy" />
+	<layout id="colYearNo" text="Năm" />
+	<layout id="colWeekNo" text="Tuần" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colUserCreated" text="User tạo" />
+	<layout id="colDateCreated" text="Ngày tạo" />
+	<layout id="colUserUpdated" text="User cập nhật" />
+	<layout id="colDateUpdated" text="Ngày cập nhật" />
+	<layout id="colItemCode" text="Mã TP" />
+	<layout id="colFormulaCode" text="Công thức" />
+	<layout id="colDay1" text="Thứ 2" />
+	<layout id="colDay2" text="Thứ 3" />
+	<layout id="colDay3" text="Thứ 4" />
+	<layout id="colDay4" text="Thứ 5" />
+	<layout id="colDay5" text="Thứ 6" />
+	<layout id="colDay6" text="Thứ 7" />
+	<layout id="colDay7" text="Chủ nhật" />
+	<layout id="colDescription1" text="Diễn giải" />
+  <layout id="colStartDate" text="Từ ngày"/>
+  <layout id="colEndDate" text="Đến ngày"/>
+</root>
+

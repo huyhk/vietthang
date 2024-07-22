@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="colIsAuto" text="Phiếu tự động"/>
+	<layout id="lbStockCode" text="Chọn kho"/>
+	<layout id="colInStock" text="Kho nhập"/>
+	<layout id="colStatus" text="Trạng thái"/>
+	<layout id="colOutStock" text="Kho xuất"/>
+	<layout id="colTransactionNo" text="Số phiếu"/>
+	<layout id="colTransactionTypeCode" text="Loại nhập/xuất"/>
+	<layout id="colTransactionDate" text="Ngày"/>
+	<layout id="colUserCreated" text="Người tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="Người cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="colGetByWeightItems" text="Lấy từ phiếu cân"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colForDepartment" text="Bộ phận"/>
+	<layout id="colDepartmentStatus" text="Bộ phận xác nhận"/>
+	<layout id="colDonviVC" text="ĐV vận chuyển"/>
+	<layout id="colPTVC" text="PT vận chuyển"/>
+	<layout id="colCTKemTheo" text="CT kèm theo"/>
+	<layout id="colKhoGiao" text="Kho giao"/>
+	<layout id="colKhoNhan" text="Kho nhận"/>
+	<layout id="colDVGiao" text="ĐV giao"/>
+	<layout id="colDVNhan" text="ĐV nhận"/>
+	<layout id="colSoDH" text="Số y/c bán hàng"/>
+	<layout id="colSoHD" text="Số HĐ"/>
+	<layout id="lbPeriod" text="Kỳ"/>
+	<layout id="btnRefresh" text="Refresh"/>
+
+	<layout id="DefaultHelpKeyWord" text="Phieu nhap xuat kho"/>
+	<layout id="ConfirmHelpKeyWord" text="Xac nhan phieu nhap xuat kho"/>
+
+	<message id="DELETE50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!" />
+	<message id="DELETE-1" text="Xoá không thành công!" />
+  <message id="DELETE-2" text="Phiếu đã bị xoá bởi user khác!" />
+  <message id="DELETE-3" text="Login name đã bị huỷ!" />
+  <message id="DELETE-4" text="Không thể xoá phiếu được tạo bởi bộ phận khác!" />
+  <message id="DELETE-5" text="Xoá không thành công vì phiếu đã được bộ phận xác nhận!" />
+  <message id="DELETE-6" text="Xoá không thành công vì phiếu này đã được định khoản!" />
+
+
+</root>

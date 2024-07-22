@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="lblStockCode" text="Kho:" />
+  <layout id="btnReport1" text="Kết xuất Excel" />
+
+  <layout id="colItemCode1" text="Mã hàng" />
+  <layout id="colItemName1" text="Tên hàng" />
+  <layout id="colTondau25" text="25Kg" />
+  <layout id="colTondau40" text="40Kg" />
+  <layout id="colNhaptukho25" text="25Kg" />
+  <layout id="colNhaptukho40" text="40Kg" />
+  <layout id="colSudung25" text="25Kg" />
+  <layout id="colSudung40" text="40Kg" />
+  <layout id="colTrakho25" text="25Kg" />
+  <layout id="colTrakho40" text="40Kg" />
+  <layout id="colBaohong25" text="25Kg" />
+  <layout id="colBaohong40" text="40Kg" />
+  <layout id="colToncuoi25" text="25Kg" />
+  <layout id="colToncuoi40" text="40Kg" />
+
+  <layout id="colItemCode" text="Mã hàng" />
+  <layout id="colItemName" text="Tên hàng" />
+  <layout id="colTondau" text="Tồn đầu" />
+  <layout id="colNhapTuKho" text="Nhập từ kho" />
+  <layout id="colSudung" text="Sử dụng" />
+  <layout id="colTraKho" text="Trả kho" />
+  <layout id="colToncuoi" text="Tồn cuối" />
+  <layout id="btnRefresh" text="Refresh" />
+
+</root>

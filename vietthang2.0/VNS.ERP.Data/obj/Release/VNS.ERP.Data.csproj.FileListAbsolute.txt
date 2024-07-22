@@ -1,0 +1,54 @@
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.csprojResolveAssemblyReference.cache
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.ERP.Data.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Common.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Data.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Utils.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\bin\Release\VNS.Security.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.csproj.CopyComplete
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Release\VNS.ERP.Data.pdb

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormCheckWeightItem" text="Phiếu cân hàng"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colItemName" text="Tên hàng"/>
+	<layout id="colWeightCode" text="Số phiếu"/>
+	<layout id="colEmployeeName" text="Nhân viên cân"/>
+	<layout id="colWeightDate" text="Ngày cân"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colQuantity" text="Số lượng"/>
+	<layout id="colWrappingWeight" text="Bì bao"/>
+	<layout id="colItemWeight" text="Trọng lượng hàng"/>
+	<layout id="colStockCode" text="Nhà máy"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="colKhoGiao" text="Kho giao"/>
+	<layout id="colKhoNhan" text="Kho nhận"/>
+	<layout id="colPTVanChuyen" text="PT vận chuyển"/>
+	<layout id="colPTTayBoa" text="PT trung chuyển"/>
+	<layout id="colDVVanChuyen" text="ĐV vận chuyển"/>
+	<layout id="colDVGiao" text="ĐV giao"/>
+	<layout id="colDVNhan" text="ĐV nhận"/>
+</root>

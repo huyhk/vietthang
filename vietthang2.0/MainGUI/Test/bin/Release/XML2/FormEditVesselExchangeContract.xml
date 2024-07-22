@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormEditVesselExchangeContract" text ="Hợp đồng giao nhận"/>
+  <layout id="label3" text="Đơn vị giao nhận" />
+  <layout id="label1" text="Số hợp đồng" />
+  <layout id="label2" text="Ngày" />
+  <layout id="colItemCode" text="Mặt hàng" />
+  <layout id="colTransportItemTypeCode" text="Loại mặt hàng" />
+  <layout id="colTransportTypeCode" text="Loại vận chuyển" />
+  <layout id="colStockCode" text="Kho" />
+  <layout id="colGiaVanchuyen" text="Đơn giá VC" />
+  <layout id="colHaohutchophep" text="Hao hụt cho phép" />
+  <layout id="colGiaboithuong" text="Giá bồi thường" />
+  
+  <layout id="label7" text="Diễn giải" />
+  <layout id="label5" text="Năng suất bốc dỡ" />
+  
+  <layout id="label6" text="Giá phạt lưu sà lan" />
+  
+  <layout id="label4" text="Mã chuyến tàu" />
+  <layout id="ButtonEditVesselTransactionNo" text="" />
+  <layout id="lookUpExchangeSubjectCode" text="" />
+  
+
+  <message id="VALIDATE-1" text="Chưa nhập số hợp đồng!"/>
+
+  <message id="VALIDATE-2" text="Chưa chọn đơn vị giao nhận!"/>
+  
+  <message id="VALIDATE-4" text="Chưa nhập năng suất bốc dỡ!"/>
+  <message id="VALIDATE-5" text="Chưa nhập giá phạt lưu sà lan!"/>
+ 
+  <message id="INSERT-1" text="Hợp đồng này đã tồn tại!"/>
+  <message id="UPDATE-1" text="Hợp đồng này đã tồn tại!"/>
+  <message id="UPDATE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+  
+  <message id="DELETE-1" text="Tài khoản đã bị xoá bởi user khác!"/>
+</root>
+
+

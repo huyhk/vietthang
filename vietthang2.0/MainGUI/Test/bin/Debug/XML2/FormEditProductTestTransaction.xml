@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="colNewProductCode" text="Thành phẩm" />
+	<layout id="colNewSizeCode" text="Kích thước" />
+	<layout id="colNewFormulaCode" text="Công thức" />
+	<layout id="colNewItemEncryptCode" text="Mã mẫu" />
+	<layout id="colNewLot" text="Lot" />
+	<layout id="btnEditDetail" text="..." />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="lbShift" text="Ca" />
+	<layout id="lbDate" text="Ngày" />
+	<layout id="lbStockCode" text="Nhà máy" />
+	
+	<message id="VALIDATE-1" text="Chưa chọn nhà máy!"/>
+	<message id="INSERT-1" text="Nhà máy đã bị xóa!"/>
+	<message id="INSERT-3" text="Thành phẩm đã bị xóa!"/>
+	<message id="INSERT-4" text="Mã kích thước đã bị xóa!"/>
+	<message id="INSERT-5" text="Mã công thức đã bị xóa!"/>
+	<message id="INSERT-6" text="Mã mẫu không tồn tại!"/>
+	<message id="INSERT-7" text="Mã chỉ tiêu đã bị xóa!"/>
+	<message id="INSERT-8" text="Mã mẫu không tồn tại!"/>
+	<message id="INSERT-9" text="Mã chỉ tiêu đã bị xóa!"/>
+	<message id="INSERT-10" text="Ngày, nhà máy và ca không được lặp lại!"/>
+	<message id="INSERT-11" text="Mã mẫu đã tồn tại!"/>
+	
+	<message id="UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="UPDATE-2" text="Phiếu kiểm đã bị xóa!"/>
+	<message id="UPDATE-3" text="Thành phẩm đã bị xóa!"/>
+	<message id="UPDATE-4" text="Mã kích thước đã bị xóa!"/>
+	<message id="UPDATE-5" text="Mã công thức đã bị xóa!"/>
+	<message id="UPDATE-6" text="Mã mẫu không tồn tại!"/>
+	<message id="UPDATE-7" text="Mã chỉ tiêu đã bị xóa!"/>
+	<message id="UPDATE-8" text="Mã mẫu không tồn tại!"/>
+	<message id="UPDATE-9" text="Mã chỉ tiêu đã bị xóa!"/>
+	<message id="UPDATE-10" text="Ngày, nhà máy và ca không được lặp lại!"/>
+	<message id="UPDATE-11" text="Mã mẫu đã tồn tại!"/>
+	
+	<message id="DELETE-1" text="Phiếu kiểm đã bị xóa bởi user khác!"/>
+  <message id="INSERT50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="DELETE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="UPDATE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+</root>
+

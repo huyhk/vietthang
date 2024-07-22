@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+<layout id="label1" text="Loại nhập xuất" />
+<layout id="label2" text="Tháng" />
+
+<layout id="colTransactionNo" text="Số phiếu" />
+<layout id="colTransactionDate" text="Ngày" />
+<layout id="colTransactionType" text="Loại nhập xuất" />
+<layout id="colStockIn" text="Kho nhập" />
+<layout id="colStockOut" text="Kho xuất" />
+<layout id="colDescription" text="Ghi chú" />
+  
+<layout id="colUserCreated" text="Người tạo" />
+<layout id="colDateCreated" text="Ngày tạo" />
+<layout id="colUserUpdated" text="Người sửa" />
+<layout id="colDateUpdated" text="Ngày sửa" />
+  
+<layout id="btnRefresh" text="Refresh" />
+
+</root>

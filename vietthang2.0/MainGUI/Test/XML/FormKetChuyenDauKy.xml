@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="lbTime" text="Kỳ kế toán" />
+	<layout id="btn155632" text="155-6321" />
+	<layout id="btn1526111" text="152-6111" />
+	<layout id="PeriodNullError" text="Bạn chưa chọn kỳ kế toán!" />
+	<layout id="Info-1" text="Đã có phiếu kết chuyển nguên liệu đầu kỳ!" />
+	<layout id="Warning-3" text="Bạn có muốn xoá phiếu đi để tạo lại (Y/N?)" />
+	<layout id="Info-2" text="Xoá không thành công, không thể tạo lại phiếu kết chuyển nguyên liệu đầu kỳ!" />
+	<layout id="Info-3" text="Đã có phiếu kết chuyển thành phẩm đầu kỳ!" />
+	<layout id="Info-4" text="Xoá không thành công, không thể tạo lại phiếu kết chuyển thành phẩm đầu kỳ!" />
+</root>
+

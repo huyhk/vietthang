@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormProductSizeCostFormula" text="Công thức phân bổ chi phí NC, SXC"/>
+  <layout id="colQuantity" text="Năng suất (kg/h)"/>
+  <layout id="colProductSizeCode" text="Kích cỡ TP"/>
+  <layout id="lblPeriodCode" text="Kỳ kế toán"/>
+  <layout id="btnCopy" text="Copy công thức qua kỳ sau"/>
+
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-2" text="Không tồn tại mã Kích cỡ này!"/>
+  <message id="INSERT-3" text="Kích cỡ này đã tồn tại!"/>
+  <message id="DELETE-1" text="Lỗi trong khi xóa dữ liệu!" />
+
+
+  <message id="CONFIRM-CopyToNextPeriod" text="Bạn thực sự muốn copy toàn bộ công thức qua kỳ sau?" />
+  <message id="RESPONSE-CopyToNextPeriod" text="Đã copy toàn bộ công thức qua kỳ sau!" />
+  <message id="RESPONSE-CopyToNextPeriodError" text="Lỗi trong khi copy toàn bộ công thức qua kỳ sau!" />
+  
+</root>
+
+
+

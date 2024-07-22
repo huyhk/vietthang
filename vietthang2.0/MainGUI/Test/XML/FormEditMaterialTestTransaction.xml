@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="lbTechGroup2" text="Nhóm chỉ tiêu 2 (LAB):" />
+	<layout id="lbTechGroup1" text="Nhóm chỉ tiêu 1:" />
+	<layout id="colTechCode1" text="Chỉ tiêu" />
+	<layout id="colResult1" text="Kết quả" />
+	<layout id="colTechCode2" text="Chỉ tiêu" />
+	<layout id="colResult2" text="Kết quả" />
+	<layout id="lbDescription" text="Diễn giải:" />
+	<layout id="lbEndDate" text="Đến ngày:" />
+	<layout id="lbStartDate" text="Từ ngày:" />
+	<layout id="lbPTVC" text="PTVC:" />
+	<layout id="lbVendor" text="Khách hàng:" />
+	<layout id="lbLocation" text="Vị trí:" />
+	<layout id="lbStockCode" text="Kho:" />
+	<layout id="lbMaterial" text="Nguyên liệu:" />
+	<layout id="lbBranchCode" text="Chi nhánh:" />
+	<layout id="lbDate" text="Ngày:" />
+	<layout id="lbNo" text="Số:" />
+
+	<message id="VALIDATE-1" text="Chưa chọn chi nhánh!"/>
+	<message id="VALIDATE-2" text="Chưa chọn nguyên liệu!"/>
+	<message id="VALIDATE-3" text="Chưa chọn khách hàng!"/>
+	<message id="VALIDATE-4" text="Chưa chọn kho!"/>
+	<message id="VALIDATE-5" text="Chưa chọn chỉ tiêu!"/>
+	<message id="VALIDATE-6" text="Mỗi chỉ tiêu chỉ được chọn 1 lần!"/>
+	<message id="INSERT-1" text="Chi nhánh được chọn đã bị xóa!"/>
+	<message id="INSERT-2" text="Nguyên liệu được chọn đã bị xóa!"/>
+	<message id="INSERT-3" text="Kho được chọn đã bị xóa!"/>
+	<message id="INSERT-4" text="Khách hàng được chọn đã bị xóa!"/>
+	<message id="INSERT-5" text="Chỉ tiêu đã bị xóa!"/>
+	<message id="INSERT-7" text="Số phiếu đã tồn tại!"/>
+	<message id="UPDATE-1" text="Chi nhánh được chọn đã bị xóa!"/>
+	<message id="UPDATE-2" text="Nguyên liệu được chọn đã bị xóa!"/>
+	<message id="UPDATE-3" text="Kho được chọn đã bị xóa!"/>
+	<message id="UPDATE-4" text="Khách hàng được chọn đã bị xóa!"/>
+	<message id="UPDATE-5" text="Chỉ tiêu đã bị xóa!"/>
+	<message id="UPDATE-6" text="Phiếu kiểm đã bị xóa bởi user khác!"/>
+	<message id="UPDATE-7" text="Số phiếu đã tồn tại!"/>
+	
+	<message id="DELETE-1" text="Phiếu kiểm đã được xóa bởi user khác!"/>
+
+  <message id="INSERT50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="DELETE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="UPDATE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+</root>
+

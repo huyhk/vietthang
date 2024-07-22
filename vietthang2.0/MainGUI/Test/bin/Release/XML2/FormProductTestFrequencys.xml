@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="gridColumn1" text="Thành phẩm" />
+  <layout id="gridColumn2" text="Chỉ tiêu" />
+  <layout id="gridColumn3" text="Ngày bắt đầu" />
+  <layout id="gridColumn4" text="Tần xuất" />
+  <layout id="gridColumn5" text="Số lượng" />
+  <layout id="gridColumn6" text="Diễn giải" />
+  <layout id="gridColumn7" text="Người tạo" />
+  <layout id="gridColumn8" text="Ngày tạo" />
+  <layout id="gridColumn9" text="Người sửa" />
+  <layout id="gridColumn10" text="Ngày sửa" />
+ 
+  <layout id="label1" text="Thành phẩm" />
+  <layout id="label6" text="Diễn giải" />
+  <layout id="label2" text="Chỉ tiêu" />
+  <layout id="label5" text="Số lượng" />
+  <layout id="label3" text="Ngày bắt đầu" />
+  <layout id="label4" text="Tần xuất" />
+ 
+
+  <message id="VALIDATE-1" text="Chưa chọn tần xuất !"/>
+  <message id="VALIDATE-2" text="Chưa chọn thành phẩm !"/>
+
+  <message id="VALIDATE-3" text="Chưa chọn chỉ tiêu!"/>
+  <message id="VALIDATE-4" text="Chưa chọn số lượng!"/>
+  
+  <message id="VALIDATE-6" text="Chưa nhập diễn giải!"/>
+  <message id="INSERT-1" text="Dữ liệu bị trùng!"/>
+  <message id="INSERT-2" text="Thành phẩm đã bị xóa!"/>
+  <message id="INSERT-3" text="Mã chỉ tiêu đã bị xóa!"/>
+ 
+  <message id="UPDATE-1" text="Dữ liệu đã bị xóa!"/>
+
+  <message id="DELETE-1" text="Dữ liệu đã bị xóa!"/>
+  
+</root>
+

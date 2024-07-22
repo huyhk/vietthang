@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormRpTHCongnoKH" text="Tổng hợp công nợ Khách hàng tháng" />
+	<layout id="lblStartDate" text="Từ ngày:" />
+	<layout id="lblEndDate" text="Đến ngày:" />
+	<layout id="btnLoadData" text="Xem" />
+	<layout id="colTinh" text="Tỉnh/Thành phố" />
+	<layout id="colSoluong" text="Số lượng" />
+	<layout id="colDoanhso" text="Doanh số" />
+	<layout id="colLKSoluong" text="LK Số lượng" />
+	<layout id="colLKDoanhso" text="LK Doanh số" />
+	<layout id="colSoluongKytruoc" text="SL Kỳ trước" />
+	<layout id="colDoanhsoKytruoc" text="DS Kỳ trước" />
+	<layout id="colCustomerCode" text="Mã khách hàng" />
+	<layout id="VALIDATE-1" text="Từ ngày, đến ngày phải nằm trong cùng một tháng!!!" />
+	<layout id="btnExports" text="Kết xuất ra Excel" />
+	<layout id="colCustomerName" text="Tên khách hàng" />
+	<layout id="colNodauky" text="Nợ đầu kỳ" />
+	<layout id="colSanluong" text="Sản lượng" />
+	<layout id="colDoanhsothu" text="Doanh số thu" />
+	<layout id="colLKDoanhsoThu" text="LK Doanh so thu" />
+	<layout id="colNophaithu" text="Nợ phải thu" />
+	<layout id="colNocuoiky" text="Nợ cuối kỳ" />
+	<layout id="colDinhmucCongno" text="Định mức Công nợ" />
+	<layout id="colNgayCongno" text="Ngày công nợ" />
+</root>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnEditDetail" text="..." />
+	<layout id="groupBox2" text="Thành phẩm" />
+	<layout id="colDateRequest" text="Ngày phiếu kiểm" />
+	<layout id="colDescription1" text="Diễn giải" />
+	<layout id="colStockCode1" text="Kho" />
+	<layout id="colManuDate" text="Ngày sx" />
+	<layout id="colShift" text="Ca" />
+	<layout id="colProductCode" text="Thành phẩm" />
+	<layout id="colSizeCode" text="Kích thước" />
+	<layout id="colFormulaCode" text="Công thức" />
+	<layout id="colLot" text="Lot" />
+	<layout id="colItemEncryptCode1" text="Mã mẫu" />
+	<layout id="colTTPT1" text="TTPT" />
+	<layout id="groupBox1" text="Nguyên liệu" />
+	<layout id="colTestTransactionNo" text="Số phiếu kiểm" />
+	<layout id="colTestTransactionDate" text="Ngày phiếu kiểm" />
+	<layout id="colBranchCode" text="Chi nhánh" />
+	<layout id="colItemCode" text="Nguyên liệu" />
+	<layout id="colStockCode" text="Kho" />
+	<layout id="colLocation" text="Lô" />
+	<layout id="colSubjectCode" text="Khách hàng" />
+	<layout id="colPTVC" text="PTVC" />
+	<layout id="colStartDate" text="Từ ngày" />
+	<layout id="colEndDate" text="Đến ngày" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colItemEncryptCode" text="Mã mẫu" />
+	<layout id="colTTPT" text="TTPT" />
+	<layout id="btnReceived" text="Nhận/Bỏ nhận" />
+	<layout id="chkIsReceived" text="Đã nhận" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="lbDateReturn" text="Ngày" />
+
+	<message id="INSERT-1" text="Ngày phiếu trả kết quả đã tồn tại!"/>
+	<message id="INSERT-4" text="Loại chỉ tiêu đã bị xóa"/>
+	<message id="INSERT-5" text="Trung tâm phân tích đã bị xóa"/>
+	
+	<message id="UPDATE-1" text="Ngày phiếu trả kết quả đã tồn tại!"/>
+	<message id="UPDATE-2" text="Phiếu trả kết quả đã bị xóa!"/>
+	<message id="UpdateIsReceived" text="Phiếu trả kết quả đã được QLCL nhận, không thể sửa!"/>
+  <message id="UpdateIsReceived50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+	<message id="IsReceived" text="Phiếu đã được nhận trước đó!"/>
+	<message id="IsCancelReceived" text="Phiếu đã được bỏ nhận trước đó!"/>
+	
+	<message id="DELETE-1" text="Phiếu trả kết quả đã bị xóa!"/>
+	<message id="DeleteIsReceived" text="Phiếu trả kết quả đã được QLCL nhận, không thể xóa!"/>
+  <message id="INSERT50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="DELETE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="UPDATE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+</root>
+

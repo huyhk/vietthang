@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module name="Test" desktopsrc="Modules\Order\Orders.ascx">	
+	<function name="default" default="true" config="false" desktopsrc=""></function>
+	<function name="edit" desktopsrc="OrderDetail.ascx"></function>
+</module>

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ket chuyen">
+		<param name="Local" value="AccKetchuyen.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Kiem ke kho nguyen lieu">
+			<param name="Local" value="AccKKKhoNL.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Kiem ke kho thanh pham">
+			<param name="Local" value="AccKKKhoTP.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Gia xuat kho nguyen lieu san xuat">
+			<param name="Local" value="AccGiaxuatkhoNL.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Gia xuat kho thanh pham">
+			<param name="Local" value="AccGiaxuatkhoTP.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Gia thanh thanh pham">
+			<param name="Local" value="AccGiathanhTP.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Trich khau hao tai san co dinh">
+			<param name="Local" value="AccTrichKHTSCD.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ton dau">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ton dau tai khoan">
+			<param name="Local" value="AccTondauTaikhoan.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ton dau so luong kho hang">
+			<param name="Local" value="AccTondauSoluongkhohang.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ton dau tai khoan kho hang">
+			<param name="Local" value="AccTondauTaikhoankhohang.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ton dau cong cu dung cu">
+			<param name="Local" value="AccTondauCCDC.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ton dau tai san co dinh">
+			<param name="Local" value="AccTondauTSCD.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ton dau chi phi tra truoc">
+			<param name="Local" value="AccTondauChiphitratruoc.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

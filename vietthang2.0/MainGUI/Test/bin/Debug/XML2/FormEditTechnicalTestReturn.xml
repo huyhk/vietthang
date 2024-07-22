@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnRefresh" text="Refresh" />
+	<layout id="lbPeriod" text="Kỳ" />
+	<layout id="colDateResult" text="Ngày" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colIsReceived" text="QLCL đã nhận" />
+	<layout id="colUserCreated" text="User tạo" />
+	<layout id="colDateCreated" text="Ngày tạo" />
+	<layout id="colUserUpdated" text="User cập nhật" />
+	<layout id="colDateUpdated" text="Ngày cập nhật" />
+	<layout id="colUserReceived" text="User nhận" />
+	<layout id="colDateReceived" text="Ngày nhận" />
+
+	<message id="UpdateIsReceived" text="Phiếu trả kết quả đã được QLCL nhận, không thể sửa!"/>
+  <message id="UpdateIsReceived50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+	<message id="DeleteIsReceived" text="Phiếu trả kết quả đã được QLCL nhận, không thể xóa!"/>
+	<message id="IsReceived" text="Phiếu đã được nhận trước đó!"/>
+	<message id="IsCancelReceived" text="Phiếu đã được bỏ nhận trước đó!"/>
+	<message id="DELETE-1" text="Phiếu đã bị xóa!"/>
+	<message id="UPDATE-1" text="Phiếu đã bị xóa!"/>
+	<message id="UPDATE-2" text="Chỉ tiêu đã bị xóa!"/>
+	<message id="INSERT-2" text="Chỉ tiêu đã bị xóa!"/>
+  <message id ="INSERT-1" text ="Đã có Phiếu trả kết quả tương ứng với Kho và Ngày này" />
+  <message id="INSERT50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="DELETE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="UPDATE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+</root>

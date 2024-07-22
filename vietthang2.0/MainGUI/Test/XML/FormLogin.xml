@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormLogin" text="Đăng Nhập" />
+  <layout id="lbLoginName" text="Tên đăng nhập" />
+  <layout id="lbPassword" text="Mật khẩu" />
+  <layout id="OK" text="Đăng nhập" />
+  <layout id="Cancel" text="Thoát" />
+  
+
+</root>
+

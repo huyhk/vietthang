@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormStock" text="Danh mục kho"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="colStockCode" text="Mã kho"/>
+	<layout id="colStockName" text="Tên kho" />
+	<layout id="colAddress" text="Địa chỉ" />
+	<layout id="colPhone" text="Điện thoại" />
+	<layout id="colSoHieu" text="Số hiệu" />
+	<layout id="colFax" text="Fax" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colController" text="Thủ kho" />
+	<layout id="colIsManufacture" text="Là kho sản xuất"/>
+	<layout id="colHasLocation" text="Có phân lô"/>
+	<layout id="lbStockCode" text="Mã kho"/>
+	<layout id="lbStockName" text="Tên kho"/>
+	<layout id="lbAddress" text="Địa chỉ"/>
+	<layout id="lbPhone" text="Điện thoại"/>
+	<layout id="lbFax" text="Fax"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="lbSoHieu" text="Số hiệu"/>
+	<layout id="lbController" text="Thủ kho"/>
+	<layout id="ChkIsManufacture" text="Là kho sản xuất"/>
+	<layout id="ChkHasLocation" text="Có phân lô"/>
+
+  <message id ="VALIDATE-1" text="Chưa có mã kho!"/>
+  <message id ="VALIDATE-2" text="Bạn chưa chọn thủ kho!"/>
+  <message id ="VALIDATE-3" text="Chưa có tên kho!"/>
+  <message id ="VALIDATE-4" text="Chưa có số hiệu!"/>
+  <message id="INSERT-1" text="Thêm mới không thành công!"/>
+  <message id="INSERT-2" text="Login name đã bị huỷ!"/>
+  <message id="INSERT-3" text="Tên thủ kho đã bị xoá bởi user khác!"/>
+  <message id="INSERT-4" text="Mã kho đã tồn tại!"/>
+  <message id="INSERT-5" text="Số hiệu đã tồn tại!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Mã kho đã bị xoá bởi user khác!"/>
+  <message id="DELETE-3" text="Login name đã bị huỷ!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-2" text="Login name đã bị huỷ!"/>
+  <message id="UPDATE-3" text="Mã kho đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-4" text="Cập nhật không thành công vì kho đang có vị trí!"/>
+  <message id="UPDATE-5" text="Số hiệu đã tồn tại!"/>
+
+</root>

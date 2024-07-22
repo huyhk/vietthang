@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormProductTestFrequencys2" text="Tần suất kiểm thành phẩm"/>
+  <layout id="gridColumn13" text="Ngày bắt đầu" />
+  <layout id="colFrequencyType" text="Tần suất" />
+  <layout id="gridColumn15" text="Tần suất kiểm ngoài" />
+	<layout id="colQuantityLocal" text="Tần suất kiểm nội bộ"/>
+  <layout id="gridColumn16" text="Diễn giải" />
+  <layout id="gridColumn17" text="Người tạo" />
+  <layout id="gridColumn18" text="Ngày tạo" />
+  <layout id="gridColumn19" text="Người sửa" />
+  <layout id="gridColumn20" text="Ngày sửa" />
+  <layout id="colTechCode" text="Chỉ tiêu" />
+  
+  <layout id="colMaSP" text="Mã sản phẩm" />
+  <layout id="colTenSP" text="Tên sản phẩm" />
+  <layout id="label1" text="Thành phẩm" />
+  
+  
+  <layout id="label6" text="Diễn giải" />
+  
+  <layout id="label2" text="Chỉ tiêu" />
+  <layout id="label5" text="Tần suất kiểm ngoài" />
+  
+  <layout id="label3" text="Ngày bắt đầu" />
+  <layout id="label4" text="Tần suất" />
+	<layout id="lblQuantityLocal" text="Tần suất kiểm nội bộ"/>
+  
+  <message id="VALIDATE-1" text="Chưa chọn tần xuất !"/>
+  <message id="VALIDATE-3" text="Chưa chọn chỉ tiêu!"/>
+  <message id="VALIDATE-4" text="Chưa nhập số lượng!"/>
+  
+  <message id="INSERT-1" text="Dữ liệu này đã tồn tại!"/>
+  <message id="INSERT-2" text="Không tồn tại sản phẩm này!"/>
+  <message id="INSERT-3" text="Không tồn tại chỉ tiêu này!"/>
+  
+  <message id="UPDATE-1" text="Dữ liệu này đã bị xóa!"/>
+  <message id="DELETE-1" text="Dữ liệu này đã bị xóa!"/>
+  
+</root>
+

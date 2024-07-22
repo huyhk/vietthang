@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+	<layout id="FormReport_TestMaterialFrequency" text="Báo cáo tần suất kiểm nguyên liệu" />
+  <layout id ="btnReport" text="Xuất ra excel" />
+<layout id="colItemCode" text="Mã nguyên liệu" />
+<layout id="colItemName" text="Tên nguyên liệu" />
+<layout id="colQuantity" text="SL Nhập mua" />
+  <layout id ="colQuantityNB" text ="SL Nhập nội bộ" />
+  <layout id ="colTechName" text ="Chỉ tiêu" />
+  <layout id ="colTestMin" text="Lượng kiểm tối thiểu" />
+  <layout id ="colTestCount" text="Lượng kiểm đã thực hiện" />
+  <layout id ="colTansuat" text="Tần suất" />
+   <layout id ="colTestMinLocal" text="Lượng kiểm nội bộ tối thiểu" />
+  <layout id ="colTestCountLocal" text="Lượng kiểm nội bộ đã thực hiện" />
+  <layout id ="colTansuatLocal" text="Tần suất kiểm nội bộ" />
+<layout id="btnRefresh" text="Xem" />
+	</root>

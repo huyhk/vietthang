@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	
+	<layout id="FormInstrumentOpening" text="Tồn đầu công cụ dụng cụ"/>
+	<layout id="lbStockCode" text="Kho"/>
+	<layout id="colItemCode" text="Mã"/>
+	<layout id="colItemName" text="Tên"/>
+	<layout id="colQuantity" text="Số lượng"/>
+	<layout id="colAmount" text="Tiền"/>
+	<layout id="repLookUpEditItemCode-ItemCode" text="Mã"/>
+	<layout id="repLookUpEditItemCode-ItemName" text="Tên"/>
+
+	<message id="VALIDATE-1" text="Chưa chọn kho!"/>
+	<message id="VALIDATE-2" text="Mã không được trùng!"/>
+	<message id="VALIDATE-3" text="Có chi tiết chưa chọn mã!"/>
+	
+	<message id="INSERT-1" text="Lưu không thành công!"/>
+	<message id="INSERT-2" text="Mã thời kỳ đã bị xoá bởi user khác!"/>
+	<message id="INSERT-3" text="Mã kho đã bị xoá bởi user khác!"/>
+	<message id="INSERT-4" text="Mã đã bị xoá bởi user khác!"/>
+</root>
+

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<!--layout id="FormListAccountTransactionStock" text=""/-->
+	<layout id="lbLoaiNX" text="Loại NX"/>
+	<layout id="colAccountTransactionNo" text="Số"/>
+	<layout id="colAccountTransactionDate" text="Ngày"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="colPersonName" text="Họ và Tên"/>
+	<layout id="colInvoiceNo" text="Số hoá đơn"/>
+	<layout id="colSubjectCode2" text="Mã KH"/>
+	<layout id="colAddress" text="Địa chỉ"/>
+	<layout id="colCTKemtheo" text="Chứng từ kèm theo"/>
+	<layout id="colNgayCT" text="Ngày chứng từ"/>
+	<layout id="lookUpEditTransactionType-TransactionTypeCode" text="Mã NX"/>
+	<layout id="lookUpEditTransactionType-Description" text="Diễn giải"/>
+	<layout id="lbPeriod" text="Kỳ kế toán"/>
+	<message id="DELETE-1" text="Xoá không thành công!"/>
+
+</root>
+

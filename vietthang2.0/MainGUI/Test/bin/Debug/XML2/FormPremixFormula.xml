@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormPremixFormula" text="Danh mục Công thức sơ chế thuốc" />
+   <layout id="colFormulaCode" text="Công thức" />
+  <layout id="colDescription" text="Ghi chú" />
+  <layout id="colPremixCode" text="Thuốc" />
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+</root>
+

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportBusinessResult" text="Báo cáo kết quả kinh doanh"/>
+	<layout id="btnReport" text="Xem"/>
+	<layout id="colDescription" text="Chỉ tiêu"/>
+	<layout id="colRowCode" text="Mã số"/>
+	<layout id="colThuyetMinh" text="Thuyết minh"/>
+	<layout id="colOldAmount" text="Kỳ này (đã tính)"/>
+	<layout id="colAmount" text="Kỳ này (cập nhật)"/>
+	<layout id="colPreAmount" text="Kỳ trước"/>
+	<layout id="TemplateFileNotExists" text="Không tìm thấy tập tin mẫu ...\Baocaomau\KeToan\KetQuaKinhDoanh.xls"/>
+</root>
+
+

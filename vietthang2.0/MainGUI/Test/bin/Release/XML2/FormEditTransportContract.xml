@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormEditTransportContract" text="Hợp đồng vận chuyển"/>
+  <layout id="lblContractNo" text="Số hợp đồng:" />
+  <layout id="lbEndDate" text="Ngày kết thúc:" />
+  <layout id="lbStartDate" text="Ngày bắt đầu:" />
+  <layout id="lblContractDate" text="Ngày:" />
+  <layout id="lblSubjectCode" text="Đơn vị vận chuyển:" />
+  <layout id="lblDescription" text="Ghi chú:" />
+  <layout id="groupControl1" text="Bảng giá vận chuyển" />
+  <layout id="colStartDate" text="Ngày bắt đầu" />
+  <layout id="colRouteCode" text="Tuyến đường" />
+  <layout id="colDescription" text="Ghi chú" />
+  <layout id="btnThem" text="Thêm mới bảng giá vận chuyển" />
+  <layout id="groupControl2" text="Bảng giá lưu phương tiện" />
+  <layout id="colDetentionPriceStartDate" text="Ngày bắt đầu" />
+  <layout id="colDetentionPriceDescription" text="Ghi chú" />
+  <layout id="btnInsertTransportContractDetentionPrice" text="Thêm mới bảng giá lưu phương tiện" />
+  <!--layout id="colFeeStartDate" text="Ngày bắt đầu" />
+  <layout id="colFeeEndDate" text="Ngày kết thúc" /-->
+  <layout id="colFeeDescription" text="Ghi chú" />
+  <layout id="btnInsertTransportContractFee" text="Thêm mới chi phí phát sinh" />
+  <message id="VALIDATE-1" text="Bạn chưa nhập số hợp đồng"/>
+  <message id="VALIDATE-2" text="Bạn chưa chọn Đơn vị vận chuyển"/>
+  <message id="DELETE-1" text="Không thể xóa hợp đồng đã có bảng giá!"/>
+  <message id="DELETE-2" text="Không thể xóa hợp đồng đã có bảng giá!"/>
+  <message id="INSERT-1" text="Số hợp đồng đã tồn tại!"/>
+  <message id="INSERT-2" text="Đơn vị vận chuyển đã bị xóa!"/>
+
+  <message id="UPDATE-1" text="Số hợp đồng đã tồn tại!"/>
+  <message id="UPDATE-3" text="Đơn vị vận chuyển đã bị xóa!"/>
+  <message id="UPDATE-4" text="Xoá không thành công!"/>
+</root>

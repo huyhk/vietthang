@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormRpManufacture_ShiftDetail" text="Báo cáo sản xuất - Nhập/Xuất tồn theo ca"/>
+  
+  <layout id="colTransactionDate" text="Ngày"/>
+  <layout id="colShift" text="Ca"/>
+  <layout id="colItemCode" text="Chủng loại"/>
+  <layout id="colInQuantity" text="Nhập"/>
+  <layout id="colOutQuantity" text="Xuất"/>
+  <layout id="colOpenQuantity" text="Tồn đầu"/>
+  <layout id="colCloseQuantity" text="Tồn cuối"/>
+  <layout id="lblKho" text="Nhà máy"/>
+  <layout id="lblTungay" text="Từ ngày"/>
+  <layout id="lblDenngay" text="Đến ngày"/>
+  <layout id="btnRefresh" text="Xem"/>
+  <layout id="btnPrint" text="In"/>
+  <layout id="btnThoat" text="Thoát"/>
+</root>

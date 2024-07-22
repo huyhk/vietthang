@@ -1,0 +1,35 @@
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\VNS.Localization.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\mscorlib.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\sortkey.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\sorttbls.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\big5.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\bopomofo.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\ksc.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\prc.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\prcp.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\xjis.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\normidna.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\normnfc.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\normnfd.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\normnfkc.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\bin\Release\normnfkd.nlp
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.csproj.CopyComplete
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Release\VNS.Localization.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormPremixWrapping" text="Danh mục Bao bì thuốc" />
+  <layout id="lbItemCode" text="Mã" />
+  <layout id="lDescription" text="Mô tả" />
+  <layout id="lbItemName" text="Tên" />
+  <layout id="lbPremixCode" text="Mã thuốc" />
+  <layout id="CheckOutByFormula" text="Xuất trực tiếp từ kho vô sản xuất" />
+  <layout id="checkOutToStock" text="Nhập trực tiếp từ sản xuất" />
+  <layout id="lblUnit" text="Đơn vị tính" />
+  
+  <!--Setting GirdView-->
+  <layout id="colItemCode" text="Mã" />
+  <layout id="colItemName" text="Tên" />
+  <layout id="colDescription" text="Mô tả" />
+  <layout id="colPremixCode" text="Mã thuốc" />
+  <layout id="colOutByFormula" text="Xuất kho" />
+  <layout id="colOutToStock" text="Nhập kho" />
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+  <layout id="colUnit" text="ĐVT"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã bao bì!" />
+  <message id="VALIDATE-2" text="Chưa nhập mã thuốc!" />
+  <message id="INSERT-1" text="Mã bao bì này đã có!" />
+  <message id="UPDATE-1" text="Không có mã bao bì này!" />
+
+
+</root>

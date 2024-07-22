@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_ProductTestRequest_Outside_Not_Return" text="Nhà máy" />
+  <layout id="gridColumnStockName" text="Nhà máy" />
+  <layout id="TemplateFileNotExists1" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KCS\\Bang_Thong_Ke_Ket_Qua_Phan_Tich_Nguyen_Lieu.xls" />
+  <layout id="gridColumn1" text="Đơn vị phân tích" />
+  <layout id="gridColumn2" text="Ngày" />
+  <layout id="gridColumn3" text="Kết quả" />
+  <layout id="lookUpEditNguyenLieu" text="" />
+  <layout id="lookUpEditChiTieu" text="" />
+  <layout id="btnRefresh" text="Refresh" />
+  <layout id="btnExportExcel" text="Export Excel" />
+  <layout id ="a1" text="Chưa chọn chỉ tiêu">
+  <layout id ="a2" text ="Chưa chọn nguyên liệu">
+      
+    </layout>
+  </layout>
+          
+</root>
+

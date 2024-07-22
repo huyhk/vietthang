@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnNextWeight" text="Cân tiếp" />
+	<layout id="lbTongTLHang" text="Tổng TL hàng (kg)" />
+	<layout id="lbTongBiBao" text="Tổng bì bao(kg)" />
+	<layout id="lbSoBao" text="Số bao" />
+	<layout id="lbDVNhan" text="ĐV nhận" />
+	<layout id="lbDVGiao" text="ĐV giao" />
+	<layout id="lbKhoGiao" text="Kho giao/nhận" />
+	<layout id="lbPTTayBoa" text="PT trung chuyển" />
+	<layout id="lbDVVanChuyen" text="ĐV vận chuyển" />
+	<layout id="lbPTVanChuyen" text="PT vận chuyển" />
+	<layout id="lbWrappingType" text="Loại bì bao" />
+	<layout id="lbWrappingWeight" text="Bì bao (kg)" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="lbDate" text="Ngày cân" />
+	<layout id="lbItem" text="Loại hàng" />
+	<layout id="lbWeightCode" text="Số phiếu" />
+	<layout id="lbOutStock" text="Nhà máy" />
+	<layout id="label3" text="PHIẾU CÂN HÀNG" />
+	<layout id="lbEmployee" text="Nhân viên cân" />
+	<layout id="lbTransactionTypeCode" text="Mã XN" />
+	<layout id="lbWeightTime1" text="Lúc (hh:mm:ss)" />
+	<layout id="lbWeight2" text="Cân lần 2 (kg)" />
+	<layout id="lbWeightTime2" text="Lúc (hh:mm:ss)" />
+
+	<message id="VALIDATE-1" text="Chưa chọn kho!"/>
+	<message id="VALIDATE-2" text="Chưa có số phiếu!"/>
+	<message id="VALIDATE-3" text="Chưa chọn mã XN!"/>
+	<message id="VALIDATE-4" text="Trọng lượng bao bì không được âm!"/>
+	<message id="VALIDATE-5" text="Số bao không được âm!"/>
+	<message id="VALIDATE-6" text="Lỗi: cân lần 1 âm!"/>
+	<message id="VALIDATE-7" text="Lỗi: cân lần 2 âm!"/>
+	<message id="VALIDATE-8" text="Chưa chọn loại hàng!"/>
+	<message id="VALIDATE-9" text="Chưa chọn nhân viên cân!"/>
+	<message id="VALIDATE-10" text="Chưa chọn lô hàng!"/>
+	<message id="INSERT50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="INSERT-1" text="Kho đã bị xoá bởi user khác!"/>
+	<message id="INSERT-2" text="Mặt hàng đã bị xoá bởi user khác!"/>
+	<message id="INSERT-3" text="Nhân viên đã bị xoá bởi user khác!"/>
+	<message id="INSERT-4" text="Loại nhập xuất đã bị xoá bởi user khác!"/>
+	<message id="INSERT-5" text="Lô hàng đã bị xoá bởi user khác!"/>
+	<message id="UPDATE50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="UPDATE-1" text="Kho đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-2" text="Mặt hàng đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-3" text="Nhân viên đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-4" text="Loại nhập xuất đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-5" text="Lô hàng đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-6" text="Phiếu đã bị xoá bởi user khác!"/>
+	<message id="DELETE50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="DELETE-1" text="Phiếu đã bị xoá bởi user khác!"/>
+  <message id="DELETE-10" text="Phiếu cân đã được chọn tại phiếu xuất nhập kho!"/>
+</root>
+

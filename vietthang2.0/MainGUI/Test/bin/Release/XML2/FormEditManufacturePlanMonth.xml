@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnPrint" text="In kế hoạch" />
+	<layout id="btnReportMaterial" text="Báo cáo nguyên liệu cần thiết" />
+	<layout id="lbOutStock" text="Nhà máy" />
+	<layout id="lbYearNo" text="Năm" />
+	<layout id="lbMonthNo" text="Tháng" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colItemCode" text="Mã Thành phẩm" />
+	<layout id="colItemName" text="Tên Thành phẩm" />
+	<layout id="colFormulaCode" text="Công thức" />
+	<layout id="colQuantity" text="Số lượng" />
+	<layout id="reLookUpEditItemCode-ItemCode" text="Mã TP"/>
+	<layout id="reLookUpEditItemCode-ItemName" text="Tên TP"/>
+
+	<message id="VALIDATE-1" text="Chưa chọn kho!"/>
+  <message id="VALIDATE-2" text="Chưa có năm!"/>
+  <message id="VALIDATE-3" text="Có chi tiết chưa chọn mã thành phẩm!"/>
+  <message id="VALIDATE-4" text="Có chi tiết chưa chọn công thức!"/>
+  <message id="VALIDATE-5" text="Số lượng của từng chi tiết không được nhỏ hơn 0!"/>
+  <message id="VALIDATE-6" text="Chi tiết không được trùng mã thành phẩm và mã công thức!"/>
+  <message id="INSERT-1" text="Thêm mới không thành công!"/>
+  <message id="INSERT-2" text="Kế hoạch đã tồn tại!"/>
+  <message id="INSERT-3" text="Kho đã bị xoá bởi user khác!"/>
+  <message id="INSERT-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+  <message id="INSERT-6" text="Mã công thức đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-2" text="Kế hoạch đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-3" text="Kế hoạch đã tồn tại!"/>
+  <message id="UPDATE-4" text="Kho đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-6" text="Mã công thức đã bị xoá bởi user khác!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Kế hoạch đã bị xoá bởi user khác!"/>
+
+</root>
+

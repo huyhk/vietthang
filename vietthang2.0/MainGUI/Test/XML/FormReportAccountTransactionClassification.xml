@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReportAccountTransactionClassification" text="Sổ tổng hợp - chi tiết tài khoản theo yếu tố"/>
+  <layout id="lblTungay" text="Từ ngày"/>
+  <layout id="lblDenngay" text="Đến ngày"/>
+  <layout id="btnRefresh" text="Xem"/>
+  <layout id="lblAccountCode" text="Tài khoản"/>
+  <layout id="colAccountCode" text="Tài khoản"/>
+  <layout id="colClassificationCode" text="Yếu tố"/>
+  <layout id="colClassificationName" text="Tên"/>
+	<layout id="colSubjectCode2" text="Mã KH"/>
+
+	<layout id="colDebitOpenAmount" text="Dư đầu nợ"/>
+	<layout id="colInvoiceSo" text="Số hóa đơn"/>
+	<layout id="colDUSubjectCode" text="Đối tượng đối ứng"/>
+  <layout id="colCreditOpenAmount" text="Dư đầu có"/>
+
+  <layout id="colInAmount" text="Phát sinh nợ"/>
+  <layout id="colOutAmount" text="Phát sinh có"/>
+
+  <layout id="colDebitCloseAmount" text="Dư cuối nợ"/>
+  <layout id="colCreditCloseAmount" text="Dư cuối có"/>
+
+
+  <layout id="colAccountTransactionNo" text="Số phiếu"/>
+  <layout id="colAccountTransactionDate" text="Ngày"/>
+  <layout id="colInAmount2" text="Phát sinh nợ"/>
+  <layout id="colOutAmount2" text="Phát sinh có"/>
+  <layout id="colDescription" text="Diễn giải"/>
+
+  <layout id="colAccountTransactionNo3" text="Số phiếu"/>
+  <layout id="colAccountTransactionDate3" text="Ngày"/>
+  <layout id="colDebitAmount3" text="Phát sinh nợ"/>
+  <layout id="colCreditAmount3" text="Phát sinh có"/>
+  <layout id="colDescription3" text="Diễn giải"/>
+  <layout id="colAccountCode3" text="Tài khoản ĐƯ"/>
+
+  <layout id="groupBox1" text="Tổng hợp tài khoản"/>
+  <layout id="groupBox2" text="Chi tiết phát sinh"/>
+  <layout id="groupBox3" text="Chi tiết phát sinh (Đối ứng)"/>
+	<layout id="btnGeneral" text="Sổ TH"/>
+	<layout id="btnDetail" text="Sổ CT 1"/>
+	<layout id="btnDetail2" text="Sổ CT 2"/>
+	<layout id="btnSoTK3" text="Sổ CT 3"/>
+</root>
+
+
+
+

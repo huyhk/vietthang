@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\VNS.UserManagement.Data.dll
+bin\Debug\VNS.UserManagement.Data.pdb
+bin\Debug\VNS.Common.dll
+bin\Debug\VNS.Data.dll
+bin\Debug\VNS.Security.dll
+bin\Debug\VNS.Utils.dll
+bin\Debug\VNS.Security.pdb
+bin\Debug\VNS.Data.pdb
+bin\Debug\VNS.Utils.pdb
+bin\Debug\VNS.Common.pdb
+obj\Debug\VNS.UserManagement.Data.dll
+obj\Debug\VNS.UserManagement.Data.pdb

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormPrePaidDepreciation" text="Bảng phân bổ chi phí trả trước"/>
+  <layout id="colPrePaidCode" text="Mã CP"/>
+  <layout id="colPrePaidName" text="Tên CP"/>
+  <layout id="colDepMonth" text="PB(Tháng)"/>
+  <layout id="colDescription" text="Diễn giải"/>
+  <layout id="colDepRate" text="Tỉ lệ PB "/>
+  <layout id="lblKykeToan" text="Kỳ kế toán"/>
+  <layout id="lblAccountCode" text="Tài khoản"/>
+  <layout id="colSubjectCode" text="Phân nhóm"/>
+  <layout id="colUnit" text="ĐVT"/>
+  <layout id="colQuantity" text="Số lượng"/>
+  <layout id="colPrice" text="Đơn giá"/>
+  <layout id="colDepStartDate" text="Ngày khấu hao"/>
+  <layout id="colPrePaidNo" text="Số chứng từ"/>
+  <layout id="colPrePaidDate" text="Ngày chứng từ"/>
+  <layout id="colAmount" text="Số tiền"/>
+  <layout id="colAccumulatedDepreciation" text="Lũy kế Đầu kỳ"/>
+  <layout id="colRemainCost" text="Giá trị còn lại"/>
+  <layout id="colDepRateMonthInput" text="PB nhập"/>
+  <layout id="colDepRateMonthCal" text="PB tính toán"/>
+  <layout id="btnCopy" text="Copy mức KH tính toán"/>
+  <layout id="btnReports" text="In báo cáo tháng"/>
+  <layout id="btnReportYear" text="In báo cáo năm"/>
+  <layout id="btnDepreciation" text="Định khoản Khấu hao"/>
+  <layout id="colAccumulatedDepLastMonth" text="Lũy kế Cuối kỳ"/>
+  <layout id="checkExcel" text="Kết xuất ra excel"/>
+	<message id="MESSAGE-1" text="Phiếu này đã được tạo." />
+	<message id="MESSAGE-2" text="Lỗi trong khi xoá phiếu!" />
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-2" text="Mã này đã tồn tại!"/>
+  <message id="DELETE-1" text="Không thể xoá!"/>
+  <message id="VALIDATE-1" text="Không có dữ liệu"/>
+</root>
+

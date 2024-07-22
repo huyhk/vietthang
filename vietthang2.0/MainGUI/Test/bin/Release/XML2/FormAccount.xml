@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="lookupEditClassificationTypeCode-ClassificationTypeCode" text="Mã"/>
+	<layout id="lookupEditClassificationTypeCode-ClassificationTypeName" text="Tên"/>
+	<layout id="lookUpEditParentAccount-AccountCode" text="Mã TK"/>
+	<layout id="lookUpEditParentAccount-AccountName" text="Tên TK"/>
+	<layout id="FormAccount" text="Danh mục tài khoản"/>
+	<layout id="colAccountCode" text="Mã tài khoản"/>
+	<layout id="colAccountName" text="Tên tài khoản"/>
+	<layout id="colAccountType" text="Loại tài khoản"/>
+	<layout id="colAccountLevel" text="Cấp tài khoản"/>
+	<layout id="colAccountParent" text="Tài khoản cha"/>
+	<layout id="coDescription" text="Diễn giải"/>
+	<layout id="colDetailSubject" text="Có theo dõi đối tượng"/>
+	<layout id="colDetailClassification" text="Có theo dõi yếu tố"/>
+	<layout id="colClassificationTypeCode" text="Loại yếu tố theo dõi"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="lbAccountCode" text="Mã tài khoản"/>
+	<layout id="lbAccountName" text="Tên tài khoản"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="lbAccountType" text="Loại tài khoản"/>
+	<layout id="lbAccountLevel" text="Tài khoản cấp"/>
+	<layout id="lbParentAccount" text="Mã tài khoản cha"/>
+	<layout id="chkDetailSubject" text="Có theo dõi đối tượng"/>
+	<layout id="chkDetailClassification" text="Có theo dõi yếu tố"/>
+	<layout id="btnExportExcel" text="&amp;Xuất danh sách ra excel" />
+
+  <message id="VALIDATE-1" text="Chưa nhập mã tài khoản!"/>
+  <message id="VALIDATE-2" text="Chưa nhập tên tài khoản!"/>
+  <message id="VALIDATE-3" text="Chưa chọn loại tài khoản!"/>
+  <message id="VALIDATE-4" text="Chưa chọn tài khoản cha!"/>
+  <message id="VALIDATE-5" text="Chưa chọn loại yếu tố cần theo dõi!"/>
+  <message id="VALIDATE-6" text="Mã tài khoản không phù hợp với tài khoản cha!"/>
+  <message id="INSERT-1" text="Thêm mới không thành công!"/>
+  <message id="INSERT-2" text="Mã tài khoản đã tồn tại!"/>
+  <message id="INSERT-3" text="Loại yếu tố đã bị xoá bởi user khác!"/>
+  <message id="INSERT-4" text="Loại đối tượng đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-3" text="Loại yếu tố đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-4" text="Loại đối tượng đã bị xoá bởi user khác!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+</root>
+

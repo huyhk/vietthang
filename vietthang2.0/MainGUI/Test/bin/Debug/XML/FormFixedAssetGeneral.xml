@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormFixedAssetGeneral" text="Bảng trích KHCB tài sản cố định"/>
+
+	<layout id="colFixedAssetName" text="Tên TSCĐ"/>
+	<layout id="lblStartDate" text="Kỳ kế toán"/>
+	<layout id="colOriginalPrice" text="Nguyên giá"/>
+	<layout id="colAccumulatedDepreciation" text="Luỹ kế KH đầu kỳ"/>
+	<layout id="colRemainCost" text="Giá trị còn lại"/>
+	<layout id="colPercentDepreciation" text="%/năm"/>
+	<layout id="colExtractDepreciation" text="Mức trích KH tính toán"/>
+	<layout id="colDepreciationInput" text="Mức trích KH/Thang"/>
+	<layout id="colAccumulatedDepreciationExtract" text="Luỹ kế KH cuối kỳ"/>
+	<layout id="colRemainCodeExtract" text="Giá trị còn lại"/>
+	<layout id="colAccountCode" text="Phân loại"/>
+	<layout id="colSubjectCode" text="Phân nhóm"/>
+	<layout id="btnCopy" text="Copy mức KH tính toán"/>
+  <layout id="btnReports" text="In báo cáo KH"/>
+  <layout id="btnReportYear" text="In báo cáo KH năm"/>
+  <layout id="btnDepreciation" text="Định khoản Khấu hao"/>
+  <layout id ="checkExcel" text="Kết xuất ra excel"/>
+	<message id="MESSAGE-1" text="Phiếu này đã được tạo." />
+	<message id="MESSAGE-2" text="Lỗi trong khi xoá phiếu!" />
+
+  <message id="CONFIRM-CopyDepreciation" text="Bạn thực sự muốn copy?" />
+  <layout id="colSodudauky" text="Nguyên giá đầu kỳ"/>
+  <layout id="colTangtrongky" text="Tăng trong kỳ"/>
+  <layout id="colSoducuoiky" text="Nguyên giá cuối kỳ"/>
+  
+</root>
+

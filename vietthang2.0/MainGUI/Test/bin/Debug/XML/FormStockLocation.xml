@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	
+	<layout id="colStockLocationCode" text="Số lô"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="lbStockLocationCode" text="Số lô"/>
+
+  <message id ="VALIDATE-1" text="Chưa có số lô!"/>
+  <message id ="INSERT-1" text="Thêm mới không thành công!"/>
+  <message id ="INSERT-2" text="Login name đã bị huỷ!"/>
+  <message id ="INSERT-3" text="số lô đã tồn tại!"/>
+  <message id ="INSERT-4" text="Mã kho đã bị xoá bởi user khác!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Mã kho đã bị xoá bởi user khác!"/>
+  <message id="DELETE-3" text="Số lô đã bị xoá bởi user khác!"/>
+  <message id="DELETE-4" text="Login name đã bị huỷ!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-2" text="Login name đã bị huỷ!"/>
+  <message id="UPDATE-3" text="Mã kho đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-4" text="Số lô đã bị xoá bởi user khác!"/>
+
+</root>

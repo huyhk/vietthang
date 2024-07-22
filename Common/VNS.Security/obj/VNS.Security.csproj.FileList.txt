@@ -1,0 +1,14 @@
+bin\Debug\VNS.Security.dll
+bin\Debug\VNS.Security.pdb
+bin\Debug\VNS.Common.dll
+bin\Debug\VNS.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VNS.Security.dll
+obj\Debug\VNS.Security.pdb
+bin\Release\VNS.Security.dll
+bin\Release\VNS.Security.pdb
+bin\Release\VNS.Common.dll
+bin\Release\VNS.Common.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\VNS.Security.dll
+obj\Release\VNS.Security.pdb

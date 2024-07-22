@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormAccountStockCostOpening" text="Tồn đầu tài khoản kho hàng ngày:"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colItemName" text="Tên hàng"/>
+	<layout id="colAccountCode" text="Tài khoản"/>
+	<layout id="colOpeningAmount" text="Số tiền"/>
+
+  <message id="VALIDATE-1" text="Không được lặp lại mã hàng!"/>
+  <message id="VALIDATE-2" text="Có chi tiết chưa chọn mã hàng!"/>
+  <message id="VALIDATE-3" text="Có chi tiết chưa chọn tài khoản!"/>
+  <message id="VALIDATE-4" text="Số tiền phải lớn hơn 0!"/>
+  <message id="INSERT-1" text="Lưu không thành công!"/>
+  <message id="INSERT-2" text="Có mã tài khoản đã bị xoá bởi user khác!"/>
+  <message id="INSERT-3" text="Có mã hàng đã bị xoá bởi user khác!"/>
+
+</root>
+

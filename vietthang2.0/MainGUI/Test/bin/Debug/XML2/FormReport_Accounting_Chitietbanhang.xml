@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+
+  <layout id ="FormReport_Accounting_Chitietbanhang" text="Chi tiết bán hàng"/>
+  <!--layout id="colItemName" text="Tên nguyên liệu" />
+  <layout id="colItemCode" text="Mã nguyên liệu" />
+  <layout id="colSoluong" text="Sô lượng" />
+  <layout id="colThanhtien" text="Thành tiền" />
+  <layout id="colTienvon" text="Tiền vốn" />
+  <layout id="colLaigop" text="Lãi gộp" />
+  <layout id="btnRefresh" text="Refresh" />
+  <layout id="btnExport" text="In báo cáo chi tiết" /-->
+
+
+</root>
+
+

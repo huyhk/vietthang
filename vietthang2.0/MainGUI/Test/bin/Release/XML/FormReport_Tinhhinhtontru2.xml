@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_Tinhhinhtontru2" text="Tình hình tồn trữ"/>
+<layout id="checkGroupItem" text="Nhóm nguyên liệu" />
+<layout id="btnReport" text="Kết xuất Excel" />
+<layout id="btnRefresh" text="Refresh" />
+<layout id="label1" text="Báo cáo cho" />
+<layout id="lbToDate" text="Tính đến ngày" />
+<layout id="lbStockCode" text="Kho" />
+<layout id="lbDay" text="Số ngày tính" />
+<layout id="txtDays" text="30" />
+</root>

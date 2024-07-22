@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  
+<layout id="lblStockCode" text="Kho" />
+<layout id="btnRefresh" text="Refresh" />
+  <layout id="colTypeName" text="Loại"/>
+<layout id="colStockName" text="Kho" />
+<layout id="colVattuCode" text="Mã vật tư" />
+<layout id="colVattuName" text="Tên vật tư" />
+<layout id="colOpenQuantity" text="Số lượng " />
+<layout id="colOpenAmount" text="Tiền " />
+<layout id="colInQuantity" text="Số lượng " />
+<layout id="colInAmount" text="Tiền " />
+<layout id="colOutQuantity" text="Số lượng " />
+<layout id="colOutAmount" text="Tiền " />
+<layout id="colCloseQuantity" text="Số lượng" />
+<layout id="colCloseAmount" text="Tiền" />
+  <layout id="colTransactionDate" text="Ngày"/>
+  <layout id="colInQuantityD" text="Số lượng " />
+  <layout id="colInAmountD" text="Tiền " />
+  <layout id="colOutQuantityD" text="Số lượng " />
+  <layout id="colOutAmountD" text="Tiền " />
+  <layout id="gridBandOpen" text="Tồn đầu " />
+  <layout id="gridBandIn" text="Nhập " />
+  <layout id="gridBandOut" text="Xuất " />
+  <layout id="gridBandClose" text="Tồn cuối " />
+  <layout id="gridBandInD" text="Nhập " />
+  <layout id="gridBandOutD" text="Xuất " />
+  <layout id="colDescription" text="Diễn giải"/>
+  <layout id="colTransactionNo" text="Số phiếu"/>
+  
+
+  <layout id="btnTH1" text="TH1" />
+<layout id="btnTH2" text="TH2" />
+<layout id="btnDetail" text="Thẻ kho" /></root>

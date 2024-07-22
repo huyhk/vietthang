@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_CompareAutoGen" text="So sánh số lượng phiếu tự động module Sản xuất"/>
+
+
+<layout id="btnRefresh" text="Refresh" />
+
+<layout id="colItemCode" text="Mã hàng" />
+<layout id="colItemName" text="Tên" />
+<layout id="colManufactureDate" text="Ngày" />
+<layout id="colShift" text="Ca" />
+<layout id="colQuantitysx" text="Số lượng phiếu sản xuất" />
+<layout id="colQuantitykho" text="Số lượng phiếu kho" />
+<layout id="label1" text="Kho:" />
+
+</root>

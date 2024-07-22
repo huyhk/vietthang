@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_ChitietNXVattu" text="Báo cáo chi tiết nhập xuất vật tư"/>
+<layout id="colTransactionTypeName" text="Loại NX" />
+<layout id="colTransactionNo" text="Số phiếu" />
+<layout id="colTransactionDate" text="Ngày" />
+<layout id="colDVGiaonhan" text="Đơn vị giao nhận" />
+<layout id="colVattuCode" text="Mã Vật tư" />
+<layout id="colVattuName" text="Tên Vật tư" />
+<layout id="colQuantityIn" text="Số lượng" />
+<layout id="colPriceIn" text="Giá" />
+<layout id="colAmountIn" text="Thành tiền" />
+<layout id="colQuantityout" text="Số lượng" />
+<layout id="colPriceOut" text="Giá" />
+<layout id="colAmountOut" text="Thành tiền" />
+<layout id="btnReport" text="Kết xuất Excel" />
+<layout id="lblStockCode" text="Nhà máy:" />
+
+
+
+</root>

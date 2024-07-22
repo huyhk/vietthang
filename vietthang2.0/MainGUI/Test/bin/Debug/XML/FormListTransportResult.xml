@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="colSubjectCode" text="Đơn vị VC" />
+<layout id="colFromDate" text="Từ ngày" />
+<layout id="colToDate" text="Đến ngày" />
+<layout id="colDescription" text="Ghi chú" />
+<layout id="btnRefresh" text="Refresh" />
+
+<layout id="label1" text="Tuyến đường" />
+</root>

@@ -1,0 +1,805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_BAOCAO_TONGHOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_baocao_tonghop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-thu-ngan-hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\phieu-thu-ngan-hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-chi-tien-mat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\phieu-chi-tien-mat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nhanketqua-cactrungtamngoai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\quanly chatluong\nhanketqua-cactrungtamngoai.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tong-hop-theo-tai-khoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\so-tong-hop-theo-tai-khoan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phantichmuahang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Mua hang\phantichmuahang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_NGHIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_sanxuat_nghien.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SXTongHopThang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\SXTongHopThang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tk-kho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\so-tk-kho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_THANHPHAM_PHANLOAI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_thanhpham_phanloai.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportKQBocxep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\VanChuyen\ReportKQBocxep.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="congcudungcu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\congcudungcu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BangKeXuatHang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\BangKeXuatHang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phieu-Thu-Tien-Mat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\Phieu-Thu-Tien-Mat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginIcon2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mo So" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tien Ich\Mo So.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kehoach-kiemtranguyenlieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\KCS\kehoach-kiemtranguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kqphantichtucacttphiangoai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\kqphantichtucacttphiangoai.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people[1]" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\people[1].png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_XNSOCHETHUOC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_SANXUAT_XNSOCHETHUOC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quanly-chatluong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\quanly chatluong\quanly-chatluong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tong-hop-theo-tai-khoan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\so-tong-hop-theo-tai-khoan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tonghop-theo-doi-tuong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\so-tonghop-theo-doi-tuong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kqphantich-thanhphamnoibo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\kqphantich-thanhphamnoibo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CTthutien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\CTthutien.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tai-khoan-ke-toan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\tai-khoan-ke-toan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocaothop-kqkiemthanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\baocaothop-kqkiemthanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_kiemtrathanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\KCS\baocao_kiemtrathanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chung_tu_khac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Chu Tu Khac\chung_tu_khac.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_XACNHAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_xacnhan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cap-nhat-gia-thanh-san-pham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Gia Thanh\cap-nhat-gia-thanh-san-pham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_NGUYENLIEU_BAOBINGUYENLIEU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_nguyenlieu_baobinguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chitieu-kythuat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\DanhMuc\chitieu-kythuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportChiPhiVattuKhac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\ThietBi\ReportChiPhiVattuKhac.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_THANHPHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_thanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CTXuatThanhPham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\CTXuatThanhPham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEUNHAPXUAT_XUAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieunhapxuat_xuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_THANHPHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_sanxuat_thanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tong-hop-theo-ngoai-te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\so-tong-hop-theo-ngoai-te.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_bangchungtukhongcohoadon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_bangchungtukhongcohoadon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_THANHPHAM_KICHTHUC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_thanhpham_kichthuc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_GiaBanThanhPham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_GiaBanThanhPham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-kiemtranguyenlieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\KCS\phieu-kiemtranguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tong hop mua hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Mua hang\tong hop mua hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_bangcandoitaikhoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_bangcandoitaikhoan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportTonkhoPhe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\reportTonkhoPhe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_KhachHangThanhToan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_KhachHangThanhToan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gia-thanh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Gia Thanh\gia-thanh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_TONDONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_tondong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportSLThanhPham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\ReportSLThanhPham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_XNNGHIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_SANXUAT_XNNGHIEN.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="congcudungcu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Cong Cu Dung Cu\congcudungcu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_PhieuYeuCauBanHang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_PhieuYeuCauBanHang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ngan Hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\Ngan Hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportNhapXuatNL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\reportNhapXuatNL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luu-chuyen-tien-te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\luu-chuyen-tien-te.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SoCheThuoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\SoCheThuoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_XNTHANHPHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_SANXUAT_XNTHANHPHAM.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportTonKho1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\reportTonKho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quidinhchatluongnguyenlieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\DanhMuc\quidinhchatluongnguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_BAOCAO_SOCHETHUOC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_baocao_sochethuoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-ketquafantichnglieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\thongke-ketquafantichnglieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportChiTiettaiChe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\reportChiTiettaiChe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThongKeNLSoChe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BaoCaokhac\ThongKeNLSoChe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nhapkho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Cong Cu Dung Cu\nhapkho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dah-Muc-doi-tuong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\Dah-Muc-doi-tuong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hao-mon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tai San Co Dinh\hao-mon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CTXuatThanhPhamBan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\CTXuatThanhPhamBan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thk-ycngoaichuakq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\thk-ycngoaichuakq.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danhmuc_yeuto_phanloai_yeuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danhmuc_yeuto_phanloai_yeuto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xem-phieuyckiemtrathpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\xem-phieuyckiemtrathpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_bangchungtuvat_dauvao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_bangchungtuvat_dauvao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_CONGTHUC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_congthuc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banggia-fantich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\DanhMuc\banggia-fantich.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-yckiemnthanhphamPPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\thongke-yckiemnthanhphamPPT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_DANHMUC_kHO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_danhmuc_kho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kehoach-kiemtrathanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\KCS\kehoach-kiemtrathanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VattuCTNhapXuat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\ThietBi\VattuCTNhapXuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danhmuc_yeuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danhmuc_yeuto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kcs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\KCS\kcs.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_DANHMUC_THANHPHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_danhmuc_thanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theo doi HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Mua hang\theo doi HD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonTru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\TonTru.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phanloaigiaodichnganhang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\phanloaigiaodichnganhang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEUNHAPXUAT_NHAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieunhapxuat_nhap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ketchuyencuoiky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Chu Tu Khac\ketchuyencuoiky.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tansuatkiemtranguyenlieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\DanhMuc\tansuatkiemtranguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doi-tuong-tam-ung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\doi-tuong-tam-ung.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEUCAN_XUAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieucan_xuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_CONGTHUC_NGHIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_congthuc_nghien.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEUCAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieucan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_NGUYENLIEU_BAOBITHUOC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_nguyenlieu_baobithuoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_DANHMUC_NGUYENLIEU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_danhmuc_nguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_ketquakinhdoanh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_ketquakinhdoanh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ketchuyendauthang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Chu Tu Khac\ketchuyendauthang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThongKeNLSX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BaoCaokhac\ThongKeNLSX.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_NGUYENLIEU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_nguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieuyc-phantich-guingoai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\phieuyc-phantich-guingoai.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CTmuahang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Mua hang\CTmuahang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_TONDONGSANXUAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_tondongsanxuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kho_nhaphang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\Kho_nhaphang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CTnoTungHD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\CTnoTungHD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xem-phieuyckiemtranglieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\xem-phieuyckiemtranglieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportTonVtuOld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\ThietBi\ReportTonVtuOld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_BAOCAO_SX_NHAPXUATTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_baocao_sx_nhapxuatton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danh-muc-nha-cung-cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danh-muc-nha-cung-cap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chi-nhanh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\chi-nhanh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danhmuc_nghiepvumau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danhmuc_nghiepvumau.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_sanxuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donvivanchuyen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\donvivanchuyen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nhanketqua-PPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\quanly chatluong\nhanketqua-PPT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportChiTietPhe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\reportChiTietPhe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nhat-ky-chung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Chu Tu Khac\nhat-ky-chung.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChiTietSX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\ChiTietSX.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-ketquafantichTP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\thongke-ketquafantichTP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao-tansuatkiemnglieutlo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\baocao-tansuatkiemnglieutlo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao-QLCL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\baocao-QLCL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-ketquafantichTP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\thongke-ketquafantichTP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_BAOCAO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_baocao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taisancodinh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\taisancodinh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reportmuahang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Mua hang\Reportmuahang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocaot.hop-TP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\baocaot.hop-TP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tienich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tien Ich\tienich.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_DinhMucgCongNo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_DinhMucgCongNo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-chi-ngan-hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\phieu-chi-ngan-hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="khoa-so" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tien Ich\khoa-so.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieutrakqphtichtaiPPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\phieutrakqphtichtaiPPT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danhmuc_yeuto_danhmuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danhmuc_yeuto_danhmuc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_VAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_VAT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocaoPPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\baocaoPPT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportXuatNhap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\ReportXuatNhap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_KetHoachSanXuat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_KetHoachSanXuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cap-nhat-gia-nguye-lieu-san-xuat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\cap-nhat-gia-nguye-lieu-san-xuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taisancodinh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tai San Co Dinh\taisancodinh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quidinhchatluongthanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\DanhMuc\quidinhchatluongthanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danhmuc_doituong_khachhang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danhmuc_doituong_khachhang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dah-Muc-doi-tuong-khac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\Dah-Muc-doi-tuong-khac.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tansuatkiemtrathanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\DanhMuc\tansuatkiemtrathanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taisancodinh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\taisancodinh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportNXthanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\reportNXthanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_bangchungtuvat_daura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_bangchungtuvat_daura.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tang-gia-tsd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tai San Co Dinh\tang-gia-tsd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_BAOCAO_SX_NHAPXUATTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_baocao_sx_nhapxuatton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportSoLuongban" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\ReportSoLuongban.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-yckiemnguyenlieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\thongke-yckiemnguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_DonDatHang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_DonDatHang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BangDoiChieuChuyenKho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\BangDoiChieuChuyenKho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\Kho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vontienmat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\vontienmat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danhmuc_taikhoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\danhmuc_taikhoan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieuyc-phantich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\phieuyc-phantich.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportTonVattu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\ThietBi\reportTonVattu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportChiPhiVattu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\ThietBi\ReportChiPhiVattu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CTSoChe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\CTSoChe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocaochifi-phantich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\baocaochifi-phantich.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kqphantich-nglieunoibo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\kqphantich-nglieunoibo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tai-khoan-kho-hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\tai-khoan-kho-hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_THANHPHAM_TRONGLUONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_thanhpham_trongluong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiem-tra-thanh-pham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\kiem-tra-thanh-pham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-kho-hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\so-kho-hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao-tansuatkiemthanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\baocao-tansuatkiemthanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chi-phi-tra-truoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\chi-phi-tra-truoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dah-Muc-doi-tuong-quy-tien-mat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\Dah-Muc-doi-tuong-quy-tien-mat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportKQBocxeptonghop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\VanChuyen\ReportKQBocxeptonghop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEUCAN_NHAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieucan_nhap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cong-thuc-NVL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Gia Thanh\cong-thuc-NVL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_SOCHETHUOC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_sanxuat_sochethuoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportTonKho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Kho\reportTonKho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_KhachHang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_KhachHang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_BAOCAO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_baocao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_XNNGHIEN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_SANXUAT_XNNGHIEN1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao-phatichngoai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\baocao-phatichngoai.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="So Quy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\So Quy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_DinhMucgChietXuat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_DinhMucgChietXuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tong-hop-theo-yeu-to" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\so-tong-hop-theo-yeu-to.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiem-tra-nguyen-lieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\kiem-tra-nguyen-lieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_bangchungtuvat_dauvao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_bangchungtuvat_dauvao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BH_TonDongCongNo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BH_TonDongCongNo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IIConBanHang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IIConBanHang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_CONGTHUC_THANHPHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_congthuc_thanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Danh Muc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\Danh Muc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_XNTHANHPHAM1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_SANXUAT_XNTHANHPHAM1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_PHIEUNHAPXUAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_phieunhapxuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tondong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\tondong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_DANHMUC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_danhmuc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="congno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\Mua hang\congno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-yeucaukiemnguyenlieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\quanly chatluong\phieu-yeucaukiemnguyenlieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportTonghop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\ReportTonghop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-yeucaukiemthanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\quanly chatluong\phieu-yeucaukiemthanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="can-nhat-gia-thanh-pham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\can-nhat-gia-thanh-pham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phongphantich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\phongphantich.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-yckiemnthanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\thongke-yckiemnthanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dah-Muc-doi-tuong-phan-loai-doi-tuong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Danh Muc\Dah-Muc-doi-tuong-phan-loai-doi-tuong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportSLSX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\ReportSLSX.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_bangcandoiketoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_bangcandoiketoan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NXuatTonTheoCa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\NXuatTonTheoCa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dong so" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Tien Ich\Dong so.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao_sodochu_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Bao Cao\baocao_sodochu_t.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_DANHMUC_XECAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_danhmuc_xecan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieutrakqbenngoai-choQLCL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\phieutrakqbenngoai-choQLCL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so-tien-goi-ngan-hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Von Bang Tien\so-tien-goi-ngan-hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xemphieu-ycktrTP-hngay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\phongphantich\xemphieu-ycktrTP-hngay.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kho_xuathang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Kho Hang\Kho_xuathang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xuatsudung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Cong Cu Dung Cu\xuatsudung.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_SANXUAT_XNSOCHETHUOC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SX_SANXUAT_XNSOCHETHUOC1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="congnoThang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\congnoThang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="congnoNam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\BanHang\congnoNam.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thongke-ketquafantichnglieu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocaoPPT\thongke-ketquafantichnglieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SXTongHopNam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\SXTongHopNam.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_DANHMUC_CONGTHUC_TRONTHUOC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_danhmuc_congthuc_tronthuoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReportKQVanChuyen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\VanChuyen\ReportKQVanChuyen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cong-thuc-nhan-cong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Gia Thanh\cong-thuc-nhan-cong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChiPhiSX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\ChiPhiSX.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KHO_DANHMUC_MANHAPXUAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kho_danhmuc_manhapxuat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phieu-kiemtrathanhpham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\KCS\phieu-kiemtrathanhpham.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baocao-tansuatkiemnguyelieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kythuatKCS\baocao QLCL\baocao-tansuatkiemnguyelieu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so luong kho hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\so luong kho hang.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SX_BAOCAO_NGHIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sx_baocao_nghien.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cong-cu-dung-cu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PM KE TOAN\Ton Dong\cong-cu-dung-cu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportTonKhoPremix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Baocao\San Xuat\reportTonKhoPremix.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

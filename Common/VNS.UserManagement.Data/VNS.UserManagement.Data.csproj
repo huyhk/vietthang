@@ -1,0 +1,67 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{940B5B91-16BD-46AF-B369-56680F658E08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNS.UserManagement.Data</RootNamespace>
+    <AssemblyName>VNS.UserManagement.Data</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\MemberBLL.cs" />
+    <Compile Include="DAL\MemberDAL.cs" />
+    <Compile Include="Data\MemberFunction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VNS.Common.New\VNS.Common.csproj">
+      <Project>{F40B332D-402A-4503-8F6E-FD88624A0FD1}</Project>
+      <Name>VNS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Data\VNS.Data.csproj">
+      <Project>{D063CBE7-D2D1-416F-AF50-96CA2E01A31E}</Project>
+      <Name>VNS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Security.New\VNS.Security.csproj">
+      <Project>{2A1C9824-833A-4BBC-8D2B-BCF46356F087}</Project>
+      <Name>VNS.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Utils\VNS.Utils.csproj">
+      <Project>{7E197733-03AC-47A5-BE53-5484DD5AC690}</Project>
+      <Name>VNS.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

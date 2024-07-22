@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="lbPTVanChuyen" text="Phương tiện vận chuyển"/>
+  <layout id="lbDVVanChuyen" text="Đơn vị vận chuyển"/>
+  <layout id="lbPTTayBoa" text="Phương tiện trung chuyển"/>
+  <layout id="lbTransactionTypeCode" text="Mã NX"/>
+	<layout id="lbStockCode" text="Nhà máy"/>
+	<layout id="lbItemCode" text="Loại hàng" />
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="lbWeightCode" text="Số"/>
+	<layout id="lbEmployee" text="Nhân viên cân"/>
+	<layout id="lbDate" text="Ngày"/>
+	<layout id="lbWrappingWeight" text="Bì bao(kg)" />
+	<layout id="btnRefesh" text="Kết quả" />
+	<layout id="lbWeight1" text="Trọng lượng chưa trừ bì (kg)" />
+	<layout id="lbCaption0" text="Số bao" />
+	<layout id="lbCaption1" text="Bì bao" />
+	<layout id="lbCaption2" text="Khối lượng" />
+	<layout id="lbWeight2" text="Trọng lượng hàng (kg)" />
+	<layout id="colStockTransportCode" text="Xe" />
+	<layout id="colCount" text="S.lần" />
+	<layout id="colWeight" text="TL (kg)" />
+	<layout id="colWeightTs" text="Khối lượng (kg)" />
+	<layout id="colSkin" text="Bì xe (kg)" />
+	<layout id="colLocationCode" text="S.lô" />
+	<layout id="colStockLocationCode" text="S.lô" />
+	<layout id="colQuantity" text="SB" />
+	<layout id="colWeight1" text="TL (kg)" />
+	<layout id="lbGroupLocationCode" text="Phân chia cây hàng" />
+	<layout id="lbKhoGiao" text="Kho giao"/>
+	<layout id="lbKhoNhan" text="Kho nhận"/>
+	<layout id="lbDVGiao" text="ĐV giao"/>
+	<layout id="lbDVNhan" text="ĐV nhận"/>
+	<layout id="button1" text="In phiếu cân"/>
+
+	<layout id="DefaultHelpKeyWord" text="Phieu can xe phao nhap xuat kho"/>
+
+  <message id="VALIDATE-1" text="Chưa chọn nhà máy!" />
+  <message id="VALIDATE-2" text="Chưa có số phiếu!" />
+  <message id="VALIDATE-3" text="Trọng lượng bao bì không được âm!"/>
+  <message id="VALIDATE-4" text="Chưa có mã hàng!" />
+  <message id="VALIDATE-5" text="Chưa xác định nhân viên cân!" />
+  <message id="VALIDATE-6" text="Trọng lượng mỗi lần cân phải lớn hơn 0!" />
+  <message id="VALIDATE-7" text="Số lượng bao bì mỗi lần cân phải lớn hơn 0!" />
+  <message id="VALIDATE-8" text="Trọng lượng cân được phải lớn hơn tổng trọng lượng bao bì và xe!" />
+  <message id="VALIDATE-9" text="Có chi tiết chưa chọn mã vị trí!" />
+  <message id="INSERT-1" text="Thêm mới không thành công!" />
+  <message id="INSERT-3" text="Mã kho đã bị xoá bởi user khác!" />
+  <message id="INSERT-4" text="Mã hàng đã bị xoá bởi user khác!" />
+  <message id="INSERT-5" text="Mã nhân viên đã bị xoá bởi user khác!" />
+  <message id="INSERT-8" text="Số lô tương ứng trong kho đã bị xoá bởi user khác!" />
+  <message id="INSERT-9" text="Login name đã bị huỷ!" />
+  <message id="INSERT-10" text="Mã xe đã bị xoá bởi user khác!" />
+  <message id="INSERT-11" text="Mã NX đã bị xoá bởi user khác!" />
+	<message id="INSERT50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="UPDATE-1" text="Cập nhật không thành công!" />
+  <message id="UPDATE-2" text="Phiếu đã bị xoá bởi user khác!" />
+  <message id="UPDATE-3" text="Phiếu đã bị xoá bởi user khác!" />
+  <message id="UPDATE-4" text="Phiếu đã bị xoá bởi user khác!" />
+  <message id="UPDATE-5" text="Login name đã bị huỷ!" />
+  <message id="UPDATE-8" text="Số lô tương ứng trong kho đã bị xoá bởi user khác!" />
+  <message id="UPDATE-9" text="Mã NX đã bị xoá bởi user khác!" />
+	<message id="UPDATE50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="DELETE-1" text="Xoá không thành công!" />
+  <message id="DELETE-2" text="Phiếu đã bị xoá bởi user khác!" />
+  <message id="DELETE-3" text="Login name đã bị huỷ!" />
+	<message id="DELETE50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!" />
+
+</root>

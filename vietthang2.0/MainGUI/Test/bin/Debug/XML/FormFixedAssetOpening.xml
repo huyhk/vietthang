@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormFixedAssetOpening" text="Tồn đầu TSCĐ"/>
+
+	<layout id="lblFixedAssetCode" text="Mã TSCĐ"/>
+	<layout id="lblFixedAssetName" text="Tên TSCĐ"/>
+	<layout id="lblStartDate" text="Ngày bắt đầu khấu hao"/>
+	<layout id="lblOriginalPrice" text="Nguyên giá"/>
+	<layout id="lblMonthUsing" text="Thời gian khấu hao(năm)"/>
+	<layout id="lblAccountCode" text="Phân loại"/>
+	<layout id="lblSubjectCode" text="Phân nhóm"/>
+	<layout id="lblDescription" text="Diễn giải"/>
+	<layout id="lblAccumulatedDepreciation" text="Khấu hao luỹ kế"/>
+	<layout id="lblRemainCost" text="Giá trị còn lại"/>
+  <layout id="lblSoCT" text="Số chứng từ"/>
+  <layout id="lblCountryName" text="Quốc gia"/>
+	<layout id="colFixedAssetCode" text="Mã TSCĐ"/>
+	<layout id="colFixedAssetName" text="Tên TSCĐ"/>
+	<layout id="colStartDate" text="Ngày bắt đầu khấu hao"/>
+	<layout id="colOriginalPrice" text="Nguyên giá"/>
+	<layout id="colMonthUsing" text="Thời gian khấu hao(năm)"/>
+	<layout id="colAccountCode" text="Phân loại"/>
+	<layout id="colSubjectCode" text="Phân nhóm"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colAccumulatedDepreciation" text="Khấu hao luỹ kế"/>
+	<layout id="colRemainCost" text="Giá trị còn lại"/>
+  <layout id="lblDepAccountCode" text="Tài khoản KH"/>
+  <layout id="lblDepSubjectCode" text="Đối tượng"/>
+  <layout id="lblDepClassificationCode" text="Yếu tố"/>
+  <layout id="grbOpenning1" text="Thông tin TSCĐ"/>
+  <layout id="grbOpenning2" text="Thông tin khấu hao"/>
+  <layout id="colDepAccountCode" text="Tài khoản KH"/>
+  <layout id="colDepSubjectCode" text="Đối tượng"/>
+  <layout id="colDepClassificationCode" text="Yếu tố"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã TSCĐ!" />
+  <message id="VALIDATE-2" text="Ngày bắt đầu khấu hao không hợp lệ!" />
+  <message id="VALIDATE-3" text="Vui lòng chọn phân nhóm!" />
+  <message id="VALIDATE-4" text="Vui lòng chọn phân loại!" />
+  <message id="VALIDATE-5" text="Chưa nhập thời gian khấu hao!" />
+  <message id="VALIDATE-6" text="Chưa chọn Tài khoản khấu hao!" />
+
+  <message id="INSERT-10" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-11" text="Mã TSCĐ này đã tồn tại!"/>
+  <message id="INSERT-12" text="Lỗi trong khi lưu dữ liệu!"/>
+  <message id="INSERT-13" text="Mã TSCĐ này đã tồn tại!"/>
+  <message id="INSERT-20" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-21" text="Mã TSCĐ này đã tồn tại!"/>
+
+  <message id="UPDATE-1" text="Lỗi trong khi sửa dữ liệu!"/>
+  <message id="UPDATE-10" text="Lỗi trong khi sửa dữ liệu!"/>
+  <message id="DELETE-1" text="Mã TSCĐ đã được sử dụng không xóa được!"/>
+  <message id="UPDATE-2" text="Lỗi trong khi lưu dữ liệu!"/>
+  <message id="DELETE-2" text="Không thể xoá!"/>
+
+
+</root>

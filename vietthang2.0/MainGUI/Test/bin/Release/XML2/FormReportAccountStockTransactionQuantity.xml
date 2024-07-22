@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportAccountStockTransactionQuantity" text="Sổ tổng hợp chi tiết số lượng kho hàng"/>
+	<layout id="lbAccount" text="Chọn tài khoản"/>
+	<layout id="lbStartDate" text="Từ ngày"/>
+	<layout id="lbEndDate" text="Đến ngày"/>
+	<layout id="btnReport" text="Báo cáo"/>
+	<layout id="colStockName" text="Kho"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colItemname" text="Tên hàng"/>
+	<layout id="colOpenQuantity" text="Tồn đầu"/>
+	<layout id="colInQuantity" text="SL nhập"/>
+	<layout id="colOutQuantity" text="SL xuất"/>
+	<layout id="colCloseQuantity" text="Tồn cuối"/>
+	<layout id="colStockTransactionNo" text="Số phiếu"/>
+	<layout id="colStockTransactionDate" text="Ngày"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colInQuantity1" text="SL nhập"/>
+	<layout id="colOutQuantity1" text="SL xuất"/>
+	<layout id="btnPrintReport" text="In báo cáo tổng hợp"/>
+	<layout id="btnPrintReportDetail" text="In báo cáo chi tiết"/>
+	<layout id="btnInTheKho" text="In thẻ kho" />
+	<layout id="TemplateFileNotExists" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KeToan\\TheKho.xls" />
+	<layout id="TemplateFileNotExists1" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KeToan\\SoTongHopSLKhoHang.xls" />
+	<layout id="TemplateFileNotExists2" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KeToan\\SoChiTietSLKhoHang.xls" />
+	<layout id="AccountCodeIsNullError" text="Bạn chưa chọn tài khoản để báo cáo" />
+</root>
+
+

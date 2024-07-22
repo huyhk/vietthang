@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormListVesselTransactions" text=""/>
+  <layout id="label1" text="Kỳ" />
+  <layout id="colTransactionNo" text="Số chuyến tàu" />
+  <layout id="colTransactionDate" text="Ngày " />
+  <layout id="colVendorCode" text="Khách hàng" />
+  <layout id="colVesselCode" text="Tàu" />
+  <layout id="colStartPlace" text="Nơi xuất phát" />
+  <layout id="colEndPlace" text="Nơi đến" />
+  <layout id="colEstimateDate" text="Ngày dự kiến" />
+  <layout id="colDescription" text="Diễn giải" />
+  
+  <layout id="btnRefresh" text="Refresh" />
+  
+  <message id="VALIDATE-1" text="Chưa nhập số hợp đồng!"/>
+
+  
+  <message id="DELETE-1" text="Dữ liệu đã bị xoá bởi user khác!"/>
+</root>
+
+

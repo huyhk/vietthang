@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormRpManufactureForEmployees" text="Báo cáo sản lượng sản xuất"/>
+	<layout id="lblKho" text="Nhà máy"/>
+	<layout id="lblTungay" text="Từ ngày"/>
+	<layout id="lblDenngay" text="Đến ngày"/>
+	<layout id="btnRefresh" text="Xem"/>
+	<layout id="colEmployee" text="Tên"/>
+	<layout id="col15" text="Viên 1.5mm"/>
+	<layout id="col22" text="Viên 2.2mm"/>
+	<layout id="col30" text="Viên 3.0mm"/>
+	<layout id="col40" text="Viên 4.0mm"/>
+	<layout id="col50" text="Viên 5.0mm"/>
+	<layout id="col80" text="Viên 8.0mm"/>
+	<layout id="colKhac" text="Khác"/>
+	<layout id="colTotalSL" text="Sản luợng"/>
+	<layout id="colP1" text="P1"/>
+	<layout id="colP2" text="P2"/>
+	<layout id="colP3" text="P3"/>
+	<layout id="colP4" text="P4"/>
+	<layout id="colTotalPP" text="Phế phẩm"/>
+	<layout id="colEmployeeID1" text="Tên"/>
+	<layout id="col15Ep" text="Viên 1.5mm"/>
+	<layout id="col22Ep" text="Viên 2.2mm"/>
+	<layout id="col30Ep" text="Viên 3.0mm"/>
+	<layout id="col40Ep" text="Viên 4.0mm"/>
+	<layout id="col50Ep" text="Viên 5.0mm"/>
+	<layout id="col80Ep" text="Viên 8.0mm"/>
+	<layout id="colKhacEp" text="Khác"/>
+	<layout id="colTotalSLEp" text="Sản luợng"/>
+	<layout id="colP1Ep" text="P1"/>
+	<layout id="colP2Ep" text="P2"/>
+	<layout id="colP3Ep" text="P3"/>
+	<layout id="colP4Ep" text="P4"/>
+	<layout id="colTotalPPEp" text="Phế phẩm"/>
+	<layout id="colEmployeeID2" text="Tên"/>
+	<layout id="col15Ng" text="Viên 1.5mm"/>
+	<layout id="col22Ng" text="Viên 2.2mm"/>
+	<layout id="col30Ng" text="Viên 3.0mm"/>
+	<layout id="col40Ng" text="Viên 4.0mm"/>
+	<layout id="col50Ng" text="Viên 5.0mm"/>
+	<layout id="col80Ng" text="Viên 8.0mm"/>
+	<layout id="colKhacNg" text="Khác"/>
+	<layout id="colTotalSLNg" text="Sản luợng"/>
+	<layout id="colP1Ng" text="P1"/>
+	<layout id="colP2Ng" text="P2"/>
+	<layout id="colP3Ng" text="P3"/>
+	<layout id="colP4Ng" text="P4"/>
+	<layout id="colTotalPPNg" text="Phế phẩm"/>
+	<layout id="btnReports" text="Báo cáo"/>
+	
+</root>
+

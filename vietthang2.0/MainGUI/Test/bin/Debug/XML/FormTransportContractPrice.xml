@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormTransportContractPrice" text="Đơn giá vận chuyển"/>
+<layout id="lblStartDate" text="Ngày bắt đầu:" />
+<layout id="lblRouteCode" text="Tuyến đường:" />
+<layout id="lblDescription" text="Ghi chú:" />
+<layout id="groupBox2" text="Bảng giá dành cho các mặt hàng" />
+<layout id="groupBox1" text="Đơn giá vận chuyển" />
+<layout id="colTransportItemType" text="Loại hàng" />
+<layout id="colTransportType" text="Phương tiện" />
+<layout id="colHaohut" text="Hao hụt cho phép" />
+<layout id="colTransportPrice" text="Đơn giá" />
+  <message id="VALIDATE-1" text="Bạn chưa chọn tuyến đường vận chuyển"/>
+  <message id="VALIDATE-2" text="Bạn chưa chọn mặt hàng"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+</root>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormItemSalePrice" text="Danh mục giá bán thành phẩm"/>
+	<layout id="colItemCode" text="Mã sản phẩm"/>
+	<layout id="colItemName" text="Tên sản phẩm"/>
+
+	<layout id="colStartDate" text="Ngày"/>
+	<layout id="colSalePrice" text="Giá bán"/>
+	<layout id="colDescription" text="Diễn giải"/>
+
+	<layout id="lbStartDate" text="Bắt đầu từ ngày"/>
+	<layout id="lbSalePrice" text="Giá bán"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+
+	<layout id="colUserCreated" text="Người tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="Người cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="VALIDATE-1" text="Giá bán phải lớn hơn 0!" />
+  <message id="INSERT-1" text="Thêm mới không thành công!" />
+  <message id="INSERT-2" text="Mã sản phẩm đã bị xoá bởi user khác!" />
+  <message id="INSERT-3" text="Dữ liệu bị trùng!" />
+  <message id="UPDATE-1" text="Cập nhật không thành công!" />
+  <message id="UPDATE-2" text="Mã sản phẩm đã bị xoá bởi user khác!" />
+  <message id="UPDATE-3" text="Ngày tương ứng với sản phẩm đã bị xoá bởi user khác!" />
+  <message id="DELETE-1" text="Xoá không thành công!" />
+  <message id="DELETE-2" text="Mã sản phẩm đã bị xoá bởi user khác!" />
+  <message id="DELETE-3" text="Ngày tương ứng với sản phẩm đã bị xoá bởi user khác!" />
+
+
+</root>

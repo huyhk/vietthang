@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <!--layout id="FormReportEquipmentSxCodeAmount" text="Báo cáo chi phí vật tư thiết bị sản xuất"/-->
+<layout id="btnRefresh" text="Refresh" />
+<layout id="btnTH" text="TH" />
+<layout id="btnDetail" text="Chi tiết 1" />
+<layout id="colStockCode" text="Nhà máy" />
+<layout id="colLinesxNo" text="Line số" />
+<layout id="colEquipmentSxCode" text="Thiết bị" />
+<layout id="colAmount" text="Chi phí" />
+  <layout id="colVattuCode" text="Mã vật tư"/>
+  <layout id="colVattuName" text="Tên vật tư"/>
+  <layout id ="colQuantity" text="Số lượng"/>
+  <layout id ="colAmountD" text="Chi phí"/>
+  <layout id="colEquipmentName" text="Thiết bị"/>
+  <layout id="colGroupName" text="Nhóm thiết bị"/>
+  <layout id="btnDetail2" text="Chi tiết 2"/>
+</root>

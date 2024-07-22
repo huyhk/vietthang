@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormItemGroup" text="Danh mục Nhóm hàng"/>
+<layout id="colGroupCode" text="Mã" />
+<layout id="colGroupName" text="Tên" />
+<layout id="colDescription" text="Ghi chú" />
+<layout id="lblDescription" text="Ghi chú:" />
+<layout id="lblGroupName" text="Tên:" />
+<layout id="lblGroupCode" text="Mã:" />
+
+  <message id="VALIDATE-1" text="Bạn chưa nhập Mã"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập Tên"/>
+  <message id="INSERT-1" text="Đã tồn tại Mã này"/>
+
+</root>

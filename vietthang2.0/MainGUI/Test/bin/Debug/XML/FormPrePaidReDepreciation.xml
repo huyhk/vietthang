@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormPrePaidReDepreciation" text="Chi phí trả trước - tiếp tục khấu hao"/>
+  <layout id="colPrePaidCode" text="Mã CP"/>
+  <layout id="colPrePaidName" text="Tên CP"/>
+  <layout id="colDepMonth" text="Thời gian PB(Tháng)"/>
+  <layout id="colDescription" text="Diễn giải"/>
+  <layout id="colDepRate" text="Tỉ lệ PB "/>
+  <layout id="lblThang" text="Kỳ kế toán"/>
+
+
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-2" text="Mã CP này đã tồn tại!"/>
+  <message id="DELETE-1" text="Không thể xoá!"/>
+</root>

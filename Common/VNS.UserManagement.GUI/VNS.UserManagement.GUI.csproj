@@ -1,0 +1,140 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DB7CA05-4522-48CB-A41B-3E0218CC8468}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNS.UserManagement.GUI</RootNamespace>
+    <AssemblyName>VNS.UserManagement.GUI</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data3, Version=3.2.1.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils3, Version=3.2.1.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars3, Version=3.7.1.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors3, Version=3.2.1.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid3, Version=3.2.1.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmEditUser.Designer.cs">
+      <DependentUpon>FrmEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleUser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\UCEditUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCEditUser.Designer.cs">
+      <DependentUpon>UCEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCListUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCListUser.Designer.cs">
+      <DependentUpon>UCListUser.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VNS.Module\VNS.MainApplication\VNS.MainApplication.csproj">
+      <Project>{401C2D69-F614-4C4F-A58F-DE5F22517168}</Project>
+      <Name>VNS.MainApplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VNS.Module\VNS.Module\VNS.Module.csproj">
+      <Project>{768EDCC7-D51E-44C1-B15A-B717568E7222}</Project>
+      <Name>VNS.Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Common.New\VNS.Common.csproj">
+      <Project>{F40B332D-402A-4503-8F6E-FD88624A0FD1}</Project>
+      <Name>VNS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Context\VNS.Context.csproj">
+      <Project>{5C209178-E12A-4E46-AE60-A83E56B42C91}</Project>
+      <Name>VNS.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Data\VNS.Data.csproj">
+      <Project>{D063CBE7-D2D1-416F-AF50-96CA2E01A31E}</Project>
+      <Name>VNS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Localization\VNS.Localization.csproj">
+      <Project>{AB5CD7BE-9D97-4AE1-8C97-B289A2194B7B}</Project>
+      <Name>VNS.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Security.New\VNS.Security.csproj">
+      <Project>{2A1C9824-833A-4BBC-8D2B-BCF46356F087}</Project>
+      <Name>VNS.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.UserManagement.Data\VNS.UserManagement.Data.csproj">
+      <Project>{940B5B91-16BD-46AF-B369-56680F658E08}</Project>
+      <Name>VNS.UserManagement.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Utils\VNS.Utils.csproj">
+      <Project>{7E197733-03AC-47A5-BE53-5484DD5AC690}</Project>
+      <Name>VNS.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VNS.Windows.New\VNS.Windows.csproj">
+      <Project>{1CFEEF1D-C08C-4CCB-ADB2-298690804FAE}</Project>
+      <Name>VNS.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmEditUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="UserControls\UCEditUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UCEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCListUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UCListUser.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

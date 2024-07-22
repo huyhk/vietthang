@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormEquipmentsxs" text ="Danh mục Thiết bị sản xuất" />
+<layout id="label1" text="Mã" />
+<layout id="label2" text="Tên" />
+<layout id="label3" text="Ghi chú" />
+  
+<layout id="colEquipmentsxCode" text="Mã" />
+<layout id="colEquipmentsxName" text="Tên" />
+<layout id="colDescription" text="Ghi chú" />
+  <layout id ="colUserCreated" text ="Ngừơi tạo" />
+  <layout id ="colDateCreated" text ="Ngày tạo"/>
+  <layout id ="colUserUpdated" text ="Ngừơi sửa" />
+  <layout id ="colDateUpdated" text ="Ngày sửa" />
+  <message id ="VALIDATE-1" text ="Bạn chưa nhập Mã thiết bị sản xuất"/>
+  <message id ="VALIDATE-2" text ="Bạn chưa nhập Tên thiết bị sản xuất" />
+  <message id ="INSERT-2" text ="Đã tồn tại Mã thiết bị sản xuất này" />
+  
+</root>

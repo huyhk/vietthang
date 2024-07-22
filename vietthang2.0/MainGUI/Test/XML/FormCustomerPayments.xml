@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormCustomerPayments" text="Khách hàng thanh toán" />
+	<layout id="colStockCode"  text="Nơi trả" />
+	<layout id="colCustomerPaymentNo" text="Số phiếu" />
+	<layout id="colCustomerCode" text="Khách hàng" />
+	<layout id="colCustomerPaymentDate" text="Ngày" />
+	<layout id="colPaymentType" text="Hình thức trả" />
+	<layout id="colAmount" text="Tiền trả" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colUserCreated" text="User tạo" />
+	<layout id="colUserUpdated" text="User cập nhật" />
+	<layout id="colDateCreated" text="Ngày tạo" />
+	<layout id="colDateUpdated" text="Ngày cập nhật" />
+	<layout id="lblThang" text="Kỳ"/>
+	<layout id="lblBranchCode" text="Chi nhánh"/>
+	
+	<layout id="lblPaymentNo" text="Số phiếu" />
+	<layout id="lblCustomerCode" text="Khách hàng" />
+	<layout id="lblPaymentDate" text="Ngày" />
+	<layout id="lblPaymentType" text="Hình thức trả" />
+	<layout id="lblStockCode" text="Nơi trả" />
+	<layout id="lblAmount" text="Tiền trả" />
+	<layout id="lblDescription" text="Diễn giải" />
+
+	
+	
+  <message id="VALIDATE-1" text="Chưa có số phiếu!" />
+  <message id="VALIDATE-2" text="Chưa chọn khách hàng!" />
+  <message id="VALIDATE-3" text="Chưa chọn hình thức trả!" />
+  <message id="VALIDATE-4" text="Chưa chọn nơi trả!" />
+  <message id="VALIDATE-5" text="Số tiền phải khác 0!" />
+  <message id="INSERT-1" text="Thêm mới không thành công!" />
+  <message id="INSERT-2" text="Số đã tồn tại!" />
+  <message id="INSERT-3" text="Khách hàng đã bị xoá bởi user khác!" />
+	<message id="INSERT-5" text="Chi nhánh đã bị xoá bởi user khác!" />
+  <message id="INSERT-4" text="Kho đã bị xoá bởi user khác!" />
+	<message id="INSERT50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!" />
+  <message id="UPDATE-2" text="Thông tin đã bị xoá bởi user khác!" />
+  <message id="UPDATE-3" text="Số đã tồn tại!" />
+  <message id="UPDATE-6" text="Chi nhánh đã bị xoá bởi user khác!" />
+	 <message id="UPDATE-4" text="Khách hàng đã bị xoá bởi user khác!" />
+  <message id="UPDATE-5" text="Kho đã bị xoá bởi user khác!" />
+	<message id="UPDATE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="DELETE-1" text="Xoá không thành công!" />
+  <message id="DELETE-2" text="Thông tin đã bị xoá bởi user khác!" />
+	<message id="DELETE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>
+
+

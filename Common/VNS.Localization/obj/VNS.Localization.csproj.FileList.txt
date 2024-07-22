@@ -1,0 +1,10 @@
+bin\Debug\VNS.Localization.dll
+bin\Debug\VNS.Localization.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VNS.Localization.dll
+obj\Debug\VNS.Localization.pdb
+bin\Release\VNS.Localization.dll
+bin\Release\VNS.Localization.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\VNS.Localization.dll
+obj\Release\VNS.Localization.pdb

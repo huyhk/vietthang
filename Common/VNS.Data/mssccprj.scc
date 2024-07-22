@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[VNS.Common.sln]
+SCC_Aux_Path = "P:\SourceSafe\Common"
+SCC_Project_Name = "$/VNS.Common/VNS.Data", CDAAAAAA
+
+[VNS.Data.csproj]
+SCC_Aux_Path = "P:\SourceSafe\Common"
+SCC_Project_Name = "$/VNS.Common/VNS.Data", CDAAAAAA

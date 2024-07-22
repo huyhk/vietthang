@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\VNS.Common.dll
+bin\Debug\VNS.Common.pdb
+obj\Debug\VNS.Common.dll
+obj\Debug\VNS.Common.pdb
+bin\Release\VNS.Common.dll
+bin\Release\VNS.Common.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\VNS.Common.dll
+obj\Release\VNS.Common.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormReportSoDoChuT" text="Sơ đồ chữ T" />
+  <layout id="btnReports" text="In" />
+
+   <layout id="colAccountCode" text="Tài khoản(ĐƯ)" />
+  <layout id="colDebitAmount" text="Nợ" />
+  <layout id="colCreditAmount" text="Có" />
+  <layout id="colAccountName" text="Tên tài khoản đối ứng" />
+  <layout id="tableLayoutPanel2" text="" />
+  <layout id="lblAccountCode" text="Tài khoản" />
+  <layout id="btnRefresh" text="Xem" />
+
+  </root>

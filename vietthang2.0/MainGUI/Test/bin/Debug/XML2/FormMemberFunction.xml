@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+	<layout id="FormMemberFunction" text="Phân quyền truy cập" />
+	<layout id="colFunctionName" text="Nghiệp vụ" />
+	<layout id="colAllowView" text="Truy cập" />
+	<layout id="colAllowAdd" text="Thêm" />
+	<layout id="colAllowEdit" text="Sửa" />
+	<layout id="colAllowDelete" text="Xoá" />
+	<layout id="colModuleType" text="Loại" />
+	<layout id="colFunctionType" text="Nhóm nghiệp vụ" />
+	<layout id="colModuleName" text="Nhóm Module" />
+	<layout id="colMemberID" text="Mã" />
+	<layout id="colMemberName" text="Tên" />
+	<layout id="colMemberType" text="Loại" />
+	<layout id="colDescription" text="Diễn giải" />
+</root>

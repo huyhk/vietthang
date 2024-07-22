@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="UCBocxepContractPrices" text="Bảng giá bốc xếp" />
+
+  <layout id="gridColTypeCode" text="Loại bốc xếp" />
+  <layout id="gridNgayThuong" text="Ngày thường" />
+  <layout id="gridNgoaigio" text="Ngoài giờ" />
+  <layout id="gridChunhat" text="Chủ nhật" />
+  <layout id="gridNgayle" text="Ngày lễ" />
+  <layout id="gridUserCreate" text="Người tạo" />
+  <layout id="gridDateCreate" text="Ngày tạo" />
+  <layout id="gridUserUpdate" text="Người sửa" />
+  <layout id="gridDateUpdate" text="Ngày sửa" />
+  
+  <layout id="label4" text="Mô tả" />
+  <layout id="label3" text="Ngày bắt đầu" />
+  
+  <message id="VALIDATE-1" text="Chưa nhập ngày bắt đầu!"/>
+  <message id="VALIDATE-2" text="Chưa nhập diễn giải!"/>
+  <message id="VALIDATE-3" text="Chưa chọn bảng giá kho!"/>
+
+
+
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+</root>
+
+
+

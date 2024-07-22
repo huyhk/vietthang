@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  
+  <layout id="FormItemProduct" text="Danh mục Thành phẩm" />
+  <layout id="lbItemCode" text="Mã" />
+  <layout id="lbDescription" text="Ghi chú" />
+  <layout id="lbItemName" text="Tên" />
+  <layout id="lbProducCode" text="Loại thành phẩm" />
+  <layout id="lbSizeCode" text="Kích cỡ" />
+  <layout id="lblUnit" text="Đơn vị tính" />
+  <layout id="lbWeightCode" text="Cân nặng" />
+  <layout id="lblItemWrapping" text="Bao bì"/>
+  <layout id="CheckOutByFormula" text="Xuất trực tiếp từ kho vô sản xuất" />
+  <layout id="checkOutToStock" text="Nhập trực tiếp từ sản xuất" />
+  
+         <!--seting GridView-->
+  <layout id="colItemCode" text="Mã" />
+  <layout id="colItemName" text="Tên" />
+  <layout id="colDescription" text="Ghi chú" />
+  <layout id="colProductCode" text="Loại thành phẩm" />
+  <layout id="colSizeCode" text="Kích cỡ" />
+  <layout id="colWeightCode" text="Cân nặng" />
+  <layout id="colOutByFormula" text="Xuất kho" />
+  <layout id="colOutToStock" text="Nhập kho" />
+  <layout id="colWrappingCode" text="Bao bì"/>
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+  <layout id="colUnit" text="ĐVT"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã thành phẩm!" />
+  <message id="VALIDATE-2" text="Chưa nhập tên thành phẩm!" />
+  <message id="VALIDATE-3" text="Chưa nhập loại thành phẩm!" />
+  <message id="VALIDATE-4" text="Chưa nhập kích thước!" />
+  <message id="VALIDATE-5" text="Chưa nhập cân nặng!" />
+  <message id="VALIDATE-6" text="Chưa chọn Bao bì thành phẩm"/>
+  <message id="INSERT-1" text=" Mã thành phẩm nầy đã tốn tại!" />
+  <message id="INSERT-2" text=" Loại thành phẩm nầy không tồn tại!" />
+  <message id="INSERT-3" text=" Kích cỡ nầy không có!" />
+  <message id="INSERT-4" text=" Sản phẩm nầy đã tốn tại!" />
+  <message id="UPDATE-1" text="Mã thành phẩm nầy không tồn tại!" />
+  <message id="UPDATE-2" text="Loại thành phẩm nầy không có!" />
+  <message id="UPDATE-3" text="Kích cỡ nầy không có!" />
+  <message id="UPDATE-4" text="Cân nặng nầy không có!" />
+
+
+</root>

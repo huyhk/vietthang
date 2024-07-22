@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <!--layout id="Form_KCS_Report_THPTTP" text ="Báo cáo tổng hợp phân tích thành phẩm" /-->
+  <!--layout id="bancolProducCode" text="Thành phẩm" /-->
+  <layout id="banColTechCode" text="Chỉ tiêu" />
+  <layout id="bandcolSMPT" text="SM P/Tích" />
+  <layout id="bandcolSMDK" text="SM không đạt" />
+  <layout id="bandcolTB" text="Trung bình" />
+  <layout id="bandcolMN" text="Min" />
+  <layout id="bandcolMX" text="Max" />
+  <layout id="bandcolSMPT2" text="SM P/Tích" />
+  <layout id="bandcolSMKD2" text="SM không đạt" />
+  <layout id="bandcolMN2" text="Min" />
+  <layout id="bandcolMX2" text="Max " />
+  <layout id="bandcolTB2" text="TB" />
+  <layout id="label1" text="Kho" />
+
+  <layout id="btnExportExcel" text="ExportExcel" />
+  <layout id="btnRefresh" text="Refresh" />
+
+
+
+
+</root>
+

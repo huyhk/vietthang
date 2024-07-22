@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormRpManufactureForLine" text="Báo cáo chi phí sản xuất"/>
+	<layout id="lblKho" text="Nhà máy"/>
+	<layout id="lblTungay" text="Từ ngày"/>
+	<layout id="lblDenngay" text="Đến ngày"/>
+	<layout id="btnRefresh" text="Xem"/>
+	<layout id="colLineSX" text=""/>
+	<layout id="col15SL" text="Số lượng"/>
+	<layout id="col22SL" text="Số lượng"/>
+	<layout id="col30SL" text="Số lượng"/>
+	<layout id="col40SL" text="Số lượng"/>
+	<layout id="col50SL" text="Số lượng"/>
+	<layout id="col80SL" text="Số lượng"/>
+	<layout id="colKhacSL" text="Số lượng"/>
+	<layout id="col15DM" text="Định mức"/>
+	<layout id="col22DM" text="Định mức"/>
+	<layout id="col30DM" text="Định mức"/>
+	<layout id="col40DM" text="Định mức"/>
+	<layout id="col50DM" text="Định mức"/>
+	<layout id="col80DM" text="Định mức"/>
+	<layout id="colKhacDM" text="Định mức"/>
+	<layout id="colTotal" text=""/>
+	<layout id="colDescription" text=""/>
+	<layout id="btnReports" text="Báo cáo"/>
+
+</root>
+

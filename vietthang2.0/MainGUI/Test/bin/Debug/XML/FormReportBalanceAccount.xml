@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnCopy1" text="Tính toán -> lưu (số cuối tháng)" />
+	<layout id="btnExportToExcel" text="Xuất ra excel" />
+	<layout id="btnCopy" text="Tính toán -> lưu (số đầu tháng)" />
+	<layout id="btnReport" text="Xem" />
+	<layout id="colDescription" text="Chỉ tiêu" />
+	<layout id="colRowCode" text="Mã số" />
+	<layout id="colThuyetMinh" text="Thuyết minh" />
+	<layout id="colClosingAmount" text="Số cuối năm (tính toán)" />
+	<layout id="colOldClosingAmount" text="Số cuối năm (lưu)" />
+	<layout id="colOpeningAmount" text="Số đầu năm (tính toán)" />
+	<layout id="colOldOpeningAmount" text="Số đầu năm (lưu)" />
+	<layout id="TemplateFileNotExists" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KeToan\\BangCanDoi.xls"/>
+</root>
+
+

@@ -1,0 +1,19 @@
+<publishData>
+  <publishTarget publishUrl="D:\test\VESWSTest\">
+    <file relUrl="bin/VNS.Common.dll" publishTime="09/22/2014 16:40:46" />
+    <file relUrl="bin/VNS.ERP.Data.pdb" publishTime="11/05/2014 11:15:37" />
+    <file relUrl="bin/VNS.Security.dll" publishTime="09/03/2014 13:49:58" />
+    <file relUrl="bin/VNS.Common.pdb" publishTime="09/22/2014 16:40:46" />
+    <file relUrl="bin/VESWS.dll" publishTime="11/21/2014 14:20:07" />
+    <file relUrl="Web.config" publishTime="11/20/2014 13:41:08" />
+    <file relUrl="bin/VNS.ERP.Data.dll" publishTime="11/05/2014 11:15:38" />
+    <file relUrl="bin/VNS.Data.dll" publishTime="09/03/2014 13:49:59" />
+    <file relUrl="bin/VNS.Data.pdb" publishTime="09/03/2014 13:49:59" />
+    <file relUrl="VESWS.asmx" publishTime="11/20/2014 13:45:14" />
+    <file relUrl="bin/VNS.Utils.pdb" publishTime="09/22/2014 16:40:46" />
+    <file relUrl="bin/VNS.Utils.dll" publishTime="09/22/2014 16:40:46" />
+    <file relUrl="bin/VESWS.pdb" publishTime="11/21/2014 14:20:06" />
+    <file relUrl="bin/VNS.Security.pdb" publishTime="09/03/2014 13:49:58" />
+    <file relUrl="Service1.asmx" publishTime="11/20/2014 13:41:08" />
+  </publishTarget>
+</publishData>

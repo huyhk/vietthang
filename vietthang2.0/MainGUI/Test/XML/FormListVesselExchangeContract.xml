@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormListVesselExchangeContract" text ="Hợp đồng giao nhận"/>
+  <layout id="label1" text="Năm" />
+  <layout id="colContractNo" text="Số hợp đồng" />
+  <layout id="colContractDate" text="Ngày" />
+  <layout id="colExchangeSubjectCode" text="Đ/v giao nhận" />
+  <layout id="colVesselTransactionNo" text="Mã chuyến tàu" />
+  <layout id="colNangsuatbocdo" text="Năng suất bốc dỡ" />
+  <layout id="colGiaphatluusalan" text="Giá phạt lưu sà lan" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="gridColumn1" text="UserCreated" />
+  <layout id="gridColumn2" text="Date Created" />
+  <layout id="gridColumn3" text="User Updated" />
+  <layout id="gridColumn4" text="Date Updated" />
+ 
+
+  <message id="DELETE-1" text="Dữ liệu đã được xóa !"/>
+
+</root>
+
+

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormCustomerDiscount2" text="Danh mục định mức chiết khấu bán hàng"/>
+	<layout id="colProvinces" text="Mã tỉnh"/>
+	<layout id="colSubjectCode" text="Mã KH"/>
+	<layout id="colSubjectName" text="Tên KH"/>
+	<layout id="colAddress" text="Địa chỉ"/>
+	<layout id="colPhone" text="Điện thoại"/>
+	<layout id="colFax" text="Fax"/>
+	<layout id="colTaxCode" text="MS thuế"/>
+	<layout id="colBankName" text="Tên ngân hàng"/>
+	<layout id="colBankAccountNo" text="Số tài khoản"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colDateUpdated" text=" Ngày cập nhật"/>
+	<layout id="colStartDate" text="Ngày"/>
+	<layout id="colDiscountTypeCode" text="Loại chiết khấu"/>
+	<layout id="colDiscountPercent" text="% Chiết khấu"/>
+	<layout id="colDescription1" text="Diễn giải"/>
+	<layout id="colUserCreated1" text="User tạo"/>
+	<layout id="colDateCreated1" text="Ngày tạo"/>
+	<layout id="colUserUpdated1" text="User cập nhật"/>
+	<layout id="colDateUpdated1" text="Ngày cập nhật"/>
+	<layout id="lbStartDate" text="Bắt đầu từ ngày"/>
+	<layout id="lbDiscountTypeCode" text="Loại chiết khấu"/>
+	<layout id="lbDiscountPercent" text="% Chiết khấu"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+
+  <message id="VALIDATE-1" text="Chưa chọn loại chiết khấu!"/>
+  <message id="INSERT-1" text="Thêm mới không thành công!"/>
+  <message id="INSERT-2" text="Loại chiết khấu đã bị xoá bởi user khác!"/>
+  <message id="INSERT-3" text="Mã khách hàng đã bị xoá bởi user khác!"/>
+  <message id="INSERT-4" text="Dữ liệu đã tồn tại!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-2" text="Dữ liêu đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-3" text="Loại chiết khấu đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-4" text="Mã khách hàng đã bị xoá bởi user khác!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Dữ liêu đã bị xoá bởi user khác!"/>
+
+</root>
+
+

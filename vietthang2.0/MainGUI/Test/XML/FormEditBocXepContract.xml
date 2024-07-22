@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="label1" text="Số hợp đồng" />
+<layout id="label3" text="Ngày làm hợp đồng" />
+<layout id="label5" text="Từ ngày" />
+<layout id="label2" text="Đến ngày" />
+<layout id="label4" text="Đơn vị bốc xếp" />
+<layout id="label7" text="Diễn giải" />
+<layout id="groupBox2" text="Bảng giá bốc xếp" />
+<layout id="gridStartDate" text="Ngày bắt đầu" />
+<layout id="gridDescription" text="Diễn giải" />
+
+  <layout id="gridUserCreated" text="Người tạo" />
+  <layout id="gridDateCreate" text="Ngày tạo" />
+  <layout id="gridUserUpdate" text="Người sửa" />
+  <layout id="gridDateUpdate" text="Ngày sửa" />
+  
+  <message id="VALIDATE-1" text="Chưa nhập số hợp đồng!"/>
+ 
+  <message id="VALIDATE-3" text="Chưa nhập ngày làm hợp đồng!"/>
+  <message id="VALIDATE-4" text="Chưa nhập đến ngày!"/>
+  <message id="VALIDATE-5" text="Chưa nhập từ ngày!"/>
+  <message id="VALIDATE-6" text="Chưa chọn kho vận !"/>
+  <message id="VALIDATE-7" text="Chưa nhập diễn giải !"/>
+  <message id="INSERT-1" text="Số hợp đồng đã tồn tại!"/>
+  <message id="INSERT-2" text="Kho vận đã bị xóa!"/>
+  
+  <message id="UPDATE-1" text="Số hợp đồng đã tồn tại!"/>
+  <message id="UPDATE-3" text="Kho vận đã bị xóa!"/>
+  <message id="UPDATE-4" text="Xoá không thành công!"/>
+	<message id="DELETE-2" text="Không thể xóa hợp đồng đã có bảng giá!"/>
+	<message id="DELETE-1" text="Hợp đồng đã bị xóa trước đó!"/>
+</root>
+

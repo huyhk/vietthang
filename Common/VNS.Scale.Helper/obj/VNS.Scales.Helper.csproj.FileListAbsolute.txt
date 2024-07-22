@@ -1,0 +1,32 @@
+D:\Working\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.dll
+D:\Working\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.pdb
+D:\Working\Common\VNS.Scale.Helper\obj\Release\ResolveAssemblyReference.cache
+D:\Working\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.dll
+D:\Working\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.pdb
+D:\Working\Common\VNS.Scale.Helper\bin\x86\Release\VNS.Scales.Helper.dll
+D:\Working\Common\VNS.Scale.Helper\bin\x86\Release\VNS.Scales.Helper.pdb
+D:\Working\Common\VNS.Scale.Helper\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Working\Common\VNS.Scale.Helper\obj\x86\Release\VNS.Scales.Helper.dll
+D:\Working\Common\VNS.Scale.Helper\obj\x86\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\obj\x86\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\obj\x86\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\obj\x86\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218 - Copy\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218 - Copy\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218 - Copy\Common\VNS.Scale.Helper\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218 - Copy\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218 - Copy\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\vietthang2.0121218\Common\VNS.Scale.Helper\obj\Release\VNS.Scales.Helper.pdb

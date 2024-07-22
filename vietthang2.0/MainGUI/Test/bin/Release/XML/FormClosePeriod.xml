@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="FormClosePeriod" text="Khoá sổ" />
+<layout id="button1" text="Thoát" />
+<layout id="btnClosePeriod" text="Khoá sổ" />
+<layout id="label1" text="Kỳ kế toán" />
+<layout id="VALIDATE-1" text="Chưa chọn kỳ kế toán" />
+<layout id="Info-1" text="Bạn có đồng ý khoá sổ?" />
+<layout id="Info-0" text="Thông báo!" />
+<layout id="Info-2" text="Đã khoá sổ thành công" />
+<layout id="Info-3" text="Khoá sổ không thành công" />
+<layout id="Info-4" text="Khoá sổ không thành công do có phiếu xuất/nhập kho chưa được xác nhận hoặc chưa được bộ phận xác nhận" />
+<layout id="Info-5" text="Khoá sổ không thành công do có phiếu phiếu yêu cầu xuất bán chưa được thực hiện" />
+</root>

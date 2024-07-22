@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_TestRequest" text="Phiếu yêu cầu phân tích"/>
+
+<layout id="grBoxPeriodSelect" text="Báo cáo" />
+
+<layout id="lbEndDate" text="Đến" />
+
+<layout id="optDay" text="Từ" />
+
+<layout id="optMonth" text="Tháng" />
+
+<layout id="optQuater" text="Quý" />
+
+<layout id="optYear" text="Năm" />
+
+<layout id="groupBox1" text="Loại hàng:" />
+<layout id="radioC2" text="Cả hai" />
+<layout id="radioTP" text="Thành phẩm" />
+<layout id="radioNL" text="Nguyên liệu" />
+<layout id="groupBox2" text="Loại kiểm:" />
+<layout id="radioKN" text="Kiểm ngoài" />
+<layout id="radioKNB" text="Kiểm nội bộ" />
+<layout id="btnRefresh" text="Refresh" />
+
+  <layout id="colNgayGui" text="Ngày gửi"/>
+<layout id="colKho" text="Kho" />
+<layout id="colNgaySxNhap" text="Ngày sản xuất/Ngày nhập" />
+<layout id="colCaKH" text="Ca/ Khách hàng" />
+<layout id="colLoSoxe" text="Lô/ Số xe" />
+<layout id="colTenMau" text="Tên mẫu" />
+<layout id="btnExportExcel" text="Kết xuất ra excel" />
+<layout id="lblStock" text="Kho:" />
+
+</root>

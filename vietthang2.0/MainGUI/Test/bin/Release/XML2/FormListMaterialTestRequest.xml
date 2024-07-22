@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnRefresh" text="Refresh" />
+	<layout id="lbPeriod" text="Kỳ" />
+	<layout id="colDateRequest" text="Ngày" />
+	<layout id="colDescription" text="Diễn giải" />
+	<layout id="colIsReceived" text="Đã nhận" />
+	<layout id="colUserCreated" text="User tạo" />
+	<layout id="colDateCreated" text="Ngày tạo" />
+	<layout id="colUserUpdated" text="User cập nhật" />
+	<layout id="colDateUpdated" text="Ngày cập nhật" />
+	<layout id="colUserReceived" text="User nhận" />
+	<layout id="colDateReceived" text="Ngày nhận" />
+
+	<message id="DELETE-1" text="Phiếu yêu cầu đã được nhận, không thể xóa!"/>
+	<message id="DELETE-2" text="Phiếu yêu cầu đã bị xóa trước đó!"/>
+	<message id="EditIsReceived" text="Phiếu yêu cầu kiểm tra đã được nhận, không thể sửa!"/>
+	<message id="DeleteIsReceived" text="Phiếu yêu cầu kiểm tra đã được nhận, không thể xóa!"/>
+  <message id="DELETE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!"/>
+</root>
+

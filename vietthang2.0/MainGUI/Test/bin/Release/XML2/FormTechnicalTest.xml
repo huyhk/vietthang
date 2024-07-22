@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormTechnicalTest" text="Chỉ tiêu" />
+  <layout id="colTechCode" text="Mã chỉ tiêu" />
+  <layout id="colOderBy" text="Thứ tự" />
+  <layout id="colTechName" text="Tên chỉ tiêu" />
+  <layout id="colResultType" text="Kiểu kết quả" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="lblTechCode" text="Mã chỉ tiêu" />
+  <layout id="lblTechName" text="Tên chỉ tiêu" />
+  <layout id="lblResultType" text="Kiểu kết quả" />
+  <layout id="lblDescription" text="Diễn giải" />
+  <layout id="txtThutu" text="Thứ tự" />
+  <layout id ="lblDisplayText" text ="DisplayText"/>
+  <layout id ="colDisplayText" text ="DisplayText"/>
+  
+
+
+  <message id="INSERT-1" text="Chỉ tiêu này đã có"/>
+  <message id="UPDATE-1" text="Cập nhật mục này không thành công"/>
+  <message id="UPDATE-2" text="Mục này đã bị xóa bởi user khác"/>
+  <message id="DELETE-1" text="Xóa mục này không thành công"/>
+
+  <message id="VALIDATE-1" text="Bạn chưa nhập mã chỉ tiêu"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập tên chỉ tiêu"/>
+  <message id="VALIDATE-3" text="Bạn chưa chọn kiểu kết quả"/>
+  <message id="VALIDATE-4" text="Bạn chưa nhập thứ tự"/>
+</root>
+

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormVattuOldType" text ="Loại vật tư cũ"/>
+  <layout id="colVattuCode" text="Mã loại" />
+  <layout id="colVattuName" text="Tên loại" />
+  <layout id="Description" text="Ghi chú" />
+  <layout id="UserCreated" text="Người tạo" />
+  <layout id="DateCreated" text="Ngày tạo" />
+  <layout id="UserUpdated" text="Người sửa" />
+  <layout id="DateUpdated" text="Ngày sửa" />
+  <layout id="label3" text="Ghi chú" />
+  <layout id="label2" text="Tên loại" />
+  
+  <layout id="label1" text="Mã loại" />
+  <message id="VALIDATE-1" text="Chưa nhập mã loại!"/>
+  <message id="VALIDATE-2" text="Chưa nhập tên loại!"/>
+  <message id="INSERT-2" text="Mã loại này đã tồn tại!" />
+
+
+</root>
+
+

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormMixPremixShifts" text="Phiếu trộn"/>
+	<layout id="lblKho" text="Kho"/>
+	<layout id="lblCa" text="Ca"/>
+	<layout id="lblNgay" text="Ngày"/>
+
+  <message id="DELETE-3" text="Phiếu Nhâp/Xuất đã được bộ phận kho xác nhận. Không thể xóa!!!"/>
+	<message id="DELETE50000" text="Module sơ chế thuốc đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="INSERT50000" text="Module sơ chế thuốc đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="INSERT-1" text="Ca đã tồn tại!"/>
+	<message id="UPDATE50000" text="Module sơ chế thuốc đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>
+

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportDiscount" text="Báo cáo chiết khấu khách hàng" />
+	<layout id="lbQuarter" text="Quý" />
+	<layout id="lbYear" text="Năm" />
+	<layout id="btnBaoCao" text="Báo cáo" />
+	<layout id="groupBoxReport" text="Báo cáo tổng hợp" />
+	<layout id="colCustomerCode" text="Mã KH" />
+	<layout id="colCustomerName" text="Tên KH" />
+	<layout id="colProvinceName" text="Tỉnh" />
+	<layout id="colInvoiceAmount" text="Tổng tiền hoá đơn" />
+	<layout id="colQuarterDiscountAmount" text="Tổng chiết khấu" />
+	<layout id="colYearDiscountAmount" text="Tổng chiết khấu" />
+	<layout id="groupBoxReportDetail" text="Báo cáo chi tiết" />
+	<layout id="colInvoiceNo" text="Số hoá đơn" />
+	<layout id="colInvoiceDate" text="Ngày hoá đơn" />
+	<layout id="colInvoiceAmount1" text="Tiền hoá đơn" />
+	<layout id="colQuarterDiscount" text="Chiết khấu quý" />
+	<layout id="colQuarterDiscountAmount1" text="Tiền chiết khấu" />
+	<layout id="colYearDiscount" text="Chiết khấu năm" />
+	<layout id="colYearDiscountAmount1" text="Tiền chiết khấu" />
+	<layout id="btnReportDiscount" text="In báo cáo tổng hợp" />
+	<layout id="btnReportDiscountDetail" text="In báo cáo chi tiết" />
+</root>
+
+

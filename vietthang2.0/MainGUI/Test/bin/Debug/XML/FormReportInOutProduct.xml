@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportInOutProduct" text="Báo cáo nhập xuất thành phẩm" />
+	<layout id="lbStartDate" text="Từ ngày" />
+	<layout id="lbEndDate" text="Đến ngày" />
+	<layout id="btnBaoCao" text="Báo cáo" />
+	<layout id="btnPrint" text="In báo cáo" />
+	<layout id="colStockCode" text="Kho" />
+	<layout id="colItemCode" text="Mã TP" />
+	<layout id="colItemName" text="Tên thành phẩm" />
+	<layout id="colTonDKy" text="Tồn đầu kỳ" />
+	<layout id="colNhapSX" text="Nhập SX" />
+	<layout id="colNhapXL" text="Nhập xử lý" />
+	<layout id="colNhapNB" text="Nhập nội bộ" />
+	<layout id="colNhapKK" text="Nhập kiểm kê" />
+	<layout id="colNhapKhac" text="Nhập khác" />
+	<layout id="colXuatBan" text="Xuất bán" />
+	<layout id="colXuatXL" text="Xuất xử lý" />
+	<layout id="colXuatNB" text="Xuất nội bộ" />
+	<layout id="colXuatKK" text="Xuất kiểm kê" />
+	<layout id="colXuatKhac" text="Xuất khác" />
+	<layout id="colDeltaStock" text="Chênh lệch kho" />
+	<layout id="colCloseQuantity" text="Tồn cuối kỳ" />
+	<layout id="MsgErrorStockNull" text="Bạn không được phân quyền thực hiện báo cáo này!" />
+	<layout id="lbStock" text="Chọn kho" />
+</root>

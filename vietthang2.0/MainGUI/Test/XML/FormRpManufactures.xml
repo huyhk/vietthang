@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormRpManufactures" text="Báo cáo sản xuất - Tổng hợp Tháng"/>
+  <layout id="btnPrintPreviews" text="In"/>
+  <layout id="btnExportMSExcel" text="Kết xuất ra file Excel"/>
+  <layout id="lblKho" text="Nhà máy"/>
+  <layout id="lblDenngay" text="Tháng"/>
+  <layout id="btnRefresh" text="Xem"/>
+  <layout id="btnThoat" text="Thoát"/>
+</root>
+

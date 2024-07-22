@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormListBocxepContracts" text="Hợp đồng bốc xếp"/>
+  <layout id="gridContractNo" text="Số hợp đồng" />
+  <layout id="gridContractDate" text="Ngày làm hợp đồng" />
+  <layout id="gridBocxepSubjectCode" text="Đơn vị bốc xếp" />
+  <layout id="gridFromDate" text="Từ ngày" />
+  <layout id="gridToDate" text="Đến ngày" />
+  <layout id="gridDescription" text="Diễn giải" />
+  <layout id="gridUserCreated" text="Người tạo" />
+  <layout id="gridDateCreate" text="Ngày tạo" />
+  <layout id="gridUserUpdate" text="Người sửa" />
+  <layout id="gridDateUpdate" text="Ngày sửa" />
+
+  <message id="DELETE-2" text="Không thể xóa hợp đồng đã có bảng giá!"/>
+  <message id="DELETE-1" text="Hợp đồng đã bị xóa trước đó!"/>
+</root>
+  

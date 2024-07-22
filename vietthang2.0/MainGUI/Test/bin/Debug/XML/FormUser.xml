@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormUser" text="Danh sách người sử dụng" />
+  <layout id="lbLoginName" text="Tên đăng nhập" />
+  <layout id="lbPassword" text="Mật khẩu" />
+  <layout id="CheckIsAdmin" text="Quản trị" />
+  <layout id="lbUserName" text="Tên" />
+  <layout id="txtEmployeeID" text="Nhân viên" />
+  <layout id="lbDescription" text="Ghi chú" />
+
+
+  <!--seting GridView-->
+  <layout id="colLoginName" text="Tên đăng nhập" />
+  <layout id="colPassword" text="Mật khẩu" />
+  <layout id="colIsAdmin" text="Quản trị" />
+  <layout id="colUserName" text="Tên" />
+  <layout id="colEmployeeID" text="Nhân viên" />
+  <layout id="colDescription" text="Ghi chú" />
+	<layout id="colBranchCode" text="Chi nhánh" />
+	<layout id="lbBranchCode" text="Chi nhánh" />
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập tên đăng nhập!"/>
+  <message id="INSERT-1" text="Tên đăng nhập nầy đã có!" />
+  <message id="INSERT-2" text="Lỗi thêm giữ liệu!" />
+  <message id="UPDATE-1" text="Tên đăng nhập nầy không tồn tại!" />
+  <message id="UPDATE-2" text="Lỗi sữa dữ liệu!" />
+
+</root>

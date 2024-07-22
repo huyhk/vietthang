@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <!--layout id="FormListPurchaseContract" text="Hợp đồng mua hàng" /-->
+  <layout id="btDesigner" text="Run Designer" />
+  <layout id="colContractNo" text="Số hợp đồng" />
+  <layout id="colContractDate" text="Ngày" />
+  <layout id="colVendorCode" text="Nhà cung cấp" />
+  <layout id="colIsTransported" text="Có vận chuyển" />
+  <layout id="colCurrencyCode" text="Loại tiền tệ" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="colFromDate" text="Từ ngày" />
+  <layout id="colToDate" text="Đến ngày" />
+  <layout id="colIsFinished" text="Đã kết thúc" />
+  <layout id="colUserCreated" text="UserCreated" />
+  <layout id="colDateCreated" text="DateCreated" />
+  <layout id="colUserUpdated" text="UserUpdated" />
+  <layout id="colDateUpdated" text="DateUpdated" />
+  
+  <layout id="lblThang" text="Tháng" />
+  
+
+  <message id="DELETE-1" text="Hợp đồng này đã bị xóa !"/>
+
+</root>
+
+

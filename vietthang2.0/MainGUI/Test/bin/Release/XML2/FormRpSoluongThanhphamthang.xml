@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormRpSoluongThanhphamthang" text="Báo cáo số lượng Thành phẩm Tháng" />
+	<layout id="lblStartDate" text="Từ ngày:" />
+	<layout id="lblEndDate" text="Đến ngày:" />
+	<layout id="btnLoadData" text="Xem" />
+	<layout id="btnExports" text="Kết xuất ra Excel" />
+	<layout id="groupBox1" text="Tỉnh/Thành phố" />
+	<layout id="colTinh" text="Tỉnh/Thành phố" />
+	<layout id="colItemCode" text="Mã hàng" />
+	<layout id="colSoluong" text="Số lượng" />
+	<layout id="colDoanhso" text="Doanh số" />
+	<layout id="colLKSoluong" text="LK Số lượng" />
+	<layout id="colLKDoanhso" text="LK Doanh số" />
+	<layout id="colSoluongKytruoc" text="SL Kỳ trước" />
+	<layout id="colDoanhsoKytruoc" text="DS Kỳ trước" />
+	<layout id="groupBox2" text="Tổng Cty" />
+	<layout id="colItemCodeI" text="Mã hàng" />
+	<layout id="colSoluongI" text="Số lượng" />
+	<layout id="colDoanhsoI" text="Doanh số" />
+	<layout id="colLKSoluongI" text="LK Số lượng" />
+	<layout id="colLKDoanhsoI" text="LK Doanh số" />
+	<layout id="colSoluongKytruocI" text="SL Kỳ trước" />
+	<layout id="colDoanhsoKytruocI" text="DS Kỳ trước" />
+	<layout id="VALIDATE-1" text="Từ ngày, đến ngày phải nằm trong cùng một tháng!!!" />
+</root>

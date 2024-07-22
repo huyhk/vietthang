@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportCustomerDept" text="Bảng theo dõi công nợ, bán hàng"/>
+	<layout id="lbQuarter" text="Quý"/>
+	<layout id="tabDept" text="Công nợ"/>
+	<layout id="tabSale" text="Bán hàng"/>
+	<layout id="lbStartDate" text="Từ ngày"/>
+	<layout id="lbEndDate" text="Đến ngày"/>
+	<layout id="btnBaoCao" text="Báo cáo"/>
+	<layout id="colCustomerCode" text="Mã KH"/>
+	<layout id="colCustomerName" text="Tên KH"/>
+	<layout id="colPropertyValue" text="Tỉnh"/>
+	<layout id="colOpenAmount" text="Tồn đầu kỳ"/>
+	<layout id="colPeriodSaleQuantity" text="SL trong kỳ"/>
+	<layout id="colPeriodSaleAmount" text="Bán trong kỳ"/>
+	<layout id="colPeriodPaymentAmount" text="Thu trong kỳ"/>
+	<layout id="colCloseAmount" text="Tồn cuối kỳ"/>
+	<layout id="btnReport" text="Báo cáo tổng hợp"/>
+	<layout id="lbDate" text="Ngày"/>
+	<layout id="btnBaoCao1" text="Báo cáo tháng"/>
+	<layout id="btnBaoCao2" text="Báo cáo năm"/>
+	<layout id="btnReport1" text="In báo cáo"/>
+	<layout id="colCustomerCode1" text="Mã KH"/>
+	<layout id="colCustomerName1" text="Tên KH"/>
+	<layout id="colProvinceName" text="Tỉnh"/>
+	<layout id="colSaleQuantity" text="Số lượng"/>
+	<layout id="colSaleAmount" text="Số tiền"/>
+	<layout id="colPreviousSaleQuantity" text="SL kỳ trước"/>
+	<layout id="colPreviousSaleAmount" text="Số tiền"/>
+	<layout id="colRate" text="Tỷ lệ SL"/>
+</root>
+
+

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <!--layout id="FormReportProductResultLocal" text="Kết quả phân tích thành phẩm nội bộ"/-->
+<layout id="lblStockCode" text="Kho" />
+<layout id="lblTechCode" text="Chỉ tiêu" />
+
+<layout id="colNgaytra" text="Ngày trả KQ" />
+<layout id="colTenTP" text="Tên thành phẩm" />
+<layout id="colNgaysx" text="Ngày sản xuất" />
+<layout id="colCa" text="Ca" />
+<layout id="colCode" text="Code" />
+  <layout id="colNgaytraNL" text="Ngày trả KQ" />
+  <layout id="colTenNL" text="Tên nguyên liệu" />
+  <layout id="colNgaynhap" text="Ngày nhập" />
+  <layout id="colKhachhang" text="Khách hàng" />
+  <layout id="colKho" text="Kho" />
+  <layout id="colSoxe" text="Số ghe, xe" />
+  <layout id="checkISO" text="Mẫu ISO"/>
+<layout id="btnExportExcel" text="Kết xuất Excel" /></root>

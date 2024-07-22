@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormDBConfig" text="Thiết lập cấu hình CSDL" />
+  <layout id="lblHeader" text="Thiết lập cấu hình CSDL" />
+  <layout id="lblServer" text="Server" />
+  <layout id="lblDatabase" text="Database" />
+  <layout id="lblUserName" text="User ID" />
+  <layout id="lblPassword" text="Password" />
+  <layout id="btnSave" text="Lưu" />
+  <layout id="btnClose" text="Thoát" />
+  <message id="error" text="Cấu hình CSDL không đúng" />
+  
+
+</root>
+

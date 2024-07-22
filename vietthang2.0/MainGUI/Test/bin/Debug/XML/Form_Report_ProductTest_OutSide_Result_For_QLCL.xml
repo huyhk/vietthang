@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="label1" text="Loại thành phẩm" />
+  <layout id="lookUpEditProducts" text="" />
+  <layout id="label2" text="Chỉ tiêu" />
+  <layout id="label3" text="Kích cỡ" />
+  <layout id="lookUpEditProductSize" text="" />
+  <layout id="lookUpEditTech" text="" />
+  <layout id="checkEdit1" text="Chỉ những kết quả đã chấp nhận" />
+  <layout id="btnExport" text="Export Excel" />
+  <layout id="gridControl1" text="" />
+  <layout id="LevelSelector" text="" />
+  <layout id="panel" text="" />
+  <layout id="pnlClient" text="" />
+  <layout id="tree" text="" />
+  <layout id="pnlButton" text="" />
+  <layout id="btPopulateDetail" text="Retrieve Details" />
+  <layout id="lblLine" text="" />
+  <layout id="btDesigner" text="Run Designer" />
+  <layout id="gridColumn1" text="Nhà máy" />
+  <layout id="gridColumn2" text="Ngày" />
+  <layout id="gridColumn3" text="Lot" />
+  <layout id="gridColumn4" text="Đơn vị phân tích" />
+  <layout id="gridColumn5" text="Kết quả" />
+  <layout id="simpleButton1" text="Refresh" />
+  <layout id="a1" text ="Chưa chọn kích cỡ"/>
+        <layout id="a2" text ="Chưa chọn thành phẩm"/>
+      <layout id="a3" text ="Chưa chọn chỉ tiêu">
+       
+    </layout>
+
+</root>
+

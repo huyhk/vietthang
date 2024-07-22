@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormCustomerOrderDetails" text="Đơn đặt hàng"/>
+  <layout id="lblStockCode" text="Nhà máy"/>
+  <layout id="lblCustomerOrderDate" text="Ngày "/>
+  <layout id="lblCustomerCode" text="Tên khách hàng"/>
+  <layout id="lblCustomerOrderNo" text="Số phiếu"/>
+  <layout id="lblDescription" text="Ghi chú"/>
+  <layout id="colItemCode" text="Thành phẩm"/>
+  <layout id="colQuantity" text="Số lượng"/>
+  <layout id="colDescription" text="Ghi chú"/>
+  <layout id="checkIsFinished" text="Đã hoàn thành"/>
+  <layout id="colDeliverDate" text="Ngày"/>
+  <layout id="colSLThucxuat" text="Tổng số lượng"/>
+  <layout id="colItemCodeYC" text="Thành phẩm"/>
+	<layout id="btnPhieuyeucau" text="Tạo phiếu yêu cầu"/>
+
+  <message id="INSERT-1" text="Đơn hàng này đã tồn tại!!!"/>
+	<message id="INSERT50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="UPDATE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="VALIDATE-1" text="Chưa nhập số Đơn hàng!!!"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập khách hàng!!!"/>
+  <message id="VALIDATE-3" text="Bạn chưa nhập thành phẩm!!!"/>
+  <message id="VALIDATE-4" text="Bạn chưa nhập đơn vị vận chuyển!!!"/>
+  <message id="DELETE-2" text="Đơn hàng này không tồn tại!!!"/>
+<message id="DELETE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>

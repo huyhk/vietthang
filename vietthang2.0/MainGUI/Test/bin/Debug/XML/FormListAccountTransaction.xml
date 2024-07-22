@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormListAccountTransaction" text="Danh sách"/>
+	<layout id="colAccountTransactionNo" text="Số phiếu"/>
+	<layout id="colAccountTransactionDate" text="Ngày ghi sổ"/>
+  <layout id="colPersonName" text="Họ và Tên"/>
+  <layout id="colAddress" text="Địa chỉ"/>
+  <layout id="colCTKemtheo" text="Chứng từ kèm theo"/>
+  <layout id="colDescription" text="Diễn giải"/>
+  <layout id="colUserCreated" text="User tạo"/>
+  <layout id="colNgayCT" text="Ngày chứng từ"/>
+	<layout id="lblThang" text="Kỳ kế toán"/>
+	<layout id="lblSubjectCode1" text="Đối tượng"/>
+	<layout id="lblTransactionTypeCode" text="Phân loại"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="lbPeriod" text="Kỳ kế toán"/>
+	<layout id="colSubjectCode2" text="Mã KH"/>
+  
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+	<message id="DELETE50000" text="Module kế toán đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>
+
+

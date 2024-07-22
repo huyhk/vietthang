@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+	<layout id="FormFixedAsset" text="Danh mục Nhóm Tài sản cố định" />
+	<layout id="lblSubjectCode" text="Mã" />
+	<layout id="lblSubjectName" text="Tên" />
+	<layout id="lblAddress" text="Địa chỉ" />
+	<layout id="lblPhone" text="Số điện thoại" />
+	<layout id="lblFax" text="Số Fax" />
+	<layout id="lblTaxCode" text="Mã số thuế" />
+	<layout id="lblBankName" text="Tên ngân hàng" />
+	<layout id="lblBankAccountNo" text="Số tài khoản" />
+	<layout id="lblDescription" text="Ghi chú" />
+
+
+	<!--seting GridView-->
+	<layout id="colSubjectCode" text="Mã " />
+	<layout id="colSubjectName" text="Tên " />
+	<layout id="colAddress" text="Địa chỉ" />
+	<layout id="colPhone" text="Số điện thoại" />
+	<layout id="colFax" text="Số Fax" />
+	<layout id="colTaxCode" text="Mã số thuế" />
+	<layout id="colBankName" text="Tên ngân hàng" />
+	<layout id="colBankAccountNo" text="Số tài khoản"/>
+	<layout id="colDescription" text="Ghi chú"/>
+	<layout id="colUserCreated" text="User tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="User cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+
+
+
+
+
+</root>
+
+
+

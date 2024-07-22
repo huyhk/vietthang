@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormManufacturePlanDetail" text="Lập kế hoạch"/>
+  <layout id="lblStockCode" text="Nhà máy"/>
+  <layout id="lblPlanDate" text="Ngày"/>
+  <layout id="lblPlanNo" text="Số kế hoạch"/>
+  <layout id="lblTyleHaohut" text="Hao hụt dự kiến"/>
+  <layout id="lblDescription" text="Ghi chú"/>
+  <layout id="colDetailDate" text="Ngày sản xuất"/>
+  <layout id="colShift" text="Ca"/>
+  <layout id="colLinesxNo" text="Line"/>
+  <layout id="colItemCode" text="Thành phẩm"/>
+  <layout id="colFormulaCode" text="Công thức"/>
+  <layout id="colPlanWeight" text="Số lượng"/>
+   <layout id="colPlanWrapping" text="Bao bì"/>
+  <layout id="colDescription" text="Ghi chú"/>
+  <layout id="checkIsFinished" text="Đã hoàn thành"/>
+  <layout id="btnPrintMaterial" text="Báo cáo nguyên liệu cần thiết"/>
+  <layout id="btnReports" text="In Kế hoạch"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập số kế hoạch!!!"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập thành phẩm!!!"/>
+  <message id="VALIDATE-3" text="Bạn chưa nhập công thức!!!"/>
+  <message id="DELETE-2" text="Phiếu không tồn tại!!!"/>
+  <message id="INSERT-1" text="Số kế hoạch đã tồn tại!!!"/>
+
+
+</root>

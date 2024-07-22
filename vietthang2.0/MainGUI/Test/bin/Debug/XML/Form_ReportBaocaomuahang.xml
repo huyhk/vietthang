@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="Form_ReportBaocaomuahang" text="Báo cáo mua hàng"/>
+<layout id="btnReport" text="Kết xuất Excel" />
+  <layout id="lblReportFor" text="Báo cáo cho"/>
+  <layout id="colItemName" text="Nguyên liệu" />
+  <layout id="colSoluong" text="Số lượng" />
+  <layout id="colDongia" text="Đơn giá" />
+  <layout id="colThanhtien" text="Thành tiền" />
+  <layout id="btnRefresh" text="Refresh" />
+</root>

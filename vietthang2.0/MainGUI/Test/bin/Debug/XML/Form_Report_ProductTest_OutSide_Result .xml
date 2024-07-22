@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_ProductTestRequest_Outside_Not_Return" text="Nhà máy" />
+  <layout id="TemplateFileNotExists1" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KCS\\ThongKeKetQuaPhanTichThanhPham.xls" />
+
+  <layout id="label1" text="Loại thành phẩm" />
+  <layout id="lookUpEditProducts" text="" />
+  <layout id="label2" text="Chỉ tiêu" />
+  <layout id="label3" text="Kích cỡ" />
+  <layout id="lookUpEditTech" text="" />
+  <layout id="lookUpEditProductSize" text="" />
+  <layout id="btnRefresh" text="Refresh" />
+  <layout id="btnExport" text="Export Excel" />
+  <layout id="simpleButton3" text="simpleButton3" />
+  <layout id ="a1" text ="Chưa chọn chỉ tiêu"/>
+  <layout id ="a2" text ="Chưa chọn thành phẩm"/>
+  
+</root>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormAccountClassification" text="Danh mục Yếu tố" />
+	<layout id="colAccountClassificationCode"  text="Mã" />
+	<layout id="colAccountClassificationName" text="Tên" />
+	<layout id="colAccountClassificationTypeCode" text="Loại" />
+	<layout id="lblAccountClassificationCode"  text="Mã" />
+	<layout id="lblAccountClassificationName" text="Tên" />
+	<layout id="lblAccountClassificationTypeCode" text="Loại" />
+	<layout id="lblDescription" text="Ghi chú" />
+	<layout id="colDescription" text="Ghi chú" />
+	<layout id="colUserCreated" text="User tạo" />
+	<layout id="colUserUpdated" text="User cập nhật" />
+	<layout id="colDateCreated" text="Ngày tạo" />
+	<layout id="colDateUpdated" text="Ngày cập nhật" />
+
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!"/>
+  <message id="INSERT-2" text="Mã này đã tồn tại!"/>
+  <message id="INSERT-3" text="Mã đã bị xoá bởi người khác!"/>
+  <message id="UPDATE-1" text="Lỗi trong khi lưu dữ liệu!"/>
+  <message id="UPDATE-2" text="Mã đã bị xoá bởi người khác!"/>
+  <message id="DELETE-1" text="Không thể xoá!"/>
+  <message id="DELETE-2" text="Mã đã bị xoá bởi người khác!"/>
+  <message id="VALIDATE-1" text="Chưa nhập mã!"/>
+  <message id="VALIDATE-2" text="Chưa nhập tên!"/>
+  <message id="VALIDATE-3" text="Chưa chọn loại!"/>
+
+</root>

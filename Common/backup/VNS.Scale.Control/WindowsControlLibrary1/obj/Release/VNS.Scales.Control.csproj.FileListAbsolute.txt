@@ -1,0 +1,9 @@
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.dll
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.pdb
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.dll
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.pdb
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\ResolveAssemblyReference.cache
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.UI.Receiver.resources
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.GenerateResource.Cache
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.dll
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.pdb

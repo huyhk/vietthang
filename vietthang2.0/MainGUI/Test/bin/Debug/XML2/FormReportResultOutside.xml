@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root> 
+  <layout id="FormReportResultOutside" text ="Báo cáo kết quả kiểm ngoài"/>
+  <layout id="colSubjectCode" text="Nơi gửi" />
+  <layout id="colSendDate" text="Ngày gửi" />
+  <layout id="colItemName" text="Tên nguyên liệu" />
+  <layout id="colNgayNhap" text="Ngày nhập" />
+  <layout id="colLot" text="Lot" />
+  <layout id="colShift" text="Ca" />
+  <layout id="colKho" text="Kho" />
+  <layout id="colKhachhang" text="Khách hàng" />
+  <layout id="btnExport" text="ExportExcel" />
+  <layout id="btnRefresh" text="Refresh" />
+
+
+</root>
+
+

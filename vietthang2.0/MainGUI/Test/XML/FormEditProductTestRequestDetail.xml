@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="colStockName" text="Tên kho" />
+	<layout id="colManuDate" text="Ngày sản xuất" />
+	<layout id="colShift" text="Ca" />
+	<layout id="colProductCode" text="Thành phẩm" />
+	<layout id="colSizeCode" text="Kích thước" />
+	<layout id="colFormulaCode" text="Công thức" />
+	<layout id="colLot" text="Lot" />
+	<layout id="colItemEncryptCode" text="Mã mẫu" />
+	<layout id="btnNewItemEncryptCode" text="Thêm mã mẫu" />
+	<layout id="btnOK" text="OK" />
+	<layout id="btnSelectTechCode" text="&gt;&gt;" />
+	<layout id="colTechCode1" text="Chỉ tiêu" />
+	<layout id="colTTPT" text="Nơi phân tích" />
+	<layout id="colTechCode" text="Mã chỉ tiêu" />
+	<layout id="colTechName" text="Tên chỉ tiêu" />
+	<layout id="label1" text="ĐV phân tích" />
+	<layout id="gridColumn1" text="Tên kho" />
+	<layout id="gridColumn2" text="Ngày sản xuất" />
+	<layout id="gridColumn3" text="Ca" />
+	<layout id="gridColumn4" text="Thành phẩm" />
+	<layout id="gridColumn5" text="Kích thước" />
+	<layout id="gridColumn6" text="Công thức" />
+	<layout id="gridColumn7" text="Lot" />
+	<layout id="gridColumn8" text="Mã mẫu" />
+	<layout id="btnSelectEncryptCode" text="&gt;&gt;" />
+	<layout id="btnRefresh" text="Refresh" />
+	<layout id="lbPeriod" text="Kỳ" />
+
+	<message id="DELETEEncryptCode-1" text="Mã mẫu đã bị xóa!"/>
+	<message id="DELETEEncryptCode-2" text="Mã mẫu đã được gửi yêu cầu, không thể xóa!"/>
+	<message id="DELETEEncryptCodeConfirm" text="Bạn có đồng ý xóa mã mẫu?"/>
+	<message id="ItemEncryptCodeIsExists" text="Mã mẫu đã được chọn!"/>
+	<message id="SubjectCodeIsNull" text="Bạn chưa chọn nơi gửi đi phân tích!"/>
+	<message id="SubjectCodeTechCodeIsExists" text="Chỉ tiêu tương ứng với đơn vị phân tích đã tồn tại!"/>
+</root>
+

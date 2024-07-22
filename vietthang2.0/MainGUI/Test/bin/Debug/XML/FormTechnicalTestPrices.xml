@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormTechnicalTestPrices" text="Bảng giá phân tích của các trung tâm ngoài" />
+  <layout id="colStartDate" text="Từ ngày" />
+  <layout id="colTechnical" text="Chỉ tiêu" />
+  <layout id="colPrice" text="Đơn giá" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="colSubjectCode" text="Mã Trung tâm" />
+  <layout id="colSubjectName" text="Tên trung tâm" />
+  <layout id="lblDescription" text="Diễn giải" />
+  <layout id="lblPrice" text="Đơn giá" />
+  <layout id="lblStartDate" text="Ngày" />
+  <layout id="lblTechCode" text="Chỉ Tiêu" />
+
+
+  <message id="INSERT-1" text="Trùng lặp dữ liệu"/>
+  <message id="UPDATE-1" text="Cập nhật mục này không thành công"/>
+  <message id="UPDATE-2" text="Mục này đã bị xóa bởi user khác"/>
+  <message id="DELETE-1" text="Xóa không thành công"/>
+  <message id="VALIDATE-1" text="Bạn chưa chọn chỉ tiêu"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập đơn giá"/>
+  </root>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+	<layout id="FormReport_TestProductFrequency" text="Báo cáo tần suất kiểm thành phẩm" />
+  <layout id ="btnRefresh" text="Xem" />
+  <layout id ="btnReport" text ="Xuất ra excel" />
+<layout id="clmProductCode" text="Loại thành phẩm" />
+<layout id="clmProductWeight" text="Sản lượng" />
+  <layout id ="clmTechName" text="Chỉ tiêu" />
+  <layout id ="clmTestMin" text="Lượng kiểm tối thiểu" />
+  <layout id ="clmTestCount" text="Lượng kiểm đã thực hiện" />
+  <layout id ="clmTansuat" text="Tần suất" />
+	<layout id ="colTestMinLocal" text="Lượng kiểm nội bộ tối thiểu" />
+	<layout id ="colTestCountLocal" text="Lượng kiểm nội bộ đã thực hiện" />
+	<layout id ="colTansuatLocal" text="Tần suất kiểm nội bộ" />
+  <layout id ="label1" text="Kho:"/>
+</root>

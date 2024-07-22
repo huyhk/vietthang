@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReportAccountTransactionCash" text="Sổ Quỹ tiền mặt" />
+  <layout id="lblAccountCode" text="Tài khoản" />
+  <layout id="lblSubjectCash" text="Đối tượng" />
+  <layout id="btnRefresh" text="Xem" />
+  <layout id="colAccountTransactionDate" text="Ngày ghi sổ" />
+  <layout id="colNgayCT" text="Ngày Chứng từ" />
+  <layout id="colAccountTransactionNo" text="Số phiếu" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="colDebitAmount" text="Nợ" />
+  <layout id="colCreditAmount" text="Có" />
+  <layout id="colAccountTransactionDate2" text="Ngày ghi sổ" />
+  <layout id="colNgayCT2" text="Ngày Chứng từ" />
+  <layout id="colAccountTransactionNo2" text="Số phiếu" />
+  <layout id="colDebitAmount2" text="Nợ" />
+  <layout id="colCreditAmount2" text="Có" />
+  <layout id="colDUAccountCode" text="Tài khoản (ĐƯ)" />
+  <layout id="colDescription2" text="Diễn giải" />
+  <layout id="btnReport1" text="In sổ Quỹ tiền mặt" />
+  <layout id="btnReport2" text="In chi tiết sổ Quỹ tiền mặt" />
+  
+</root>

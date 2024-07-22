@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReportBaocaoTonkhoTheoCayhang" text="Báo cáo tồn kho theo cây hàng" />
+<layout id="colItemCode" text="Mã hàng" />
+<layout id="colItemName" text="Tên hàng" />
+<layout id="colStockLocationCode" text="Vị trí chất cây" />
+<layout id="colTondauky" text="Tồn đầu kỳ" />
+<layout id="colNhapMua" text="Nhập mua" />
+<layout id="colNhapKhac" text="Nhập khác" />
+<layout id="colXuatSX" text="Xuất sản xuất" />
+<layout id="colXuatKhac" text="Xuất khác" />
+<layout id="colChenhlechkho" text="Chênh lệch kho" />
+<layout id="colToncuoiky" text="Tồn cuối kỳ" />
+<layout id="colNgaynhap" text="Ngày nhập" />
+<layout id="colNgaycuoi" text="Ngày kết thúc" />
+<layout id="colSongayluukho" text="Số ngày lưu kho" />
+<layout id="colUutiensudung" text="Ưu tiên sử dụng" />
+<layout id="btnPrint" text="In báo cáo" />
+<layout id="checkEditReportToExcel" text="Kết xuất ra Excel" />
+</root>

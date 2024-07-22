@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportInvoiceOutItem" text="Bảng kê hoá đơn chứng từ hàng hoá dịch vụ bán ra"/>
+	<layout id="lbMucThue" text="Thuế suất"/>
+	<layout id="lbNameText" text="Tên cơ sở kinh doanh"/>
+	<layout id="lbAddress" text="Địa chỉ"/>
+	<layout id="lbMSThue" text="MS thuế"/>
+	<layout id="lbTime" text="Kỳ kế toán"/>
+	<layout id="btReport" text="Xem"/>
+	<layout id="btnPrintReport" text="In báo cáo"/>
+	<layout id="colKyHieu" text="Ký hiệu"/>
+	<layout id="colSoHD" text="Số HĐ"/>
+	<layout id="colNgay" text="Ngày"/>
+	<layout id="colTenNguoiMua" text="Tên người mua"/>
+	<layout id="colMSThue" text="MS thuế"/>
+	<layout id="colMatHang" text="Mặt hàng"/>
+	<layout id="colDoanhSo" text="Doanh số"/>
+	<layout id="colThueSuat" text="Thuế suất"/>
+	<layout id="colThueGTGT" text="Thuế GTGT"/>
+	<layout id="colGhiChu" text="Ghi chú"/>
+	<layout id="lookUpBranchCode-SubjectCode" text="Mã"/>
+	<layout id="lookUpBranchCode-SubjectName" text="Tên chi nhánh"/>
+	<layout id="lookUpEditDate-Description" text=""/>
+	<layout id="btnExportToExcel" text="Xuất báo cáo ra excel"/>
+	<layout id="TemplateFileNotExists" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\KeToan\\BangKeHHBan.xls"/>
+	<layout id="Validate-1" text="Chưa chọn chi nhánh!"/>
+</root>
+

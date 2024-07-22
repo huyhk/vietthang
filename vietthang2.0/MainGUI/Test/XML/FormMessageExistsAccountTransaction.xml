@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnCancel" text="Bỏ qua" />
+	<layout id="btnDeleteAndCreat" text="Xoá phiếu và tạo lại" />
+	<layout id="btnOpenEdit" text="Sửa phiếu" />
+	<layout id="btnOpenView" text="Xem phiếu" />
+</root>
+

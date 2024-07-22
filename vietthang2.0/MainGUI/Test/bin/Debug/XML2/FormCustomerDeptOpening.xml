@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormCustomerDeptOpening" text="Tồn đầu công nợ KH ngày"/>
+	<layout id="colInvoiceNo" text="Số hoá đơn"/>
+  <layout id="colCustomerCode" text="Mã KH"/>
+  <layout id="colCustomerName" text="Tên KH"/>
+	<layout id="colInvoiceDate" text="Ngày hoá đơn"/>
+	<layout id="colOrgAmount" text="Tiền hoá đơn"/>
+	<layout id="colPaidAmount" text="Đã trả"/>
+	<layout id="colRemainAmount" text="Còn lại"/>
+	<layout id="colDateLimit" text="Có hạn trả"/>
+	<layout id="colDueDate" text="Hạn trả"/>
+	<layout id="colStockCode" text="Nơi xuất HĐ"/>
+  <layout id="colCustomerCode2" text="Mã KH"/>
+  <layout id="colCustomerName2" text="Tên KH"/>
+  <layout id="colRemainAmount2" text="Số tiền"/>
+  <layout id="groupBox1" text="Công nợ trả trước: "/>
+  <layout id="groupBox2" text="Chi tiết hóa đơn nợ: "/>
+
+  <message id="VALIDATE-1" text="Chưa chọn nơi xuất HĐ!" />
+  <message id="VALIDATE-2" text="Chưa chọn khách hàng!" />
+  <message id="VALIDATE-3" text="Lỗi khi nhập liệu: Khách hàng không hợp lệ!" />
+  <message id="INSERT-1" text="Lỗi khi lưu dữ liệu!" />
+  <message id="INSERT-2" text="Kỳ kế toán này không tồn tại!" />
+  <message id="INSERT-3" text="Khách hàng này không tồn tại!" />
+  <message id="INSERT-4" text="Kho hàng này không tồn tại!" />
+  <message id="INSERT-5" text="Khách hàng trong kỳ, kho, hoá đơn này đã tồn tại!" />
+  
+  <message id="UPDATE-1" text="Cập nhật không thành công!" />
+  <message id="UPDATE-2" text="Cập nhật không thành công!" />
+  <message id="UPDATE-3" text="Mã KH đã bị xoá bởi user khác!" />
+  <message id="UPDATE-4" text="Kho đã bị xoá bởi user khác!" />
+
+</root>
+
+

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="lblDescription" text="Ghi chú" />
+<layout id="lblDetailHD" text="Chi tiết hóa đơn" />
+<layout id="lblDetailPN" text="Chi tiết phiếu nhập" />
+<layout id="lblInvoiceAmount" text="Tổng cộng" />
+<layout id="lblTaxAmount" text="Tiền thuế" />
+<layout id="lblTaxRate" text="Thuế suất" />
+<layout id="lblTienhang" text="Tiền hàng" />
+<layout id="colTItemCode" text="Mặt hàng" />
+<layout id="colTQuantity" text="Số lượng" />
+<layout id="colTPrice" text="Đơn giá" />
+<layout id="colTAmount" text="Thành tiền" />
+<layout id="btnSelectDetail" text="Chọn phiếu nhập kho..." />
+<layout id="colItemName" text="Mặt hàng" />
+<layout id="colPCNo" text="Hợp đồng" />
+<layout id="colPNNo" text="Phiếu nhập" />
+<layout id="colPNDate" text="Ngày" />
+<layout id="colStockName" text="Kho" />
+<layout id="colQuantity" text="Số lượng" />
+<layout id="colPrice" text="Đơn giá" />
+<layout id="colAmount" text="Thành tiền" />
+<layout id="lblSubject" text="Nhà cung cấp" />
+<layout id="lblInvoiceDate" text="Ngày" />
+<layout id="lblInvoiceNo" text="Số Hóa đơn" />
+<layout id="lblInvoiceSeri" text="Số Seri" />
+</root>

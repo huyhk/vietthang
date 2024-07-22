@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="FormEditVesselInsuranceContract" text="Hợp đồng bảo hiểm chuyến tàu" />
+
+<layout id="label1" text="Số hợp đồng" />
+<layout id="label2" text="Đơn vị bảo hiểm" />
+<layout id="label3" text="Trị giá bảo hiểm" />
+<layout id="label4" text="Đơn giá đền bù" />
+<layout id="label5" text="Ghi chú" />
+<layout id="label6" text="Ngày" />
+<layout id="label7" text="Mã chuyến tàu" />
+<layout id="label8" text="Hao hụt cho phép" />
+<layout id="label9" text="Mã tiền tệ" />
+
+
+
+<layout id="dateEditContractDate" text="6/27/2008" />
+  <message id ="INSERT-1" text ="Số hợp đồng này đã tồn tại" />
+  <message id ="UPDATE-1" text ="Số hợp đồng này đã tồn tại" />
+
+
+
+</root>

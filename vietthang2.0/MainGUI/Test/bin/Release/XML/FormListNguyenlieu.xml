@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormListNguyenlieu" text="Danh sách nguyên liệu"/>
+  <layout id="colItemCode" text="Nguyên liệu"/>
+  <layout id="colMaterialCode" text="Mã"/>
+  <layout id="colWeight" text="Số lượng"/>
+  <layout id="btnPrint" text="In"/>
+</root>

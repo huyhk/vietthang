@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormStockTransport" text="Danh sách mã xe trong kho"/>
+  <layout id="lbStockTransportCode" text="Mã xe"/>
+  <layout id="lbStockTransportName" text="Tên xe"/>
+  <layout id="lbWeight" text="Trọng lượng"/>
+  <layout id="lbDescription" text="Ghi Chú"/>
+  <layout id="lbStockCode" text="Mã kho"/>
+  <layout id="lbStockName" text="Tên kho"/>
+  <!--setting GirdView-->
+  <layout id="colStockTransportCode" text="Mã xe"/>
+  <layout id="colStockTransportName" text="Tên xe"/>
+  <layout id="colWeight" text="Trọng lượng"/>
+  <layout id="colDescription" text="Ghi Chú"/>
+  <layout id="colUserCreated" text="User tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="User cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã xe !"/>
+  <message id="VALIDATE-2" text="Trọng lượng xe phải lớn hơn 0!"/>
+  <message id="INSERT-1" text="Mã xe nầy đã tốn tại!" />
+  <message id="INSERT-2" text="Mã kho nầy không tồn tại!" />
+  <message id="INSERT-3" text="Lỗi thêm dữ liệu!" />
+  <message id="UPDATE-1" text="Mã kho hoặc mã xe nầy không có!" />
+  <message id="UPDATE-2" text="Lỗi cập nhật dữ liệu!" />
+
+</root>
+

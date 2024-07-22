@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormInventory" text="Tồn đầu nguyên liệu ngày: " />
+  <layout id="lbStock" text="Chọn kho" />
+  <!--seting GridView-->
+
+  <layout id="colStockLocationCode" text="Vị trí kho" />
+  <layout id="colItemCode" text="Mã hàng" />
+  <layout id="colQuantity" text="Số lượng" />
+  <layout id="colUserCreated" text="User tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="User cập nhật"/>
+  <layout id="colItemName" text="Tên"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã kho!" />
+  <message id="VALIDATE-2" text="Chưa nhập mã thời gian tồn!" />
+  <message id="VALIDATE-3" text="Chưa nhập mã hàng!" />
+  <message id="VALIDATE-4" text="Số lượng phải lớn hơn 0!" />
+  <message id="INSERT-1" text="Trùng lập dữ liệu!!" />
+  <message id="INSERT-2" text="Mã thời gian tồn thuộc một trong các dòng dữ liệu thêm vào không tồn tại!" />
+  <message id="INSERT-3" text="Mã kho nầy không tồn tại!" />
+  <message id="INSERT-4" text="Mã hàng thuộc một trong các dòng dữ liệu thêm vào không tồn tại!" />
+
+</root>

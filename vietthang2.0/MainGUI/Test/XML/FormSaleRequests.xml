@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormSaleRequests" text="Phiếu yêu cầu xuất bán" />
+  <layout id="lblStockCode" text="Nhà máy"/>
+	<layout id="lblThang" text="Kỳ"/>
+  <layout id="colCustomerOrderNo" text="Đơn hàng" />
+  <layout id="colCustomerCode" text="Tên khách hàng" />
+  <layout id="colTransportCode" text="Đơn vị vận chuyển" />
+  <layout id="colSaleRequestNo" text="Số phiếu" />
+  <layout id="colSaleRequestDate" text="Ngày" />
+  <layout id="colPTVC" text="Phương tiện vận chuyển" />
+  <layout id="colDueDate" text="Hạn trả" />
+	<layout id="colInvoiceDate" text="Ngày hoá đơn" />
+  <layout id="colInvoiceAmount" text="Tiền hoá đơn" />
+  <layout id="colInvoiceDiscount" text="Chiết khấu hoá đơn" />
+  <layout id="colTaxRate" text="Thuế(VAT)" />
+  <layout id="colTaxAmount" text="Tiền thuế" />
+  <layout id="colInvoiceNo" text="Số hoá đơn " />
+  <layout id="colBeforeTaxAmount" text="Tiền chưa thuế" />
+  <layout id="colIsFinished" text="Đã thực hiện" />
+  <layout id="colQuantity" text="SL bán" />
+  <layout id="colDiscountAmount" text="Tiền chiết khấu" />
+  <layout id="colDiscountDescription" text="Nội dung chiết khấu" />
+  <layout id="colGiamgia" text="Giảm giá" />
+  <layout id="colUserCreated" text="User tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="User cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+	<message id="DELETE-1" text="Phiếu yêu cầu đã được thực hiện, không thể xóa!"/>
+  <message id="DELETE-2" text="Phiếu này không tồn tại!!!"/>
+	<message id="DELETE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+	
+</root>
+

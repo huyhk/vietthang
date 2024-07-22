@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormProductWeights" text="Danh mục Trọng lượng thành phẩm"/>
+  <layout id="lblweightcode" text="Mã"/>
+  <layout id="lblweight" text="Trọng lượng (kg)"/>
+  <layout id="lbldescription" text="Ghi Chú"/>
+  <layout id="WeightCode" text="Mã"/>
+  <layout id="Weight" text="Trọng lượng (kg)"/>
+  <layout id="Description" text="Ghi chú"/>
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="VALIDATE-1" text="Chưa Nhập Mã trong Lượng!"/>
+  <message id="VALIDATE-2" text="Chưa Nhập Trong Lượng!"/>
+  <message id="VALIDATE-3" text="Trong Lượng Phải Lớn Hơn Hay Bằng Không!"/>
+  <message id="INSERT-1" text="Mã Trọng Lượng Đã Tồn Tại!"/>
+  <message id="UPDATE-1" text="Mã Trọng Lượng Không Tồn Tại!"/>
+  <message id="DELETE-1" text="Mã Trọng Lượng Không Tồn Tại!"/>
+
+</root>

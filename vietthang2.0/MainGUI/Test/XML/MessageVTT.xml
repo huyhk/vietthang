@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<!--Get from ss" /-->
+	<message id ="FormEditManufactures-VALIDATE-1" text="Vui lòng chọn Kho làm việc!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-2" text="Vui lòng chọn Ca làm việc!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-3" text="Vui lòng chọn Line làm việc!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-4" text="Vui lòng chọn Trưỡng ca làm việc!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-5" text="Vui lòng chọn Người nghiền!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-6" text="Vui lòng chọn Người ép!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-7" text="Vui lòng chọn Loại thành phẩm!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-8" text="Vui lòng chọn Size!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-9" text="Vui lòng chọn loại bao bì!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-10" text="Vui lòng chọn Công thức!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-11" text="Vui lòng nhập Số lượng nạp!!!"/>
+	<message id ="FormEditManufactures-VALIDATE-12" text="Vui lòng nhập Số lương thành phẩm!!!"/>
+	<message id="FormEditManufactures-DELETE-1" text="Lỗi trong khi lưu dữ liệu!!!"/>
+	<message id="FormEditManufactures-DELETE-2" text="Mã sản xuất không tồn tại!!!"/>
+
+
+	<message id ="FormEditMixPremixs-VALIDATE-1" text="Vui lòng chọn Kho làm việc!!!"/>
+	<message id ="FormEditMixPremixs-VALIDATE-2" text="Vui lòng chọn Ca làm việc!!!"/>
+	<message id ="FormEditMixPremixs-VALIDATE-3" text="Vui lòng chọn Loại thành phẩm!!!"/>
+	<message id ="FormEditMixPremixs-VALIDATE-4" text="Vui lòng chọn Công thức!!!"/>
+	<message id ="FormEditMixPremixs-VALIDATE-5" text="Vui lòng nhập Số lượng nạp!!!"/>
+	<message id ="FormEditMixPremixs-VALIDATE-6" text="Vui lòng nhập Số lương thành phẩm!!!"/>
+	<message id="FormEditMixPremixs-DELETE-1" text="Lỗi trong khi lưu dữ liệu!!!"/>
+	<message id="FormEditMixPremixs-DELETE-2" text="Mã sản xuất không tồn tại!!!"/>
+	<message id ="FormEditGrindMaterials-VALIDATE-1" text="Vui lòng chọn Kho làm việc!!!"/>
+	<message id ="FormEditGrindMaterials-VALIDATE-2" text="Vui lòng chọn Ca làm việc!!!"/>
+	<message id ="FormEditGrindMaterials-VALIDATE-3" text="Vui lòng chọn Loại thành phẩm!!!"/>
+	<message id ="FormEditGrindMaterials-VALIDATE-4" text="Vui lòng chọn Công thức!!!"/>
+	<message id ="FormEditGrindMaterials-VALIDATE-5" text="Vui lòng nhập Số lượng nạp!!!"/>
+	<message id ="FormEditGrindMaterials-VALIDATE-6" text="Vui lòng nhập Số lương thành phẩm!!!"/>
+	<message id="FormEditGrindMaterials-DELETE-1" text="Lỗi trong khi lưu dữ liệu!!!"/>
+	<message id="FormEditGrindMaterials-DELETE-2" text="Mã không tồn tại!!!"/>
+
+	<message id="FormProducts-VALIDATE-1" text="Chưa Nhập Mã Sản Phẩm!"/>
+	<message id="FormProducts-VALIDATE-2" text="Chưa Nhập Tên Sản Phẩm!"/>
+
+	<message id ="FormProductSizes-VALIDATE-1" text="Chưa Nhập Mã Kích Cỡ!"/>
+
+	<message id="FormProductWeights-VALIDATE-1" text="Chưa Nhập Mã trong Lượng!"/>
+	<message id="FormProductWeights-VALIDATE-2" text="Chưa Nhập Trong Lượng!"/>
+	<message id="FormProductWeights-VALIDATE-3" text="Trong Lượng Phải Lớn Hơn Hay Bằng Không!"/>
+
+
+	<message id="FormProducts-INSERT-1" text="Mã Mặt Hàng Đã Tồn Tại!"/>
+	<message id="FormProducts-UPDATE-1" text="Mã Mặt Hàng Không Tồn Tại!"/>
+	<message id="FormProducts-DELETE-1" text="Mã Mặt Hàng Không Tồn Tại!"/>
+
+	<message id="FormProductSizes-INSERT-1" text="Mã Kích Cỡ Đã Tồn Tại!"/>
+	<message id="FormProductSizes-UPDATE-1" text="Mã Kích Cỡ Không Tồn Tại!"/>
+	<message id="FormProductSizes-DELETE-1" text="Mã Kích Cỡ Không Tồn Tại!"/>
+
+	<message id="FormProductWeights-INSERT-1" text="Mã Trọng Lượng Đã Tồn Tại!"/>
+	<message id="FormProductWeights-UPDATE-1" text="Mã Trọng Lượng Không Tồn Tại!"/>
+	<message id="FormProductWeights-DELETE-1" text="Mã Trọng Lượng Không Tồn Tại!"/>
+
+	<message id="FormItemProduct-VALIDATE-1" text="Chưa nhập mã thành phẩm!" />
+	<message id="FormItemProduct-VALIDATE-2" text="Chưa nhập tên thành phẩm!" />
+	<message id="FormItemProduct-VALIDATE-3" text="Chưa nhập loại thành phẩm!" />
+	<message id="FormItemProduct-VALIDATE-4" text="Chưa nhập kích thước!" />
+	<message id="FormItemProduct-VALIDATE-5" text="Chưa nhập cân nặng!" />
+	<message id="FormItemProduct-INSERT-1" text=" Mã thành phẩm nầy đã tốn tại!" />
+	<message id="FormItemProduct-INSERT-2" text=" Loại thành phẩm nầy không tồn tại!" />
+	<message id="FormItemProduct-INSERT-3" text=" Kích cỡ nầy không có!" />
+	<message id="FormItemProduct-INSERT-4" text=" Sản phẩm nầy đã tốn tại!" />
+	<message id="FormItemProduct-UPDATE-1" text="Mã thành phẩm nầy không tồn tại!" />
+	<message id="FormItemProduct-UPDATE-2" text="Loại thành phẩm nầy không có!" />
+	<message id="FormItemProduct-UPDATE-3" text="Kích cỡ nầy không có!" />
+	<message id="FormItemProduct-UPDATE-4" text="Cân nặng nầy không có!" />
+
+	<message id="FormItemWrapping-VALIDATE-1" text="Chưa nhập mã thành phẩm!" />
+	<message id="FormItemWrapping-VALIDATE-2" text="Chưa nhập tên thành phẩm!" />
+	<message id="FormItemWrapping-VALIDATE-3" text="Chưa nhập loại thành phẩm!" />
+	<message id="FormItemWrapping-VALIDATE-4" text="Chưa nhập cân nặng!" />
+	<message id="FormItemWrapping-INSERT-1" text=" Mã thành phẩm nầy đã tốn tại!" />
+	<message id="FormItemWrapping-INSERT-2" text=" Loại thành phẩm nầy không tồn tại!" />
+	<message id="FormItemWrapping-INSERT-3" text=" Cân nặng nầy tốn tại!" />
+	<message id="FormItemWrapping-UPDATE-1" text="Mã thành phẩm nầy không tồn tại!" />
+	<message id="FormItemWrapping-UPDATE-2" text="Loại thành phẩm nầy không có!" />
+	<message id="FormItemWrapping-UPDATE-3" text="Cân nặng nầy không có!" />
+
+	<message id="FormStockTransport-VALIDATE-1" text="Chưa nhập mã xe !"/>
+	<message id="FormStockTransport-VALIDATE-2" text="Trọng lượng xe phải lớn hơn 0!"/>
+	<message id="FormStockTransport-INSERT-1" text="Mã xe nầy đã tốn tại!" />
+	<message id="FormStockTransport-INSERT-2" text="Mã kho nầy không tồn tại!" />
+	<message id="FormStockTransport-INSERT-3" text="Lỗi thêm dữ liệu!" />
+	<message id="FormStockTransport-UPDATE-1" text="Mã kho hoặc mã xe nầy không có!" />
+	<message id="FormStockTransport-UPDATE-2" text="Lỗi cập nhật dữ liệu!" />
+
+	<message id="FormItems-VALIDATE-1" text="Chưa nhập mã hàng!"/>
+	<message id="FormItems-INSERT-1" text="Mã hàng nầy đã tốn tại!" />
+	<message id="FormItems-UPDATE-1" text="Mã hàng nầy không tồn tại!" />
+
+	<message id="FormUser-VALIDATE-1" text="Chưa nhập tên đăng nhập!"/>
+	<message id="FormUser-INSERT-1" text="Tên đăng nhập nầy đã có!" />
+	<message id="FormUser-INSERT-2" text="Lỗi thêm giữ liệu!" />
+	<message id="FormUser-UPDATE-1" text="Tên đăng nhập nầy không tồn tại!" />
+	<message id="FormUser-UPDATE-2" text="Lỗi sữa dữ liệu!" />
+
+	<message id="FormChangePassWord-ControlValid" text="PassWord cũ không đúng!" />
+	<message id="FormChangePassWord-Confirm" text="Xác nhận lại không đúng!" />
+	<message id="FormChangePassWord-UPDATE" text="Đổi PassWord thành công!" />
+	<message id="FormChangePassWord-UPDATE-2" text="Lỗi sữa dữ liệu!" />
+
+	<message id="FormInventory-VALIDATE-1" text="Chưa nhập mã kho!" />
+	<message id="FormInventory-VALIDATE-2" text="Chưa nhập mã thời gian tồn!" />
+	<message id="FormInventory-VALIDATE-3" text="Chưa nhập mã hàng!" />
+	<message id="FormInventory-VALIDATE-4" text="Số lượng phải lớn hơn 0!" />
+	<message id="FormInventory-INSERT-1" text="Trùng lập dữ liệu!!" />
+	<message id="FormInventory-INSERT-2" text="Mã thời gian tồn thuộc một trong các dòng dữ liệu thêm vào không tồn tại!" />
+	<message id="FormInventory-INSERT-3" text="Mã kho nầy không tồn tại!" />
+	<message id="FormInventory-INSERT-4" text="Mã hàng thuộc một trong các dòng dữ liệu thêm vào không tồn tại!" />
+
+	<message id="FormManufactureInventory-VALIDATE-1" text="Chưa nhập mã kho!" />
+	<message id="FormManufactureInventory-VALIDATE-2" text="Chưa nhập mã thời gian tồn!" />
+	<message id="FormManufactureInventory-VALIDATE-3" text="Chưa nhập mã hàng!" />
+	<message id="FormManufactureInventory-VALIDATE-4" text="Số lượng phải lớn hơn 0!" />
+	<message id="FormManufactureInventory-INSERT-1" text="Mã hàng trùng nhau!" />
+	<message id="FormManufactureInventory-INSERT-2" text="Mã thời gian tồn thuộc một trong các dòng dữ liệu thêm vào không tồn tại!" />
+	<message id="FormManufactureInventory-INSERT-3" text="Mã kho nầy không tồn tại!" />
+	<message id="FormManufactureInventory-INSERT-4" text="Mã hàng thuộc một trong các dòng dữ liệu thêm vào không tồn tại!" />
+	<message id="FormReportInventory-VALIDATE-1" text="Chưa nhập ngày bắt đầu!" />
+	<message id="FormReportInventory-VALIDATE-2" text="Chưa nhập ngày cuối!" />
+	<message id="FormReportInventory-VALIDATE-3" text="Chưa nhập mã kho!" />
+
+	<message id="FormPremixWrapping-VALIDATE-1" text="Chưa nhập mã bao bì!" />
+	<message id="FormPremixWrapping-VALIDATE-2" text="Chưa nhập mã thuốc!" />
+	<message id="FormPremixWrapping-INSERT-1" text="Mã bao bì nầy đã có!" />
+	<message id="FormPremixWrapping-UPDATE-1" text="không có mã bao bì nầy!" />
+
+	<message id="FormPremixFormulaDetail-VALIDATE-1" text="Chưa nhập  công thức!" />
+	<message id="FormPremixFormulaDetail-VALIDATE-2" text="Chưa nhập  thuốc!" />
+	<message id="FormPremixFormulaDetail-VALIDATE-3" text="Cân nặng phải lớn hơn 0!" />
+	<message id="FormPremixFormulaDetail-VALIDATE-4" text="Chưa nhập nguyên liệu!" />
+	<message id="FormPremixFormulaDetail-VALIDATE-5" text="Mã công thức nầy có rồi!" />
+	<message id="FormPremixFormulaDetail-INSERT-1" text="Trùng lập dữ liệu!" />
+	<message id="FormPremixFormulaDetail-INSERT-2" text="Không tồn tại công thức nầy!" />
+	<message id="FormPremixFormulaDetail-INSERT-3" text="Thuốc nầy không có" />
+	<message id="FormPremixFormulaDetail-INSERT-4" text="Nguyên liệu không có!" />
+
+
+	<message id="FormMaterialFormulaDetail-VALIDATE-1" text="Chưa nhập  công thức!" />
+	<message id="FormMaterialFormulaDetail-VALIDATE-2" text="Chưa nhập  nguyên liệu!" />
+	<message id="FormMaterialFormulaDetail-VALIDATE-3" text="Cân nặng phải lớn hơn 0!" />
+	<message id="FormMaterialFormulaDetail-VALIDATE-4" text="Chưa nhập nguyên liệu!" />
+	<message id="FormMaterialFormulaDetail-VALIDATE-5" text="Công thức nầy có rồi!" />
+	<message id="FormMaterialFormulaDetail-INSERT-1" text="Trùng lập dữ liệu!" />
+	<message id="FormMaterialFormulaDetail-INSERT-2" text="Không tồn tại công thức nầy!" />
+	<message id="FormMaterialFormulaDetail-INSERT-3" text="Thuốc nầy không có" />
+	<message id="FormMaterialFormulaDetail-INSERT-4" text="Nguyên liệu không có!" />
+
+	<!--My msg" /-->
+	<!--message id="DeleteConfirm" text="Xóa chắc hông?" /-->
+	<message id ="FormStock-VALIDATE-1" text="Chưa có mã kho!"/>
+	<message id ="FormStock-VALIDATE-2" text="Bạn chưa chọn thủ kho!"/>
+	<message id ="FormStock-VALIDATE-3" text="Chưa có tên kho!"/>
+	<message id ="FormStock-VALIDATE-4" text="Chưa có số hiệu!"/>
+	<message id="FormStock-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormStock-INSERT-2" text="Login name đã bị huỷ!"/>
+	<message id="FormStock-INSERT-3" text="Tên thủ kho đã bị xoá bởi user khác!"/>
+	<message id="FormStock-INSERT-4" text="Mã kho đã tồn tại!"/>
+	<message id="FormStock-INSERT-5" text="Số hiệu đã tồn tại!"/>
+	<message id="FormStock-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormStock-DELETE-2" text="Mã kho đã bị xoá bởi user khác!"/>
+	<message id="FormStock-DELETE-3" text="Login name đã bị huỷ!"/>
+	<message id="FormStock-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormStock-UPDATE-2" text="Login name đã bị huỷ!"/>
+	<message id="FormStock-UPDATE-3" text="Mã kho đã bị xoá bởi user khác!"/>
+	<message id="FormStock-UPDATE-4" text="Cập nhật không thành công vì kho đang có vị trí!"/>
+	<message id="FormStock-UPDATE-5" text="Số hiệu đã tồn tại!"/>
+
+	<message id ="FormStockLocation-VALIDATE-1" text="Chưa có số lô!"/>
+	<message id ="FormStockLocation-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id ="FormStockLocation-INSERT-2" text="Login name đã bị huỷ!"/>
+	<message id ="FormStockLocation-INSERT-3" text="số lô đã tồn tại!"/>
+	<message id ="FormStockLocation-INSERT-4" text="Mã kho đã bị xoá bởi user khác!"/>
+	<message id="FormStockLocation-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormStockLocation-DELETE-2" text="Mã kho đã bị xoá bởi user khác!"/>
+	<message id="FormStockLocation-DELETE-3" text="Số lô đã bị xoá bởi user khác!"/>
+	<message id="FormStockLocation-DELETE-4" text="Login name đã bị huỷ!"/>
+	<message id="FormStockLocation-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormStockLocation-UPDATE-2" text="Login name đã bị huỷ!"/>
+	<message id="FormStockLocation-UPDATE-3" text="Mã kho đã bị xoá bởi user khác!"/>
+	<message id="FormStockLocation-UPDATE-4" text="Số lô đã bị xoá bởi user khác!"/>
+
+	<message id ="FormProductFormula-ErrorClickbtnDetail-1" text="Bạn chưa lưu dữ liệu!"/>
+	<message id ="FormProductFormula-ErrorClickbtnDetail-2" text="Chưa có công thức!"/>
+	<message id ="FormProductFormula-VALIDATE-1" text="Chưa có mã công thức!"/>
+	<message id="FormProductFormula-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormProductFormula-INSERT-2" text="Login name đã bị huỷ!"/>
+	<message id="FormProductFormula-INSERT-3" text="Mã công thức đã tồn tại!"/>
+	<message id="FormProductFormula-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormProductFormula-DELETE-2" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormula-DELETE-3" text="Mã công thức đã có chi tiết, bạn phải xoá chi tiết trước khi xoá mã công thức!"/>
+	<message id="FormProductFormula-DELETE-4" text="Login name đã bị huỷ!"/>
+	<message id="FormProductFormula-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormProductFormula-UPDATE-2" text="Login name đã bị huỷ!"/>
+	<message id="FormProductFormula-UPDATE-3" text="Mã công thức đã bị xoá bởi user khác!"/>
+
+	<message id="FormProductFormulaDetail-VALIDATE-1" text="Chưa chọn mã sản phẩm!"/>
+	<message id="FormProductFormulaDetail-VALIDATE-2" text="Chưa có mã nguyên liệu nào cả!"/>
+	<message id="FormProductFormulaDetail-VALIDATE-3" text="Trọng lượng phải lớn hơn 0!"/>
+	<message id="FormProductFormulaDetail-VALIDATE-4" text="Chưa chọn mã nguyên liệu!"/>
+	<message id="FormProductFormulaDetail-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormProductFormulaDetail-INSERT-4" text="Không tìm thấy mã nguyên liệu trong danh sách nguyên liệu!"/>
+	<message id="FormProductFormulaDetail-INSERT-5" text="Mã sản phẩm đã vị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-INSERT-7" text="Mã nguyên liệu không được trùng nhau!"/>
+	<message id="FormProductFormulaDetail-INSERT-8" text="Công thức đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormProductFormulaDetail-DELETE-2" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-DELETE-3" text="Mã sản phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormProductFormulaDetail-UPDATE-3" text="Mã sản phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-UPDATE-4" text="Mã nguyên liệu đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-UPDATE-5" text="Mã sản phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormProductFormulaDetail-UPDATE-7" text="Mã nguyên liệu không được trùng nhau!"/>
+
+	<message id="FormWeightItem-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormWeightItem-DELETE-2" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormWeightItem-DELETE-3" text="Login name đã bị huỷ!" />
+
+	<message id="FormWeightItemDetail-VALIDATE-1" text="Chưa chọn nhà máy!" />
+	<message id="FormWeightItemDetail-VALIDATE-2" text="Chưa có số phiếu!" />
+	<message id="FormWeightItemDetail-VALIDATE-3" text="Trọng lượng bao bì không được âm!" />
+	<message id="FormWeightItemDetail-VALIDATE-4" text="Chưa có mã hàng!" />
+	<message id="FormWeightItemDetail-VALIDATE-5" text="Chưa xác định nhân viên cân!" />
+	<message id="FormWeightItemDetail-VALIDATE-6" text="Trọng lượng mỗi lần cân phải lớn hơn 0!" />
+	<message id="FormWeightItemDetail-VALIDATE-7" text="Số lượng bao bì mỗi lần cân phải lớn hơn 0!" />
+	<message id="FormWeightItemDetail-VALIDATE-8" text="Trọng lượng cân được phải lớn hơn tổng trọng lượng bao bì và xe!" />
+	<message id="FormWeightItemDetail-VALIDATE-9" text="Có chi tiết chưa chọn mã vị trí!" />
+	<message id="FormWeightItemDetail-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormWeightItemDetail-INSERT-3" text="Mã kho đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-INSERT-4" text="Mã hàng đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-INSERT-5" text="Mã nhân viên đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-INSERT-8" text="Số lô tương ứng trong kho đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-INSERT-9" text="Login name đã bị huỷ!" />
+	<message id="FormWeightItemDetail-INSERT-10" text="Mã xe đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-INSERT-11" text="Mã NX đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormWeightItemDetail-UPDATE-2" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-UPDATE-3" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-UPDATE-4" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-UPDATE-5" text="Login name đã bị huỷ!" />
+	<message id="FormWeightItemDetail-UPDATE-8" text="Số lô tương ứng trong kho đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-UPDATE-9" text="Mã NX đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormWeightItemDetail-DELETE-2" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormWeightItemDetail-DELETE-3" text="Login name đã bị huỷ!" />
+
+	<message id="FormStockTransactionDetail-VALIDATE-1" text="Chưa chọn kho!" />
+	<message id="FormStockTransactionDetail-VALIDATE-2" text="Chưa chọn kho xuất!" />
+	<message id="FormStockTransactionDetail-VALIDATE-3" text="Chưa chọn kho nhập!" />
+	<message id="FormStockTransactionDetail-VALIDATE-4" text="Kho xuất và kho nhập phải khác nhau!" />
+	<message id="FormStockTransactionDetail-VALIDATE-5" text="Chưa có số phiếu!" />
+	<message id="FormStockTransactionDetail-VALIDATE-6" text="Chưa chọn mã nhập/xuất!" />
+	<message id="FormStockTransactionDetail-VALIDATE-7" text="Chưa chọn mã hàng!" />
+	<message id="FormStockTransactionDetail-VALIDATE-8" text="Chưa chọn số lô!" />
+	<message id="FormStockTransactionDetail-VALIDATE-9" text="Chưa chọn số lô xuất!" />
+	<message id="FormStockTransactionDetail-VALIDATE-10" text="Chưa chọn sô lô nhập!" />
+	<message id="FormStockTransactionDetail-VALIDATE-11" text="Số lượng phải lớn hơn 0!" />
+	<message id="FormStockTransactionDetail-VALIDATE-12" text="Tổng số lượng phải bằng số lượng ban đầu!" />
+	<message id="FormStockTransactionDetail-VALIDATE-13" text="Phân lô không hợp lệ!" />
+	<message id="FormStockTransactionDetail-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormStockTransactionDetail-INSERT-2" text="Mã kho xuất đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-3" text="Login name đã bị huỷ!" />
+	<message id="FormStockTransactionDetail-INSERT-4" text="Mã kho nhập đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-6" text="Số lô nhập trong kho tương ứng đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-7" text="Số lô xuất trong kho tương ứng đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-8" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-9" text="Mã hàng đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-10" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-11" text="Phiếu cân được chọn đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-12" text="Mã nhập/xuất đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-INSERT-13" text="Số phiếu đã tồn tại!" />
+	<message id="FormStockTransactionDetail-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormStockTransactionDetail-DELETE-2" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-DELETE-3" text="Login name đã bị huỷ!" />
+	<message id="FormStockTransactionDetail-DELETE-4" text="Không thể xoá phiếu được tạo bởi bộ phận khác!" />
+	<message id="FormStockTransactionDetail-DELETE-5" text="Xoá không thành công vì phiếu đã được bộ phận xác nhận!" />
+	<message id="FormStockTransactionDetail-DELETE-6" text="Xoá không thành công vì phiếu này đã được định khoản!" />
+	<message id="FormStockTransactionDetail-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormStockTransactionDetail-UPDATE-2" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-3" text="Mã kho xuất đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-4" text="Login name đã bị huỷ!" />
+	<message id="FormStockTransactionDetail-UPDATE-5" text="Mã kho nhập đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-6" text="Số lô nhập trong kho tương ứng đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-7" text="Số lô xuất trong kho tương ứng đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-8" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-9" text="Mã hàng đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-10" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-11" text="Phiếu cân được chọn đã bị xoá bởi user khác!" />
+	<message id="FormStockTransactionDetail-UPDATE-13" text="Số phiếu đã tồn tại!" />
+	<message id="FormStockTransactionDetail-UPDATE-14" text="Cập nhật không thành công vì phiếu đã được bộ phận xác nhận!" />
+
+	<message id="FormStockTransaction-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormStockTransaction-DELETE-2" text="Phiếu đã bị xoá bởi user khác!" />
+	<message id="FormStockTransaction-DELETE-3" text="Login name đã bị huỷ!" />
+	<message id="FormStockTransaction-DELETE-4" text="Không thể xoá phiếu được tạo bởi bộ phận khác!" />
+	<message id="FormStockTransaction-DELETE-5" text="Xoá không thành công vì phiếu đã được bộ phận xác nhận!" />
+	<message id="FormStockTransaction-DELETE-6" text="Xoá không thành công vì phiếu này đã được định khoản!" />
+
+	<message id="FormTransactionType-VALIDATE-1" text="Chưa nhập mã!" />
+	<message id="FormTransactionType-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormTransactionType-INSERT-2" text="Login name đã bị huỷ!" />
+	<message id="FormTransactionType-INSERT-3" text="Mã đã tồn tại!" />
+	<message id="FormTransactionType-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormTransactionType-UPDATE-2" text="Login name đã bị huỷ!" />
+	<message id="FormTransactionType-UPDATE-3" text="Mã đã bị xoá bởi user khác!" />
+	<message id="FormTransactionType-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormTransactionType-DELETE-2" text="Mã đã bị xoá bởi user khác!" />
+	<message id="FormTransactionType-DELETE-3" text="Login name đã bị huỷ!" />
+
+	<message id="FormCustomerDept-VALIDATE-1" text="Số tiền tối đa KH có thể nợ phải lớn hơn 0!" />
+	<message id="FormCustomerDept-VALIDATE-2" text="Số ngày KH được nợ phải lớn hơn 0!" />
+	<message id="FormCustomerDept-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormCustomerDept-INSERT-2" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDept-INSERT-3" text="Dữ liệu bị trùng!" />
+	<message id="FormCustomerDept-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormCustomerDept-UPDATE-2" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDept-UPDATE-3" text="Ngày tương ứng với KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDept-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormCustomerDept-DELETE-2" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDept-DELETE-3" text="Ngày tương ứng với KH đã bị xoá bởi user khác!" />
+
+	<message id="FormCustomerDiscount-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormCustomerDiscount-INSERT-2" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDiscount-INSERT-3" text="Dữ liệu bị trùng!" />
+	<message id="FormCustomerDiscount-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormCustomerDiscount-UPDATE-2" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDiscount-UPDATE-3" text="Ngày tương ứng với KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDiscount-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormCustomerDiscount-DELETE-2" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDiscount-DELETE-3" text="Ngày tương ứng với KH đã bị xoá bởi user khác!" />
+
+	<message id="FormItemSalePrice-VALIDATE-1" text="Giá bán phải lớn hơn 0!" />
+	<message id="FormItemSalePrice-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormItemSalePrice-INSERT-2" text="Mã sản phẩm đã bị xoá bởi user khác!" />
+	<message id="FormItemSalePrice-INSERT-3" text="Dữ liệu bị trùng!" />
+	<message id="FormItemSalePrice-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormItemSalePrice-UPDATE-2" text="Mã sản phẩm đã bị xoá bởi user khác!" />
+	<message id="FormItemSalePrice-UPDATE-3" text="Ngày tương ứng với sản phẩm đã bị xoá bởi user khác!" />
+	<message id="FormItemSalePrice-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormItemSalePrice-DELETE-2" text="Mã sản phẩm đã bị xoá bởi user khác!" />
+	<message id="FormItemSalePrice-DELETE-3" text="Ngày tương ứng với sản phẩm đã bị xoá bởi user khác!" />
+
+	<message id="FormEditConfirmStockTransaction-ErrorButton1Click-1" text="Chưa xác định mã N/X!" />
+	<message id="FormEditConfirmStockTransaction-ErrorButton1Click-2" text="Chưa có phiếu!" />
+	<message id="FormEditConfirmStockTransaction-VALIDATE-1" text="Chưa có số hoá đơn!"/>
+	<message id="FormEditConfirmStockTransaction-VALIDATE-2" text="Chưa nhập nội dung chiết khấu!"/>
+	<message id="FormEditConfirmStockTransaction-VALIDATE-3" text="Chưa nhập tiền chiết khấu!"/>
+	<message id="FormEditConfirmStockTransaction-UPDATE-1" text="Xác nhận không thành công!"/>
+	<message id="FormEditConfirmStockTransaction-UPDATE-2" text="Phiếu đã bị xoá bởi user khác!"/>
+
+	<message id="FormCustomerPayments-VALIDATE-1" text="Chưa có số!" />
+	<message id="FormCustomerPayments-VALIDATE-2" text="Chưa chọn khách hàng!" />
+	<message id="FormCustomerPayments-VALIDATE-3" text="Chưa chọn hình thức trả!" />
+	<message id="FormCustomerPayments-VALIDATE-4" text="Chưa chọn kho!" />
+	<message id="FormCustomerPayments-VALIDATE-5" text="Số tiền phải lớn hơn 0!" />
+	<message id="FormCustomerPayments-INSERT-1" text="Thêm mới không thành công!" />
+	<message id="FormCustomerPayments-INSERT-2" text="Số đã tồn tại!" />
+	<message id="FormCustomerPayments-INSERT-3" text="Khách hàng đã bị xoá bởi user khác!" />
+	<message id="FormCustomerPayments-INSERT-4" text="Kho đã bị xoá bởi user khác!" />
+	<message id="FormCustomerPayments-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormCustomerPayments-UPDATE-2" text="Thông tin đã bị xoá bởi user khác!" />
+	<message id="FormCustomerPayments-UPDATE-3" text="Số đã tồn tại!" />
+	<message id="FormCustomerPayments-UPDATE-4" text="Khách hàng đã bị xoá bởi user khác!" />
+	<message id="FormCustomerPayments-UPDATE-5" text="Kho đã bị xoá bởi user khác!" />
+	<message id="FormCustomerPayments-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormCustomerPayments-DELETE-2" text="Thông tin đã bị xoá bởi user khác!" />
+
+	<message id="FormCustomerDeptOpening-VALIDATE-1" text="Chưa chọn kho!" />
+	<message id="FormCustomerDeptOpening-VALIDATE-2" text="Chưa chọn khách hàng!" />
+	<message id="FormCustomerDeptOpening-UPDATE-1" text="Cập nhật không thành công!" />
+	<message id="FormCustomerDeptOpening-UPDATE-2" text="Cập nhật không thành công!" />
+	<message id="FormCustomerDeptOpening-UPDATE-3" text="Mã KH đã bị xoá bởi user khác!" />
+	<message id="FormCustomerDeptOpening-UPDATE-4" text="Kho đã bị xoá bởi user khác!" />
+
+	<message id="FormManufacturePlanMonth-DELETE-1" text="Xoá không thành công!" />
+	<message id="FormManufacturePlanMonth-DELETE-2" text="Kế hoạch đã bị xoá bởi user khác!" />
+
+	<message id="FormEditManufacturePlanMonth-VALIDATE-1" text="Chưa chọn kho!"/>
+	<message id="FormEditManufacturePlanMonth-VALIDATE-2" text="Chưa có năm!"/>
+	<message id="FormEditManufacturePlanMonth-VALIDATE-3" text="Có chi tiết chưa chọn mã thành phẩm!"/>
+	<message id="FormEditManufacturePlanMonth-VALIDATE-4" text="Có chi tiết chưa chọn công thức!"/>
+	<message id="FormEditManufacturePlanMonth-VALIDATE-5" text="Số lượng của từng chi tiết không được nhỏ hơn 0!"/>
+	<message id="FormEditManufacturePlanMonth-VALIDATE-6" text="Chi tiết không được trùng mã thành phẩm và mã công thức!"/>
+	<message id="FormEditManufacturePlanMonth-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormEditManufacturePlanMonth-INSERT-2" text="Kế hoạch đã tồn tại!"/>
+	<message id="FormEditManufacturePlanMonth-INSERT-3" text="Kho đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-INSERT-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-INSERT-6" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormEditManufacturePlanMonth-UPDATE-2" text="Kế hoạch đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-UPDATE-3" text="Kế hoạch đã tồn tại!"/>
+	<message id="FormEditManufacturePlanMonth-UPDATE-4" text="Kho đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-UPDATE-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-UPDATE-6" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanMonth-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormEditManufacturePlanMonth-DELETE-2" text="Kế hoạch đã bị xoá bởi user khác!"/>
+
+	<message id="FormEditManufacturePlanWeek-VALIDATE-1" text="Chưa chọn kho!"/>
+	<message id="FormEditManufacturePlanWeek-VALIDATE-2" text="Chưa có năm!"/>
+	<message id="FormEditManufacturePlanWeek-VALIDATE-3" text="Có chi tiết chưa chọn mã thành phẩm!"/>
+	<message id="FormEditManufacturePlanWeek-VALIDATE-4" text="Có chi tiết chưa chọn công thức!"/>
+	<message id="FormEditManufacturePlanWeek-VALIDATE-5" text="Số lượng từng ngày của từng chi tiết không được nhỏ hơn 0!"/>
+	<message id="FormEditManufacturePlanWeek-VALIDATE-6" text="Chi tiết không được trùng mã thành phẩm và mã công thức!"/>
+	<message id="FormEditManufacturePlanWeek-VALIDATE-7" text="Năm bạn chọn không có tuần thứ 53!"/>
+	<message id="FormEditManufacturePlanWeek-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormEditManufacturePlanWeek-INSERT-2" text="Kế hoạch đã tồn tại!"/>
+	<message id="FormEditManufacturePlanWeek-INSERT-3" text="Kho đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-INSERT-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-INSERT-6" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormEditManufacturePlanWeek-UPDATE-2" text="Kế hoạch đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-UPDATE-3" text="Kế hoạch đã tồn tại!"/>
+	<message id="FormEditManufacturePlanWeek-UPDATE-4" text="Kho đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-UPDATE-5" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-UPDATE-6" text="Mã công thức đã bị xoá bởi user khác!"/>
+	<message id="FormEditManufacturePlanWeek-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormEditManufacturePlanWeek-DELETE-2" text="Kế hoạch đã bị xoá bởi user khác!"/>
+
+	<message id="FormAccount-VALIDATE-1" text="Chưa nhập mã tài khoản!"/>
+	<message id="FormAccount-VALIDATE-2" text="Chưa nhập tên tài khoản!"/>
+	<message id="FormAccount-VALIDATE-3" text="Chưa chọn loại tài khoản!"/>
+	<message id="FormAccount-VALIDATE-4" text="Chưa chọn tài khoản cha!"/>
+	<message id="FormAccount-VALIDATE-5" text="Chưa chọn loại yếu tố cần theo dõi!"/>
+	<message id="FormAccount-VALIDATE-6" text="Mã tài khoản không phù hợp với tài khoản cha!"/>
+	<message id="FormAccount-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormAccount-INSERT-2" text="Mã tài khoản đã tồn tại!"/>
+	<message id="FormAccount-INSERT-3" text="Loại yếu tố đã bị xoá bởi user khác!"/>
+	<message id="FormAccount-INSERT-4" text="Loại đối tượng đã bị xoá bởi user khác!"/>
+	<message id="FormAccount-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormAccount-UPDATE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+	<message id="FormAccount-UPDATE-3" text="Loại yếu tố đã bị xoá bởi user khác!"/>
+	<message id="FormAccount-UPDATE-4" text="Loại đối tượng đã bị xoá bởi user khác!"/>
+	<message id="FormAccount-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormAccount-DELETE-2" text="Tài khoản đã bị xoá bởi user khác!"/>
+
+	<message id="FormCustomerDiscount2-VALIDATE-1" text="Chưa chọn loại chiết khấu!"/>
+	<message id="FormCustomerDiscount2-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormCustomerDiscount2-INSERT-2" text="Loại chiết khấu đã bị xoá bởi user khác!"/>
+	<message id="FormCustomerDiscount2-INSERT-3" text="Mã khách hàng đã bị xoá bởi user khác!"/>
+	<message id="FormCustomerDiscount2-INSERT-4" text="Dữ liệu đã tồn tại!"/>
+	<message id="FormCustomerDiscount2-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormCustomerDiscount2-UPDATE-2" text="Dữ liêu đã bị xoá bởi user khác!"/>
+	<message id="FormCustomerDiscount2-UPDATE-3" text="Loại chiết khấu đã bị xoá bởi user khác!"/>
+	<message id="FormCustomerDiscount2-UPDATE-4" text="Mã khách hàng đã bị xoá bởi user khác!"/>
+	<message id="FormCustomerDiscount2-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormCustomerDiscount2-DELETE-2" text="Dữ liêu đã bị xoá bởi user khác!"/>
+
+	<message id="FormAccountSample-VALIDATE-1" text="Chưa nhập mã!"/>
+	<message id="FormAccountSample-VALIDATE-2" text="Chưa nhập tên!"/>
+	<message id="FormAccountSample-VALIDATE-3" text="Có chi tiết không có tài khoản nợ và tài khoản có!"/>
+	<message id="FormAccountSample-VALIDATE-4" text="Bạn chưa refesh Template 2!"/>
+	<message id="FormAccountSample-INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="FormAccountSample-INSERT-2" text="Mã đã tồn tại!"/>
+	<message id="FormAccountSample-UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="FormAccountSample-UPDATE-2" text="Mã đã bị xoá bởi user khác!"/>
+	<message id="FormAccountSample-DELETE-1" text="Xoá không thành công!"/>
+	<message id="FormAccountSample-DELETE-2" text="Mã đã bị xoá bởi user khác!"/>
+
+</root>

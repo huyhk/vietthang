@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="lblDateTime" text="Đến ngày:"/>
+  <layout id="btnOk" text="Chấp nhận"/>
+  <layout id="btnCancel" text="Hủy bỏ"/>
+  <layout id="Info-1" text="Thành công"/>
+  <layout id="Info-2" text="Lỗi trong khi lưu dữ liệu!!"/>
+  
+</root>

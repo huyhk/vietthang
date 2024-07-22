@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormPurchaseContractTemplate" text="Mẫu hợp đồng"/>
+<layout id="lblTemplateName" text="Tên" />
+<layout id="lblTemplateContent" text="Nội dung" />
+<layout id="lblItemCode" text="Mặt hàng" />
+<layout id="lblTemplateType" text="Điều khoản" />
+<layout id="lblTemplateCode" text="Mã" />
+
+<layout id="colTemplateCode" text="Mã" />
+<layout id="colTemplateName" text="Tên" />
+<layout id="colTemplateType" text="Điều khoản" />
+<layout id="colItemCode" text="Mặt hàng" />
+<layout id="colTemplateContent" text="Nội dung" />
+
+  <message id="VALIDATE-1" text="Bạn chưa nhập Mã"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập Tên" />
+  <message id="VALIDATE-3" text="Bạn chưa chọn Mặt hàng"/>
+  <message id="INSERT-1" text="Mã này đã tồn tại"/>
+</root>

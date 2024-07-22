@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="label1" text="Đơn vị bốc xếp" />
+<layout id="label2" text="Kho" />
+
+<layout id="gridColumn3" text="Từ ngày" />
+<layout id="gridColumn4" text="Đến ngày" />
+<layout id="gridColumn6" text="Diễn giải" />
+<layout id="gridColumn7" text="Người tạo" />
+<layout id="gridColumn8" text="Ngày tạo" />
+<layout id="gridColumn9" text="Người sửa" />
+<layout id="gridColumn10" text="Ngày sửa" />
+<layout id="btnRefresh" text="Refresh" />
+
+
+	<message id="DELETE-1" text="Biên bản đã bị xóa!"/>
+
+</root>
+
+

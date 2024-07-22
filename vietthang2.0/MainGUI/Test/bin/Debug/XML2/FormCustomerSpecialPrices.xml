@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormCustomerSpecialPrices" text="Bảng giá đặc biệt"/>
+<layout id="lblSubject" text="Khách hàng:" />
+<layout id="lblStartDate" text="Ngày bắt đầu:" />
+<layout id="lblDescription" text="Ghi chú:" />
+
+<layout id="colItemCode" text="Mã hàng" />
+<layout id="colItemName" text="Tên hàng" />
+<layout id="colPrice" text="Giá (đã tính thuế)" />
+  
+<layout id="btDesigner" text="Run Designer" />
+<layout id="colStartDate" text="Ngày bắt đầu" />
+<layout id="colSubjectName" text="Khách hàng" />
+<layout id="colDescription" text="Ghi chú" />
+
+  <message id="VALIDATE-1" text="Bạn chưa chọn khách hàng"/>
+  <message id="INSERT-1" text="Trùng dữ liệu"/>
+  <message id="UPDATE-1" text="Trùng dữ liệu"/>
+</root>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormAccountInventoryProduct" text="Kiểm kê kho thành phẩm"/>
+	<layout id="colStockCode" text="Kho"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colItemName" text="Tên hàng"/>
+	<layout id="lbTime" text="Kỳ kế toán"/>
+	<layout id="lbAccount" text="Tài khoản"/>
+	<layout id="colQuantityStock" text="Tồn Module kho"/>
+	<layout id="colQuantityAccountStock" text="Tồn kho kế toán"/>
+	<layout id="colInventory" text="Kiểm kê"/>
+	<layout id="btnCopy" text="Copy Tồn Module kho"/>
+	<layout id="btnProduct" text="Tạo phiếu nhập thành phẩm sản xuất"/>
+
+  <message id="INSERT-1" text="Lưu không thành công!"/>
+  <message id="UPDATE-1" text="Lưu không thành công!"/>
+  <message id="Warning-1" text="Trong kỳ đã có phiếu nhập thành phẩm sản xuất, bạn có muốn xoá đi để tạo lại (Y/N?)"/>"
+	<message id="Warning-2" text="Bạn có muốn xoá phiếu đi để tạo lại (Y/N?)"/>"
+	<message id="Info-1" text="Trong kỳ đã có phiếu nhập thành phẩm sản xuất!"/>"
+	<message id="Info-2" text="Xoá không thành công, không thể tạo lại phiếu nhập thành phẩm sản xuất!"/>"
+	<message id="Delete-1" text="Xoá không thành công, không thể tạo lại phiếu nhập thành phẩm sản xuất!"/>
+
+</root>
+

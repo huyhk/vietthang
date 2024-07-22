@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  
+		
+  <!--FormFixedAssetOpening-->
+	
+	
+	
+	
+	
+	<message id="FormEditFixedAssetGeneral-INSERT-1" text="Lổi trong khi lưu dữ liệu!"/>
+	<message id="FormEditFixedAssetGeneral-INSERT-2" text="Mã TSCĐ không tồn tại!"/>
+	<message id="FormEditFixedAssetGeneral-DELETE-1" text="Lổi trong khi xoá dữ liệu!"/>
+
+  
+  
+</root>

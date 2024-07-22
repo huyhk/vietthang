@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="gridControl1" text="" />
+  <layout id="LevelSelector" text="" />
+  <layout id="panel" text="" />
+  <layout id="pnlClient" text="" />
+  <layout id="tree" text="" />
+  <layout id="pnlButton" text="" />
+  <layout id="btPopulateDetail" text="Retrieve Details" />
+  <layout id="lblLine" text="" />
+  <layout id="btDesigner" text="Run Designer" />
+  <layout id="TypeCode" text="Mã loại" />
+  <layout id="TypeName" text="Tên loại" />
+  <layout id="Description" text="Mô tả" />
+  <layout id="UserCreated" text="Người tạo" />
+  <layout id="DateCreated" text="Ngày tạo" />
+  <layout id="UserUpdated" text="Người sửa" />
+  <layout id="DateUpdated" text="Ngày sửa" />
+  <layout id="UCBocXepType" text="" />
+  <layout id="tableLayoutPanel1" text="" />
+  <layout id="label2" text="Diễn giải" />
+  <layout id="memoMoTa" text="" />
+  <layout id="txtTenLoai" text="" />
+  <layout id="label3" text="Tên loại" />
+  <layout id="txtMaLoai" text="" />
+  <layout id="label1" text="Mã loại" />
+  <layout id="panelTop" text="" />
+  <layout id="tableLayoutPanelTop" text="" />
+  <layout id="tableLayoutButton" text="" />
+  <layout id="btnCancel" text="Bỏ qua F8" />
+  <layout id="btnRemove" text="Xóa F7" />
+  <layout id="btnEdit" text="Sửa F6" />
+  <layout id="btnAdd" text="Thêm mới F5" />
+  <layout id="btnSaveClose" text="Lưu và đóng F4" />
+  <layout id="btnSaveNew" text="Lưu và tạo mới F3" />
+  <layout id="btnSave" text="Lưu F2" />
+  <layout id="navigatorFrmEditBase" text="" />
+  <layout id="tableLayoutPanel1" text="" />
+  <layout id="btnLast" text=":" />
+  <layout id="txtPosition" text="0" />
+  <layout id="btnNext" text="4" />
+  <layout id="btnFirst" text="9" />
+  <layout id="btnPrev" text="3" />
+  <layout id="btnClose" text="Đóng" />
+  <layout id="barDockControlLeft" text="" />
+  <layout id="barDockControlRight" text="" />
+  <layout id="barDockControlBottom" text="" />
+  <layout id="barDockControlTop" text="" />
+  <message id="VALIDATE-1" text="Chưa nhập mã loại!"/>
+  <message id="VALIDATE-2" text="Chưa nhập tên loại!"/>
+  
+  <message id="INSERT-1" text="Mã loại đã tồn tại!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  
+</root>
+

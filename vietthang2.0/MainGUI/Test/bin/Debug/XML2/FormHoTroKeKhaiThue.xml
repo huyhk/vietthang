@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormHoTroKeKhaiThue" text="Tờ khai thuế Giá trị gia tăng (GTGT)" />
+
+
+<layout id="btnExportFile" text="Kết xuất ra txt" />
+<layout id="btnReports" text="In" />
+<layout id="lblMasothue" text="Mã số thuế" />
+<layout id="label153" text="Email" />
+<layout id="label152" text="Fax" />
+<layout id="label151" text="Tỉnh/ Thành phố" />
+<layout id="label150" text="Điện thoại" />
+<layout id="label99" text="Quận/ huyện" />
+<layout id="label149" text="Địa chỉ trụ sở" />
+<layout id="lblTencoso" text="Tên cơ sở kinh doanh" />
+<layout id="lblNguoiky" text="Người ký" />
+<layout id="label37" text="Khai thuế GTGT phải nộp Ngân sách nhà nước" />
+<layout id="label83" text="Tổng doanh thu và thuế GTGT của HHDV bán ra&#xD;&#xA;([38]=[24]+[34]-[36], [39]=[25]+[35]-[37])" />
+<layout id="label65" text="Hàng hóa, dịch vụ bán ra chịu thuế GTGT&#xD;&#xA;([27]=[29]+[30]+[32]; [28]=[31]+[33])" />
+<layout id="label39" text="Hàng hóa, dịch vụ mua vào trong kỳ&#xD;&#xA;([12]=[14]+[16]; [13]=[15]+[17])" />
+
+<layout id="label36" text="Thuế GTGT còn được khấu trừ kỳ trước chuyển sang" />
+<layout id="label79" text="Điều chỉnh thuế GTGT của HHDV bán ra các kỳ trước" />
+<layout id="label49" text="Điều chỉnh thuế GTGT của HHDV mua vào các kỳ trước" />
+<layout id="label85" text=" Xác định nghĩa vụ thuế GTGT phải nộp trong kỳ" />
+<layout id="label14" text=" Hàng hóa, dịch vụ bán ra" />
+<layout id="label69" text="     Hàng hóa, dịch vụ bán ra chịu thuế 0%" />
+<layout id="label21" text="Hàng hóa, dịch vụ bán ra không chịu thuế GTGT" />
+<layout id="label61" text="Tổng số thuế GTGT được khấu trừ kỳ này" />
+<layout id="label18" text="Hàng hóa, dịch vụ bán ra trong kỳ ([24]=[26]+[27]; [25]=[28])" />
+<layout id="label77" text="     Hàng hóa, dịch vụ bán ra chịu thuế 10%" />
+<layout id="label78" text="     Điều chỉnh giảm" />
+<layout id="label57" text="     Điều chỉnh giảm" />
+<layout id="label60" text="Tổng số thuế GTGT của HHDV mua vào ([22]=[13]+[19]-[21])" />
+<layout id="label76" text="     Hàng hóa, dịch vụ bán ra chịu thuế 5%" />
+<layout id="label94" text="Thuế GTGT đề nghị hoàn kỳ này" />
+<layout id="label148" text="" />
+<layout id="label146" text="" />
+<layout id="label147" text="" />
+<layout id="label145" text="" />
+<layout id="label91" text="Thuế GTGT chưa khấu trừ hết kỳ này ([41]=[39]-[23]-[11])" />
+<layout id="label97" text="Thuế GTGT còn được khấu trừ chuyển kỳ sau ([43]=[41]-[42])" />
+<layout id="label89" text="Thuế GTGT phải nộp trong kỳ ([40]=[39]-[23]-[11])" />
+<layout id="label30" text="    Điều chỉnh tăng" />
+<layout id="label46" text="     Hàng hóa, dịch vụ nhập khẩu" />
+<layout id="label56" text="    Điều chỉnh tăng" />
+<layout id="label43" text="     Hàng hóa, dịch vụ mua vào trong nước" />
+<layout id="label38" text="Hàng hóa, dịch vụ (HHDV) mua vào" />
+<layout id="checkSGT10" text="" />
+<layout id="checkGT10" text="" />
+<layout id="label4" text="B" />
+<layout id="label33" text="Không phát sinh hoạt động mua bán trong kỳ (Đánh dấu &quot;X&quot;)" />
+<layout id="label84" text="III" />
+<layout id="label128" text="" />
+<layout id="label68" text="" />
+<layout id="label13" text="II" />
+<layout id="label67" text="a" />
+<layout id="label127" text="" />
+<layout id="label22" text="" />
+<layout id="label20" text="1.1" />
+<layout id="label59" text="4" />
+<layout id="label17" text="1" />
+<layout id="label29" text="2" />
+<layout id="label75" text="c" />
+<layout id="label28" text="b" />
+<layout id="label10" text="2" />
+<layout id="label55" text="b" />
+<layout id="label9" text="b" />
+<layout id="label126" text="[25]" />
+<layout id="label132" text="[33]" />
+<layout id="label16" text="[25]" />
+<layout id="label74" text="[33]" />
+<layout id="label139" text="[37]" />
+<layout id="label119" text="[23]" />
+<layout id="label27" text="[37]" />
+<layout id="label12" text="[23]" />
+<layout id="label138" text="[39]" />
+<layout id="label118" text="[21]" />
+<layout id="label82" text="[39]" />
+<layout id="label54" text="[21]" />
+<layout id="label117" text="[22]" />
+<layout id="label125" text="[28]" />
+<layout id="label64" text="[28]" />
+<layout id="label11" text="[22]" />
+<layout id="label143" text="[42]" />
+<layout id="label93" text="[42]" />
+<layout id="label124" text="[29]" />
+<layout id="label66" text="[29]" />
+<layout id="label142" text="[41]" />
+<layout id="label90" text="[41]" />
+<layout id="label141" text="[43]" />
+<layout id="label96" text="[43]" />
+<layout id="label103" text="[11]" />
+<layout id="label98" text="[11]" />
+<layout id="label112" text="[13]" />
+<layout id="label42" text="[13]" />
+<layout id="label140" text="[40]" />
+<layout id="label131" text="[31]" />
+<layout id="label88" text="[40]" />
+<layout id="label137" text="[35]" />
+<layout id="label73" text="[31]" />
+<layout id="label26" text="[35]" />
+<layout id="label123" text="[26]" />
+<layout id="label116" text="[19]" />
+<layout id="label19" text="[26]" />
+<layout id="label122" text="[24]" />
+<layout id="label53" text="[19]" />
+<layout id="label130" text="[32]" />
+<layout id="label15" text="[24]" />
+<layout id="label136" text="[36]" />
+<layout id="label72" text="[32]" />
+<layout id="label25" text="[36]" />
+<layout id="label111" text="[17]" />
+<layout id="label115" text="[20]" />
+<layout id="label48" text="[17]" />
+<layout id="label129" text="[30]" />
+<layout id="label52" text="[20]" />
+<layout id="label71" text="[30]" />
+<layout id="label135" text="[34]" />
+<layout id="label110" text="[15]" />
+<layout id="label24" text="[34]" />
+<layout id="label45" text="[15]" />
+<layout id="label114" text="[18]" />
+<layout id="label109" text="[16]" />
+<layout id="label51" text="[18]" />
+<layout id="label47" text="[16]" />
+<layout id="label58" text="3" />
+<layout id="label108" text="[14]" />
+<layout id="label92" text="2.1" />
+<layout id="label44" text="[14]" />
+<layout id="label87" text="2" />
+<layout id="label95" text="2" />
+<layout id="label70" text="b" />
+<layout id="label134" text="[38]" />
+<layout id="label86" text="1" />
+<layout id="label81" text="[38]" />
+<layout id="label121" text="[27]" />
+<layout id="label23" text="a" />
+<layout id="label63" text="[27]" />
+<layout id="label50" text="a" />
+<layout id="label107" text="[12]" />
+<layout id="label80" text="3" />
+<layout id="label35" text="[12]" />
+<layout id="label62" text="1.2" />
+<layout id="label8" text="a" />
+<layout id="label7" text="1" />
+<layout id="label34" text="[10]" />
+<layout id="label6" text="I" />
+<layout id="label5" text="C" />
+<layout id="label3" text="A" />
+<layout id="btnCopyData" text="Sao chép tính toán" />
+
+<layout id="lblKyKT" text="Kỳ kê khai" />
+<layout id="label102" text="THUẾ GTGT (Lưu)" />
+<layout id="label32" text="THUẾ GTGT (tính toán)" />
+<layout id="label1" text="STT" />
+<layout id="label101" text="GIÁ TRỊ HHDV (Lưu)" />
+<layout id="label2" text="CHỈ TIÊU" />
+<layout id="label31" text="GIÁ TRỊ HHDV (tính toán)" />
+<message id="INSERT-1" text="Lưu không thành công!"/>
+<message id="INSERT-2" text="Kỳ kê khai này không tồn tại!"/>
+</root>

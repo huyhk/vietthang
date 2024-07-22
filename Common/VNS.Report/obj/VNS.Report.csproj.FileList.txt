@@ -1,0 +1,13 @@
+bin\Debug\VNS.Report.dll
+bin\Debug\VNS.Report.pdb
+bin\Debug\VNS.Common.dll
+bin\Debug\VNS.Data.dll
+bin\Debug\VNS.Security.dll
+bin\Debug\VNS.Utils.dll
+bin\Debug\VNS.Utils.pdb
+bin\Debug\VNS.Common.pdb
+bin\Debug\VNS.Data.pdb
+bin\Debug\VNS.Security.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VNS.Report.dll
+obj\Debug\VNS.Report.pdb

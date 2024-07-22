@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormPrePaidExpenseOpening" text="Tồn đầu Chi phí trả trước :"/>
+
+  <layout id="lblPrePaidCode" text="Mã CP"/>
+  <layout id="lblPrePaidName" text="Tên CP"/>
+  <layout id="lblPrePaidDate" text="Ngày Chứng từ"/>
+  <layout id="lblPrePaidNo" text="Số Chứng từ"/>
+  <layout id="lblAmount" text="Số tiền"/>
+  <layout id="lblDepMonth" text="Thời gian Phân bổ (Tháng)"/>
+  <layout id="lblAccountCode" text="Phân loại"/>
+  <layout id="lblSubjectCode" text="Phân nhóm"/>
+  <layout id="lblDescription" text="Diễn giải"/>
+  <layout id="lblAccumulatedDepreciation" text="Khấu hao luỹ kế"/>
+  <layout id="lblRemainCost" text="Giá trị còn lại"/>
+  <layout id="lblUnit" text="Đơn vị tính"/>
+  <layout id="lblDepRate" text="Tỉ lệ PB "/>
+  <layout id="lblDepStartDate" text="Ngày bắt đầu Khấu hao"/>
+  <layout id="lblQuantity" text="Số lượng"/>
+  <layout id="lblPrice" text="Đơn giá"/>
+  <layout id="lblDepAccountCode" text="Tài khoản KH"/>
+  <layout id="lblDepSubjectCode" text="Đối tượng"/>
+  <layout id="lblDepClassificationCode" text="Yếu tố"/>
+
+  <layout id="colUnit" text="ĐVT"/>
+  <layout id="colDepRate" text="Tỉ lệ PB "/>
+  <layout id="colQuantity" text="Số lượng"/>
+  <layout id="colPrice" text="Đơn giá"/>
+  <layout id="colPrePaidDate" text="Ngày Chứng từ"/>
+  <layout id="colPrePaidNo" text="Số Chứng từ"/>
+  <layout id="colPrePaidCode" text="Mã CP"/>
+  <layout id="colPrePaidName" text="Tên CP"/>
+  <layout id="colDepStartDate" text="Ngày bắt đầu KH"/>
+  <layout id="colAmount" text="Số tiền"/>
+  <layout id="colDepMonth" text="Thời gian PB(Tháng)"/>
+  <layout id="colDepAccountCode" text="Tài khoản KH"/>
+  <layout id="colDepSubjectCode" text="Đối tượng"/>
+  <layout id="colDepClassificationCode" text="Yếu tố"/>
+
+  <layout id="colAccountCode" text="Phân loại"/>
+  <layout id="colSubjectCode" text="Phân nhóm"/>
+  <layout id="colDescription" text="Diễn giải"/>
+  <layout id="colAccumulatedDepreciation" text="KH luỹ kế"/>
+  <layout id="colRemainCost" text="Giá trị còn lại"/>
+
+  <layout id="grbOpenning1" text="Thông tin CP"/>
+  <layout id="grbOpenning2" text="Thông tin khấu hao"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã Chi phí!" />
+  <message id="VALIDATE-2" text="Thời gian Phân bổ phải lớn hơn 0!" />
+  <message id="VALIDATE-3" text="Thời gian khấu hao không hợp lệ!" />
+  <message id="VALIDATE-4" text="Chưa chọn Phân loại!" />
+  <message id="VALIDATE-5" text="Chưa chọn Phân nhóm!" />
+  <message id="VALIDATE-6" text="Số lượng phải lớn hơn 0!" />
+  <message id="VALIDATE-7" text="Chưa chọn Tài khoản Khấu hao!" />
+
+  <message id="INSERT-20" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-21" text="Mã CP này đã tồn tại!"/>
+  <message id="UPDATE-20" text="Lỗi trong khi sửa dữ liệu!"/>
+  <message id="DELETE-20" text="Không thể xoá!"/>
+
+  <message id="INSERT-150" text="Mã công cụ dụng cụ đã bị xoá bởi user khác!"/>
+  <message id="INSERT-151" text="Mã đã tồn tại!"/>
+  <message id="UPDATE-150" text="Mã công cụ dụng cụ đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-151" text="Mã đã tồn tại!"/>
+  <message id="UPDATE-152" text="Phiếu nhập/xuất công cụ dụng cụ đã bị xoá bởi user khác!"/>
+
+
+
+</root>

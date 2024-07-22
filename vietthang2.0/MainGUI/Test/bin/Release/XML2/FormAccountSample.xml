@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="repLookUpEditDebitAccount-AccountCode" text="Mã TK"/>
+	<layout id="repLookUpEditDebitAccount-AccountName" text="Tên TK"/>
+	<layout id="lbSampleCode" text="Mã"/>
+	<layout id="lbSampleName" text="Tên"/>
+	<layout id="lbAccountTransactionTypeCode" text="Loại"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="tabPage1" text="Chi tiết đối ứng"/>
+	<layout id="tabPage2" text="Liệt kê"/>
+	<layout id="colDebitAccountCode" text=" TK nợ"/>
+	<layout id="colDebitSubjectCode" text="Đối tượng nợ"/>
+	<layout id="colDebitClassificationCode" text="Yếu tố nợ"/>
+	<layout id="colCreditAccountCode" text="TK có"/>
+	<layout id="colCreditSubjectCode" text="Đối tượng có"/>
+	<layout id="colCreditClassificationCode" text="Yếu tố có"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colAccountCode" text="Mã TK"/>
+	<layout id="colSubjectCode" text="Đối tượng"/>
+	<layout id="colClassificationCode" text="Yếu tố"/>
+	<layout id="colDescription1" text="Diễn giải"/>
+  <layout id="btnRefeshDetail2" text="Cập nhật từ chi tiết đối ứng"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã!"/>
+  <message id="VALIDATE-2" text="Chưa nhập tên!"/>
+  <message id="VALIDATE-3" text="Có chi tiết không có tài khoản nợ và tài khoản có!"/>
+  <message id="VALIDATE-4" text="Bạn chưa cập nhật chi tiết liệt kê!"/>
+  <message id="VALIDATE-5" text="Chưa chọn loại nghiệp vụ!"/>
+  <message id="INSERT-1" text="Thêm mới không thành công!"/>
+  <message id="INSERT-2" text="Mã đã tồn tại!"/>
+  <message id="INSERT-3" text="Loại nghiệp vụ đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-2" text="Mã đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-3" text="Loại nghiệp vụ đã bị xoá bởi user khác!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+  <message id="DELETE-2" text="Mã đã bị xoá bởi user khác!"/>
+
+</root>
+

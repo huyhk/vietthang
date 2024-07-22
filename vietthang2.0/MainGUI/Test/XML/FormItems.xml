@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormItems" text="Danh mục nguyên liệu" />
+  <layout id="lbItemCode" text="Mã " />
+  <layout id="lbDescription" text="Ghi chú" />
+  <layout id="lbItemName" text="Tên" />
+  <layout id="lbUnitWeight" text="ĐV bao" />
+  <layout id="lbItemtype" text="Loại nguyên liệu" />
+  <layout id="CheckOutByFormula" text="Xuất trực tiếp từ kho vào sản xuất" />
+  <layout id="lbUnit" text="ĐVT" />
+  <layout id="checkOutToStock" text="Nhập trực tiếp từ sản xuất" />
+  <layout id="lblItemGroup" text="Nhóm hàng"/>
+
+  <!--seting GridView-->
+  <layout id="colItemCode" text="Mã " />
+  <layout id="colItemName" text="Tên " />
+  <layout id="colUnitWeight" text="Đơn vị bao" />
+  <layout id="colDescription" text="Ghi chú" />
+  <layout id="colOutByFormula" text="Xuất kho" />
+  <layout id="colOutToStock" text="Nhập kho" />
+  <layout id="colUnit" text="Đơn vị" />
+  <layout id="colUserCreated" text="User tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="User cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập mã hàng!"/>
+  <message id="INSERT-1" text="Mã hàng nầy đã tốn tại!" />
+  <message id="UPDATE-1" text="Mã hàng nầy không tồn tại!" />
+
+
+</root>

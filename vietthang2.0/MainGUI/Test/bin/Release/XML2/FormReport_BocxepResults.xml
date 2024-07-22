@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReport_BocxepResults" text="Báo cáo Tổng kết bốc xếp"/>
+
+<layout id="colBocxepSubjectName" text="Đơn vị bốc xếp" />
+<layout id="colStockName" text="Kho" />
+<layout id="colQuantity" text="Khối lượng" />
+<layout id="colAmountNgoaigio" text="Tiền ngoài giờ" />
+<layout id="colAmountTronggio" text="Tiền" />
+  <layout id="colToBocxepName" text="Tổ bốc xếp"/>
+  <layout id="colQuantityTBX" text="Khối lượng"/>
+  <layout id="colAmountNgoaigioTBX" text="Tiền ngoài giờ"/>
+  <layout id="colAmountTronggioTBX" text="Tiền"/>
+  <layout id="colItemName" text="Loại hàng"/>
+  <layout id="colQuanttiyLH" text="Khối lượng"/>
+  <layout id="colAmountTronggioLH" text="Tiền"/>
+  <layout id="colAmountNgoaigioLH" text="Tiền ngoài giờ"/>
+
+
+<layout id="btnReportAmount" text="Tổng kết chi phí" />
+<layout id="btnReportQuantity" text="Tổng kết khối lượng" />
+  <layout id="btnReport3" text="Chi tiết bốc xếp"/>
+</root>

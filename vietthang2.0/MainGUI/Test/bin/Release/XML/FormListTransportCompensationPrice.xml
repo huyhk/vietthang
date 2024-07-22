@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="FormListTransportCompensationPrice" text="Đơn giá đền bù" />
+
+<layout id="colStartDate" text="Ngày bắt đầu" />
+<layout id="colItemCode" text="Mặt hàng" />
+<layout id="colPrice" text="Đơn giá" />
+
+</root>

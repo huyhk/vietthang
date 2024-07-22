@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportStockTransactionForTransactionType" text="Báo cáo chi tiết loại hình nhập xuất"/>
+	<layout id="btnExportToExcel" text="Xuất ra excel" />
+	<layout id="btnReport" text="Xem" />
+	<layout id="lbLoaiNX" text="Loại N/X" />
+	<layout id="optYear" text="Năm" />
+	<layout id="DateCaption" text="Ngày" />
+	<layout id="MonthCaption" text="Tháng" />
+	<layout id="VALIDATE-1" text="Chưa chọn loại nhập/xuất!" />
+	<layout id="VALIDATE-2" text="Chưa chọn kho!" />
+	<layout id="TemplateFileNotExists" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\Kho\\BCCTtheoloaiNXThang.xls" />
+	<layout id="TemplateFileNotExists1" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\Kho\\BCCTtheoloaiNXNam.xls" />
+
+</root>
+

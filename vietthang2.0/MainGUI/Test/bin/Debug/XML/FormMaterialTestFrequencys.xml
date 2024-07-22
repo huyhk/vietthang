@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormMaterialTestFrequencys" text="Tần suất kiểm nguyên liệu" />
+  <layout id="colStartDate" text="Ngày" />
+  <layout id="colTechName" text="Chỉ Tiêu" />
+  <layout id="colFrequencyType" text="Loại tần suất" />
+  <layout id="colQuantity" text="Tần suất kiểm ngoài" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="colItemCode" text="Mã sản phẩm" />
+  <layout id="colItemName" text="Tên sản phẩm" />
+    <layout id="colQuantityLocal" text="Tần suất nội bộ" />
+  <layout id="lblStartDate" text="Ngày" />
+  <layout id="lblTechCode" text="Chỉ tiêu" />
+  <layout id="lblDescription" text="Diễn giải" />
+  <layout id="lblQuantity" text="Tần suất kiểm ngoài" />
+  <layout id="lblFrequencyType" text="Loại tần suất" />
+  <layout id="lblQuantityLocal" text="Tần suất nội bộ" />
+
+
+  <message id="INSERT-1" text="Tần suất của chỉ tiêu này đã có"/>
+  <message id="UPDATE-1" text="Cập nhật mục này không thành công"/>
+  <message id="UPDATE-2" text="Mục này đã bị xóa bởi user khác"/>
+  <message id="DELETE-1" text="Xóa mục này không thành công"/>
+  <message id="VALIDATE-1" text="Bạn chưa chọn loại tần suất"/>
+  <message id="VALIDATE-2" text="Bạn chưa chọn chỉ tiêu"/>
+  
+</root>

@@ -1,0 +1,5 @@
+D:\Working\Scales\VNS.Scale.Helper\obj\Release\ResolveAssemblyReference.cache
+D:\Working\Scales\VNS.Scale.Helper\bin\Release\VNS.Scale.Helper.dll
+D:\Working\Scales\VNS.Scale.Helper\bin\Release\VNS.Scale.Helper.pdb
+D:\Working\Scales\VNS.Scale.Helper\obj\Release\VNS.Scale.Helper.dll
+D:\Working\Scales\VNS.Scale.Helper\obj\Release\VNS.Scale.Helper.pdb

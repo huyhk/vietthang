@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormRpCustomerPayments" text="Bảng chi tiết thu tiền khách hàng"/>
+	<layout id="lblTungay" text="Từ ngày"/>
+	<layout id="lblDenngay" text="Đến ngày"/>
+	<layout id="btnRefresh" text="Xem"/>
+	<layout id="colPaymentNo" text="Số chứng từ"/>
+	<layout id="colPaymentDate" text="Ngày"/>
+	<layout id="colCustomerCode" text="Mã KH"/>
+	<layout id="colSubjectName" text="Tên khách hàng"/>
+	<layout id="colAmount" text="Số tiền"/>
+	<layout id="colDescription" text="Ghi chú"/>
+	<layout id="btnReports" text="Báo cáo"/>
+
+</root>
+
+

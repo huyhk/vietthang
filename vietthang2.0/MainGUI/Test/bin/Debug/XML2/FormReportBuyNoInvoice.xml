@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormReportBuyNoInvoice" text="Bảng kê chứng từ mua vào không có hóa đơn"/>
+
+  <layout id="colNgaymua" text="Ngày mua"/>
+  <layout id="colTenNguoiban" text="Tên người bán"/>
+  <layout id="colDiachi" text="Địa chỉ"/>
+  <layout id="colTenMathang" text="Tên mặt hàng"/>
+  <layout id="colSoluong" text="Số lượng"/>
+  <layout id="colDongia" text="Đơn giá"/>
+  <layout id="colTienThanhtoan" text="Tiền thanh toán"/>
+  <layout id="colGhichu" text="Ghi chú"/>
+  <layout id="lblBranch" text="Chi nhánh"/>
+  <layout id="lblMaso" text="Mã số:"/>
+  <layout id="btnReports" text="In bảng kê"/>
+  <layout id="btnRefreshData" text="Xem"/>
+  
+  <layout id="lblDiachi" text="Địa chỉ:"/>
+  <layout id="lblTenCoso" text="Tên cơ sở kinh doanh:"/>
+  <layout id="lblDiachiTochuc" text="Địa chỉ nơi tổ chức thu mua:"/>
+  <layout id="lblNguoiphutrach" text="Người phụ trách thu mua:"/>
+
+</root>
+
+
+

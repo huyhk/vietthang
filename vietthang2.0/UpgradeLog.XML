@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VNS.ERP">
+</Property><Property Name="Solution File" Value="D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\vietthang2.0\VNS.ERP.sln">
+</Property><Property Name="Date" Value="15 Tháng Hai 2016">
+</Property><Property Name="Time" Value="10:20 SA">
+</Property></Properties><Event ErrorLevel="0" Project="VNS.Common" Source="..\Common\VNS.Common\VNS.Common.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Common" Source="..\Common\VNS.Common\VNS.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Data" Source="..\Common\VNS.Data\VNS.Data.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Data" Source="..\Common\VNS.Data\VNS.Data.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Security" Source="..\Common\VNS.Security\VNS.Security.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Security" Source="..\Common\VNS.Security\VNS.Security.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Utils" Source="..\Common\VNS.Utils\VNS.Utils.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Utils" Source="..\Common\VNS.Utils\VNS.Utils.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Windows" Source="..\Common\VNS.Windows\VNS.Windows.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Windows" Source="..\Common\VNS.Windows\VNS.Windows.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.ERP.Data" Source="VNS.ERP.Data\VNS.ERP.Data.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.ERP.Data" Source="VNS.ERP.Data\VNS.ERP.Data.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.ERP.GUI" Source="VNS.ERP.GUI\VNS.ERP.GUI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.ERP.GUI" Source="VNS.ERP.GUI\VNS.ERP.GUI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Context" Source="..\Common\VNS.Context\VNS.Context.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Context" Source="..\Common\VNS.Context\VNS.Context.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Localization" Source="..\Common\VNS.Localization\VNS.Localization.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VNS.Localization" Source="..\Common\VNS.Localization\VNS.Localization.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Test" Source="MainGUI\Test\Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Test" Source="MainGUI\Test\Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Scales.Control" Source="..\Common\VNS.Scale.Control\WindowsControlLibrary1\VNS.Scales.Control.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="VNS.Scales.Control" Source="..\Common\VNS.Scale.Control\WindowsControlLibrary1\VNS.Scales.Control.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="VNS.Scales.Helper" Source="..\Common\VNS.Scale.Helper\VNS.Scales.Helper.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="VNS.Scales.Helper" Source="..\Common\VNS.Scale.Helper\VNS.Scales.Helper.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="VNS.ERP.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VNS.ERP.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VNS.Common" Source="..\Common\VNS.Common\VNS.Common.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.Data" Source="..\Common\VNS.Data\VNS.Data.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.Security" Source="..\Common\VNS.Security\VNS.Security.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.Utils" Source="..\Common\VNS.Utils\VNS.Utils.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.Windows" Source="..\Common\VNS.Windows\VNS.Windows.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.ERP.Data" Source="VNS.ERP.Data\VNS.ERP.Data.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.ERP.GUI" Source="VNS.ERP.GUI\VNS.ERP.GUI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.Context" Source="..\Common\VNS.Context\VNS.Context.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VNS.Localization" Source="..\Common\VNS.Localization\VNS.Localization.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Test" Source="MainGUI\Test\Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

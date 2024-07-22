@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormToBocxeps" text="Danh mục Tổ bốc xếp"/>
+
+<layout id="clmSubjectCode" text="Mã công ty" />
+<layout id="clmSubjectName" text="Tên công ty" />
+
+<layout id="clmToBocxepCode" text="Mã tổ" />
+<layout id="clmToBocxepName" text="Tên tổ" />
+<layout id="clmDescription" text="Ghi chú" />
+<layout id="label1" text="Mã" />
+<layout id="label2" text="Tên" />
+<layout id="label4" text="Ghi chú" />
+  <message id="VALIDATE-1" text="Bạn chưa nhập Mã tổ"/>
+  <message id="VALIDATE-2" text="Bạn chưa nhập Tên tổ"/>
+  <message id="INSERT-1" text="Đã tồn tại Mã tổ này"/>
+  
+</root>

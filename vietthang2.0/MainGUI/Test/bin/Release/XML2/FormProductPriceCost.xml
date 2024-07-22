@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormProductPriceCost" text="Giá thành Sản phẩm"/>
+  <layout id="lblThang" text="Kỳ kế toán"/>
+  <layout id="lblChiphi" text="Chi phí NVL:"/>
+   <layout id="lblNC" text="Chi phí NC:"/>
+   <layout id="lblSXC" text="Chi phí SXC:"/>
+  <layout id="colAccountCode" text="TK"/>
+  <layout id="colAccountName" text="Tên "/>
+  <layout id="colTotalAmount" text="Tiền"/>
+  <layout id="colProductCode" text="Loại"/>
+  <layout id="colCostAmount" text="Hệ số"/>
+  <layout id="colQuantity" text="Số lượng"/>
+  <layout id="colCostCalculator" text="Hệ số tính"/>
+  <layout id="colAmountCalculator" text="Giá NVL tính toán"/>
+  <layout id="colPriceCost" text="Giá NVL"/>
+  <layout id="btnCopy" text="Copy Giá tính toán"/>
+  <layout id="btnUpdateGia" text="Cập nhật giá Nhập TP sx"/>
+  <layout id="checkEditExportExcel" text="Xuất ra excel"/>
+	<layout id="btnDinhkhoan" text="Kết chuyển tính giá thành"/>
+  <layout id="groupBox1" text="Chi phí Nguyên vật liệu"/>
+  <layout id="groupBox2" text="Chi phí Nhân công, SXC"/>
+  <layout id="groupBox3" text="Chi phí tính Giá thành"/>
+  <layout id="groupBox4" text="Bảng tính Giá thành Sản phẩm"/>
+  <layout id="colAmountCost" text="Thành tiền"/>
+  <layout id="colAmountCal" text="Tiền tính toán"/>
+  
+  <layout id="colQuantity3" text="Số lượng"/>
+  <layout id="colCapacity" text="Năng suất(Kg/h)"/>
+  <layout id="colTimes" text="Thời gian"/>
+  <layout id="colProductSizeCode" text="Loại"/>
+  <layout id="colAmountCalculatorNC" text="Giá NC tính toán"/>
+  <layout id="colNCPriceCost" text="Giá NC"/>
+  <layout id="colAmountCalculatorSXC" text="Giá SXC tính toán"/>
+  <layout id="colSXCPriceCost" text="Giá SXC"/>
+
+  <layout id="colQuantityAll" text="Số lượng"/>
+  <layout id="colItemCode" text="Mã"/>
+  <layout id="colPriceCostNC" text="Giá NC"/>
+  <layout id="colPriceCostSXC" text="Giá SXC"/>
+  <layout id="colPriceCostPro" text="Giá NVL"/>
+  <layout id="colPriceCostCal" text="Giá tính toán"/>
+  <layout id="colPriceCostInput" text="Giá thành"/>
+  
+  <message id="DELETE-1" text="Lỗi trong khi xóa dữ liệu!" />
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-2" text="Không tồn tại mã Thành phẩm này!"/>
+  <message id="INSERT-3" text="Thành phẩm này đã tồn tại!"/>
+  <message id="INSERT-4" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-5" text="Không tồn tại mã Kích cỡ này!"/>
+  <message id="INSERT-6" text="Kích cỡ này đã tồn tại!"/>
+  <message id="INSERT-7" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-8" text="Không tồn tại mã Thành phẩm này!"/>
+  <message id="INSERT-9" text="Thành phẩm này đã tồn tại!"/>
+
+  <message id="CONFIRM-UpdatePrice" text="Bạn có thật sự muốn cập nhật giá thành phẩm?"/>
+  <message id="RESPONSE-UpdatePrice" text="Đã cập nhật xong giá nhập thành phẩm sản xuất" />
+	<message id="MESSAGE-1" text="Phiếu này đã được tạo." />
+	<message id="MESSAGE-2" text="Lỗi trong khi xoá phiếu!" />
+</root>
+
+

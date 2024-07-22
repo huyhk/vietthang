@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormEditManufactures" text="Chi tiết phiếu sản xuất"/>
+  <layout id="lblSoluong" text="Số lượng(Kg)"/>
+  <layout id="lblBaobil" text="Bao bì sử dụng"/>
+  <layout id="lblBaobihu" text="Bao bì hư"/>
+  <layout id="lblLoai" text="Loại"/>
+  <layout id="lblNap" text="Nạp"/>
+  <layout id="lblEp" text="Ép"/>
+  <layout id="lblSize" text="Size"/>
+  <layout id="lblBaobi" text="Loại bao bì"/>
+  <layout id="lblKho" text="Kho"/>
+  <layout id="lblCa" text="Ca"/>
+  <layout id="lblNgay" text="Ngày SX"/>
+  <layout id="lblLine" text="Line"/>
+  <layout id="lblTruongca" text="Trưởng ca"/>
+  <layout id="lblNguoinghien" text="Người nghiền"/>
+  <layout id="lblNguoiep" text="Người ép"/>
+  <layout id="lblCongthuc" text="Công thức"/>
+  <layout id="lblSoluongnap" text="Số lượng nạp(Kg)"/>
+  <layout id="lblAm" text="Độ ẩm(%)"/>
+  <layout id="lblTilebot" text="Tỉ lệ bột(%)"/>
+  <layout id="lblDescription" text="Mô tả"/>
+  <layout id="lblCodeBaoTP" text="Code Bao TP"/>
+  <layout id="lblDomin" text="Độ mịn(%)"/>
+  <layout id="lblLot" text="Lot"/>
+  <layout id="colItemCodeTC" text="Nguyên liệu"/>
+  <layout id="colQuantityTC" text="Số lượng"/>
+  <layout id="colItemCodeNL" text="Nhiên liệu"/>
+  <layout id="colQuantityNL" text="Số lượng"/>
+  <layout id="colItemCodeDC" text="Nguyên liệu"/>
+  <layout id="colQuantityDC" text="Số lượng"/>
+  <layout id="colItemCodePP" text="Nguyên liệu"/>
+  <layout id="colQuantityPP" text="Số lượng"/>
+  <layout id="xtraTabPage1" text="Thông tin SX"/>
+  <layout id="xtraTabPage2" text="Chi tiết"/>
+  <layout id="lblKehoach" text="Kế hoạch"/>
+  <layout id="lblStartTime" text="Thời gian bắt đầu"/>
+  <layout id="lblEndTime" text="Thời gian kết thúc"/>
+  <layout id="lblDelayTime" text="Tổng thời gian dừng máy"/>
+  <layout id="lblElectricity" text="Năng lượng điện tiêu thụ(Kw)"/>
+  <layout id="chckEditmanufacture" text=" Không thay đổi chi tiết Nhập/Xuất"/>
+ 
+  <layout id="groupBox1" text="Ca"/>
+  <layout id="groupBox2" text="Nhân viên"/>
+  <layout id="groupBox3" text="Thành phẩm"/>
+  <layout id="groupBox4" text="Các mô tả"/>
+  <layout id="groupBox5" text="Tái chế"/>
+  <layout id="groupBox6" text="Nguyên liệu"/>
+  <layout id="groupBox7" text="Điều chỉnh"/>
+  <layout id="groupBox8" text="Thành phẩm"/>
+  <layout id="groupBox9" text=" Phế phẩm"/>
+  <layout id="groupBox10" text="Thời gian - Năng lượng  "/>
+
+  <message id ="VALIDATE-1" text="Vui lòng chọn Kho làm việc!!!"/>
+  <message id ="VALIDATE-2" text="Vui lòng chọn Ca làm việc!!!"/>
+  <message id ="VALIDATE-3" text="Vui lòng chọn Line làm việc!!!"/>
+  <message id ="VALIDATE-4" text="Vui lòng chọn Trưởng ca làm việc!!!"/>
+  <message id ="VALIDATE-5" text="Vui lòng chọn Người nghiền!!!"/>
+  <message id ="VALIDATE-6" text="Vui lòng chọn Người ép!!!"/>
+  <message id ="VALIDATE-7" text="Vui lòng chọn Loại thành phẩm!!!"/>
+  <message id ="VALIDATE-8" text="Vui lòng chọn Size!!!"/>
+  <message id ="VALIDATE-9" text="Vui lòng chọn loại bao bì!!!"/>
+  <message id ="VALIDATE-10" text="Vui lòng chọn Công thức!!!"/>
+    <message id ="VALIDATE-11" text="Thời gian kết thúc phải lớn hơn thời gian bắt đầu!!!"/>
+  <message id ="VALIDATE-12" text="Thời gian dừng máy phải nhỏ hơn thời gian làm việc!!!"/>
+  <message id ="INSERT50000" text="Module sản xuất đã khóa sổ, không được thay đổi dữ liệu!!!"/>
+  <message id ="UPDATE50000" text="Module sản xuất đã khóa sổ, không được thay đổi dữ liệu!!!"/>
+  <message id ="DELETE50000" text="Module sản xuất đã khóa sổ, không được thay đổi dữ liệu!!!"/>
+</root>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="lblAccountTransactionNo" text="Số phiếu"/>
+	<layout id="lblAccountTransactionDate" text="Ngày"/>
+	<layout id="lblDescription" text="Diễn giải"/>
+	<layout id="colAccountCode" text="Tài khoản"/>
+	<layout id="lblAccountSample" text="Nghiệp vụ mẫu"/>
+	<layout id="colSubjectCode" text="Đối tượng"/>
+	<layout id="colClassificationCode" text="Yếu tố"/>
+	<layout id="colDebitAmount" text="Tiền nợ"/>
+	<layout id="colCreditAmount" text="Tiền có"/>
+	<layout id="colCurrencyCode" text="Tiền tệ"/>
+	<layout id="colRate" text="Tỉ giá"/>
+	<layout id="colDebitAmountNT" text="Tiền nợ NT"/>
+	<layout id="colCreditAmountNT" text="Tiền có NT"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colDebitAccountCode" text="TK nợ"/>
+	<layout id="colDebitSubjectCode" text="ĐT nợ"/>
+	<layout id="colDebitClassificationCode" text="YT nợ"/>
+	<layout id="colCreditAccountCode" text="TK có"/>
+	<layout id="colCreditSubjectCode" text="ĐT có"/>
+	<layout id="colCreditClassificationCode" text="YT có"/>
+	<layout id="colAmount" text="Tiền"/>
+	<layout id="colAmountNT" text="Tiền NT"/>
+	<layout id="colDescription2" text="Diễn giải"/>
+	<layout id="btnGetFromDetail1" text="GetFromDetail1"/>
+	<layout id="btnFromToDetail2" text="FromToDetail2"/>
+	<layout id="btnGenToDetail1" text="GenToDetail1"/>
+	<layout id="tapPage1" text="Page1"/>
+	<layout id="tapPage2" text="Page2"/>
+	
+	<layout id="tabPage1" text="abc"/>
+	<layout id="tabPage2" text="abc1"/>
+	<layout id="lbLoaiNX" text="Loại NX"/>
+	<layout id="lbSo" text="Số"/>
+	<layout id="lbDate" text="Ngày"/>
+	<layout id="lbKho" text="Kho"/>
+	<layout id="lbNguoiGiao" text="Người giao"/>
+	<layout id="lbNguoiNhan" text="Người nhận"/>
+	<layout id="lbDonVi" text="Đơn vị"/>
+	<layout id="lbPTVC" text="PT vận chuyển"/>
+	<layout id="lbNguoiVC" text="Người VC"/>
+	<layout id="lbCTKemTheo" text="CT kèm theo"/>
+	<layout id="lbLyDoNX" text="Lý do NX"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="chkGetFromStockTransaction" text="Lấy từ phiếu N/X kho"/>
+	<layout id="colDebitAccountCode1" text="TK nợ"/>
+	<layout id="colStockInCode" text="Kho nhập"/>
+	<layout id="colCreditAccountCode1" text="TK có"/>
+	<layout id="colStockOutCode" text="Kho xuất"/>
+	<layout id="colItemCode" text="Mã TP"/>
+	<layout id="colItemName" text="Tên TP"/>
+	<layout id="colQuantity" text="Số lượng"/>
+	<layout id="colPrice" text="Giá bán"/>
+	<layout id="colPrice1" text="Giá mua"/>
+	<layout id="colCostPrice" text="Giá vốn"/>
+	<layout id="colAmount1" text="Tiền bán"/>
+	<layout id="colAmount11" text="Tiền mua"/>
+	<layout id="colCostAmount" text="Tiền vốn"/>
+	<layout id="colDescription3" text="Diễn giải"/>
+</root>
+
+

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnPrint" text="In phiếu"/>
+	<layout id="lbNguoiGiao" text="Người giao"/>
+	<layout id="lbNguoiNhan" text="Người nhận"/>
+	<layout id="lbStatus" text="Trạng thái"/>
+	<layout id="lbSoHoaDon" text="Số hoá đơn"/>
+	<layout id="lbOutStock" text="Kho xuất"/>
+	<layout id="lbInStock" text="Kho nhập"/>
+	<layout id="lbShift" text="Ca"/>
+	<layout id="lbTransactionNo" text="Số phiếu"/>
+	<layout id="lbForDepartment" text="Bộ phận"/>
+	<layout id="lbTransactionTypeCode" text="Mã NX"/>
+	<layout id="lbDate" text="Ngày"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="ChkGetByWeightItem" text="Lấy từ phiếu cân"/>
+	<layout id="chkDepartmentConfirm" text="Bộ phận xác nhận"/>
+	<layout id="chkConfirm" text="Xác nhận"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colInLocation" text="Số lô nhập"/>
+	<layout id="colOutLocation" text="Số lô xuất"/>
+	<layout id="colQuantity" text="Số lượng"/>
+	<layout id="colItemName" text="Tên hàng"/>
+	<!--<layout id="colQuantityReg" text="SL yêu cầu"/>-->
+	<layout id="colQuantityInclWrapping" text="SL chưa trừ bì"/>
+	<layout id="colWrappingCounter" text="Số bao"/>
+	<layout id="colPriceCost" text="Giá vốn"/>
+	<layout id="colAmountCost" text="Tiền vốn"/>
+	<layout id="colPriceIn" text="Giá mua"/>
+	<layout id="colAmountIn" text="Tiền mua"/>
+	<layout id="colPriceOut" text="Giá bán"/>
+	<layout id="colAmoutOut" text="Tiền bán"/>
+	<layout id="colQuantity1" text="Số lượng"/>
+	<layout id="lbKhoGiao" text="Kho giao"/>
+	<layout id="lbKhoNhan" text="Kho nhận"/>
+	<layout id="lbDVGiao" text="ĐV giao"/>
+	<layout id="lbSoHD" text="Số HĐ"/>
+	<layout id="lbSoDH" text="Lệnh xuất kho"/>
+	<layout id="lbDVNhan" text="Đơn vị nhận"/>
+	<layout id="lbDVVanChuyen" text="ĐV vận chuyển"/>
+	<layout id="lbPTVanChuyen" text="PT vận chuyển"/>
+	<layout id="lbCTKemTheo" text="CT kèm theo"/>
+	<layout id="lbDiscount" text="Chiết khấu"/>
+	<layout id="lbDiscountDescription" text="Nội dung"/>
+	<layout id="button1" text="Định khoản KT"/>
+  <layout id="colWrappingCounter2" text="Số bao"/>
+	
+	<layout id="lbInvoiceCustomerName" text="Tên khách hàng"/>
+
+  <message id="ErrorButton1Click-1" text="Chưa xác định mã N/X!" />
+	<message id="CanNotPrintInvoice" text="Phiếu chưa được xác nhận, không thể in hóa đơn!" />
+  <message id="ErrorButton1Click-2" text="Chưa có phiếu!" />
+  <message id="ErrorButton1Click-3" text="Bạn phải xác nhận phiếu trước khi định khoản!" />
+  <message id="VALIDATE-1" text="Chưa có số hoá đơn!"/>
+  <message id="VALIDATE-2" text="Chưa nhập nội dung chiết khấu!"/>
+  <message id="VALIDATE-3" text="Chưa nhập tiền chiết khấu!"/>
+  <message id="VALIDATE-11" text="Số lượng không khớp với phiếu nhập!"/>
+  <message id="VALIDATE-12" text="Số bao không khớp với phiếu nhập!"/>
+  <message id="UPDATE-1" text="Xác nhận/bỏ xác nhận không thành công!"/>
+  <message id="UPDATE-2" text="Phiếu đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-3" text="Chi tiết mặt hàng không khớp với phiếu yêu cầu!"/>
+  <message id="UPDATE-111" text="Trùng số hóa đơn!"/>
+  <message id="VALIDATE-123" text="Số liệu kho đã có thay đổi, vui lòng cập nhật dữ liệu lại!"/>
+<message id="ConfirmDeleteIsAccounted" text="Phiếu này đã được định khoản kế toán, chương trình sẽ xóa phiếu định khoản đi trước khi lưu, bạn muốn tiếp tục lưu không?"/>
+  <message id="UPDATE50000" text="Module Kho đã khóa sổ, không được thay đổi dữ liệu!" />
+
+</root>

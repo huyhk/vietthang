@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormEditExchangeResult" text="Biên bản giao nhận"/>
+  <layout id="label1" text="Đơn vị giao nhận" />
+  <layout id="colItemCode" text="Mặt hàng" />
+  <layout id="colTransportItemTypeCode" text="Loại mặt hàng" />
+  <layout id="colTransportTypeCode" text="Loại vận chuyển" />
+  <layout id="colStockCode" text="Kho" />
+  <layout id="colPTVC" text="PTVC" />
+  <layout id="colDateLeave" text="Ngày đi" />
+  <layout id="colDateArrive" text="Ngày đến" />
+  <layout id="colFromDate" text="Ngày bốc hàng" />
+  <layout id="colToDate" text="Ngày hoàn thành" />
+  <layout id="colSongaymuabao" text="Số ngày mưa bão" />
+  <layout id="colSobao" text="Số bao" />
+  <layout id="colNhantaitauChuatrubi" text="Nhận tại tàu(chưa trừ bì)" />
+  <layout id="colNhantaitauDatrubi" text="Nhận tại tàu(Đã trừ bì)" />
+  <layout id="colGiaonhamayDatrubi" text="Giao nhà máy (đã trừ bì)" />
+  <layout id="colGhichu" text="Ghi chú" />
+  <layout id="label5" text="Chú thích" />
+  <layout id="label3" text="Từ ngày" />
+  <layout id="label4" text="Đến ngày" />
+  <layout id="label2" text="Số hợp đồng giao nhận" />
+  
+
+  <message id="VALIDATE-1" text="Chưa nhập đơn vị giao nhận!"/>
+  
+</root>
+
+
+

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="FormEditTransportCompensationPrice" text="Đơn giá đền bù" />
+<layout id="lblItemCode" text="Mặt hàng:" />
+<layout id="lblStartDate" text="Ngày bắt đầu:" />
+<layout id="lblPrice" text="Đơn giá:" />
+  <message id="VALIDATE-1" text="Bạn chưa chọn mặt hàng"/>
+  <message id="INSERT-1" text="Đơn giá này đã có"/>
+  <message id="UPDATE-1" text="Đơn giá này đã có"/>
+</root>

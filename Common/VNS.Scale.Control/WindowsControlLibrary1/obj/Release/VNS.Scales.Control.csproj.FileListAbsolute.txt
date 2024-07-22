@@ -1,0 +1,56 @@
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.dll
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.pdb
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.dll
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.pdb
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\ResolveAssemblyReference.cache
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.UI.Receiver.resources
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.GenerateResource.Cache
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.dll
+D:\Working\Scales\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.UI.Receiver.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.GenerateResource.Cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.UI.Receiver.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\ResGen.read.1.tlog
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\ResGen.write.1.tlog
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csprojResolveAssemblyReference.cache
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.UI.Receiver.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.GenerateResource.Cache
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Control.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Scales.Helper.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Release\VNS.Utils.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.UI.Receiver.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.csproj.CopyComplete
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Release\VNS.Scales.Control.pdb

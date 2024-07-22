@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormCustomerOrders" text="Đơn đặt hàng"/>
+  <layout id="lblStockCode" text="Nhà máy"/>
+  <layout id="colCustomerOrderDate" text="Ngày"/>
+  <layout id="colCustomerCode" text="Tên khách hàng"/>
+  <layout id="colCustomerOrderNo" text="Số phiếu"/>
+  <layout id="colIsFinished" text="Đã hoàn thành"/>
+	<layout id="colCustomerName" text="Tên khách hàng"/>
+	<layout id="colItemCode" text="Thành phẩm"/>
+	<layout id="colDescription" text="Ghi chú"/>
+	<layout id="colQuantity" text="Số lượng"/>
+  <layout id="colDescriptions" text="Ghi chú"/>
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+<layout id="groupBox1" text="Danh sách đặt hàng"/>
+	<layout id="lblNgay" text="Ngày"/>
+	<layout id="lblThang" text="Kỳ "/>
+  <message id="DELETE-2" text="Đơn hàng này không tồn tại!!!"/>
+	<message id="DELETE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<!--layout id="FormEditAccountTransaction" text="Edit"/-->
+	<layout id="lblAccountTransactionNo" text="Số phiếu"/>
+	<layout id="lblAccountTransactionDate" text="Ngày ghi sổ"/>
+	<layout id="lblDescription" text="Diễn giải"/>
+	<layout id="colAccountCode" text="Tài khoản"/>
+	<layout id="lblAccountSample" text="Nghiệp vụ mẫu"/>
+	<layout id="colSubjectCode" text="Đối tượng"/>
+	<layout id="colClassificationCode" text="Yếu tố"/>
+	<layout id="colDebitAmount" text="Tiền nợ"/>
+	<layout id="colCreditAmount" text="Tiền có"/>
+	<layout id="colCurrencyCode" text="Mã NT"/>
+	<layout id="colRate" text="Tỷ giá"/>
+	<layout id="colDebitAmountNT" text="Nợ NT"/>
+	<layout id="colCreditAmountNT" text="Có NT"/>
+	<layout id="colDescription" text="Diễn giải"/>
+  <layout id="lblHoten" text="Họ và Tên"/>
+  <layout id="lblDiachi" text="Địa chỉ/Bộ phận"/>
+  <layout id="lblChungtu" text="Chứng từ kèm theo"/>
+
+  <layout id="colDebitAccountCode" text="TK nợ"/>
+	<layout id="colDebitSubjectCode" text="ĐT nợ"/>
+	<layout id="colDebitClassificationCode" text="YT nợ"/>
+	<layout id="colCreditAccountCode" text="TK có"/>
+	<layout id="colCreditSubjectCode" text="ĐT có"/>
+	<layout id="colCreditClassificationCode" text="YT có"/>
+	<layout id="colAmount" text="Tiền"/>
+	<layout id="colAmountNT" text="Tiền NT"/>
+	<layout id="colDescription2" text="Diễn giải (Nợ)"/>
+	<layout id="colDescription22" text="Diễn giải (Có)"/>
+	
+	<layout id="btnGetFromDetail1" text="Lấy từ chi tiết định khoản"/>
+	<layout id="btnFromToDetail2" text="Xem đối ứng"/>
+	<layout id="btnGenToDetail1" text="Tạo chi tiết định khoản"/>
+	<layout id="tapPage1" text="Chi tiết định khoản"/>
+	<layout id="tapPage2" text="(Đối ứng)"/>
+  <layout id="tabPage1" text="Chứng từ kế toán"/>
+  
+  <layout id="tapPage3" text="Hóa đơn"/>
+  <layout id="tapPage4" text="Chứng từ mua vào không có hóa đơn"/>
+  <layout id="colDauvao" text="Đầu vào"/>
+  <layout id="colMauHoadon" text="Mẫu hóa đơn"/>
+  <layout id="colSoSeri" text="Số Seri"/>
+  <layout id="colSoHoadon" text="Số hóa đơn"/>
+  <layout id="colNgayHoadon" text="Ngày hóa đơn"/>
+	 <layout id="colCustomerCode" text="Mã đơn vị"/>
+  <layout id="colTenDonvi" text="Tên đơn vị"/>
+  <layout id="colMasothue" text="Mã số thuế"/>
+  <layout id="colThuexuat" text="Thuế xuất"/>
+  <layout id="colTienthue" text="Tiền thuế"/>
+  <layout id="colDoanhso" text="Doanh số"/>
+  <layout id="colTenMathang" text="Tên mặt hàng"/>
+  <layout id="colKhongchiuthue" text="Không chịu thuế"/>
+  <layout id="colBranchCode" text="Chi nhánh"/>
+	
+	<layout id="checkDauvao" text="Đầu vào"/>
+	<layout id="lblMauHoadon" text="Mẫu HĐ"/>
+	<layout id="lblSoSeri" text="Số Seri"/>
+	<layout id="lblSoHoadon" text="Số HĐ"/>
+	<layout id="lblNgayHoadon" text="Ngày HĐ"/>
+	<layout id="lblCustomerCode" text="Mã ĐV"/>
+	<layout id="lblTenDonvi" text="Tên ĐV"/>
+	<layout id="lblMasothue" text="Mã số thuế"/>
+	<layout id="lblThuexuat" text="Thuế xuất"/>
+	<layout id="lblTienthue" text="Tiền thuế"/>
+	<layout id="lblDoanhso" text="Doanh số"/>
+	<layout id="lblTenMathangIn" text="Tên mặt hàng"/>
+	<layout id="checkKhongchiuthue" text="Không chịu thuế"/>
+	<layout id="lblChinhanh" text="Chi nhánh"/>
+
+  <layout id="colNgaymua" text="Ngày mua"/>
+  <layout id="colTenNguoiban" text="Người bán"/>
+  <layout id="colDiachi" text="Địa chỉ"/>
+  <layout id="colTenMathang4" text="Tên mặt hàng"/>
+  <layout id="colSoluong" text="Số lượng"/>
+  <layout id="colDongia" text="Đơn giá"/>
+  <layout id="colTienThanhtoan" text="Tiền thanh toán"/>
+  <layout id="colGhichu" text="Ghi chú"/>
+  <layout id="colBranchCode1" text="Chi nhánh"/>
+
+  <!-- Phiếu Nhập xuất Kho-->
+	<layout id="tabPage2" text="Hàng hóa"/>
+	<layout id="lbLoaiNX" text="Loại NX"/>
+	<layout id="lbSo" text="Số phiếu"/>
+	<layout id="lbDate" text="Ngày"/>
+	<layout id="lbKho" text="Kho"/>
+	<layout id="lbNguoiGiao" text="Người giao"/>
+	<layout id="lbNguoiNhan" text="Người nhận"/>
+	<layout id="lbDonVi" text="Đơn vị"/>
+	<layout id="lbPTVC" text="PT vận chuyển"/>
+	<layout id="lbNguoiVC" text="Người VC"/>
+	<layout id="lbCTKemTheo" text="CT kèm theo"/>
+	<layout id="lbLyDoNX" text="Lý do NX"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="chkGetFromStockTransaction" text="Chọn từ Module Kho"/>
+	<layout id="colDebitAccountCode1" text="TK nợ"/>
+	<layout id="colStockInCode" text="Kho nhập"/>
+	<layout id="colCreditAccountCode1" text="TK có"/>
+	<layout id="colStockOutCode" text="Kho xuất"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colItemName" text="Tên"/>
+	<layout id="colQuantity" text="Số lượng"/>
+	<layout id="colPrice" text="Giá bán"/>
+	<layout id="colPrice1" text="Giá mua"/>
+	<layout id="colCostPrice" text="Giá vốn"/>
+	<layout id="colAmount1" text="Tiền bán"/>
+	<layout id="colAmount11" text="Tiền mua"/>
+	<layout id="colCostAmount" text="Tiền vốn"/>
+	<layout id="colDescription3" text="Diễn giải"/>
+	<layout id="btnPrintReportA4" text="In phiếu A4"/>
+	<layout id="btnPrintReport" text="In phiếu"/>
+	<layout id="btnCopyDescription" text="Copy"/>
+	
+	<layout id="lblAddress" text="Địa chỉ"/>
+	<layout id="lblTenNguoiban" text="Tên người bán"/>
+	<layout id="lblNgaymua" text="Ngày mua"/>
+	<layout id="lblTenMathang" text="Tên mặt hàng"/>
+	<layout id="lblBranchCode" text="Chi nhánh"/>
+	<layout id="lblGhichu" text="Ghi chú"/>
+	<layout id="lblSoluong" text="Số lượng"/>
+	<layout id="lblDongia" text="Đơn giá"/>
+	<layout id="lblTienThanhtoan" text="Tiền thanh toán"/>
+	
+	
+	<layout id="repLookUpEditDebitAccountCode-AccountCode" text=""/>
+	<layout id="repLookUpEditDebitAccountCode-AccountName" text=""/>
+	<layout id="repLookUpEditStockIn-SubjectCode" text=""/>
+	<layout id="repLookUpEditStockIn-SubjectName" text=""/>
+	<layout id="repLookUpEditCreditAccountCode-AccountCode" text=""/>
+	<layout id="repLookUpEditCreditAccountCode-AccountName" text=""/>
+	<layout id="repLookUpEditStockOut-SubjectCode" text=""/>
+	<layout id="repLookUpEditStockOut-SubjectName" text=""/>
+	<layout id="repLookUpEditItemCode-ItemCode" text=""/>
+	<layout id="repLookUpEditItemCode-ItemName" text=""/>
+
+
+	<!--FormEditAccountFixedAssets.-->
+  <layout id="lblFixedAssetCode" text="Mã TSCĐ"/>
+  <layout id="lblFixedAssetName" text="Tên TSCĐ"/>
+  <layout id="lblStartDate" text="Ngày bắt đầu khấu hao "/>
+  <layout id="lblOriginalPrice" text="Nguyên giá"/>
+  <layout id="lblMonthUsing" text="Thời gian khấu hao(năm)"/>
+  <layout id="lblAccountCode" text="Phân loại"/>
+  <layout id="lblSubjectCode" text="Phân nhóm"/>
+  <layout id="lblDescription1" text="Diễn giải"/>
+  <layout id="xtraTabPage1" text="Chứng từ kế toán"/>
+  <layout id="xtraTabPage2" text="Chi tiết TSCĐ"/>
+  <layout id="lblDepAccountCode" text="Tài khoản KH"/>
+  <layout id="lblDepSubjectCode" text="Đối tượng"/>
+  <layout id="lblDepClassificationCode" text="Yếu tố"/>
+  <layout id="grbFiexdAsset1" text="Thông tin TSCĐ"/>
+  <layout id="grbFiexdAsset2" text="Thông tin khấu hao"/>
+  
+  <!--FormEditFixedAssetsUpgrade.-->
+  <layout id="lblAmount" text="Tiền"/>
+
+
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!"/>
+  <message id="INSERT-2" text="Mã kiểu không tồn tại!"/>
+  <message id="INSERT-3" text="Lỗi trong khi lưu dữ liệu!"/>
+  <message id="INSERT-4" text="Mã ID không tồn tại!"/>
+  <message id="INSERT-5" text="Mã tài khoản không tồn tại!"/>
+  <message id="INSERT-6" text="Mã đối tượng không tồn tại!"/>
+  <message id="INSERT-7" text="Mã yếu tố không tồn tại!"/>
+  <message id="INSERT-8" text="Mã tiền tệ không tồn tại!"/>
+  <message id="INSERT-9" text="Số phiếu này đã tồn tại!"/>
+	<message id="INSERT50000" text="Module kế toán đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+	<message id="UPDATE-1" text="Lỗi trong khi lưu dữ liệu!"/>
+	<message id="UPDATE-2" text="Số phiếu này đã tồn tại!"/>
+	<message id="UPDATE50000" text="Module kế toán đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="DELETE-1" text="Xoá không thành công!"/>
+	<message id="DELETE50000" text="Module kế toán đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+  <message id="VALIDATE-1" text="Chưa nhập số phiếu!" />
+  <message id="VALIDATE-2" text="Tổng nợ và tổng có không bằng nhau!" />
+  <message id="VALIDATE-3" text="Đối tượng theo dõi không chính xác!" />
+  <message id="VALIDATE-4" text="Yếu tố theo dõi không chính xác!" />
+  <message id="VALIDATE-5" text="Vui lòng nhập chi tiết định khoản đối ứng!" />
+  <message id="VALIDATE-6" text="Vui lòng nhập chi tiết định khoản đối ứng!" />
+  <message id="VALIDATE-7" text="Vui lòng nhập chi tiết định khoản đối ứng!" />
+  <message id="VALIDATE-8" text="Hóa đơn không chịu thuế thì tiền thuế phải bằng 0!" />
+  <message id="VALIDATE-9" text="Hóa đơn chưa chọn Chi nhánh!" />
+  <message id="VALIDATE-10" text="Chứng từ mua chưa chọn Chi nhánh!" />
+  <message id="VALIDATE-70" text="Ngày ghi sổ phải >= Ngày chứng từ!" />
+  <!--FormEditAccountFixedAssets-->
+
+  <message id="VALIDATE-11" text="Chưa nhập mã Tài sản cố định!" />
+  <message id="VALIDATE-12" text="Vui lòng chọn phân loại cho phiếu!" />
+  <message id="VALIDATE-13" text="Vui lòng chọn phân nhóm cho phiếu!" />
+  <message id="VALIDATE-14" text="Ngày bắt đầu khấu hao không hợp lệ!" />
+  <message id="VALIDATE-15" text="Nguyên giá không khớp với chi tiết định khoản!" />
+  <message id="VALIDATE-16" text="Nguyên giá không khớp với chi tiết định khoản!" />
+  <message id="VALIDATE-17" text="Chưa nhập Thời gian khấu hao!" />
+  <message id="VALIDATE-18" text="Vui lòng chọn Tài khoản khấu hao!" />
+  <message id="INSERT-20" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-21" text="Mã TSCĐ này đã tồn tại!"/>
+
+  <!--FormEditFixedAssetUpgrade-->
+  <message id="INSERT-30" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-31" text="Mã này đã tồn tại!"/>
+  <message id="UPDATE-30" text="Lỗi trong khi sửa dữ liệu!"/>
+  <message id="VALIDATE-21" text="Chưa chọn mã Tài sản cố định!" />
+  <message id="VALIDATE-22" text="Ngày bắt đầu không hợp lệ!" />
+  <message id="VALIDATE-23" text="Chưa nhập Số tiền tăng nguyên giá!" />
+  <message id="VALIDATE-24" text="Chưa nhập Thời gian khấu hao!" />
+  <message id="VALIDATE-25" text="Nguyên giá tăng không khớp với chi tiết định khoản!" />
+  <message id="VALIDATE-26" text="Nguyên giá tăng không khớp với chi tiết định khoản!" />
+  <!--FormEditAccountStock-->
+  <message id="VALIDATE-50" text="Chưa chọn loại N/X!"/>
+  <message id="VALIDATE-51" text="Chưa có số phiếu kho!"/>
+  <message id="VALIDATE-52" text="Chưa chọn tài khoản!"/>
+  <message id="VALIDATE-53" text="Chưa chọn mã thành phẩm!"/>
+  <message id="VALIDATE-54" text="Chưa chọn mã kho!"/>
+<message id="VALIDATE-55" text="Chưa nhập nội dung chiết khấu!"/>
+	<message id="VALIDATE-56" text="Chưa nhập chiết khấu!"/>
+  <message id="VALIDATE-100" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!0"/>
+  <message id="VALIDATE-101" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!1"/>
+  <message id="VALIDATE-102" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!2"/>
+  <message id="VALIDATE-103" text="Tài khoản kho phải thuộc 1 dòng định khoản duy nhất!"/>
+  <message id="VALIDATE-104" text="Giá vốn nhập kho không khớp với định khoản!"/>
+  <message id="VALIDATE-105" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!5"/>
+  <message id="VALIDATE-106" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!6"/>
+  <message id="VALIDATE-107" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!7"/>
+  <message id="VALIDATE-108" text="Tài khoản kho phải thuộc 1 dòng định khoản duy nhất!"/>
+  <message id="VALIDATE-109" text="Chi tiết Tài khoản không khớp với tài khoản của chi tiết mặt hàng!9"/>
+  <message id="VALIDATE-110" text="Tài khoản kho chỉ được đối ứng với 1 tài khoản khác!"/>
+  <message id="VALIDATE-111" text="Ngày kế toán và ngày xuất/nhập kho phải cùng tháng và năm!"/>
+  <message id="VALIDATE-112" text="Giá vốn xuất kho không khớp với định khoản!"/>
+	<message id="VALIDATE-113" text="Bạn phải định khoản trước khi lưu!"/>
+
+  <message id="VALIDATE-71" text="Thuế đầu vào và tk 133 không khớp!"/>
+
+  <message id="INSERT-50" text="Thêm mới không thành công!"/>
+  <message id="INSERT-51" text="Mã N/X đã bị xoá bởi user khác!"/>
+  <message id="INSERT-52" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+  <message id="UPDATE-50" text="Cập nhật không thành công!"/>
+  <message id="UPDATE-52" text="Mã thành phẩm đã bị xoá bởi user khác!"/>
+
+	<message id="MultiSelectSTError" text="Các phiếu xuất kho phải cùng tháng, cùng số hóa đơn, cùng ngày hóa đơn, cùng số seri, cùng mẫu hóa đơn và giá bán phải thống nhất!"/>
+	<!--FormInstrumentTransaction-->
+	
+	<message id="tabPageCCDC" text="Công cụ dụng cụ"/>
+	<message id="colStockInCode1" text="Kho nhập"/>
+	<message id="colStockOutCode1" text="Kho xuất"/>
+	<message id="colItemCode1" text="Mã"/>
+	<message id="colItemName1" text="Tên"/>
+	<message id="colQuantity1" text="Số lượng"/>
+	<message id="colPrice2" text="Giá"/>
+	<message id="colAmount2" text="Thành tiền"/>
+	<message id="colDepType" text="Loại khấu hao"/>
+	<message id="colDepAccountCode" text="Tài khoản KH"/>
+	<message id="colDepSubjectCode" text="Đối tượng KH"/>
+	<message id="colDepClassificationCode" text="Yếu tố KH"/>
+	<message id="colPrePaidCode" text="Mã"/>
+	<message id="colPrePaidName" text="Tên"/>
+	<message id="colUnit" text="Đơn vị tính"/>
+	<message id="colDescription1" text="Diễn giải"/>
+	<message id="colDepStartDate" text="Ngày khấu hao"/>
+	<message id="colDepRate" text="Tỉ lệ PB"/>
+	<message id="colDepMonth" text="Số tháng"/>
+	<message id="colAccountCode1" text="Tài khoản"/>
+	<message id="colSubjectCode0" text="Đối tượng"/>
+	<message id="colSubjectCode1" text="Đối tượng"/>
+	<message id="lbNo" text="Số"/>
+	<message id="lbNgay" text="Ngày"/>
+	<message id="lbDescription1" text="Diễn giải"/>
+	<message id="VALIDATE-150" text="Chưa nhập số!"/>
+	<message id="VALIDATE-151" text="Chưa chọn kho nhập!"/>
+	<message id="VALIDATE-152" text="Chưa chọn kho xuất!"/>
+	<message id="VALIDATE-153" text="Chưa chọn mã công cụ dụng cụ!"/>
+	<message id="VALIDATE-154" text="Chưa nhập mã CP trả trước!"/>
+	<message id="VALIDATE-155" text="Chưa nhập tên CP trả trước!"/>
+	<message id="VALIDATE-156" text="Chưa nhập đơn vị tính CP trả trước!"/>
+	<message id="VALIDATE-157" text="Ngày kế toán và ngày xuất/nhập CCDC phải cùng tháng và năm!"/>
+
+	<message id="INSERT-150" text="Mã công cụ dụng cụ đã bị xoá bởi user khác!"/>
+	<message id="INSERT-151" text="Mã đã tồn tại!"/>
+	<message id="UPDATE-150" text="Mã công cụ dụng cụ đã bị xoá bởi user khác!"/>
+	<message id="UPDATE-151" text="Mã đã tồn tại!"/>
+	<message id="UPDATE-152" text="Phiếu nhập/xuất công cụ dụng cụ đã bị xoá bởi user khác!"/>
+</root>
+

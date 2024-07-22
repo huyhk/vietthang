@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+
+  <layout id="tableLayoutPanel1" text="" />
+  <layout id="simpleButton1" text="Export Excel" />
+  <layout id="gridControl1" text="" />
+  <layout id="LevelSelector" text="" />
+  <layout id="panel" text="" />
+  <layout id="pnlClient" text="" />
+  <layout id="tree" text="" />
+  <layout id="pnlButton" text="" />
+  <layout id="btPopulateDetail" text="Retrieve Details" />
+  <layout id="lblLine" text="" />
+  <layout id="btDesigner" text="Run Designer" />
+  <layout id="gridColumn1" text="Phân nhóm" />
+  <layout id="gridColumn2" text="Phân loại" />
+  <layout id="gridColumn3" text="Mã" />
+  <layout id="gridColumn4" text="Tên" />
+  <layout id="gridColumn5" text="ĐVT" />
+  <layout id="colQuantity" text="Số lượng" />
+  <layout id="gridColumn7" text="Đơn giá" />
+  <layout id="colAmount" text="Số tiền" />
+  <layout id="gridColumn9" text="Khấu hao" />
+  <layout id="gridColumn10" text="Diễn giải" />
+
+
+</root>
+

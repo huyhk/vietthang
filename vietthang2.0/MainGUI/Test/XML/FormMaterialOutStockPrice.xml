@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormMaterialOutStockPrice" text="Tính giá xuất kho nguyên liệu."/>
+  <layout id="lbTime" text="Kỳ kế toán"/>
+	<layout id="colItemCode" text="Mã hàng"/>
+	<layout id="colItemName" text="Tên hàng"/>
+	<layout id="colOpenQuantity" text="SL đầu kỳ"/>
+	<layout id="colOpenAmount" text="Thành tiền đầu kỳ"/>
+	<layout id="colInQuantity" text="SL nhập trong kỳ"/>
+	<layout id="colInAmount" text="Tiền nhập trong kỳ"/>
+	<layout id="colOutQuantity" text="SL xuất trong kỳ"/>
+	<layout id="colOutAmount" text="Tiền xuất trong kỳ"/>
+	<layout id="colCloseQuantity" text="SL tồn"/>
+	<layout id="colCloseAmount" text="Tiền tồn"/>
+	<layout id="colAvgPrice" text="Giá bình quân"/>
+	<layout id="colClosePrice" text="Giá cuối kỳ"/>
+	<layout id="btnCopy" text="Giá bình quân -> Giá cuối kỳ"/>
+	<layout id="btnUpdate" text="Cập nhật giá xuất kho sx, bh"/>
+	<layout id="btnUpdate1" text="Cập nhật hệ số tính giá thành"/>
+
+	
+	<message id="ConfirmUpdateOutStockCostPrice" text="Chương trình sẽ cập nhật giá xuất kho sản xuất. Bạn chắc không?"/>
+	<message id="FinishUpdateOutStockCostPrice" text="Đã cập nhật xong giá xuất kho sản xuất."/>
+  <message id="ConfirmUpdateProductCostFormulaCostPrice" text="Chương trình sẽ cập nhật hệ số tính giá thành. Bạn chắc không?"/>
+  <message id="FinishUpdateProductCostFormulaCostPrice" text="Đã cập nhật xong hệ số tính giá thành."/>
+	
+</root>
+

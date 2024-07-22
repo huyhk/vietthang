@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <!--<layout id="FormReportInventory" text="Báo cáo nhập/xuất tồn Kho" />-->
+  <layout id="FromDate" text="Từ ngày" />
+  <layout id="ToDate" text="Đến ngày" />
+  <layout id="StockCode" text="Chọn kho" />
+  <layout id="CheckLocation" text="Chi tiết lô" />
+  <layout id="btnRefresh" text="Chấp nhận" />
+  <!--seting GridView-->
+<layout id="lbReportFor" text="Báo cáo cho" />
+
+<layout id="colLocationCode" text="Vị trí kho" />
+  <layout id="colItemCode" text="Mã hàng" />
+  <layout id="colItemName" text="Tên hàng" />
+  <layout id="colOpening" text="Tồn đầu" />
+  <layout id="colIn" text="Nhập" />
+  <layout id="colOut" text="Xuất" />
+  <layout id="ColClosing" text="Tồn cuối" />
+<layout id="colTransactionDate" text="Ngày" />
+<layout id="colDescription" text="Mô tả" />
+<layout id="colInQuantity" text="Nhập" />
+<layout id="colOutQuantity" text="Xuất" />
+<layout id="LocationCode2" text="Vị trí" />
+<layout id="colItemCode2" text="Mã hàng" />
+
+  <message id="VALIDATE-1" text="Chưa nhập ngày bắt đầu!" />
+  <message id="VALIDATE-2" text="Chưa nhập ngày cuối!" />
+  <message id="VALIDATE-3" text="Chưa nhập mã kho!" />
+
+</root>

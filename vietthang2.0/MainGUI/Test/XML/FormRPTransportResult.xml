@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="colSubjectName" text="Đơn vị vận chuyển" />
+<layout id="colQuantity" text="Số lượng VC" />
+<layout id="colSLGiao" text="Số lượng giao" />
+<layout id="colVCAmount" text="Tiền vận chuyển" />
+<layout id="colCompenAmount" text="Số tiền đền bù" />
+</root>

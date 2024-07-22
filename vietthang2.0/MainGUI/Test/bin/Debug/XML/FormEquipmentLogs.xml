@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormEquipmentLogs" text="Lý lịch thiết bị" />
+  
+<layout id="label1" text="Thiết bị" />
+<layout id="label2" text="Ngày sử dụng" />
+<layout id="label3" text="Kho" />
+
+<layout id="label4" text="Ghi chú" />
+
+
+<layout id="colEquipmentCode" text="Thiết bị" />
+<layout id="colStartDate" text="Ngày sử dụng" />
+<layout id="colStockCode" text="Kho" />
+<layout id="colDescription" text="Ghi chú" />
+<layout id="colUserCreated" text="Người tạo" />
+<layout id="colDateCreated" text="Ngày tạo" />
+<layout id="colUserUpdated" text="Người sửa" />
+<layout id="colDateUpdated" text="Ngày sửa" />
+
+  <!--<message id ="INSERT-2" text ="Đã tồn tại Thiết bị tương ứng với Ngày sử dụng này"/>-->
+  <message id ="INSERT-2" text ="Thiết bị và Ngày sử dụng bạn chọn Đã tồn tại "/>
+  <message id ="VALIDATE-1" text ="Bạn chưa chọn Thiết bị"/>
+</root>

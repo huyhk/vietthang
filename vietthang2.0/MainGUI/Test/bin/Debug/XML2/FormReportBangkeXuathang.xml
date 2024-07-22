@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+<layout id="FormReportBangkeXuathang" text="Bảng kê xuất hàng" />
+<layout id="colSoCT" text="Số CT" />
+<layout id="colKhachhang" text="Khách hàng" />
+<layout id="colNguoinhan" text="Người nhận" />
+<layout id="colPTVC" text="Tên PTVC" />
+<layout id="btnRefresh" text="&amp;Refresh" /></root>

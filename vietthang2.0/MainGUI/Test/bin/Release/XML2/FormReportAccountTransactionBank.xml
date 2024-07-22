@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportAccountTransactionBank" text="Sổ tiền gửi Ngân hàng" />
+	<layout id="lblSubjectBank" text="Ngân hàng" />
+	<layout id="lblAccountCode" text="Tài khoản" />
+	<layout id="lblBankAccountNo" text="Số tài khoản" />
+  <layout id="checkEditExportExcel" text="Xuất ra excel" />
+	<layout id="btnRefresh" text="Xem" />
+	<layout id="colAccountTransactionDate2" text="Ngày ghi sổ" />
+	<layout id="colNgayCT2" text="Ngày chứng từ" />
+	<layout id="colAccountTransactionNo2" text="Số phiếu" />
+	<layout id="colDescription2" text="Diễn giải" />
+	<layout id="colDebitAmount2" text="Thu(gửi vào)" />
+	<layout id="colCreditAmount2" text="Chi(rút ra)" />
+	<layout id="colDUAccountCode" text="Tài khoản (ĐƯ)" />
+	<layout id="btnReport2" text="Sổ tiền gửi ngân hàng" />
+</root>

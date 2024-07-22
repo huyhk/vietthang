@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormProductSizes" text="Danh mục Kích cỡ thành phẩm"/>
+  <layout id="lblSizeCode" text="Mã"/>
+  <layout id="lblDescription" text="Ghi chú"/>
+  <layout id="SizeCode" text="Mã"/>
+  <layout id="Description" text="Ghi chú"/>
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id ="VALIDATE-1" text="Chưa Nhập Mã Kích Cỡ!"/>
+  <message id="INSERT-1" text="Mã Kích Cỡ Đã Tồn Tại!"/>
+  <message id="UPDATE-1" text="Mã Kích Cỡ Không Tồn Tại!"/>
+  <message id="DELETE-1" text="Mã Kích Cỡ Không Tồn Tại!"/>
+
+</root>

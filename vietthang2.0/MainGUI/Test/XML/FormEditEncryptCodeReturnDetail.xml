@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnOK" text="OK" />
+	<layout id="groupBox4" text="Kết quả phân tích" />
+	<layout id="colTechCode1" text="Chỉ tiêu" />
+	<layout id="colResult1" text="Kết quả" />
+	<layout id="groupBox1" text="Mã mẫu" />
+	<layout id="btnSelectItemEncryptCode" text="&gt;&gt;" />
+	<layout id="colItemEncryptCode" text="Mã mẫu" />
+	<layout id="colItemEncryptCode1" text="Mã mẫu" />
+
+	<message id="ExistsItemEncryptCode" text="Mã mẫu đã được chọn!"/>
+</root>
+

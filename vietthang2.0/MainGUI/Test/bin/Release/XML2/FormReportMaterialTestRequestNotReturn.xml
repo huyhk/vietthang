@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="tableLayoutPanel1" text="" />
+  <layout id="UCDatePeriodSelection" text="" />
+  <layout id="grBoxPeriodSelect" text="Báo cáo" />
+  <layout id="numUpDnMonthNo" text="9" />
+  <layout id="numUpDnQuaterNo" text="3" />
+  <layout id="dateEditEnd" text="9/24/2007" />
+  <layout id="lbEndDate" text="Đến" />
+  <layout id="dateEditStart" text="9/24/2007" />
+  <layout id="optDay" text="Từ" />
+  <layout id="txtYearOfMonth" text="2007" />
+  <layout id="optMonth" text="Tháng" />
+  <layout id="txtYearOfQuater" text="2007" />
+  <layout id="optQuater" text="Quý" />
+  <layout id="TxtYearNo" text="2007" />
+  <layout id="optYear" text="Năm" />
+  <layout id="btnImportExel" text="Xuất ra excel" />
+  <layout id="btnRefresh" text="Refresh" />
+  <layout id="gridControl1" text="" />
+  <layout id="LevelSelector" text="" />
+  <layout id="panel" text="" />
+  <layout id="pnlClient" text="" />
+  <layout id="tree" text="" />
+  <layout id="pnlButton" text="" />
+  <layout id="btPopulateDetail" text="Retrieve Details" />
+  <layout id="lblLine" text="" />
+  <layout id="btDesigner" text="Run Designer" />
+  <layout id="gridColumnTestTransactionNo" text="Phiếu kiểm số" />
+  <layout id="gridColTestTransactionDate" text="Ngày kiểm" />
+  <layout id="gridColumn3" text="Tên nguyên liệu" />
+  <layout id="gridColumnStockName" text="Tại kho" />
+  <layout id="gridColumn5" text="Khách hàng" />
+  <layout id="gridColumnPTVC" text="PTVC" />
+  <layout id="gridColumnDateRequest" text="Ngày yêu cầu" />
+  <layout id="gridColumn8" text="Mã mẫu" />
+  <layout id="gridColumnTTPT" text="Đơn vị phân tích" />
+  <layout id="gridColumnTechName" text="Chỉ tiêu" />
+</root>

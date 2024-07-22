@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormEditVesselTransactions" text =""/>
+  <layout id="label5" text="Ngày dự kiến đi" />
+  <layout id="label1" text="Tàu" />
+  <layout id="label8" text="Ngày làm hợp đồng" />
+  <layout id="label6" text="Diễn giải" />
+  <layout id="label7" text="Số chuyến tàu" />
+  <layout id="label2" text="Mã khách hàng" />
+  <layout id="label9" text="Khách hàng" />
+  <layout id="colContracNo" text="Số hợp đồng" />
+  <layout id="colInvoiceDate" text="Ngày lập hóa đơn" />
+  <layout id="colTotalAmount" text="Tổng tiền" />
+  <layout id="colCurrencyCode" text="Loại tiền" />
+  <layout id="colInvoiceNo" text="Hóa đơn" />
+  <layout id="label3" text="Nơi đi" />
+  <layout id="label4" text="Nơi đến" />
+  
+  <message id="VALIDATE-1" text="Chưa nhập số chuyến tàu!"/>
+  <message id="VALIDATE-2" text="Chưa chọn tàu!"/>
+  <message id="VALIDATE-3" text="Chưa chọn khách hàng!"/>
+  <message id="VALIDATE-4" text="Chưa nhập nơi bắt đầu!"/>
+  <message id="VALIDATE-5" text="Chưa nhập nơi kết thúc!"/>
+  
+  <message id="UPDATE-1" text="Dữ liệu đã bị xoá !"/>
+</root>
+
+

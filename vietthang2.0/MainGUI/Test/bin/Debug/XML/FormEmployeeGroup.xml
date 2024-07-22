@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormEmployeeGroup" text="Phân nhóm Nhân viên" />
+  <layout id="colEnumName" text="Nhóm nhân viên" />
+  <layout id="grboxEmployeeGroup" text="Nhân viên thuộc nhóm:" />
+
+  <layout id="colEmployeeIDMove" text="Mã" />
+  <layout id="colEmployeeNameMove" text="Tên" />
+
+  <layout id="colEmployeeName" text="Mã" />
+  <layout id="colEmployeeID" text="Tên" />
+
+</root>

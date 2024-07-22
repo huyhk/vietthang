@@ -1,0 +1,127 @@
+--------------------------------------------------------------------------------
+[Date & Time]		1/30/2018 4:34:28 PM
+[Classes Name]		SaleReportDAL
+[Functions Name]	ReportGeneralTH(DateTime startDate, DateTime endDate)
+[Description Error]	Invalid column name 'SoHieu'.
+--------------------------------------------------------------------------------
+[Date & Time]		2/12/2018 3:31:00 PM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryMaterial(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		3/17/2018 9:07:47 AM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryMaterial(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		3/22/2018 4:15:19 PM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryMaterial(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		4/5/2018 11:44:29 AM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryProduct(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		4/5/2018 11:57:10 AM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryProduct(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		4/10/2018 10:27:02 PM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryMaterial(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		4/11/2018 3:00:27 PM
+[Classes Name]		SubjectBLL
+[Functions Name]	Update(T t)
+[Description Error]	Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------
+[Date & Time]		4/11/2018 3:05:49 PM
+[Classes Name]		SubjectBLL
+[Functions Name]	Update(T t)
+[Description Error]	Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------
+[Date & Time]		5/2/2018 11:24:56 AM
+[Classes Name]		MTSDAL
+[Functions Name]	ManufacturePlan(Guid planID)
+[Description Error]	Specified cast is not valid.
+--------------------------------------------------------------------------------
+[Date & Time]		5/2/2018 11:30:08 AM
+[Classes Name]		MTSDAL
+[Functions Name]	ManufacturePlan(Guid planID)
+[Description Error]	Specified cast is not valid.
+--------------------------------------------------------------------------------
+[Date & Time]		5/2/2018 11:30:42 AM
+[Classes Name]		MTSDAL
+[Functions Name]	ManufacturePlan(Guid planID)
+[Description Error]	Specified cast is not valid.
+--------------------------------------------------------------------------------
+[Date & Time]		6/1/2018 10:52:07 AM
+[Classes Name]		AccountStockOpeningsDAL
+[Functions Name]	GetInventoryMaterial(DateTime endDate)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		9/4/2019 10:41:34 AM
+[Classes Name]		ManufactureReportDAL
+[Functions Name]	ReportTonkhophe(DateTime fromDate, DateTime toDate, string stockCode)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		9/5/2019 4:00:40 PM
+[Classes Name]		ManufactureReportDAL
+[Functions Name]	ReportTonkhophe(DateTime fromDate, DateTime toDate, string stockCode)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		12/2/2019 11:03:38 AM
+[Classes Name]		MTSDAL
+[Functions Name]	ManufacturePlan(Guid planID)
+[Description Error]	Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------
+[Date & Time]		12/2/2019 11:07:26 AM
+[Classes Name]		MTSDAL
+[Functions Name]	ManufacturePlan(Guid planID)
+[Description Error]	Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------
+[Date & Time]		12/6/2019 3:30:24 PM
+[Classes Name]		PurchaseReportDAL
+[Functions Name]	Report_TonkhoBaobi(DateTime fromDate, DateTime toDate, string stockCode)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		9/07/2021 4:12:18 PM
+[Classes Name]		StockReportDAL
+[Functions Name]	ReportTinhhinhtontru2(DateTime toDate, string stockCode, int days, bool groupItem, string itemType)
+[Description Error]	String or binary data would be truncated.
+The statement has been terminated.
+--------------------------------------------------------------------------------
+[Date & Time]		18/07/2021 6:57:15 PM
+[Classes Name]		StockReportDAL
+[Functions Name]	ReportTinhhinhtontru2(DateTime toDate, string stockCode, int days, bool groupItem, string itemType)
+[Description Error]	String or binary data would be truncated.
+The statement has been terminated.
+--------------------------------------------------------------------------------
+[Date & Time]		26/12/2022 2:17:46 PM
+[Classes Name]		SaleReportDAL
+[Functions Name]	ReportGeneralTH(DateTime startDate, DateTime endDate)
+[Description Error]	Ambiguous column name 'ItemCode'.
+--------------------------------------------------------------------------------
+[Date & Time]		11/14/2023 11:07:57 AM
+[Classes Name]		StockReportDAL
+[Functions Name]	Get_Report_TransactionDetail(DateTime _StartDate, DateTime _EndDate, String _StockCode,enumStockTransactionForDepartment _ForDepartment)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		11/14/2023 11:14:39 AM
+[Classes Name]		StockReportDAL
+[Functions Name]	Get_Manufactures_Inventory(DateTime _StartDate, DateTime _EndDate, String _StockCode, enumStockTransactionForDepartment _ForDepartment)
+[Description Error]	Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+--------------------------------------------------------------------------------
+[Date & Time]		12/6/2023 4:16:16 PM
+[Classes Name]		StockTransactionDAL
+[Functions Name]	ReportInOutMaterialForStockCode(DateTime startDate, DateTime endDate, string stockCode)
+[Description Error]	SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+--------------------------------------------------------------------------------
+[Date & Time]		3/5/2024 11:05:03 AM
+[Classes Name]		StockTransactionDAL
+[Functions Name]	DeleteByGenID(Guid _GenID)
+[Description Error]	Object reference not set to an instance of an object.

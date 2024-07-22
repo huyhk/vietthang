@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormEditGrindMaterials" text="Phiếu nghiền"/>
+  <layout id="lblLoai" text="Loại"/>
+  <layout id="lblSoNap" text="Số lượng nạp(Kg)"/>
+  <layout id="lblBaobi" text="Bao bì sử dụng"/>
+  <layout id="lblKho" text="Kho"/>
+  <layout id="lblCa" text="Ca"/>
+  <layout id="lblNgay" text="Ngày"/>
+  <layout id="lblCongthuc" text="Công thức"/>
+  <layout id="lblDescription" text="Mô tả"/>
+  <layout id="lblSoluong" text="Số lượng(Kg)"/>
+  <layout id="lblBaobihu" text="Bao bi hư"/>
+  <layout id="colNguyenlieu" text="Nguyên liệu"/>
+  <layout id="colSoluong" text="Số lượng"/>
+  <layout id="groupBox1" text="Ca"/>
+  <layout id="groupBox2" text="Nguyên liệu"/>
+  <layout id="groupBox3" text="Thành phẩm"/>
+  <layout id="groupBox4" text="Điều chỉnh"/>
+  <layout id="groupBox5" text="Mô tả"/>
+
+  <message id ="VALIDATE-1" text="Vui lòng chọn Kho làm việc!!!"/>
+  <message id ="VALIDATE-2" text="Vui lòng chọn Ca làm việc!!!"/>
+  <message id ="VALIDATE-3" text="Vui lòng chọn Loại thành phẩm!!!"/>
+  <message id ="VALIDATE-4" text="Vui lòng chọn Công thức!!!"/>
+	<message id="DELETE50000" text="Module nghiền đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="INSERT50000" text="Module nghiền đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="UPDATE50000" text="Module nghiền đã khóa sổ, không được thay đổi dữ liệu!"/>
+</root>

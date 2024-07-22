@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ReportHeader.Name" xml:space="preserve">
+    <value>ReportHeader</value>
+  </metadata>
+  <metadata name="xrLabel5.Name" xml:space="preserve">
+    <value>xrLabel5</value>
+  </metadata>
+  <metadata name="xrLabel2.Name" xml:space="preserve">
+    <value>xrLabel2</value>
+  </metadata>
+  <metadata name="lbNguoiCan.Name" xml:space="preserve">
+    <value>lbNguoiCan</value>
+  </metadata>
+  <metadata name="xrLabel15.Name" xml:space="preserve">
+    <value>xrLabel15</value>
+  </metadata>
+  <metadata name="xrLabel16.Name" xml:space="preserve">
+    <value>xrLabel16</value>
+  </metadata>
+  <metadata name="xrLabel14.Name" xml:space="preserve">
+    <value>xrLabel14</value>
+  </metadata>
+  <metadata name="xrTable3.Name" xml:space="preserve">
+    <value>xrTable3</value>
+  </metadata>
+  <metadata name="xrTableRow7.Name" xml:space="preserve">
+    <value>xrTableRow7</value>
+  </metadata>
+  <metadata name="xrTableRow8.Name" xml:space="preserve">
+    <value>xrTableRow8</value>
+  </metadata>
+  <metadata name="xrTableRow9.Name" xml:space="preserve">
+    <value>xrTableRow9</value>
+  </metadata>
+  <metadata name="xrTableRow10.Name" xml:space="preserve">
+    <value>xrTableRow10</value>
+  </metadata>
+  <metadata name="xrTableRow11.Name" xml:space="preserve">
+    <value>xrTableRow11</value>
+  </metadata>
+  <metadata name="xrTableRow12.Name" xml:space="preserve">
+    <value>xrTableRow12</value>
+  </metadata>
+  <metadata name="xrTableRow1.Name" xml:space="preserve">
+    <value>xrTableRow1</value>
+  </metadata>
+  <metadata name="xrTableRow13.Name" xml:space="preserve">
+    <value>xrTableRow13</value>
+  </metadata>
+  <metadata name="xrTableRow14.Name" xml:space="preserve">
+    <value>xrTableRow14</value>
+  </metadata>
+  <metadata name="lbWeightNo.Name" xml:space="preserve">
+    <value>lbWeightNo</value>
+  </metadata>
+  <metadata name="xrLabel4.Name" xml:space="preserve">
+    <value>xrLabel4</value>
+  </metadata>
+  <metadata name="xrLabel3.Name" xml:space="preserve">
+    <value>xrLabel3</value>
+  </metadata>
+  <metadata name="xrLabel1.Name" xml:space="preserve">
+    <value>xrLabel1</value>
+  </metadata>
+  <metadata name="xrTableRow7.Name" xml:space="preserve">
+    <value>xrTableRow7</value>
+  </metadata>
+  <metadata name="lblKhachhang.Name" xml:space="preserve">
+    <value>lblKhachhang</value>
+  </metadata>
+  <metadata name="cellKhachhang.Name" xml:space="preserve">
+    <value>cellKhachhang</value>
+  </metadata>
+  <metadata name="lblSoxe.Name" xml:space="preserve">
+    <value>lblSoxe</value>
+  </metadata>
+  <metadata name="cellSoxe.Name" xml:space="preserve">
+    <value>cellSoxe</value>
+  </metadata>
+  <metadata name="lblKhachhang.Name" xml:space="preserve">
+    <value>lblKhachhang</value>
+  </metadata>
+  <metadata name="cellKhachhang.Name" xml:space="preserve">
+    <value>cellKhachhang</value>
+  </metadata>
+  <metadata name="lblSoxe.Name" xml:space="preserve">
+    <value>lblSoxe</value>
+  </metadata>
+  <metadata name="cellSoxe.Name" xml:space="preserve">
+    <value>cellSoxe</value>
+  </metadata>
+  <metadata name="xrTableRow8.Name" xml:space="preserve">
+    <value>xrTableRow8</value>
+  </metadata>
+  <metadata name="lblTenhang.Name" xml:space="preserve">
+    <value>lblTenhang</value>
+  </metadata>
+  <metadata name="cellTenhang.Name" xml:space="preserve">
+    <value>cellTenhang</value>
+  </metadata>
+  <metadata name="lblPTVC.Name" xml:space="preserve">
+    <value>lblPTVC</value>
+  </metadata>
+  <metadata name="cellPTVC.Name" xml:space="preserve">
+    <value>cellPTVC</value>
+  </metadata>
+  <metadata name="lblTenhang.Name" xml:space="preserve">
+    <value>lblTenhang</value>
+  </metadata>
+  <metadata name="cellTenhang.Name" xml:space="preserve">
+    <value>cellTenhang</value>
+  </metadata>
+  <metadata name="lblPTVC.Name" xml:space="preserve">
+    <value>lblPTVC</value>
+  </metadata>
+  <metadata name="cellPTVC.Name" xml:space="preserve">
+    <value>cellPTVC</value>
+  </metadata>
+  <metadata name="xrTableRow9.Name" xml:space="preserve">
+    <value>xrTableRow9</value>
+  </metadata>
+  <metadata name="lblBaobi.Name" xml:space="preserve">
+    <value>lblBaobi</value>
+  </metadata>
+  <metadata name="cellBaobi.Name" xml:space="preserve">
+    <value>cellBaobi</value>
+  </metadata>
+  <metadata name="lblKho.Name" xml:space="preserve">
+    <value>lblKho</value>
+  </metadata>
+  <metadata name="cellKho.Name" xml:space="preserve">
+    <value>cellKho</value>
+  </metadata>
+  <metadata name="lblBaobi.Name" xml:space="preserve">
+    <value>lblBaobi</value>
+  </metadata>
+  <metadata name="cellBaobi.Name" xml:space="preserve">
+    <value>cellBaobi</value>
+  </metadata>
+  <metadata name="lblKho.Name" xml:space="preserve">
+    <value>lblKho</value>
+  </metadata>
+  <metadata name="cellKho.Name" xml:space="preserve">
+    <value>cellKho</value>
+  </metadata>
+  <metadata name="xrTableRow10.Name" xml:space="preserve">
+    <value>xrTableRow10</value>
+  </metadata>
+  <metadata name="lblSobao.Name" xml:space="preserve">
+    <value>lblSobao</value>
+  </metadata>
+  <metadata name="cellSobao.Name" xml:space="preserve">
+    <value>cellSobao</value>
+  </metadata>
+  <metadata name="lblVTKho.Name" xml:space="preserve">
+    <value>lblVTKho</value>
+  </metadata>
+  <metadata name="cellVTKho.Name" xml:space="preserve">
+    <value>cellVTKho</value>
+  </metadata>
+  <metadata name="lblSobao.Name" xml:space="preserve">
+    <value>lblSobao</value>
+  </metadata>
+  <metadata name="cellSobao.Name" xml:space="preserve">
+    <value>cellSobao</value>
+  </metadata>
+  <metadata name="lblVTKho.Name" xml:space="preserve">
+    <value>lblVTKho</value>
+  </metadata>
+  <metadata name="cellVTKho.Name" xml:space="preserve">
+    <value>cellVTKho</value>
+  </metadata>
+  <metadata name="xrTableRow11.Name" xml:space="preserve">
+    <value>xrTableRow11</value>
+  </metadata>
+  <metadata name="lblKhoiluongtong.Name" xml:space="preserve">
+    <value>lblKhoiluongtong</value>
+  </metadata>
+  <metadata name="cellKhoiluongtong.Name" xml:space="preserve">
+    <value>cellKhoiluongtong</value>
+  </metadata>
+  <metadata name="lblNgaygiovao.Name" xml:space="preserve">
+    <value>lblNgaygiovao</value>
+  </metadata>
+  <metadata name="cellNgaygiovao.Name" xml:space="preserve">
+    <value>cellNgaygiovao</value>
+  </metadata>
+  <metadata name="lblKhoiluongtong.Name" xml:space="preserve">
+    <value>lblKhoiluongtong</value>
+  </metadata>
+  <metadata name="cellKhoiluongtong.Name" xml:space="preserve">
+    <value>cellKhoiluongtong</value>
+  </metadata>
+  <metadata name="lblNgaygiovao.Name" xml:space="preserve">
+    <value>lblNgaygiovao</value>
+  </metadata>
+  <metadata name="cellNgaygiovao.Name" xml:space="preserve">
+    <value>cellNgaygiovao</value>
+  </metadata>
+  <metadata name="xrTableRow12.Name" xml:space="preserve">
+    <value>xrTableRow12</value>
+  </metadata>
+  <metadata name="lblKhoiluongxe.Name" xml:space="preserve">
+    <value>lblKhoiluongxe</value>
+  </metadata>
+  <metadata name="cellKhoiluongxe.Name" xml:space="preserve">
+    <value>cellKhoiluongxe</value>
+  </metadata>
+  <metadata name="lblNgaygiora.Name" xml:space="preserve">
+    <value>lblNgaygiora</value>
+  </metadata>
+  <metadata name="cellNgaygiora.Name" xml:space="preserve">
+    <value>cellNgaygiora</value>
+  </metadata>
+  <metadata name="lblKhoiluongxe.Name" xml:space="preserve">
+    <value>lblKhoiluongxe</value>
+  </metadata>
+  <metadata name="cellKhoiluongxe.Name" xml:space="preserve">
+    <value>cellKhoiluongxe</value>
+  </metadata>
+  <metadata name="lblNgaygiora.Name" xml:space="preserve">
+    <value>lblNgaygiora</value>
+  </metadata>
+  <metadata name="cellNgaygiora.Name" xml:space="preserve">
+    <value>cellNgaygiora</value>
+  </metadata>
+  <metadata name="xrTableRow1.Name" xml:space="preserve">
+    <value>xrTableRow1</value>
+  </metadata>
+  <metadata name="lblKLchuabi.Name" xml:space="preserve">
+    <value>lblKLchuabi</value>
+  </metadata>
+  <metadata name="cellKLChuabi.Name" xml:space="preserve">
+    <value>cellKLChuabi</value>
+  </metadata>
+  <metadata name="lblNgaygiora1.Name" xml:space="preserve">
+    <value>lblNgaygiora1</value>
+  </metadata>
+  <metadata name="cellNgaygiora1.Name" xml:space="preserve">
+    <value>cellNgaygiora1</value>
+  </metadata>
+  <metadata name="lblKLchuabi.Name" xml:space="preserve">
+    <value>lblKLchuabi</value>
+  </metadata>
+  <metadata name="cellKLChuabi.Name" xml:space="preserve">
+    <value>cellKLChuabi</value>
+  </metadata>
+  <metadata name="lblNgaygiora1.Name" xml:space="preserve">
+    <value>lblNgaygiora1</value>
+  </metadata>
+  <metadata name="cellNgaygiora1.Name" xml:space="preserve">
+    <value>cellNgaygiora1</value>
+  </metadata>
+  <metadata name="xrTableRow13.Name" xml:space="preserve">
+    <value>xrTableRow13</value>
+  </metadata>
+  <metadata name="lblKhoiluongbaobi.Name" xml:space="preserve">
+    <value>lblKhoiluongbaobi</value>
+  </metadata>
+  <metadata name="cellKhoiluongbaobi.Name" xml:space="preserve">
+    <value>cellKhoiluongbaobi</value>
+  </metadata>
+  <metadata name="lblNgaygiora2.Name" xml:space="preserve">
+    <value>lblNgaygiora2</value>
+  </metadata>
+  <metadata name="cellNgaygiora2.Name" xml:space="preserve">
+    <value>cellNgaygiora2</value>
+  </metadata>
+  <metadata name="lblKhoiluongbaobi.Name" xml:space="preserve">
+    <value>lblKhoiluongbaobi</value>
+  </metadata>
+  <metadata name="cellKhoiluongbaobi.Name" xml:space="preserve">
+    <value>cellKhoiluongbaobi</value>
+  </metadata>
+  <metadata name="lblNgaygiora2.Name" xml:space="preserve">
+    <value>lblNgaygiora2</value>
+  </metadata>
+  <metadata name="cellNgaygiora2.Name" xml:space="preserve">
+    <value>cellNgaygiora2</value>
+  </metadata>
+  <metadata name="xrTableRow14.Name" xml:space="preserve">
+    <value>xrTableRow14</value>
+  </metadata>
+  <metadata name="lblKhoiluonghang.Name" xml:space="preserve">
+    <value>lblKhoiluonghang</value>
+  </metadata>
+  <metadata name="cellKhoiluonghang.Name" xml:space="preserve">
+    <value>cellKhoiluonghang</value>
+  </metadata>
+  <metadata name="lblXuatnhap.Name" xml:space="preserve">
+    <value>lblXuatnhap</value>
+  </metadata>
+  <metadata name="cellXuatnhap.Name" xml:space="preserve">
+    <value>cellXuatnhap</value>
+  </metadata>
+  <metadata name="lblKhoiluonghang.Name" xml:space="preserve">
+    <value>lblKhoiluonghang</value>
+  </metadata>
+  <metadata name="cellKhoiluonghang.Name" xml:space="preserve">
+    <value>cellKhoiluonghang</value>
+  </metadata>
+  <metadata name="lblXuatnhap.Name" xml:space="preserve">
+    <value>lblXuatnhap</value>
+  </metadata>
+  <metadata name="cellXuatnhap.Name" xml:space="preserve">
+    <value>cellXuatnhap</value>
+  </metadata>
+  <metadata name="Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </metadata>
+  <metadata name="$this.Name" xml:space="preserve">
+    <value>RpWeightItemContainer</value>
+  </metadata>
+</root>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormRpAccountTransactionOriginateBalance" text="Bảng cân đối số phát sinh"/>
+  <layout id="radButton1CT" text="Chi tiết"/>
+  <layout id="option" text="Tùy chọn"/>
+  <layout id="btnXem" text="Xem"/>
+	<layout id="btnExports" text="Kết xuất ra Excel"/>
+		<layout id="btnReports" text="In Bảng cân đối"/>
+	<layout id="radButtonTK" text="Tài khoản cấp I"/>
+  <layout id="colAccountCode" text="Tài khoản"/>
+  <layout id="colAccountName" text="Tên tài khoản kế toán"/>
+
+  <layout id="colDebitOpenAmount" text="Dư đầu nợ"/>
+  <layout id="colCreditOpenAmount" text="Dư đầu có"/>
+
+  <layout id="colInAmount" text="Phát sinh nợ"/>
+  <layout id="colOutAmount" text="Phát sinh có"/>
+
+  <layout id="colDebitCloseAmount" text="Dư cuối nợ"/>
+  <layout id="colCreditCloseAmount" text="Dư cuối có"/>
+</root>

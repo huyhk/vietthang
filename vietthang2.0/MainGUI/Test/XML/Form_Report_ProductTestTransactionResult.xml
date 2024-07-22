@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="Form_Report_ProductTestTransactionResult1" text="Phiếu kiểm tra thành phẩm" />
+<layout id="colProductCode" text="Tên sản phẩm" />
+<layout id="colTransactionDate" text="Ngày sản xuất" />
+<layout id="colLot" text="Lót" />
+<layout id="colShift" text="Ca" />
+<layout id="colFormulaCode" text="Code công thức" />
+<layout id="colSIZE" text="Kích cỡ" />
+<layout id="colNGOAIQUAN" text="Ngoại quan" />
+<layout id="colDOMIN1" text="500(µm)" />
+<layout id="colDOMIN2" text="315(µm)" />
+<layout id="colDOMIN3" text="250(µm)" />
+<layout id="colDONO" text="Độ nở (g/l) " />
+<layout id="colTILENOI" text="TL nổi (6)" />
+<layout id="colMOISTURE" text="Ẩm % (6)" />
+<layout id="colDOBEN" text="Độ bền" />
+<layout id="colTILEBUI" text="TL bụi" />
+<layout id="colTLT" text="Trọng lượng tịnh (6)" />
+<layout id="colKETLUAN" text="Kết luận" />
+<layout id="btnReport" text="Kết xuất ra excel" />
+<layout id="lblStockCode" text="Nhà máy:" />
+<layout id="lookUpStockCode" text="" /></root>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="label7" text="Lot" />
+	<layout id="label6" text="Công thức" />
+	<layout id="label5" text="Kích thước" />
+	<layout id="label4" text="Thành phẩm" />
+	<layout id="label3" text="Ca SX" />
+	<layout id="label2" text="Ngày SX" />
+	<layout id="label1" text="Nhà máy" />
+	<layout id="btnCancel" text="Bỏ qua" />
+	<layout id="btnSave" text="Lưu" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="lbEncryptCode" text="Mã mẫu" />
+
+	<message id="VALIDATE-1" text="Bạn chưa nhập mã mẫu!"/>
+	<message id="VALIDATE-2" text="Bạn chưa chọn nhà máy!"/>
+	<message id="VALIDATE-3" text="Bạn chưa chọn thành phẩm!"/>
+	<message id="VALIDATE-4" text="Bạn chưa chọn kích thước!"/>
+	<message id="INSERT-1" text="Kho chọn đã bị xóa!"/>
+	<message id="INSERT-2" text="Thành phẩm đã bị xóa!"/>
+	<message id="INSERT-3" text="Mã kích thước đã bị xóa!"/>
+	<message id="INSERT-4" text="Mã công thức đã bị xóa!"/>
+	<message id="INSERT-5" text="Mã mẫu đã tồn tại!"/>
+
+	<message id="UPDATE-1" text="Kho chọn đã bị xóa!"/>
+	<message id="UPDATE-2" text="Thành phẩm đã bị xóa!"/>
+	<message id="UPDATE-3" text="Mã kích thước đã bị xóa!"/>
+	<message id="UPDATE-4" text="Mã công thức đã bị xóa!"/>
+	<message id="UPDATE-5" text="Mã mẫu đã tồn tại!"/>
+	<message id="UPDATE-6" text="Mã mẫu đã bị xóa!"/>
+</root>
+

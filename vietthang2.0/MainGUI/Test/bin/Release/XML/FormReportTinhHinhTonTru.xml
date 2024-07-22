@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportTinhHinhTonTru" text="Báo cáo tình hình tồn trữ nguyên liệu/thành phẩm" />
+	<layout id="btnExportToExcel" text="Xuất báo cáo ra excel" />
+	<layout id="groupBox2" text="" />
+	<layout id="lbToDate" text="Tính đến ngày" />
+	<layout id="lookUpStockCode" text="" />
+	<layout id="lbStockCode" text="Kho" />
+	<layout id="lbDay" text="Số ngày tính" />
+	<layout id="txtDays" text="30" />
+	<layout id="groupBox1" text="Báo cáo" />
+	<layout id="optMaterial" text="Nguyên liệu" />
+	<layout id="lstReportFor" text="" />
+	<layout id="optProduct" text="Thành phẩm" />
+	<layout id="ProductText" text="Bán bình quân (kg/ngày)" />
+	<layout id="MaterialText" text="Sử dụng bình quân (kg/ngày)" />
+	<layout id="TemplateFileNotExists" text="Không tìm thấy tập tin mẫu ...\\Baocaomau\\Kho\\TinhhinhTontru.xls" />
+</root>

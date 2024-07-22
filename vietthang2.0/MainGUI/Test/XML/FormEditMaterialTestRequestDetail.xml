@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnOK" text="OK" />
+	<layout id="btnRefresh" text="Refresh" />
+	<layout id="label1" text="ĐV phân tích" />
+	<layout id="colTechCode1" text="Chỉ tiêu" />
+	<layout id="colTTPT" text="Nơi phân tích" />
+	<layout id="btnSelectTechCode" text="&gt;&gt;" />
+	<layout id="colTechCode" text="Mã chỉ tiêu" />
+	<layout id="colTechName" text="Tên chỉ tiêu" />
+	<layout id="btnSelectEncryptCode" text="&gt;&gt;" />
+	<layout id="colItemName1" text="Nguyên liệu" />
+	<layout id="colStockName1" text="Kho" />
+	<layout id="colDateRequest1" text="Ngày" />
+	<layout id="colVendorName1" text="Khách hàng" />
+	<layout id="colPTVC1" text="PTVC" />
+	<layout id="colItemEncryptCode1" text="Mã mẫu" />
+	<layout id="lbPeriod" text="Kỳ" />
+	<layout id="colItemName" text="Nguyên liệu" />
+	<layout id="colStockCode" text="Kho" />
+	<layout id="colTestTransactionDate" text="Ngày" />
+	<layout id="colVendorName" text="Khách hàng" />
+	<layout id="colPTVC" text="PTVC" />
+	<layout id="colItemEncryptCode" text="Mã mẫu" />
+</root>
+

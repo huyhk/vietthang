@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+<layout id="FormReport_TestMaterialFrequency_ByLo" text="Báo cáo tần suất kiểm nguyên liệu theo lô" />
+<layout id="grBoxPeriodSelect" text="Báo cáo" />
+<layout id="lbEndDate" text="Đến" />
+<layout id="optDay" text="Từ" />
+<layout id="optMonth" text="Tháng" />
+<layout id="optQuater" text="Quý" />
+<layout id="optYear" text="Năm" />
+<layout id="btnRefresh" text="Refresh" />
+<layout id="colItemCode" text="Mã nguyên liệu" />
+<layout id="colItemName" text="Nguyên liệu" />
+<layout id="colSolannhap" text="Số lần nhập" />
+<layout id="colTongsoluong" text="Tổng số lượng" />
+</root>

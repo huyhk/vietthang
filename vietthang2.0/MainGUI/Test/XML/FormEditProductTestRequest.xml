@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnEditDetail" text="..." />
+	<layout id="btnReceived" text="Nhận/Bỏ nhận" />
+	<layout id="chkIsReceived" text="Đã nhận" />
+	<layout id="colStockName" text="Kho" />
+	<layout id="colManuDate" text="Ngày sx" />
+	<layout id="colShift" text="Ca" />
+	<layout id="colProduct" text="Thành phẩm" />
+	<layout id="colSizeCode" text="Kích thước" />
+	<layout id="colFormulaCode" text="Công thức" />
+	<layout id="colLot" text="Lot" />
+	<layout id="colItemEnryptCode" text="Mã mẫu" />
+	<layout id="colSubjectName" text="ĐVPT" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="lbDate" text="Ngày" />
+
+	<layout id="UpdateIsReceived" text="Phiếu yêu cầu kiểm tra đã được nhận, không thể sửa!" />
+	<layout id="UpdateIsReceved-1" text="Phiếu đã bị xóa!" />
+  <layout id="UpdateIsReceved50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+	<layout id="DeleteIsReceived" text="Phiếu yêu cầu kiểm tra đã được nhận, không thể xóa!" />
+	<layout id="IsReceived" text="Phiếu đã được nhận trước đó!" />
+	<layout id="IsCancelReceived" text="Phiếu đã được bỏ nhận trước đó!" />
+	
+	<message id="INSERT-2" text="Mã mẫu không tồn tại!"/>
+	<message id="INSERT-3" text="Chỉ tiêu không tồn tại!"/>
+	<message id="INSERT-4" text="Phiếu yêu cầu đã bị xóa!"/>
+	<message id="INSERT-5" text="Trung tâm phân tích không tồn tại!"/>
+	<message id="INSERT-6" text="Mã mẫu, chỉ tiêu và trung tâm phân tích đã tồn tại, không được lặp lại!"/>
+	<message id="INSERT-7" text="Ngày của phiếu yêu cầu đã tồn tại, mỗi ngày chỉ được thực hiện một phiếu yêu cầu!"/>
+	<message id="UPDATE-1" text="Phiếu đã bị xóa!"/>
+	<message id="UPDATE-3" text="Chỉ tiêu không tồn tại!"/>
+	<message id="UPDATE-4" text="Phiếu yêu cầu đã bị xóa!"/>
+	<message id="UPDATE-5" text="Trung tâm phân tích không tồn tại!"/>
+	<message id="UPDATE-6" text="Mã mẫu, chỉ tiêu và trung tâm phân tích đã tồn tại, không được lặp lại!"/>
+	<message id="UPDATE-7" text="Phiếu yêu cầu kiểm tra đã được nhận, không thể sửa!"/>
+	<message id="UPDATE-8" text="Ngày của phiếu yêu cầu đã tồn tại, mỗi ngày chỉ được thực hiện một phiếu yêu cầu!"/>
+	<message id="DELETE-1" text="Phiếu yêu cầu đã bị xóa trước đó!"/>
+	<message id="DELETE-2" text="Phiếu yêu cầu kiểm tra đã được nhận, không thể xóa!"/>
+  <message id="INSERT50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+  <message id="DELETE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="UPDATE50000" text="Module KCS đã khóa sổ, không được thay đổi dữ liệu!" />
+</root>

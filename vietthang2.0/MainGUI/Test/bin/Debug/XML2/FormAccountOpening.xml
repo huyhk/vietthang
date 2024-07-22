@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+	<layout id="FormAccountOpening" text="Tồn đầu tài khoản ngày: "/>
+	<layout id="colAccountCode" text="Tài khoản"/>
+	<layout id="colSubjectCode" text="Đối tượng"/>
+	<layout id="colOpeningAmount" text="Tiền"/>
+	<layout id="colDebitOpeningAmount" text="Nợ"/>
+	<layout id="colCreditOpeningAmount" text="Có"/>
+	<layout id="colCurrencyCode" text="Ngoại tệ" />
+	<layout id="colDebitOpeningAmountNT" text="Nợ NT" />
+	<layout id="colCreditOpeningAmountNT" text="Có NT" />
+
+
+	<message id="Info-1" text="Chương trình sẽ lấy thông tin từ tồn đầu công nợ khách hàng (Y/N?)" />
+	<message id="Info-2" text="Chương trình sẽ lấy thông tin từ tồn đầu tài sản cố định (Y/N?)" />
+  <message id="VALIDATE-1" text="Vui lòng chọn tài khoản!" />
+  <message id="VALIDATE-2" text="Đối tượng không phù hợp!" />
+  <message id="VALIDATE-3" text="Số tiền phải khác 0!" />
+  <message id="INSERT-1" text="Lổi trong khi lưu dữ liệu!" />
+  <message id="INSERT-2" text="Đối tượng không tồn tại!" />
+  <message id="INSERT-3" text="Tài khoản không tồn tại!" />
+  <message id="DELETE-1" text="Lổi trong khi lưu dữ liệu!" />
+
+</root>
+
+

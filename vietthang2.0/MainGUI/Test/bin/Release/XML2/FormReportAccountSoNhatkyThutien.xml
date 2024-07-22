@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormReportAccountSoNhatkyThutien" text="Sổ nhật ký thu tiền" />
+		<layout id="btnExport" text="Kết xuất ra Excel" />
+		<layout id="lblSubjectCash" text="Kho quỹ:" />
+		<layout id="lblAccountCode" text="Tài khoản:" />
+		<layout id="lblNumberLineDefault" text="Số dòng của trang đầu:" />
+		<layout id="lblNumberFirstPage" text="Số dòng trong một trang:" />
+</root>

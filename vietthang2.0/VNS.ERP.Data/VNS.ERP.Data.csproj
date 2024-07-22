@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90BE3932-E046-454C-B703-02922191B5D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNS.ERP.Data</RootNamespace>
+    <AssemblyName>VNS.ERP.Data</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Accounting\AccountBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountClassificationBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountClassificationTypeBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountFixedAssetBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountOpeningBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountReportBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountSampleBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountStockCostOpeningBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountStockOpeningsBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountStockPriceCostBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountSubjectTypeBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionFixedAssetLiquidateBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionFixedAssetNewBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionFixedAssetUpgradeBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionStockNewBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionTypeDetailBLL.cs" />
+    <Compile Include="BLL\Accounting\AccountTransactionTypesBLL.cs" />
+    <Compile Include="BLL\Accounting\CongtrinhBLL.cs" />
+    <Compile Include="BLL\Accounting\KheUocVayBLL.cs" />
+    <Compile Include="BLL\Accounting\UyNhiemChiPrintBLL.cs" />
+    <Compile Include="BLL\Admin\AdminBLL.cs" />
+    <Compile Include="BLL\Equipments\EquipmentBLL.cs" />
+    <Compile Include="BLL\Equipments\EquipmentExpenseBLL.cs" />
+    <Compile Include="BLL\Equipments\EquipmentGroupBLL.cs" />
+    <Compile Include="BLL\Equipments\EquipmentLogBLL.cs" />
+    <Compile Include="BLL\Equipments\EquipmentReportBLL.cs" />
+    <Compile Include="BLL\Equipments\EquipmentsxBLL.cs" />
+    <Compile Include="BLL\Equipments\VattuOldOpeningBLL.cs" />
+    <Compile Include="BLL\Equipments\VattuOldTypeBLL.cs" />
+    <Compile Include="BLL\Equipments\VattuTransactionBLL.cs" />
+    <Compile Include="BLL\GDs\GDReportBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchaseContractTemplateBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchaseInvoiceBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchasePlanBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchasePlanMonthsBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchasePlanWeekBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchaseReportBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerDiscountListBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerPriceReduceBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerPriceTypeBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerSpecialPriceBLL.cs" />
+    <Compile Include="BLL\Sales\ProvincePriceBLL.cs" />
+    <Compile Include="BLL\Stocks\ItemGroupBLL.cs" />
+    <Compile Include="BLL\Transports\BocxepContractBLL.cs" />
+    <Compile Include="BLL\Transports\BocxepContractPriceBLL.cs" />
+    <Compile Include="BLL\Transports\BocxepContractServiceBLL.cs" />
+    <Compile Include="BLL\Transports\BocxepResultBLL.cs" />
+    <Compile Include="BLL\Transports\BocxepTypeBLL.cs" />
+    <Compile Include="BLL\Config\MemberBLL.cs" />
+    <Compile Include="BLL\Config\ModuleBLL.cs" />
+    <Compile Include="BLL\CurrencyBL.cs" />
+    <Compile Include="BLL\Sales\CustomerDeptBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerDeptOpeningBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerDeptSumOpeningBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerDiscount2BLL.cs" />
+    <Compile Include="BLL\Sales\CustomerDiscountTypeBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerOrderBLL.cs" />
+    <Compile Include="BLL\Sales\CustomerPaymentBLL.cs" />
+    <Compile Include="BLL\DepartmentConfirmSTBLL.cs" />
+    <Compile Include="BLL\EmployeeBLL.cs" />
+    <Compile Include="BLL\KCS\EncryptCodeReturnBLL.cs" />
+    <Compile Include="BLL\KCS\EncryptCodeSendBLL.cs" />
+    <Compile Include="BLL\Transports\ExchangeResultBLL.cs" />
+    <Compile Include="BLL\Accounting\FixedAssetDepreciationBLL.cs" />
+    <Compile Include="BLL\Accounting\FixedAssetGeneralBLL.cs" />
+    <Compile Include="BLL\Accounting\FixedAssetOpeningBLL.cs" />
+    <Compile Include="BLL\Accounting\FixedAssetUpgradeBLL.cs" />
+    <Compile Include="BLL\Grinds\GeneralMaterialBLL.cs" />
+    <Compile Include="BLL\Premixs\GeneralPremixBLL.cs" />
+    <Compile Include="BLL\Grinds\GrindInventoryBLL.cs" />
+    <Compile Include="BLL\Grinds\GrindMaterialBLL.cs" />
+    <Compile Include="BLL\Grinds\GrindMaterialShiftBLL.cs" />
+    <Compile Include="BLL\Grinds\GrindReportBLL.cs" />
+    <Compile Include="BLL\GTGTBLL.cs" />
+    <Compile Include="BLL\Accounting\InstrumentItemBLL.cs" />
+    <Compile Include="BLL\Accounting\InstrumentOpeningBLL.cs" />
+    <Compile Include="BLL\Accounting\InstrumentTransactionAccountBLL.cs" />
+    <Compile Include="BLL\InventoryBLL.cs" />
+    <Compile Include="BLL\ItemBLL.cs" />
+    <Compile Include="BLL\ItemManufactureBLL.cs" />
+    <Compile Include="BLL\ItemProductBLL.cs" />
+    <Compile Include="BLL\ItemSalePriceBLL.cs" />
+    <Compile Include="BLL\ItemWrappingBLL.cs" />
+    <Compile Include="BLL\KCS\KCSReportBLL.cs" />
+    <Compile Include="BLL\LinesxBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufactureBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufactureInventoryBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufacturePlanBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufacturePlanMonthBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufacturePlanWeekBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufactureReportBLL.cs" />
+    <Compile Include="BLL\Manufactures\ManufactureShiftBLL.cs" />
+    <Compile Include="BLL\Grinds\MaterialFormularBLL.cs" />
+    <Compile Include="BLL\Grinds\MaterialFormularDetailBLL.cs" />
+    <Compile Include="BLL\KCS\MaterialQualityStandardsBLL.cs" />
+    <Compile Include="BLL\KCS\MaterialTestEncryptCodeBLL.cs" />
+    <Compile Include="BLL\KCS\MaterialTestFrequencysBLL.cs" />
+    <Compile Include="BLL\KCS\MaterialTestRequestBLL.cs" />
+    <Compile Include="BLL\KCS\MaterialTestTransactionBLL.cs" />
+    <Compile Include="BLL\MemberFunctionBLL.cs" />
+    <Compile Include="BLL\Premixs\MixPremixBLL.cs" />
+    <Compile Include="BLL\Premixs\MixPremixShiftBLL.cs" />
+    <Compile Include="BLL\PeriodBLL.cs" />
+    <Compile Include="BLL\Premixs\PremixFormulaBLL.cs" />
+    <Compile Include="BLL\Premixs\PremixFormulaDetailBLL.cs" />
+    <Compile Include="BLL\Premixs\PremixInventoryBLL.cs" />
+    <Compile Include="BLL\Premixs\PremixReportBLL.cs" />
+    <Compile Include="BLL\PremixWrappingBLL.cs" />
+    <Compile Include="BLL\Accounting\PrePaidDepreciationBLL.cs" />
+    <Compile Include="BLL\Accounting\PrePaidExpenseBLL.cs" />
+    <Compile Include="BLL\Accounting\PrePaidExpenseOpeningBLL.cs" />
+    <Compile Include="BLL\Accounting\PrePaidReDepreciationBLL.cs" />
+    <Compile Include="BLL\ProductBLL.cs" />
+    <Compile Include="BLL\Accounting\ProductCostBLL.cs" />
+    <Compile Include="BLL\ProductCostFormulaBLL.cs" />
+    <Compile Include="BLL\Manufactures\ProductFormulaBLL.cs" />
+    <Compile Include="BLL\Manufactures\ProductFormulaBLL2.cs" />
+    <Compile Include="BLL\Manufactures\ProductFormulaDetailBLL.cs" />
+    <Compile Include="BLL\Accounting\ProductPriceCostBLL.cs" />
+    <Compile Include="BLL\KCS\ProductQualityStandardsBLL.cs" />
+    <Compile Include="BLL\ProductSizeBLL.cs" />
+    <Compile Include="BLL\ProductSizeCostFormulaBLL.cs" />
+    <Compile Include="BLL\KCS\ProductTestEncryptCodeBLL.cs" />
+    <Compile Include="BLL\KCS\ProductTestFrequencyBLL.cs" />
+    <Compile Include="BLL\KCS\ProductTestRequestBLL.cs" />
+    <Compile Include="BLL\KCS\ProductTestTransactionBLL.cs" />
+    <Compile Include="BLL\ProductWeightBLL.cs" />
+    <Compile Include="BLL\ProvinceBLL.cs" />
+    <Compile Include="BLL\Purchases\PurchaseContractBLL.cs" />
+    <Compile Include="BLL\Sales\SaleReportBLL.cs" />
+    <Compile Include="BLL\Sales\SaleRequestBLL.cs" />
+    <Compile Include="BLL\StockBLL.cs" />
+    <Compile Include="BLL\Stocks\StockLocationBLL.cs" />
+    <Compile Include="BLL\Stocks\StockReportBLL.cs" />
+    <Compile Include="BLL\Stocks\StockTransactionBLL.cs" />
+    <Compile Include="BLL\Stocks\StockTransportBLL.cs" />
+    <Compile Include="BLL\SubjectBLL.cs" />
+    <Compile Include="BLL\SubjectTypeBLL.cs" />
+    <Compile Include="BLL\KCS\TechnicalTestBLL.cs" />
+    <Compile Include="BLL\KCS\TechnicalTestPricesBLL.cs" />
+    <Compile Include="BLL\KCS\TechnicalTestReturnBLL.cs" />
+    <Compile Include="BLL\KCS\TestRequestReturnBLL.cs" />
+    <Compile Include="BLL\TransactiontypeBLL.cs" />
+    <Compile Include="BLL\TransportItemTypeBLL.cs" />
+    <Compile Include="BLL\Transports\TCContractBLL.cs" />
+    <Compile Include="BLL\Transports\ToBocxepBLL.cs" />
+    <Compile Include="BLL\Transports\TransportCompensationPriceBLL.cs" />
+    <Compile Include="BLL\Transports\TransportContractBatchBLL.cs" />
+    <Compile Include="BLL\Transports\TransportContractBLL.cs" />
+    <Compile Include="BLL\Transports\TransportContractDetentionPriceBLL.cs" />
+    <Compile Include="BLL\Transports\TransportContractFeeBLL.cs" />
+    <Compile Include="BLL\Transports\TransportContractItemLossGroupBLL.cs" />
+    <Compile Include="BLL\Transports\TransportContractPriceBLL.cs" />
+    <Compile Include="BLL\Transports\TransportFeeBLL.cs" />
+    <Compile Include="BLL\Transports\TransportFeeTypeBLL.cs" />
+    <Compile Include="BLL\Transports\TransportLossAllowBLL.cs" />
+    <Compile Include="BLL\Transports\TransportReportBLL.cs" />
+    <Compile Include="BLL\Transports\TransportResultBLL.cs" />
+    <Compile Include="BLL\Transports\TransportRouteBLL.cs" />
+    <Compile Include="BLL\TransportTypeBLL.cs" />
+    <Compile Include="BLL\VattuBLL.cs" />
+    <Compile Include="BLL\Equipments\VattuOpeningBLL.cs" />
+    <Compile Include="BLL\VesselBLL.cs" />
+    <Compile Include="BLL\Transports\VesselExchangeContractBLL.cs" />
+    <Compile Include="BLL\Transports\VesselInsuranceContractBLL.cs" />
+    <Compile Include="BLL\Transports\VesselTransactionBLL.cs" />
+    <Compile Include="BLL\Stocks\WeightItemBLL.cs" />
+    <Compile Include="BLL\Stocks\WeightItemContainerBLL.cs" />
+    <Compile Include="BLL\Stocks\WeightItemDetailBLL.cs" />
+    <Compile Include="DAL\Accounting\AccountClassificationDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountClassificationTypeDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountFixedAssetDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountInstrumentTransactionDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountOpeningDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountReportDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountSampleDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountSampleDetail1DAL.cs" />
+    <Compile Include="DAL\Accounting\AccountSampleDetail2DAL.cs" />
+    <Compile Include="DAL\Accounting\AccountStockCostOpeningDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountStockDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountStockOpeningsDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountStockPriceCostDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountSubjectTypeDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionDetail1DAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionDetail2DAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionFixedAssetNewDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionFixedAssetUpgradeDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionStockDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionStockDetailDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionStockNewDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionTypeDetailDAL.cs" />
+    <Compile Include="DAL\Accounting\AccountTransactionTypesDAL.cs" />
+    <Compile Include="DAL\Accounting\CongtrinhDAL.cs" />
+    <Compile Include="DAL\Accounting\FixedAssetLiquidateDAL.cs" />
+    <Compile Include="DAL\Accounting\KheUocVayDAL.cs" />
+    <Compile Include="DAL\Accounting\UyNhiemChiPrintDAL.cs" />
+    <Compile Include="DAL\Admin\AdminDAL.cs" />
+    <Compile Include="DAL\Equipments\EquipmentDAL.cs" />
+    <Compile Include="DAL\Equipments\EquipmentExpenseDAL.cs" />
+    <Compile Include="DAL\Equipments\EquipmentGroupDAL.cs" />
+    <Compile Include="DAL\Equipments\EquipmentLogDAL.cs" />
+    <Compile Include="DAL\Equipments\EquipmentReportDAL.cs" />
+    <Compile Include="DAL\Equipments\EquipmentsxDAL.cs" />
+    <Compile Include="DAL\Equipments\VattuOldOpeningDAL.cs" />
+    <Compile Include="DAL\Equipments\VattuOldTypeDAL.cs" />
+    <Compile Include="DAL\Equipments\VattuTransactionDAL.cs" />
+    <Compile Include="DAL\GDs\GDReportDAL.cs" />
+    <Compile Include="DAL\MTSDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchaseContractTemplateDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchaseInvoiceDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchasePlanDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchasePlanMonthDetailDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchasePlanMonthsDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchasePlanWeekDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchaseReportDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerDiscountListDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerPriceReduceDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerPriceTypeDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerSpecialPriceDAL.cs" />
+    <Compile Include="DAL\Sales\ProvincePriceDAL.cs" />
+    <Compile Include="DAL\Stocks\ItemGroupDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepContractDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepContractPriceDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepContractPriceDetailDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepContractPriceStockDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepContractServiceDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepResultDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepResultDetailDAL.cs" />
+    <Compile Include="DAL\Transports\BocxepTypeDAL.cs" />
+    <Compile Include="DAL\BuyNoInvoiceDAL.cs" />
+    <Compile Include="DAL\Config\MemberDAL.cs" />
+    <Compile Include="DAL\Config\ModuleDAL.cs" />
+    <Compile Include="DAL\CurrencyDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerDeptDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerDeptOpeningDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerDeptSumOpeningDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerDiscount2DAL.cs" />
+    <Compile Include="DAL\Sales\CustomerDiscountTypeDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerOrderDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerOrderDetailDAL.cs" />
+    <Compile Include="DAL\Sales\CustomerPaymentDAL.cs" />
+    <Compile Include="DAL\EmployeeDAL.cs" />
+    <Compile Include="DAL\KCS\EncryptCodeReturnDAL.cs" />
+    <Compile Include="DAL\KCS\EncryptCodeReturnDetailDAL.cs" />
+    <Compile Include="DAL\KCS\EncryptCodeSendDAL.cs" />
+    <Compile Include="DAL\KCS\EncryptCodeSendDetailDAL.cs" />
+    <Compile Include="DAL\Transports\ExchangeResultDAL.cs" />
+    <Compile Include="DAL\Accounting\FixedAssetDepreciationDAL.cs" />
+    <Compile Include="DAL\Accounting\FixedAssetGeneralDAL.cs" />
+    <Compile Include="DAL\Accounting\FixedAssetOpeningDAL.cs" />
+    <Compile Include="DAL\Accounting\FixedAssetUpgradeDAL.cs" />
+    <Compile Include="DAL\FormulaDetailDAL.cs" />
+    <Compile Include="DAL\Grinds\GeneralMaterialDAL.cs" />
+    <Compile Include="DAL\Premixs\GeneralPremixDAL.cs" />
+    <Compile Include="DAL\Grinds\GrindInventoryDAL.cs" />
+    <Compile Include="DAL\Grinds\GrindMaterialDAL.cs" />
+    <Compile Include="DAL\Grinds\GrindMaterialShiftDAL.cs" />
+    <Compile Include="DAL\Grinds\GrindMaterialTransactionDAL.cs" />
+    <Compile Include="DAL\Grinds\GrindReportDAL.cs" />
+    <Compile Include="DAL\GTGTDAL.cs" />
+    <Compile Include="DAL\Accounting\InstrumentItemDAL.cs" />
+    <Compile Include="DAL\Accounting\InstrumentOpeningDAL.cs" />
+    <Compile Include="DAL\Accounting\InstrumentPrepaidDAL.cs" />
+    <Compile Include="DAL\Accounting\InstrumentTransactionAccountDAL.cs" />
+    <Compile Include="DAL\Accounting\InstrumentTransactionDAL.cs" />
+    <Compile Include="DAL\Accounting\InstrumentTransactionDetailDAL.cs" />
+    <Compile Include="DAL\Stocks\InventoryDAL.cs" />
+    <Compile Include="DAL\InvoiceDAL.cs" />
+    <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\ItemManufactureDAL.cs" />
+    <Compile Include="DAL\ItemPriceCostDAL.cs" />
+    <Compile Include="DAL\ItemProductDAL.cs" />
+    <Compile Include="DAL\ItemSalePriceDAL.cs" />
+    <Compile Include="DAL\ItemWrappingDAL.cs" />
+    <Compile Include="DAL\KCS\KCSReportDAL.cs" />
+    <Compile Include="DAL\LinesxDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufactureDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufactureInventoryDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufacturePlanDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufacturePlanDetailDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufacturePlanMonthDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufacturePlanMonthDetailDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufacturePlanWeekDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufacturePlanWeekDetailDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufactureReportDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufactureShiftDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufactureShiftTransactionDAL.cs" />
+    <Compile Include="DAL\Manufactures\ManufactureTransactionDAL.cs" />
+    <Compile Include="DAL\Grinds\MaterialFormulaDAL.cs" />
+    <Compile Include="DAL\MaterialFormularDetailDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialQualityStandardsDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialTestEncryptCodeDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialTestFrequencysDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialTestRequestDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialTestRequestDetailDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialTestTransactionDAL.cs" />
+    <Compile Include="DAL\KCS\MaterialTestTransactionDetailDAL.cs" />
+    <Compile Include="DAL\MemberFunctionDAL.cs" />
+    <Compile Include="DAL\Premixs\MixPremixDAL.cs" />
+    <Compile Include="DAL\Premixs\MixPremixShiftDAL.cs" />
+    <Compile Include="DAL\Premixs\MixPremixTransactionDAL.cs" />
+    <Compile Include="DAL\PeriodDAL.cs" />
+    <Compile Include="DAL\Premixs\PremixFormulaDAL.cs" />
+    <Compile Include="DAL\Premixs\PremixFormulaDetailDAL.cs" />
+    <Compile Include="DAL\Premixs\PremixInventoryDAL.cs" />
+    <Compile Include="DAL\Premixs\PremixReportDAL.cs" />
+    <Compile Include="DAL\PremixWrappingDAL.cs" />
+    <Compile Include="DAL\Accounting\PrePaidDepreciationDAL.cs" />
+    <Compile Include="DAL\Accounting\PrePaidExpenseDAL.cs" />
+    <Compile Include="DAL\Accounting\PrePaidExpenseOpeningDAL.cs" />
+    <Compile Include="DAL\Accounting\PrePaidReDepreciationDAL.cs" />
+    <Compile Include="DAL\ProductCostFormulaDAL.cs" />
+    <Compile Include="DAL\ProductDAL.cs" />
+    <Compile Include="DAL\ProductFormulaDAL.cs" />
+    <Compile Include="DAL\ProductFormulaDAL2.cs" />
+    <Compile Include="DAL\ProductFormulaUnActiveDAL.cs" />
+    <Compile Include="DAL\Accounting\ProductPriceCostDAL.cs" />
+    <Compile Include="DAL\KCS\ProductQualityStandardsDAL.cs" />
+    <Compile Include="DAL\ProductSizeCostFormulaDAL.cs" />
+    <Compile Include="DAL\ProductSizeDAL.cs" />
+    <Compile Include="DAL\ProductSizePriceCostDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestEncryptCodeDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestFrequencyDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestRequestDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestRequestDetailDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestTransactionDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestTransactionDetailDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestTransactionRequestDAL.cs" />
+    <Compile Include="DAL\KCS\ProductTestTransactionResultDAL.cs" />
+    <Compile Include="DAL\ProductWeightDAL.cs" />
+    <Compile Include="DAL\ProvinceDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchaseContractDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchaseContractDetailDAL.cs" />
+    <Compile Include="DAL\Purchases\PurchaseContractLinkStockDAL.cs" />
+    <Compile Include="DAL\Sales\SaleReportDAL.cs" />
+    <Compile Include="DAL\Sales\SaleRequestDAL.cs" />
+    <Compile Include="DAL\Sales\SaleRequestDetailDAL.cs" />
+    <Compile Include="DAL\StockBaseDAL.cs" />
+    <Compile Include="DAL\Stocks\StockDAL.cs" />
+    <Compile Include="DAL\Stocks\StockLocationDAL.cs" />
+    <Compile Include="DAL\Stocks\StockReportDAL.cs" />
+    <Compile Include="DAL\Stocks\StockTransactionDAL.cs" />
+    <Compile Include="DAL\Stocks\StockTransactionDetailDAL.cs" />
+    <Compile Include="DAL\Stocks\StockTransactionSumDetailDAL.cs" />
+    <Compile Include="DAL\Stocks\StockTransportDAL.cs" />
+    <Compile Include="DAL\SubjectDAL.cs" />
+    <Compile Include="DAL\SubjectTypeDAL.cs" />
+    <Compile Include="DAL\KCS\TechnicalTestDAL.cs" />
+    <Compile Include="DAL\KCS\TechnicalTestPricesDAL.cs" />
+    <Compile Include="DAL\KCS\TechnicalTestReturnDAL.cs" />
+    <Compile Include="DAL\KCS\TechnicalTestReturnDetailDAL.cs" />
+    <Compile Include="DAL\KCS\TestRequestReturnDAL.cs" />
+    <Compile Include="DAL\KCS\TestRequestReturnDetailDAL.cs" />
+    <Compile Include="DAL\KCS\TestRequestReturnLinkDAL.cs" />
+    <Compile Include="DAL\TransactionTypeDAL.cs" />
+    <Compile Include="DAL\TransportItemTypeDAL.cs" />
+    <Compile Include="DAL\Transports\TCContractDAL.cs" />
+    <Compile Include="DAL\Transports\ToBocxepDAL.cs" />
+    <Compile Include="DAL\Transports\TransportCompensationPriceDAL.cs" />
+    <Compile Include="DAL\Transports\TransportContractBatchDAL.cs" />
+    <Compile Include="DAL\Transports\TransportContractDAL.cs" />
+    <Compile Include="DAL\Transports\TransportContractDetentionPriceDAL.cs" />
+    <Compile Include="DAL\Transports\TransportContractFeeDAL.cs" />
+    <Compile Include="DAL\Transports\TransportContractItemLossGroupDAL.cs" />
+    <Compile Include="DAL\Transports\TransportContractPriceDAL.cs" />
+    <Compile Include="DAL\Transports\TransportFeeDAL.cs" />
+    <Compile Include="DAL\Transports\TransportFeeTypeDAL.cs" />
+    <Compile Include="DAL\Transports\TransportLossAllowDAL.cs" />
+    <Compile Include="DAL\Transports\TransportReportDAL.cs" />
+    <Compile Include="DAL\Transports\TransportResultDAL.cs" />
+    <Compile Include="DAL\Transports\TransportRouteDAL.cs" />
+    <Compile Include="DAL\TransportTypeDAL.cs" />
+    <Compile Include="DAL\VattuDAL.cs" />
+    <Compile Include="DAL\Equipments\VattuOpeningDAL.cs" />
+    <Compile Include="DAL\VesselDAL.cs" />
+    <Compile Include="DAL\Transports\VesselExchangeContractDAL.cs" />
+    <Compile Include="DAL\Transports\VesselExchangeContractItemDAL.cs" />
+    <Compile Include="DAL\Transports\VesselInsuranceContractDAL.cs" />
+    <Compile Include="DAL\Transports\VesselTransactionDAL.cs" />
+    <Compile Include="DAL\Transports\VesselTransactionInvoiceDAL.cs" />
+    <Compile Include="DAL\Transports\VesselTransactionInvoiceDetailDAL.cs" />
+    <Compile Include="DAL\Stocks\WeightItemContainerDAL.cs" />
+    <Compile Include="DAL\Stocks\WeightItemDAL.cs" />
+    <Compile Include="DAL\Stocks\WeightItemDetailDAL.cs" />
+    <Compile Include="DAL\Stocks\WeightItemResultDAL.cs" />
+    <Compile Include="Data\Accounting\Account.cs" />
+    <Compile Include="Data\Accounting\AccountClassification.cs" />
+    <Compile Include="Data\Accounting\AccountClassificationType.cs" />
+    <Compile Include="Data\Accounting\AccountFixedAssets.cs" />
+    <Compile Include="Data\Accounting\AccountInstrumentTransaction.cs" />
+    <Compile Include="Data\Accounting\AccountOpening.cs" />
+    <Compile Include="Data\Accounting\AccountSample.cs" />
+    <Compile Include="Data\Accounting\AccountSampleDetail1.cs" />
+    <Compile Include="Data\Accounting\AccountSampleDetail2.cs" />
+    <Compile Include="Data\Accounting\AccountStock.cs" />
+    <Compile Include="Data\Accounting\AccountStockCostOpening.cs" />
+    <Compile Include="Data\Accounting\AccountStockOpenings.cs" />
+    <Compile Include="Data\Accounting\AccountStockPriceCost.cs" />
+    <Compile Include="Data\Accounting\AccountSubjectType.cs" />
+    <Compile Include="Data\Accounting\AccountTransaction.cs" />
+    <Compile Include="Data\Accounting\AccountTransaction2.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionDetail1.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionDetail2.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionFixedAssetLiquidate.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionFixedAssetNew.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionFixedAssetUpgrades.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionStock.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionStockDetail.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionStockNew.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionTypeDetail.cs" />
+    <Compile Include="Data\Accounting\AccountTransactionTypes.cs" />
+    <Compile Include="Data\Accounting\Congtrinh.cs" />
+    <Compile Include="Data\Accounting\FixedAssetLiquidate.cs" />
+    <Compile Include="Data\Accounting\KheUocVay.cs" />
+    <Compile Include="Data\Accounting\UyNhiemChiPrint.cs" />
+    <Compile Include="Data\BaseClass.cs" />
+    <Compile Include="Data\Danhmuc.cs" />
+    <Compile Include="Data\Equipments\Equipment.cs" />
+    <Compile Include="Data\Equipments\EquipmentExpense.cs" />
+    <Compile Include="Data\Equipments\EquipmentGroup.cs" />
+    <Compile Include="Data\Equipments\EquipmentLog.cs" />
+    <Compile Include="Data\Equipments\Equipmentsx.cs" />
+    <Compile Include="Data\Equipments\VattuOldOpening.cs" />
+    <Compile Include="Data\Equipments\VattuOldType.cs" />
+    <Compile Include="Data\Equipments\VattuTransaction.cs" />
+    <Compile Include="Data\Equipments\VattuTransactionType.cs" />
+    <Compile Include="Data\Purchases\PurchaseContractTemplate.cs" />
+    <Compile Include="Data\Purchases\PurchaseInvoice.cs" />
+    <Compile Include="Data\Purchases\PurchasePlan.cs" />
+    <Compile Include="Data\Purchases\PurchasePlanMonthDetail.cs" />
+    <Compile Include="Data\Purchases\PurchasePlanMonths.cs" />
+    <Compile Include="Data\Purchases\PurchasePlanWeek.cs" />
+    <Compile Include="Data\Sales\CustomerDiscountList.cs" />
+    <Compile Include="Data\Sales\CustomerPriceReduce.cs" />
+    <Compile Include="Data\Sales\CustomerPriceType.cs" />
+    <Compile Include="Data\Sales\CustomerSpecialPrice.cs" />
+    <Compile Include="Data\Sales\ProvincePrice.cs" />
+    <Compile Include="Data\Stocks\Coupon.cs" />
+    <Compile Include="Data\Stocks\ItemGroup.cs" />
+    <Compile Include="Data\Transports\BocxepContract.cs" />
+    <Compile Include="Data\Transports\BocxepContractPrice.cs" />
+    <Compile Include="Data\Transports\BocxepContractPriceDetail.cs" />
+    <Compile Include="Data\Transports\BocxepContractPriceStock.cs" />
+    <Compile Include="Data\Transports\BocxepContractService.cs" />
+    <Compile Include="Data\Transports\BocxepResult.cs" />
+    <Compile Include="Data\Transports\BocxepResultDetail.cs" />
+    <Compile Include="Data\Transports\BocxepType.cs" />
+    <Compile Include="Data\BuyNoInvoice.cs" />
+    <Compile Include="Data\Config\Context.cs" />
+    <Compile Include="Data\Config\EnumConfigs.cs" />
+    <Compile Include="Data\Config\FunctionNames.cs" />
+    <Compile Include="Data\Config\Member.cs" />
+    <Compile Include="Data\Config\Module.cs" />
+    <Compile Include="Data\Currency.cs" />
+    <Compile Include="Data\Sales\CustomerDept.cs" />
+    <Compile Include="Data\Sales\CustomerDeptOpening.cs" />
+    <Compile Include="Data\Sales\CustomerDeptSumOpening.cs" />
+    <Compile Include="Data\Sales\CustomerDiscount2.cs" />
+    <Compile Include="Data\Sales\CustomerDiscountType.cs" />
+    <Compile Include="Data\Sales\CustomerOrderDetails.cs" />
+    <Compile Include="Data\Sales\CustomerOrders.cs" />
+    <Compile Include="Data\Sales\CustomerPayments.cs" />
+    <Compile Include="Data\Employee.cs" />
+    <Compile Include="Data\KCS\EncryptCodeReturn.cs" />
+    <Compile Include="Data\KCS\EncryptCodeReturnDetail.cs" />
+    <Compile Include="Data\KCS\EncryptCodeSend.cs" />
+    <Compile Include="Data\KCS\EncryptCodeSendDetail.cs" />
+    <Compile Include="Data\Transports\ExchangeResult.cs" />
+    <Compile Include="Data\Accounting\FixedAssetDepreciation.cs" />
+    <Compile Include="Data\Accounting\FixedAssetGeneral.cs" />
+    <Compile Include="Data\Accounting\FixedAssetOpening.cs" />
+    <Compile Include="Data\Accounting\FixedAssetUpgrade.cs" />
+    <Compile Include="Data\FormulaDetail.cs" />
+    <Compile Include="Data\Grinds\GeneralMaterial.cs" />
+    <Compile Include="Data\Premixs\GeneralPremix.cs" />
+    <Compile Include="Data\Grinds\GrindInventory.cs" />
+    <Compile Include="Data\Grinds\GrindMaterials.cs" />
+    <Compile Include="Data\Grinds\GrindMaterialShift.cs" />
+    <Compile Include="Data\Grinds\GrindMaterialTransactions.cs" />
+    <Compile Include="Data\GroupWeightItemDetailForTransportCode.cs" />
+    <Compile Include="Data\GTGT.cs" />
+    <Compile Include="Data\Accounting\InstrumentItem.cs" />
+    <Compile Include="Data\Accounting\InstrumentOpening.cs" />
+    <Compile Include="Data\Accounting\InstrumentPrepaid.cs" />
+    <Compile Include="Data\Accounting\InstrumentTransaction.cs" />
+    <Compile Include="Data\Accounting\InstrumentTransactionAccount.cs" />
+    <Compile Include="Data\Accounting\InstrumentTransactionDetail.cs" />
+    <Compile Include="Data\Stocks\Inventory.cs" />
+    <Compile Include="Data\Invoice.cs" />
+    <Compile Include="Data\Item.cs" />
+    <Compile Include="Data\ItemManufacture.cs" />
+    <Compile Include="Data\ItemPriceCost.cs" />
+    <Compile Include="Data\ItemProduct.cs" />
+    <Compile Include="Data\ItemSalePrice.cs" />
+    <Compile Include="Data\ItemWrapping.cs" />
+    <Compile Include="Data\Linesx.cs" />
+    <Compile Include="Data\Manufactures\Manufacture.cs" />
+    <Compile Include="Data\Manufactures\ManufactureInventory.cs" />
+    <Compile Include="Data\Manufactures\ManufacturePlan.cs" />
+    <Compile Include="Data\Manufactures\ManufacturePlanDetail.cs" />
+    <Compile Include="Data\Manufactures\ManufacturePlanMonth.cs" />
+    <Compile Include="Data\Manufactures\ManufacturePlanMonthDetail.cs" />
+    <Compile Include="Data\Manufactures\ManufacturePlanWeek.cs" />
+    <Compile Include="Data\Manufactures\ManufacturePlanWeekDetail.cs" />
+    <Compile Include="Data\Manufactures\ManufactureShift.cs" />
+    <Compile Include="Data\Manufactures\ManufactureShiftTransaction.cs" />
+    <Compile Include="Data\Manufactures\ManufactureTransaction.cs" />
+    <Compile Include="Data\MaterialFormular .cs" />
+    <Compile Include="Data\MaterialFormularDetail.cs" />
+    <Compile Include="Data\KCS\MaterialQualityStandards.cs" />
+    <Compile Include="Data\KCS\MaterialTestEncryptCode.cs" />
+    <Compile Include="Data\KCS\MaterialTestFrequencys.cs" />
+    <Compile Include="Data\KCS\MaterialTestRequest.cs" />
+    <Compile Include="Data\KCS\MaterialTestRequestDetail.cs" />
+    <Compile Include="Data\KCS\MaterialTestTransaction.cs" />
+    <Compile Include="Data\KCS\MaterialTestTransactionDetail.cs" />
+    <Compile Include="Data\MemberFunction.cs" />
+    <Compile Include="Data\Premixs\MixPremix.cs" />
+    <Compile Include="Data\Premixs\MixPremixShift.cs" />
+    <Compile Include="Data\Premixs\MixPremixTransaction.cs" />
+    <Compile Include="Data\Period.cs" />
+    <Compile Include="Data\Premixs\PremixFormula.cs" />
+    <Compile Include="Data\Premixs\PremixFormulaDetail.cs" />
+    <Compile Include="Data\Premixs\PremixInventory.cs" />
+    <Compile Include="Data\PremixWrapping.cs" />
+    <Compile Include="Data\Accounting\PrePaidDepreciation.cs" />
+    <Compile Include="Data\Accounting\PrePaidExpense.cs" />
+    <Compile Include="Data\Accounting\PrePaidExpenseOpening.cs" />
+    <Compile Include="Data\Accounting\PrePaidReDepreciation.cs" />
+    <Compile Include="Data\Product.cs" />
+    <Compile Include="Data\Accounting\ProductCost.cs" />
+    <Compile Include="Data\ProductCostFormula.cs" />
+    <Compile Include="Data\ProductFormula.cs" />
+    <Compile Include="Data\ProductFormula2.cs" />
+    <Compile Include="Data\ProductFormulaDetail.cs" />
+    <Compile Include="Data\ProductFormulaUnActive.cs" />
+    <Compile Include="Data\ProductPriceCost.cs" />
+    <Compile Include="Data\KCS\ProductQualityStandards.cs" />
+    <Compile Include="Data\ProductSize.cs" />
+    <Compile Include="Data\ProductSizeCostFormula.cs" />
+    <Compile Include="Data\ProductSizePriceCost.cs" />
+    <Compile Include="Data\KCS\ProductTestEncryptCode.cs" />
+    <Compile Include="Data\KCS\ProductTestFrequency.cs" />
+    <Compile Include="Data\KCS\ProductTestRequest.cs" />
+    <Compile Include="Data\KCS\ProductTestRequestDetail.cs" />
+    <Compile Include="Data\KCS\ProductTestTransaction.cs" />
+    <Compile Include="Data\KCS\ProductTestTransactionDetail.cs" />
+    <Compile Include="Data\KCS\ProductTestTransactionRequest.cs" />
+    <Compile Include="Data\KCS\ProductTestTransactionResult.cs" />
+    <Compile Include="Data\ProductWeight.cs" />
+    <Compile Include="Data\Provinces.cs" />
+    <Compile Include="Data\Purchases\PurchaseContract.cs" />
+    <Compile Include="Data\Purchases\PurchaseContractDetail.cs" />
+    <Compile Include="Data\Purchases\PurchaseContractLinkStock.cs" />
+    <Compile Include="Data\Sales\SaleRequestDetails.cs" />
+    <Compile Include="Data\Sales\SaleRequests.cs" />
+    <Compile Include="Data\Stock.cs" />
+    <Compile Include="Data\Stocks\StockLocation.cs" />
+    <Compile Include="Data\Stocks\StockTransaction.cs" />
+    <Compile Include="Data\Stocks\StockTransactionDetail.cs" />
+    <Compile Include="Data\Stocks\StockTransactionSumDetail.cs" />
+    <Compile Include="Data\Stocks\StockTransport.cs" />
+    <Compile Include="Data\Subject.cs" />
+    <Compile Include="Data\SubjectType.cs" />
+    <Compile Include="Data\KCS\TechnicalTest.cs" />
+    <Compile Include="Data\KCS\TechnicalTestPrices.cs" />
+    <Compile Include="Data\KCS\TechnicalTestReturn.cs" />
+    <Compile Include="Data\KCS\TechnicalTestReturnDetail.cs" />
+    <Compile Include="Data\KCS\TestRequestReturn.cs" />
+    <Compile Include="Data\KCS\TestRequestReturnDetail.cs" />
+    <Compile Include="Data\KCS\TestRequestReturnLink.cs" />
+    <Compile Include="Data\TransactionType.cs" />
+    <Compile Include="Data\Transports\TCContract.cs" />
+    <Compile Include="Data\Transports\ToBocxep.cs" />
+    <Compile Include="Data\Transports\TransportCompensationPrice.cs" />
+    <Compile Include="Data\Transports\TransportContract.cs" />
+    <Compile Include="Data\Transports\TransportContractBatch.cs" />
+    <Compile Include="Data\Transports\TransportFee.cs" />
+    <Compile Include="Data\Transports\TransportFreeType.cs" />
+    <Compile Include="Data\Transports\TransportLossAllow.cs" />
+    <Compile Include="Data\Transports\TransportResult.cs" />
+    <Compile Include="Data\Transports\TransportRoute.cs" />
+    <Compile Include="Data\UserTracking2.cs" />
+    <Compile Include="Data\Vattu.cs" />
+    <Compile Include="Data\Equipments\VattuOpening.cs" />
+    <Compile Include="Data\Vessel.cs" />
+    <Compile Include="Data\Transports\VesselExchangeContract.cs" />
+    <Compile Include="Data\Transports\VesselExchangeContractItem.cs" />
+    <Compile Include="Data\Transports\VesselInsuranceContract.cs" />
+    <Compile Include="Data\Transports\VesselTransaction.cs" />
+    <Compile Include="Data\Transports\VesselTransactionInvoice.cs" />
+    <Compile Include="Data\Transports\VesselTransactionInvoiceDetail.cs" />
+    <Compile Include="Data\Stocks\WeightItem.cs" />
+    <Compile Include="Data\Stocks\WeightItemContainer.cs" />
+    <Compile Include="Data\Stocks\WeightItemDetail.cs" />
+    <Compile Include="Data\Stocks\WeightItemResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\VNS.Common\VNS.Common.csproj">
+      <Project>{F40B332D-402A-4503-8F6E-FD88624A0FD1}</Project>
+      <Name>VNS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\VNS.Data\VNS.Data.csproj">
+      <Project>{D063CBE7-D2D1-416F-AF50-96CA2E01A31E}</Project>
+      <Name>VNS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\VNS.Utils\VNS.Utils.csproj">
+      <Project>{7E197733-03AC-47A5-BE53-5484DD5AC690}</Project>
+      <Name>VNS.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,143 @@
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormCheck.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormEditBase.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormProgressBar.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormSearch.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.DataNavigator.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.EditControlBase.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.UserControls.UCDatePeriodSelection.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.vi-VN.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csproj.GenerateResource.Cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll.licenses
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\vi-VN\VNS.Windows.resources.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Context.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Security.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Context.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\bin\Release\VNS.Security.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Windows\obj\Release\vi-VN\VNS.Windows.resources.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\vi-VN\VNS.Windows.resources.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Context.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Data.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Security.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Context.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Security.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Data.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormCheck.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormEditBase.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormProgressBar.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormSearch.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.DataNavigator.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.EditControlBase.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.UserControls.UCDatePeriodSelection.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.vi-VN.resources
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll.licenses
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\vi-VN\VNS.Windows.resources.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\ResGen.read.1.tlog
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\ResGen.write.1.tlog
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\vi-VN\VNS.Windows.resources.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.Data.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.Utils.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraBars.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraEditors.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraGrid.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraNavBar.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraTreeList.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraVerticalGrid.v9.3.Design.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Common.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Context.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Data.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Security.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraLayout.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraEditors.v9.3.Design.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraVerticalGrid.v9.3.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Common.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Context.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Security.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Data.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.Data.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.Utils.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraBars.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraEditors.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraGrid.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraNavBar.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraTreeList.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraLayout.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\DevExpress.XtraVerticalGrid.v9.3.xml
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csprojResolveAssemblyReference.cache
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormCheck.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormEditBase.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormProgressBar.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormSearch.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.DataNavigator.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.EditControlBase.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.UserControls.UCDatePeriodSelection.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.vi-VN.resources
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csproj.GenerateResource.Cache
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll.licenses
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\vi-VN\VNS.Windows.resources.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Windows.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\vi-VN\VNS.Windows.resources.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Common.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Context.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Data.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Security.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Common.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Context.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Localization.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Security.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Utils.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\bin\Release\VNS.Data.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormCheck.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormEditBase.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormProgressBar.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormSearch.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.DataNavigator.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Controls.EditControlBase.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.UserControls.UCDatePeriodSelection.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.Forms.FormBase.vi-VN.resources
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll.licenses
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\vi-VN\VNS.Windows.resources.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.csproj.CopyComplete
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Release\VNS.Windows.pdb

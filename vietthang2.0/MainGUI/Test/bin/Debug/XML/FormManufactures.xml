@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]><root>
+  <layout id="FormManufactures" text="Sản xuất thành phẩm"/>
+  <layout id="colManufactureDate" text="Ngày sản xuất"/>
+  <layout id="colStatus" text="Trạng thái"/>
+	<layout id="lblThang" text="Kỳ"/>
+  <layout id="colShift" text="Ca"/>
+  <layout id="colShiftLeader" text="Trưởng ca"/>
+  <layout id="colProductCode" text="Thành phẩm"/>
+  <layout id="colProductWeight" text="Số lượng(Kg)"/>
+  <layout id="colSizeCode" text="Kích thước"/>
+  <layout id="colLinesxNo" text="Line"/>
+  <layout id="colWeightCode" text="Loại bao bì"/>
+  <layout id="lblKho" text="Kho sản xuất"/>
+  <layout id="colFormulaCode" text="Công thức"/>
+  <layout id="colAm" text="Độ ẩm"/>
+  <layout id="colDomin" text="Độ mịn"/>
+  <layout id="colCodeBaoTP" text="Code Bao TP"/>
+  <layout id="colNap" text="Nạp"/>
+  <layout id="colEp" text="Ép"/>
+  <layout id="colLot" text="Lot"/>
+  <layout id="colTilebot" text="Tỉ lệ bột"/>
+  <layout id="colDescription" text="Mô tả"/>
+  <layout id="colWrapping" text="Bao bì sử dụng"/>
+  <layout id="colWrappingWaste" text="Bao bì hư"/>
+  <layout id="colEmployeeID1" text="Người nghiền"/>
+  <layout id="colEmployeeID2" text="Người ép"/>
+  <layout id="btnTaoPX" text="Tạo phiếu nhập/xuất kho"/>
+  <layout id="btnXoaPX" text="Xóa phiếu Nhập/Xuất kho"/>
+  <layout id="colUserCreated" text="Người tạo"/>
+  <layout id="colDateCreated" text="Ngày tạo"/>
+  <layout id="colUserUpdated" text="Người cập nhật"/>
+  <layout id="colDateUpdated" text="Ngày cập nhật"/>
+
+  <message id="DELETE-1" text="Lỗi trong khi lưu dữ liệu!!!"/>
+  <message id="DELETE-2" text="Không tồn tại!!!"/>
+  <message id="DELETE-3" text="Phiếu Nhâp/Xuất đã được bộ phận kho xác nhận. Không thể xóa!!!"/>
+  <message id="DELETE-4" text="Phiếu không tồn tại!!!"/>
+	<message id="DELETE50000" text="Module sản xuất đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>
+

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormProductCostFormula" text="Công thức phân bổ chi phí NVL"/>
+  <layout id="lblProduct" text="Thành phẩm"/>
+  <layout id="colMaterialCode" text="Nguyên liệu"/>
+  <layout id="colQuantity" text="Số lượng"/>
+  <layout id="colCostPrice" text="Giá xuất"/>
+  <layout id="colCostAmount" text="Tiền"/>
+  <layout id="colTotalCostAmount" text="Hệ số"/>
+  <layout id="colProductCode" text="Thành phẩm"/>
+  <layout id="lblPeriodCode" text="Kỳ kế toán"/>
+  <layout id="btnCopy" text="Copy công thức qua kỳ sau"/>
+  <layout id="btnReport" text="Báo cáo"/>
+  <layout id="checkExcel" text="Kết xuất ra excel"/>
+  <layout id="btnReport2" text="BC Tổng hợp ra Excel"/>
+
+  <message id="INSERT-1" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="INSERT-2" text="Không tồn tại mã Thành phẩm này!"/>
+  <message id="INSERT-3" text="Không tồn tại mã Nguyên liệu này!"/>
+  <message id="INSERT-4" text="Nguyên liệu trùng!"/>
+  <message id="DELETE-1" text="Lỗi trong khi xóa dữ liệu!" />
+  <message id="UPDATE-1" text="Lỗi trong khi lưu dữ liệu!!"/>
+  <message id="UPDATE-2" text="Không tồn tại mã Thành phẩm này!"/>
+  <message id="UPDATE-3" text="Không tồn tại mã Nguyên liệu này!"/>
+  <message id="UPDATE-4" text="Nguyên liệu trùng!"/>
+  <message id="VALIDATE-1" text="Đã copy công thức qua kỳ sau!" />
+  <message id="VALIDATE-2" text="Vui lòng chọn Thành phẩm!" />
+
+  <message id="CONFIRM-CopyToNextPeriod" text="Bạn thực sự muốn copy toàn bộ công thức qua kỳ sau?" />
+  <message id="RESPONSE-CopyToNextPeriod" text="Đã copy toàn bộ công thức qua kỳ sau!" />
+  <message id="RESPONSE-CopyToNextPeriodError" text="Lỗi khi copy toàn bộ công thức qua kỳ sau!" />
+</root>
+
+

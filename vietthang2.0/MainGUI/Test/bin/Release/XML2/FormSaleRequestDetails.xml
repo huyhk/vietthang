@@ -1,0 +1,57 @@
+﻿<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormSaleRequestDetails" text="Phiếu yêu cầu xuất bán"/>
+  <layout id="lblStockCode" text="Nhà máy"/>
+  <layout id="lblSaleRequestDate" text="Ngày"/>
+  <layout id="lblCustomerCode" text="Tên khách hàng"/>
+  <layout id="lblCustomerOrderNo" text="Đơn hàng"/>
+  <layout id="checkDateLimit" text="Ngày hạn trả"/>
+  <layout id="lblTransportCode" text="Đơn vị vận chuyển"/>
+  <layout id="lblSaleRequestNo" text="Số phiếu"/>
+  <layout id="lblPTVC" text="Phương tiện vận chuyển"/>
+  <layout id="lblInvoiceNo" text="Số hoá đơn"/>
+  <layout id="lblInvoiceDiscount" text="Chiết khấu hoá đơn"/>
+  <layout id="lblInvoiceAmount" text="Tiền hoá đơn"/>
+  <layout id="lblTaxAmount" text="Tiền thuế"/>
+  <layout id="lblBeforeAmount" text="Tiền chưa thuế"/>
+  <layout id="checkIsFinished" text="Đã thực hiện"/>
+  <layout id="checkGiamgia" text="Giảm giá"/>
+  <layout id="colItemCode" text="Thành phẩm"/>
+  <layout id="colQuantityReq" text="Số lượng yêu cầu"/>
+  <layout id="colQuantity" text="Số lượng thực xuất"/>
+  <layout id="colSalePrice" text="Giá bán"/>
+	<layout id="colDescription" text="Ghi chú"/>
+  <layout id="lblTaxRate" text="Thuế(VAT)"/>
+	<layout id="lblDiscountAmount" text="Tiền chiết khấu"/>
+	<layout id="lblDiscountDescription" text="Nội dung chiết khấu"/>
+	<layout id="btnReports" text="In phiếu yêu cầu"/>
+
+  <message id="INSERT-1" text="Số phiếu này đã tồn tại!!!"/>
+	<message id="INSERT50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="UPDATE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+  <message id="DELETE50000" text="Module bán hàng đã khóa sổ, không được thay đổi dữ liệu!"/>
+	<message id="UPDATE-1" text="Phiếu yêu cầu đã được thực hiện, không thể cập nhật!"/>
+	
+  <message id="VALIDATE-1" text="Chưa nhập số phiếu!!!"/>
+  <message id="VALIDATE-2" text="Chưa chọn đơn hàng!!!"/>
+  <message id="VALIDATE-3" text="Bạn chưa nhập khách hàng!!!"/>
+  <message id="VALIDATE-4" text="Bạn chưa nhập nội dung Chiết khấu!!!"/>
+  <message id="VALIDATE-5" text="Bạn chưa nhập tiền Chiết khấu!!!"/>
+  <message id="VALIDATE-6" text="Bạn chưa chọn thành phẩm!!!"/>
+	<message id="VALIDATE-7" text="Bạn chưa nhập Phương tiện vận chuyển!!!"/>
+	<message id="VALIDATE-8" text="Bạn chưa nhập Người nhận!!!"/>
+  <message id="VALIDATE-100" text="Đơn giá không thể bằng 0"/>
+	<message id="DELETE-1" text="Phiếu yêu cầu đã được thực hiện, không thể xóa!"/>
+  <message id="DELETE-2" text="Phiếu này không tồn tại!!!"/>
+
+</root>
+

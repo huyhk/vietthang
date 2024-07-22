@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormListEquipmentExpense" text ="Chi phí thiết bị"/>
+  <layout id="colExpenseNo" text="Số phiếu" />
+  <layout id="colExpenseDate" text="Ngày lập phiếu" />
+  <layout id="colAmount" text="Giá tiền" />
+  <layout id="colDescription" text="Diễn giải" />
+  <layout id="label1" text="Kho" />
+  <layout id="label2" text="Kỳ" />
+  <layout id="btnRefresh" text="Refresh" />
+
+
+ 
+
+
+
+</root>
+

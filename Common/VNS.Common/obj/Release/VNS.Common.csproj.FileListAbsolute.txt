@@ -1,0 +1,20 @@
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Common\bin\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Common\bin\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Common\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Common\obj\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy\Common\VNS.Common\obj\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\bin\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\bin\Release\VNS.Common.pdb
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.dll
+D:\working\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\bin\Release\VNS.Common.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\bin\Release\VNS.Common.pdb
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.dll
+D:\working\vt\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\bin\Release\VNS.Common.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\bin\Release\VNS.Common.pdb
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.dll
+C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Release\VNS.Common.pdb

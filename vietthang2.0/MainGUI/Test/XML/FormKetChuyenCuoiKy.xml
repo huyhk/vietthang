@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="btnKetChuyenKQKD" text="Kết quả kinh doanh" />
+	<layout id="lbTime" text="Kỳ kế toán" />
+	<layout id="btn632155" text="6321-155" />
+	<layout id="btn6111152" text="6111-152" />
+	<layout id="PeriodNullError" text="Bạn chưa chọn kỳ kế toán!" />
+	<layout id="Info-1" text="Đã có phiếu kết chuyển nguyên liệu cuối kỳ!" />
+	<layout id="Warning-3" text="Bạn có muốn xoá phiếu đi để tạo lại (Y/N?)" />
+	<layout id="Info-2" text="Xoá không thành công, không thể tạo lại phiếu kết chuyển nguyên liệu cuối kỳ!" />
+	<layout id="Info-3" text="Đã có phiếu kết chuyển thành phẩm cuối kỳ!" />
+	<layout id="Info-4" text="Xoá không thành công, không thể tạo lại phiếu kết chuyển thành phẩm cuối kỳ!" />
+	<layout id="Info-5" text="Đã có phiếu kết chuyển kết quả kinh doanh!" />
+	
+	<layout id="MsgEditNotSuccess1" text="Kết chuyển không thành công!" />
+	<layout id="MsgEditNotSuccess2" text="Kết chuyển không thành công!" />
+	<layout id="MsgEditNotSuccess3" text="Kết chuyển không thành công!" />
+	<layout id="MsgEditNotSuccess4" text="Kết chuyển không thành công!" />
+	<layout id="MsgEditNotSuccess5" text="Kết chuyển không thành công!" />
+
+	<layout id="MsgAddNotSuccess1" text="Kết chuyển không thành công!" />
+	<layout id="MsgAddNotSuccess2" text="Kết chuyển không thành công!" />
+	<layout id="MsgAddNotSuccess3" text="Kết chuyển không thành công!" />
+	<layout id="MsgAddNotSuccess4" text="Kết chuyển không thành công!" />
+	<layout id="MsgAddNotSuccess5" text="Kết chuyển không thành công!" />
+
+	<layout id="Info-6" text="Xoá không thành công, không thể tạo lại phiếu kết chuyển kết quả kinh doanh!" />
+</root>
+

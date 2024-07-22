@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormEditPurchasePlanWeeks" text="Kế hoạch nhập mua hàng tuần"/>
+  <layout id="colContractNo" text="Số hợp đồng" />
+  <layout id="colSubjectCode" text="Mã nhà cung cấp" />
+  <layout id="colSubjectName" text="Tên nhà cung cấp" />
+  <layout id="colStockCode" text="Kho" />
+  <layout id="colItemCode" text="Mã hàng" />
+  <layout id="colItemName" text="Tên hàng" />
+  <layout id="colSum" text="Tổng"/>
+  <layout id="colDay1" text="Thứ 2" />
+  <layout id="colDay2" text="Thứ 3" />
+  <layout id="colDay3" text="Thứ 4" />
+  <layout id="colDay4" text="Thứ 5" />
+  <layout id="colDay5" text="Thứ 6" />
+  <layout id="colDay6" text="Thứ 7" />
+  <layout id="colDay7" text="Chủ nhật" />
+  <layout id="colDescription" text="Ghi chú" />
+  <layout id="lbYearNo" text="Năm" />
+  <layout id="lbWeekNo" text="Tuần" />
+  <layout id="lbDescription" text="Diễn giải" />
+  <layout id="lblStartDate" text="Từ ngày" />
+  <layout id="lblEndDate" text="Đến ngày" />
+  <layout id="btnExportExcel" text="Xuất dữ liệu ra excel" />
+  <message id="VALIDATE-1" text="Bạn chưa chọn năm"/>
+  <message id="VALIDATE-2" text="Bạn chưa chọn nhà cung cấp"/>
+  <message id="VALIDATE-3" text="Bạn chưa chọn kho" />
+  <message id="VALIDATE-4" text="Bạn chưa chọn mặt hàng"/>
+  <message id="INSERT-1" text="Kế hoạch tuần này đã có"/>
+  <message id="UPDATE-1" text="Kế hoạch tuần này đã có"/>
+</root>

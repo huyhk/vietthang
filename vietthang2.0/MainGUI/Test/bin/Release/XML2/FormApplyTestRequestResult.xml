@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="tabPage1" text="Kết quả phân tích ngoài" />
+	<layout id="groupBox1" text="Kết quả đã được chọn" />
+	<layout id="colItemEncryptCode" text="Mã mẫu" />
+	<layout id="colTTPT" text="TTPT" />
+	<layout id="colTechCode" text="Chỉ tiêu" />
+	<layout id="colResult" text="Kết quả" />
+	<layout id="gridColumn16" text="Result" />
+	<layout id="groupBox2" text="Kết quả khác" />
+	<layout id="gridColumn1" text="Mã mẫu" />
+	<layout id="gridColumn2" text="TTPT" />
+	<layout id="gridColumn3" text="Chỉ tiêu" />
+	<layout id="gridColumn4" text="Kết quả" />
+	<layout id="gridColumn17" text="ItemEncryptCode" />
+	<layout id="tabPage2" text="Kết quả chưa được QLCL nhận" />
+	<layout id="gridColumn5" text="Mã mẫu" />
+	<layout id="gridColumn6" text="TTPT" />
+	<layout id="gridColumn7" text="Chỉ tiêu" />
+	<layout id="gridColumn8" text="Kết quả" />
+	<layout id="tabPage3" text="Kết quả chưa được trả về" />
+	<layout id="gridColumn9" text="Mã mẫu" />
+	<layout id="gridColumn10" text="TTPT" />
+	<layout id="gridColumn11" text="Chỉ tiêu" />
+	<layout id="lbShift" text="Ca" />
+	<layout id="lbNgaySX" text="Ngày SX" />
+	<layout id="lbStockCode1" text="Kho" />
+	<layout id="lbFormulaCode" text="Công thức" />
+	<layout id="lbSizeCode" text="Kích thước" />
+	<layout id="lbProductCode" text="Thành phẩm" />
+	<layout id="label1" text="Diễn giải" />
+	<layout id="lbLot" text="Lot" />
+	<layout id="lbDateRequest" text="Ngày phiếu kiểm" />
+	<layout id="lbDescription" text="Diễn giải" />
+	<layout id="lbLocation" text="Vị trí" />
+	<layout id="lbStockCode" text="Kho" />
+	<layout id="lbItemCode" text="Nguyên liệu" />
+	<layout id="lbBranchCode" text="Chi nhánh" />
+	<layout id="lbTestTransactionDate" text="Ngày" />
+	<layout id="lbTestTransactionNo" text="Số" />
+	<layout id="lbCustomer" text="Khách hàng" />
+	<layout id="lbPTVC" text="PTVC" />
+	<layout id="lbStartDate" text="Từ ngày" />
+	<layout id="lbEndDate" text="Đến ngày" />
+	<message id="CancleApplied-1" text="Kết quả đã bị xóa!"/>
+	<message id="Applied-1" text="Kết quả đã bị xóa!"/>
+</root>
+

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormEditPurchasePlan" text="Kế hoạch mua hàng tháng" />
+<layout id="colItemCode" text="Mã hàng" />
+<layout id="gridColumn1" text="Tên hàng" />
+<layout id="colQuantity" text="Số lượng" />
+<layout id="colPrice" text="Giá" />
+<layout id="colDescription" text="Ghi chú" />
+<layout id="lblDescription" text="Ghi chú:" />
+<layout id="lbYearNo" text="Năm" />
+<layout id="lbMonthNo" text="Tháng" />
+  <message id="INSERT-1" text="Kế hoạch tháng này đã có"/>
+  <message id="UPDATE-1" text="Kế hoạch tháng này đã có"/>
+  <message id="VALIDATE-1" text="Bạn chưa chọn năm"/>
+  <message id="VALIDATE-2" text="Bạn chưa chọn mặt hàng"/>
+</root>

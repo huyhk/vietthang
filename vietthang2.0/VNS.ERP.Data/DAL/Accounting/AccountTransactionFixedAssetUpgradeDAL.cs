@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using VNS.Data.DAL;
+using System.Data;
+using VNS.Common;
+using System.Data.Common;
+using VNS.Utils;
+
+namespace VNS.ERP.Data.Accounting
+{
+    class AccountTransactionFixedAssetUpgradeDAL : BaseDAL<AccountTransactionFixedAssetNew>
+    {
+        public AccountTransactionFixedAssetUpgradeDAL() { }
+        public AccountTransactionFixedAssetUpgradeDAL(DBHelper dbHelper) : base(dbHelper) { }
+        public void GetDetailAccountTransactionFixedAssetUpgrade(AccountTransactionFixedAssetUpgrade accFixedAsset)
+        {
+            bool alreadyOpen = false;
+            try
+            {
+                DbDataReader reader = null;
+                if (db.State != System.Data.ConnectionState.Open)
+                    db.Open();
+                else
+                    alreadyOpen = true;
+                DbCommand cmd = db.CreateCommand();
+                cmd.CommandText = "usp_AccountTransactionFixedAssetUpgrade_Select";
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add(db.CreateParameter("@AccountTransactionID", System.Data.DbType.Guid, 16, accFixedAsset.AccountTransactionID));
+                reader = db.ExecuteReader(cmd);
+                while (reader.Read())
+                {
+                    accFixedAsset.FixedAsset = new FixedAssetUpgrade(reader);
+                 }
+                reader.Close();
+            }
+            catch (Exception excp)
+            {
+                Write2Log.WriteLogs("AccountTransactionFixedAssetUpgradDAL", "GetDetailAccountTransactionFixedAssetUpgrade(AccountTransactionFixedAssetUpgrade accFixedAsset)", excp.Message);
+            }
+            finally
+            {
+                if (!alreadyOpen)
+                    db.Close();
+            }
+        }
+    }
+}

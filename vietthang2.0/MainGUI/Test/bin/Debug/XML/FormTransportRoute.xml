@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormTransportRoute" text ="Danh mục tuyến đường"/>
+  <layout id="TypeCode" text="Mã" />
+  <layout id="TypeName" text="Tên" />
+  <layout id="Description" text="Diễn giải" />
+  <layout id="UserCreated" text="Người tạo" />
+  <layout id="DateCreated" text="Ngày tạo" />
+  <layout id="UserUpdated" text="Người sửa" />
+  <layout id="DateUpdated" text="Ngày sửa" />
+  <layout id="label1" text="Mã" />
+  <layout id="label2" text="Tên" />
+  <layout id="label3" text="Diễn giải" />
+  <layout id="panelTop" text="" />
+  <layout id="colStockIn" text="Kho nhập" />
+  <layout id="colStockOut" text="Kho xuất" />
+  <layout id="colIsTrungChuyen" text="Tuyến trung chuyển" />
+  <layout id="lbStockIn" text="Kho nhập" />
+  <layout id="lbStockOut" text="Kho xuất" />
+  <layout id="chIsTrungchuyen" text="Tuyến trung chuyển" />
+  
+  <message id="VALIDATE-1" text="Chưa nhập mã !"/>
+  <message id="VALIDATE-2" text="Chưa nhập tên !"/>
+  <message id="INSERT-1" text="Mã tuyến đường này đã tồn tại!"/>
+  <message id="UPDATE-1" text="Cập nhật không thành công!"/>
+  <message id="DELETE-1" text="Xoá không thành công!"/>
+
+</root>
+

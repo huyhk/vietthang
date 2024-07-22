@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+
+
+  <layout id ="FormReport_TestExpense" text ="Báo cáo chi phí kiểm ngoài" />
+  <layout id ="colSendNo" text="Phiếu gửi" />
+  <layout id ="colReturnNo" text ="Phiếu nhận"/>
+  <layout id ="colStockName" text="Kho" />
+  <layout id ="colTechName" text="Chỉ tiêu" />
+  <layout id ="colPrice" text="Giá tiền" />
+  <layout id ="colItemName" text="Mặt hàng" />
+  <layout id ="colSubjectName" text="Đơn vị phân tích" />
+  <layout id ="colItemEncryptCode" text="Mã mẫu" />
+  <layout id ="colSendDate" text="Ngày gửi" />
+  <layout id ="colReturnDate" text ="Ngày nhận"/>
+  <layout id ="colItemType" text="Phân loại" />
+  <layout id ="btnReportExcel" text ="Kết xuất ra Excel" />
+  <layout id="label2" text="Đến ngày" />
+  <layout id="label1" text="Từ ngày" />
+  <layout id="btnRefresh" text="Xem" />
+
+  <layout id="rbReturnDate" text="Tính theo ngày nhận" />
+  <layout id="rbSendDate" text="Tính theo ngày gửi" />
+</root>

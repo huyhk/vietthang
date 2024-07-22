@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VESWSClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VESWSClient_VESWS_VESWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/VESWS/VESWS.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

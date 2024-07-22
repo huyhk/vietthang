@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormInstrumentItem" text="Danh mục công cụ dụng cụ"/>
+	<layout id="lbItemCode" text="Mã"/>
+	<layout id="lbItemName" text="Tên"/>
+	<layout id="lbUnit" text="Đơn vị tính"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+	<layout id="colItemCode" text="Mã"/>
+	<layout id="colItemName" text="Tên"/>
+	<layout id="colUnit" text="Đơn vị tính"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<message id="VALIDATE-1" text="Chưa nhập mã!"/>
+	<message id="VALIDATE-2" text="Chưa nhập tên!"/>
+	<message id="VALIDATE-3" text="Chưa nhập đơn vị tính!"/>
+	<message id="INSERT-1" text="Thêm mới không thành công!"/>
+	<message id="INSERT-2" text="Mã đã tồn tại!"/>
+	<message id="UPDATE-1" text="Cập nhật không thành công!"/>
+	<message id="UPDATE-2" text="Mã đã bị xoá bởi user khác!"/>
+	<message id="DELETE-1" text="Xoá không thành công!"/>
+	<message id="DELETE-2" text="Mã đã bị xoá bởi user khác!"/>
+
+</root>
+

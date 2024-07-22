@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormConfig" text="Cấu hình" />
+  <layout id="label1" text="Loại xuất/nhập cho phiếu xuất nguyên liệu" />
+  <layout id="label2" text="Loại xuất/nhập cho phiếu xuất nhiên liệu" />
+  <layout id="label3" text="Loại xuất/nhập cho phiếu nhập thành phẩm" />
+  <layout id="label4" text="Loại xuất/nhập cho phiếu nhập phế phẩm" />
+  
+  <layout id="labelPremix1" text="Loại xuất/nhập cho phiếu xuất nguyên liệu" />
+  <layout id="labelPremix2" text="Loại xuất/nhập cho phiếu xuất bao bì" />
+  <layout id="labelPremix3" text="Loại xuất/nhập cho phiếu nhập thuốc" />
+ 
+  
+  <layout id="labelGrind1" text="Loại xuất cho phiếu xuất nguyên liệu" />
+  <layout id="labelGrind2" text="Loại xuất/nhập cho phiếu xuất bao bì" />
+  <layout id="labelGrind3" text="Loại nhập cho phiếu nhập nguyên liệu" />
+  <layout id="tabPage1" text="Sản xuất" />
+  <layout id="tabPage2" text="Trộn thuốc" />
+  <layout id="tabPage3" text="Nghiền" />
+
+</root>
+

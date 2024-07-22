@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+	<!ELEMENT message ANY>
+	<!ATTLIST message id ID #REQUIRED>
+	<!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="simpleButton1" text="OK" />
+	<layout id="groupBox4" text="Yêu cầu phân tích" />
+	<layout id="colTechCode1" text="Chỉ tiêu" />
+	<layout id="colIsChecked" text="Chọn" />
+	<layout id="groupBox3" text="Kết quả phân tích" />
+	<layout id="colTechCode" text="Chỉ tiêu" />
+	<layout id="colResult" text="Kết quả" />
+	<layout id="groupBox2" text="Lot - mã mẫu" />
+	<layout id="btnUpdateItemEncryptCode" text="Cập nhật" />
+	<layout id="btnAddItemEncryptCode" text="Thêm" />
+	<layout id="lbItemEncryptCode" text="Mã mẫu" />
+	<layout id="lbLot" text="Lot" />
+	<layout id="colLot" text="Lot" />
+	<layout id="colItemEncrytpCode" text="Mã mẫu" />
+	<layout id="groupBox1" text="Thành phẩm" />
+	<layout id="btnUpdate" text="Cập nhật" />
+	<layout id="btnAdd" text="Thêm" />
+	<layout id="lbFormula" text="Công thức" />
+	<layout id="lbSizeCode" text="Kích thước" />
+	<layout id="label1" text="Thành phẩm" />
+	<layout id="colProductCode" text="Thành phẩm" />
+	<layout id="colSizeCode" text="Kích thước" />
+	<layout id="colFomularCode" text="Công thức" />
+
+	<message id="ProductNullError" text="Bạn chưa chọn thành phẩm!"/>
+	<message id="SizeCodeNullError" text="Bạn chưa chọn mã kích cỡ!"/>
+	<message id="ProductIsExists" text="Thành phẩm, kích thước, và công thức đã tồn tại!"/>
+	<message id="ItemEnryptCodeNullError" text="Bạn chưa nhập mã mẫu!"/>
+	<message id="ItemEnryptCodeIsExist" text="Mã mẫu đã tồn tại!"/>
+	<message id="ItemEncrypCodeNotExistError" text="Ứng với mỗi thành phẩm, kích thước, công thức phải có ít nhất một mã mẫu!"/>
+</root>
+

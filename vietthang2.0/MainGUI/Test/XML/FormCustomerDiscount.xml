@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormCustomerDiscount" text="Danh mục định mức chiết khấu bán hàng"/>
+	<layout id="colProvinces" text="Tỉnh"/>
+	<layout id="colSubjectCode" text="Mã KH"/>
+	<layout id="colSubjectName" text="Tên KH"/>
+	<layout id="colAddress" text="Địa chỉ"/>
+	<layout id="colPhone" text="Số điện thoại"/>
+	<layout id="colFax" text="Số Fax" />
+	<layout id="colTaxCode" text="Mã số thuế"/>
+	<layout id="colBankName" text="Tên ngân hàng"/>
+	<layout id="colBankAccountNo" text="Số tài khoản"/>
+	<layout id="colDescription" text="Ghi chú"/>
+	<layout id="colUserCreated" text="Người tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="Người cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="colUserCreated1" text="User tạo"/>
+	<layout id="colDateCreated1" text="Ngày tạo"/>
+	<layout id="colUserUpdated1" text="User cập nhật"/>
+	<layout id="colDateUpdated1" text="Ngày cập nhật"/>
+
+	<layout id="lbStartDate" text="Bắt đầu từ ngày"/>
+	<layout id="lbInvoiceDiscount" text="Chiết khấu hoá đơn"/>
+	<layout id="lbQuarterDiscount" text="Chiết khấu quý"/>
+	<layout id="lbYearDiscount" text="Chiết khấu năm"/>
+	<layout id="lbDescription" text="Diễn giải"/>
+
+	<layout id="colStartDate" text="Ngày"/>
+	<layout id="colInvoiceDiscount" text="Hoá đơn"/>
+	<layout id="colQuarterDiscount" text="Quý"/>
+	<layout id="colYearDiscount" text="Năm"/>
+	<layout id="colDescription1" text="Diễn giải"/>
+
+  <message id="INSERT-1" text="Thêm mới không thành công!" />
+  <message id="INSERT-2" text="Mã KH đã bị xoá bởi user khác!" />
+  <message id="INSERT-3" text="Dữ liệu bị trùng!" />
+  <message id="UPDATE-1" text="Cập nhật không thành công!" />
+  <message id="UPDATE-2" text="Mã KH đã bị xoá bởi user khác!" />
+  <message id="UPDATE-3" text="Ngày tương ứng với KH đã bị xoá bởi user khác!" />
+  <message id="DELETE-1" text="Xoá không thành công!" />
+  <message id="DELETE-2" text="Mã KH đã bị xoá bởi user khác!" />
+  <message id="DELETE-3" text="Ngày tương ứng với KH đã bị xoá bởi user khác!" />
+
+</root>
+
+

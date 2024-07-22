@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+	<!ELEMENT root ANY>
+	<!ELEMENT layout ANY>
+	<!ATTLIST layout id ID #REQUIRED>
+	<!ATTLIST layout text CDATA #REQUIRED>
+	<!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+	<layout id="FormListConfirmStockTransaction" text="Xác nhận phiếu nhập/xuất kho"/>
+	<layout id="colIsAuto" text="Phiếu tự động"/>
+	<layout id="lbStockCode" text="Chọn kho"/>
+	<layout id="colInStock" text="Kho nhập"/>
+	<layout id="colStatus" text="Trạng thái"/>
+	<layout id="colOutStock" text="Kho xuất"/>
+	<layout id="colTransactionNo" text="Số phiếu"/>
+	<layout id="colTransactionTypeCode" text="Loại nhập/xuất"/>
+	<layout id="colTransactionDate" text="Ngày"/>
+	<layout id="colUserCreated" text="Người tạo"/>
+	<layout id="colDateCreated" text="Ngày tạo"/>
+	<layout id="colUserUpdated" text="Người cập nhật"/>
+	<layout id="colDateUpdated" text="Ngày cập nhật"/>
+	<layout id="colGetByWeightItems" text="Lấy từ phiếu cân"/>
+	<layout id="colDescription" text="Diễn giải"/>
+	<layout id="colForDepartment" text="Bộ phận"/>
+	<layout id="colDepartmentStatus" text="Bộ phận xác nhận"/>
+	<layout id="colDonviVC" text="ĐV vận chuyển"/>
+	<layout id="colPTVC" text="PT vận chuyển"/>
+	<layout id="colCTKemTheo" text="CT kèm theo"/>
+	<layout id="colSoHoaDon" text="Số hoá đơn"/>
+	<layout id="colKhoGiaoNhan" text="Kho giao/nhận"/>
+	<layout id="colDVGiao" text="ĐV giao"/>
+	<layout id="colDVNhan" text="ĐV nhận"/>
+	<layout id="colSoDH" text="Số y/c bán hàng"/>
+	<layout id="colSoHD" text="Số HĐ"/>
+	<layout id="colIsAccounted" text="Đã định khoản"/>
+	<layout id="lbPeriod" text="Kỳ"/>
+	<layout id="btnRefresh" text="Refresh"/>
+	
+</root>

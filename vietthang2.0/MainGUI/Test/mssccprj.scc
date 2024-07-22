@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Test.csproj]
+SCC_Aux_Path = "P:\SourceSafe\VietThang2"
+SCC_Project_Name = "$/MainGUI/Test", MAAAAAAA

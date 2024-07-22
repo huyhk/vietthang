@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id="FormGrindMaterials" text="Nghiền"/>
+  <layout id="colStatus" text="Trạng thái"/>
+  <layout id="colGrindDate" text="Ngày nghiền"/>
+  <layout id="colShift" text="Ca"/>
+  <layout id="colGrindCode" text="Thành phẩm"/>
+  <layout id="colMaterialWeight" text="Số lượng(Kg)"/>
+  <layout id="lblKho" text="Kho sản xuất"/>
+  <layout id="colFormulaCode" text="Công thức"/>
+  <layout id="colDescription" text="Mô tả"/>
+  <layout id="colWrapping" text="Bao bì sử dụng"/>
+  <layout id="colWrappingWaste" text="Bao bì hư"/>
+  <layout id="btnTaoPX" text="Tạo phiếu Nhập/Xuất kho"/>
+  <layout id="btnXoaPX" text="Xóa phiếu Nhập/Xuất kho"/>
+	<layout id="lblThang" text="Kỳ"/>
+  <message id="DELETE-1" text="Lỗi trong khi lưu dữ liệu!!!"/>
+  <message id="DELETE-2" text="Không tồn tại!!!"/>
+  <message id="DELETE-3" text="Phiếu Nhâp/Xuất đã được bộ phận kho xác nhận. Không thể xóa!!!"/>
+  <message id="DELETE-4" text="Phiếu không tồn tại!!!"/>
+	<message id="DELETE50000" text="Module nghiền đã khóa sổ, không được thay đổi dữ liệu!"/>
+
+</root>
+
+

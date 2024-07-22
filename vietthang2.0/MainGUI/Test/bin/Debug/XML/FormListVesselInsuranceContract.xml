@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+  <layout id ="FormListVesselInsuranceContract" text="Hợp đồng bảo hiểm chuyến tàu" />
+<layout id="label1" text="Năm" />
+<layout id="colContractNo" text="Số hợp đồng" />
+<layout id="colContractDate" text="Ngày" />
+<layout id="colInsuranceSubjectCode" text="Đơn vị bảo hiểm" />
+<layout id="colVesselTransactionNo" text="Mã chuyến tàu" />
+<layout id="colInsuranceAmount" text="Trị giá bảo hiểm" />
+<layout id="colLostAllow" text="Hao hụt cho phép" />
+<layout id="colCompensationPrice" text="Đơn giá đền bù" />
+<layout id="colCurrencyCode" text="Mã tiền tệ" />
+<layout id="colDescription" text="Ghi chú" />
+  <layout id ="colUserCreated" text ="Người tạo" />
+  <layout id ="colDateCreated" text ="Ngày tạo" />
+  <layout id ="colUserUpdated" text ="Người sửa" />
+  <layout id ="colDateUpdated" text ="Ngày sửa" />
+<layout id="spinEditYear" text="2008" />
+<layout id="btnRefresh" text="Refresh" />
+
+
+
+
+</root>

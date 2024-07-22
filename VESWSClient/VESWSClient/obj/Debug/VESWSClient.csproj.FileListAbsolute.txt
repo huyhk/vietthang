@@ -1,0 +1,10 @@
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\bin\Debug\VESWSClient.exe.config
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\bin\Debug\VESWSClient.exe
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\bin\Debug\VESWSClient.pdb
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\ResolveAssemblyReference.cache
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\VESWSClient.Form1.resources
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\VESWSClient.Properties.Resources.resources
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\VESWSClient.csproj.GenerateResource.Cache
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\VESWSClient.exe
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\VESWSClient.pdb
+D:\working\vietthang2.0121218\VESWSClient\VESWSClient\obj\Debug\VESWSClient.exe.licenses

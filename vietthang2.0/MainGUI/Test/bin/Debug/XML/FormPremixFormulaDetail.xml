@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT layout ANY>
+  <!ATTLIST layout id ID #REQUIRED>
+  <!ATTLIST layout text CDATA #REQUIRED>
+  <!ATTLIST layout tooltiptext CDATA #IMPLIED>
+  <!ELEMENT message ANY>
+  <!ATTLIST message id ID #REQUIRED>
+  <!ATTLIST message text CDATA #REQUIRED>
+]>
+<root>
+
+  <layout id="FormPremixFormulaDetail" text="Chi tiết Công thức sơ chế thuốc" />
+  <layout id="label1" text="Công thức" />
+  <layout id="lbPremixCode" text="Thuốc" />
+  <layout id="label2" text="Ghi chú" />
+  <!--seting GridView-->
+
+  <layout id="colMaterialCode" text="Nguyên liệu" />
+  <layout id="colWeight" text="Cân nặng" />
+
+  <message id="VALIDATE-1" text="Chưa nhập công thức!" />
+  <message id="VALIDATE-2" text="Chưa nhập thuốc!" />
+  <message id="VALIDATE-3" text="Cân nặng phải lớn hơn 0!" />
+  <message id="VALIDATE-4" text="Chưa nhập nguyên liệu!" />
+  <message id="VALIDATE-5" text="Mã công thức nầy có rồi!" />
+  <message id="INSERT-1" text="Trùng lập dữ liệu!" />
+  <message id="INSERT-2" text="Không tồn tại công thức nầy!" />
+  <message id="INSERT-3" text="Thuốc nầy không có" />
+  <message id="INSERT-4" text="Nguyên liệu không có!" />
+
+</root>
