@@ -52,7 +52,7 @@
             this.btn1526111.Name = "btn1526111";
             this.btn1526111.Size = new System.Drawing.Size(210, 113);
             this.btn1526111.TabIndex = 0;
-            this.btn1526111.Text = "152-6111";
+            this.btn1526111.Text = "Kết chuyển nguyên liệu";
             this.btn1526111.UseVisualStyleBackColor = true;
             this.btn1526111.Click += new System.EventHandler(this.btn1526111_Click);
             // 
@@ -63,7 +63,7 @@
             this.btn155632.Name = "btn155632";
             this.btn155632.Size = new System.Drawing.Size(210, 113);
             this.btn155632.TabIndex = 1;
-            this.btn155632.Text = "155-6321";
+            this.btn155632.Text = "Kết chuyển thành phẩm";
             this.btn155632.UseVisualStyleBackColor = true;
             this.btn155632.Click += new System.EventHandler(this.btn155632_Click);
             // 

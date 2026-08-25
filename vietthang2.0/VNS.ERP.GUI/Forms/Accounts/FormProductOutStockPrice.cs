@@ -29,6 +29,7 @@ namespace VNS.ERP.GUI.Accounting
             colCloseAmount.SummaryItem.DisplayFormat = AppConfigs.CONFIG_AMOUNTVNFORMAT_STRING;
             this.navigatorFrmEditBase.Visible = false;
             lookUpEditDate.Properties.DataSource = bll.GetAll();
+            this.button1.Text = "Kết chuyển " + Account.OldProductAccount + ", " + Account.ProfitAccount;
 
             btnCancel.Click += new EventHandler(btnCancel_Click);
         }
@@ -85,6 +86,7 @@ namespace VNS.ERP.GUI.Accounting
         private void lookUpEditDate_EditValueChanged(object sender, EventArgs e)
         {
             periodObject = (lookUpEditDate.Properties.DataSource as ListBase<Period>).Search("PeriodCode", lookUpEditDate.EditValue.ToString());
+            textEdit1.EditValue = Account.GetProductAccount(periodObject.StartDate);
             //periodObject = (lookUpEditDate.Properties.DataSource as ListBase<Period>)[lookUpEditDate.ItemIndex];
             dt = AccStockPriceCostBLL.GetProductOutStockPrice(Convert.ToString(lookUpEditDate.EditValue));
             gridControl1.DataSource = dt;

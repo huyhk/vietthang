@@ -19,6 +19,8 @@ namespace VNS.ERP.GUI.Accounting
         public FormKetChuyenCuoiKy()
         {
             InitializeComponent();
+            btn6111152.Text = Account.OldMaterialAccount + "-" + Account.NewMaterialAccount;
+            btn632155.Text = Account.OldProductAccount + "-" + Account.NewProductAccount;
             lookUpEditDate.Properties.DataSource = bll.SelectIsClosedFalse(enumModuleID.Accounting.ToString());
         }
         protected override void OnLoad(EventArgs e)
@@ -38,6 +40,16 @@ namespace VNS.ERP.GUI.Accounting
             this.periodObject = (lookUpEditDate.Properties.DataSource as ListBase<Period>)[lookUpEditDate.ItemIndex];
         }
 
+        private bool CanTransferLegacyStockAccounts()
+        {
+            if (periodObject.EndDate.Date >= Account.StockAccountingEffectiveDate)
+            {
+                MessageBox.Show("Từ 01/01/2026 kho đã hạch toán trực tiếp vào " + Account.NewMaterialAccount + "/" + Account.NewProductAccount + ", không thực hiện kết chuyển tài khoản kho cuối kỳ.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
+        }
+
         private void btn6111152_Click(object sender, EventArgs e)
         {
             if (lookUpEditDate.ItemIndex == -1)
@@ -45,6 +57,7 @@ namespace VNS.ERP.GUI.Accounting
                 MessageBox.Show(this.GetTextMessage("PeriodNullError", "Bạn chưa chọn kỳ kế toán!"));
                 return;
             }
+            if (!CanTransferLegacyStockAccounts()) return;
             bool execNext = true;
             AccountTransactionBLL accTransBLL = new AccountTransactionBLL();
             ListBase<AccountTransaction> lstAccTrans = accTransBLL.SelectBySpecialTypeAndDate(enumAccountSpecialType.KETCHUYENNGUYENLIEUCUOIKY.ToString(), periodObject.StartDate, periodObject.EndDate);
@@ -69,17 +82,17 @@ namespace VNS.ERP.GUI.Accounting
                         if (obj.Detail1 == null) obj.Detail1 = new VNS.Common.ListBase<AccountTransactionDetail1>();
                         if (obj.Detail2 == null) obj.Detail2 = new VNS.Common.ListBase<AccountTransactionDetail2>();
                         AccountTransactionDetail2 atd2 = new AccountTransactionDetail2();
-                        atd2.CreditAccountCode = Account.MaterialAccount.ToString();
-                        atd2.DebitAccountCode = Account.MaterialAccount152.ToString();
-                        decimal d = new AccountTransactionBLL().GetCloseAmount(Account.MaterialAccount.ToString(), this.periodObject.StartDate, this.periodObject.EndDate, enumAccountSpecialType.KETCHUYENNGUYENLIEUCUOIKY.ToString());
+                        atd2.CreditAccountCode = Account.OldMaterialAccount;
+                        atd2.DebitAccountCode = Account.NewMaterialAccount;
+                        decimal d = new AccountTransactionBLL().GetCloseAmount(Account.OldMaterialAccount, this.periodObject.StartDate, this.periodObject.EndDate, enumAccountSpecialType.KETCHUYENNGUYENLIEUCUOIKY.ToString());
                         atd2.Amount = d;
                         obj.Detail2.Add(atd2);
                         AccountTransactionDetail1 atd1 = new AccountTransactionDetail1();
-                        atd1.AccountCode = Account.MaterialAccount152.ToString();
+                        atd1.AccountCode = Account.NewMaterialAccount;
                         atd1.DebitAmount = d;
                         obj.Detail1.Add(atd1);
                         atd1 = new AccountTransactionDetail1();
-                        atd1.AccountCode = Account.MaterialAccount.ToString();
+                        atd1.AccountCode = Account.OldMaterialAccount;
                         atd1.CreditAmount = d;
                         obj.Detail1.Add(atd1);
                         f.EditItem();
@@ -118,17 +131,17 @@ namespace VNS.ERP.GUI.Accounting
                 if (obj.Detail1 == null) obj.Detail1 = new VNS.Common.ListBase<AccountTransactionDetail1>();
                 if (obj.Detail2 == null) obj.Detail2 = new VNS.Common.ListBase<AccountTransactionDetail2>();
                 AccountTransactionDetail2 atd2 = new AccountTransactionDetail2();
-                atd2.CreditAccountCode = Account.MaterialAccount.ToString();
-                atd2.DebitAccountCode = Account.MaterialAccount152.ToString();
-                decimal d = new AccountTransactionBLL().GetCloseAmount(Account.MaterialAccount.ToString(), this.periodObject.StartDate, this.periodObject.EndDate, enumAccountSpecialType.KETCHUYENNGUYENLIEUCUOIKY.ToString());
+                atd2.CreditAccountCode = Account.OldMaterialAccount;
+                atd2.DebitAccountCode = Account.NewMaterialAccount;
+                decimal d = new AccountTransactionBLL().GetCloseAmount(Account.OldMaterialAccount, this.periodObject.StartDate, this.periodObject.EndDate, enumAccountSpecialType.KETCHUYENNGUYENLIEUCUOIKY.ToString());
                 atd2.Amount = d;
                 obj.Detail2.Add(atd2);
                 AccountTransactionDetail1 atd1 = new AccountTransactionDetail1();
-                atd1.AccountCode = Account.MaterialAccount152.ToString();
+                atd1.AccountCode = Account.NewMaterialAccount;
                 atd1.DebitAmount = d;
                 obj.Detail1.Add(atd1);
                 atd1 = new AccountTransactionDetail1();
-                atd1.AccountCode = Account.MaterialAccount.ToString();
+                atd1.AccountCode = Account.OldMaterialAccount;
                 atd1.CreditAmount = d;
                 obj.Detail1.Add(atd1);
                 f.ShowDialog();
@@ -142,6 +155,7 @@ namespace VNS.ERP.GUI.Accounting
                 MessageBox.Show(this.GetTextMessage("PeriodNullError", "Bạn chưa chọn kỳ kế toán"));
                 return;
             }
+            if (!CanTransferLegacyStockAccounts()) return;
             bool execNext = true;
             AccountTransactionBLL accTransBLL = new AccountTransactionBLL();
             ListBase<AccountTransaction> lstAccTrans = accTransBLL.SelectBySpecialTypeAndDate(enumAccountSpecialType.KETCHUYENTHANHPHAMCUOIKY.ToString(), periodObject.StartDate, periodObject.EndDate);
@@ -166,17 +180,17 @@ namespace VNS.ERP.GUI.Accounting
                         if (obj.Detail1 == null) obj.Detail1 = new VNS.Common.ListBase<AccountTransactionDetail1>();
                         if (obj.Detail2 == null) obj.Detail2 = new VNS.Common.ListBase<AccountTransactionDetail2>();
                         AccountTransactionDetail2 atd2 = new AccountTransactionDetail2();
-                        atd2.CreditAccountCode = Account.ProductAccount.ToString();
-                        atd2.DebitAccountCode = Account.ProductAccount155.ToString();
-                        decimal d = new AccountTransactionBLL().GetCloseAmount(Account.ProductAccount.ToString(), this.periodObject.StartDate, this.periodObject.EndDate, enumAccountSpecialType.KETCHUYENTHANHPHAMCUOIKY.ToString());
+                        atd2.CreditAccountCode = Account.OldProductAccount;
+                        atd2.DebitAccountCode = Account.NewProductAccount;
+                        decimal d = new AccountTransactionBLL().GetCloseAmount(Account.OldProductAccount, this.periodObject.StartDate, this.periodObject.EndDate, enumAccountSpecialType.KETCHUYENTHANHPHAMCUOIKY.ToString());
                         atd2.Amount = d;
                         obj.Detail2.Add(atd2);
                         AccountTransactionDetail1 atd1 = new AccountTransactionDetail1();
-                        atd1.AccountCode = Account.ProductAccount155.ToString();
+                        atd1.AccountCode = Account.NewProductAccount;
                         atd1.DebitAmount = d;
                         obj.Detail1.Add(atd1);
                         atd1 = new AccountTransactionDetail1();
-                        atd1.AccountCode = Account.ProductAccount.ToString();
+                        atd1.AccountCode = Account.OldProductAccount;
                         atd1.CreditAmount = d;
                         obj.Detail1.Add(atd1);
                         f.EditItem();
@@ -220,7 +234,7 @@ namespace VNS.ERP.GUI.Accounting
                 {
                     AccountTransactionDetail2 atd2 = new AccountTransactionDetail2();
                     atd2.CreditAccountCode = Account.ProductAccountTS.ToString();
-                    atd2.DebitAccountCode = Account.ProductAccount155.ToString();
+                    atd2.DebitAccountCode = Account.NewProductAccount;
 
                     atd2.Amount = d;
                     obj.Detail2.Add(atd2);
@@ -236,7 +250,7 @@ namespace VNS.ERP.GUI.Accounting
                 {
                     AccountTransactionDetail2 atd2 = new AccountTransactionDetail2();
                     atd2.CreditAccountCode = Account.ProductAccountGS.ToString();
-                    atd2.DebitAccountCode = Account.ProductAccount155.ToString();
+                    atd2.DebitAccountCode = Account.NewProductAccount;
 
                     atd2.Amount = d;
                     obj.Detail2.Add(atd2);
@@ -252,7 +266,7 @@ namespace VNS.ERP.GUI.Accounting
                 {
                     AccountTransactionDetail2 atd2 = new AccountTransactionDetail2();
                     atd2.CreditAccountCode = Account.ProductAccountCV.ToString();
-                    atd2.DebitAccountCode = Account.ProductAccount155.ToString();
+                    atd2.DebitAccountCode = Account.NewProductAccount;
 
                     atd2.Amount = d;
                     obj.Detail2.Add(atd2);
@@ -265,7 +279,7 @@ namespace VNS.ERP.GUI.Accounting
                 }
 
                 AccountTransactionDetail1 atd11 = new AccountTransactionDetail1();
-                atd11.AccountCode = Account.ProductAccount155.ToString();
+                atd11.AccountCode = Account.NewProductAccount;
                 atd11.DebitAmount = amount;
                 obj.Detail1.Add(atd11);
                 

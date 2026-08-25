@@ -51,6 +51,7 @@ namespace VNS.ERP.GUI.Accounting
         private void lookUpEditDate_EditValueChanged(object sender, EventArgs e)
         {
             periodObject = (lookUpEditDate.Properties.DataSource as ListBase<Period>)[lookUpEditDate.ItemIndex];
+            textEdit1.EditValue = Account.GetMaterialAccount(periodObject.StartDate);
             dt=new AccountStockOpeningsBLL().GetInventoryMaterial(Convert.ToDateTime(lookUpEditDate.EditValue));
             gridControl1.DataSource = dt;
             gridView1.ExpandAllGroups();

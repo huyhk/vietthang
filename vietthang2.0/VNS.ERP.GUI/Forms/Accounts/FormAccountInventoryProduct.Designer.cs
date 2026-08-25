@@ -74,7 +74,6 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.EditValue = "6321";
             this.textEdit1.Location = new System.Drawing.Point(395, 46);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Options.UseTextOptions = true;
