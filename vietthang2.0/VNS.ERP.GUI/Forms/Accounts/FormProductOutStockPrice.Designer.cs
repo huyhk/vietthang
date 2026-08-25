@@ -349,7 +349,6 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.EditValue = "6321";
             this.textEdit1.Location = new System.Drawing.Point(391, 44);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Options.UseTextOptions = true;
@@ -401,7 +400,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 26);
             this.button1.TabIndex = 27;
-            this.button1.Text = "Kết chuyển 6321, 911";
+            this.button1.Text = "Kết chuyển";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

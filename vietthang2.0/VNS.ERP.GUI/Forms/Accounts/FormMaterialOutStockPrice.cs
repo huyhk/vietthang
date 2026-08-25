@@ -79,6 +79,7 @@ namespace VNS.ERP.GUI.Accounting
         private void lookUpEditDate_EditValueChanged(object sender, EventArgs e)
         {
             periodObject = (lookUpEditDate.Properties.DataSource as ListBase<Period>).Search("PeriodCode", lookUpEditDate.EditValue.ToString());
+            textEdit1.EditValue = Account.GetMaterialAccount(periodObject.StartDate);
             //periodObject = (lookUpEditDate.Properties.DataSource as ListBase<Period>)[lookUpEditDate.ItemIndex];
             dt = AccStockPriceCostBLL.GetMaterialOutStockPrice(Convert.ToString(lookUpEditDate.EditValue));
             gridControl1.DataSource = dt;
