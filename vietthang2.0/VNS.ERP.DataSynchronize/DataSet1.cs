@@ -1,9 +1,10 @@
-﻿    namespace VNS.ERP.DataSynchronize {
+﻿namespace VNS.ERP.DataSynchronize
+{
 
 
     partial class DataSet1
     {
-        
-        
+
+
     }
 }

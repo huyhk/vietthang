@@ -131,6 +131,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Baocaomau\Kho\Bangkexuathangcayhang.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -470,6 +473,10 @@
       <Project>{5C209178-E12A-4E46-AE60-A83E56B42C91}</Project>
       <Name>VNS.Context</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\UpdateScript\UpdateScript.csproj">
+      <Project>{0e008f7c-0a7a-41e2-806f-2d9a0b04150b}</Project>
+      <Name>UpdateScript</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\VNS.ERP.Data\VNS.ERP.Data.csproj">
       <Project>{90be3932-e046-454c-b703-02922191b5d6}</Project>
       <Name>VNS.ERP.Data</Name>
@@ -611,6 +618,9 @@
     <Content Include="Resources\VietThang2i.gif" />
     <Content Include="Resources\VietThang2i.jpg" />
     <Content Include="Resources\VietThang2i1.jpg" />
+    <None Include="Script.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="XML\FormAccountRPCongnoNCCDenhan.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

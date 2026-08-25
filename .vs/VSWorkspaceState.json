@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\vietthang2.0",
+    "\\vietthang2.0\\MainGUI",
+    "\\vietthang2.0\\VNS.ERP.Data",
+    "\\vietthang2.0\\VNS.ERP.Data\\Data",
+    "\\vietthang2.0\\VNS.ERP.Data\\Data\\Stocks",
+    "\\vietthang2.0\\VNS.ERP.GUI",
+    "\\vietthang2.0\\VNS.ERP.GUI\\Reports",
+    "\\vietthang2.0\\VNS.ERP.GUI\\Reports\\Stocks"
+  ],
+  "SelectedNode": "\\vietthang2.0\\VNS.ERP.Data\\Data\\Stocks\\WeightItemContainer.cs",
+  "PreviewInSolutionExplorer": false
+}

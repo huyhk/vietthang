@@ -67,6 +67,7 @@
             this.colUserUpdated = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDateUpdated = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colStock = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn27 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repTime = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
             this.lbPeriod = new System.Windows.Forms.Label();
             this.lookUpPeriod = new DevExpress.XtraEditors.LookUpEdit();
@@ -116,6 +117,7 @@
             this.gridColumn25 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn26 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colStock2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemTimeEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -127,8 +129,6 @@
             this.lbEmployee = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.gridColumn27 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bdSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.defaultBarAndDocking.Controller)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -171,11 +171,13 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(5, 98);
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gridControl1.Location = new System.Drawing.Point(6, 121);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repLookUpTransactionTypeCode,
@@ -188,7 +190,7 @@
             this.repTime,
             this.repTxtQuantity});
             this.gridControl1.ShowOnlyPredefinedDetails = true;
-            this.gridControl1.Size = new System.Drawing.Size(1015, 257);
+            this.gridControl1.Size = new System.Drawing.Size(1184, 316);
             this.gridControl1.TabIndex = 5;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -611,6 +613,14 @@
             this.colStock.Visible = true;
             this.colStock.VisibleIndex = 12;
             // 
+            // gridColumn27
+            // 
+            this.gridColumn27.Caption = "Lượt";
+            this.gridColumn27.FieldName = "Luot";
+            this.gridColumn27.Name = "gridColumn27";
+            this.gridColumn27.Visible = true;
+            this.gridColumn27.VisibleIndex = 25;
+            // 
             // repTime
             // 
             this.repTime.AutoHeight = false;
@@ -627,9 +637,9 @@
             // lbPeriod
             // 
             this.lbPeriod.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbPeriod.Location = new System.Drawing.Point(746, 72);
+            this.lbPeriod.Location = new System.Drawing.Point(870, 89);
             this.lbPeriod.Name = "lbPeriod";
-            this.lbPeriod.Size = new System.Drawing.Size(27, 18);
+            this.lbPeriod.Size = new System.Drawing.Size(31, 22);
             this.lbPeriod.TabIndex = 17;
             this.lbPeriod.Text = "Kỳ";
             this.lbPeriod.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -638,7 +648,8 @@
             // lookUpPeriod
             // 
             this.lookUpPeriod.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lookUpPeriod.Location = new System.Drawing.Point(777, 73);
+            this.lookUpPeriod.Location = new System.Drawing.Point(906, 90);
+            this.lookUpPeriod.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lookUpPeriod.Name = "lookUpPeriod";
             this.lookUpPeriod.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -648,14 +659,15 @@
             this.lookUpPeriod.Properties.NullText = "";
             this.lookUpPeriod.Properties.ShowHeader = false;
             this.lookUpPeriod.Properties.ValueMember = "PeriodCode";
-            this.lookUpPeriod.Size = new System.Drawing.Size(125, 20);
+            this.lookUpPeriod.Size = new System.Drawing.Size(146, 22);
             this.lookUpPeriod.TabIndex = 16;
             this.lookUpPeriod.Visible = false;
             this.lookUpPeriod.EditValueChanged += new System.EventHandler(this.lookUpPeriod_EditValueChanged);
             // 
             // lookUpStockCode
             // 
-            this.lookUpStockCode.Location = new System.Drawing.Point(210, 76);
+            this.lookUpStockCode.Location = new System.Drawing.Point(245, 94);
+            this.lookUpStockCode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lookUpStockCode.Name = "lookUpStockCode";
             this.lookUpStockCode.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lookUpStockCode.Properties.Appearance.Options.UseFont = true;
@@ -669,16 +681,16 @@
             this.lookUpStockCode.Properties.PopupWidth = 200;
             this.lookUpStockCode.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.lookUpStockCode.Properties.ValueMember = "StockCode";
-            this.lookUpStockCode.Size = new System.Drawing.Size(110, 19);
+            this.lookUpStockCode.Size = new System.Drawing.Size(128, 23);
             this.lookUpStockCode.TabIndex = 15;
             this.lookUpStockCode.Visible = false;
             this.lookUpStockCode.EditValueChanged += new System.EventHandler(this.lookUpStockCode_EditValueChanged);
             // 
             // lbStockCode
             // 
-            this.lbStockCode.Location = new System.Drawing.Point(180, 75);
+            this.lbStockCode.Location = new System.Drawing.Point(210, 92);
             this.lbStockCode.Name = "lbStockCode";
-            this.lbStockCode.Size = new System.Drawing.Size(30, 18);
+            this.lbStockCode.Size = new System.Drawing.Size(35, 22);
             this.lbStockCode.TabIndex = 14;
             this.lbStockCode.Text = "Kho";
             this.lbStockCode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -687,9 +699,10 @@
             // btnExportToExcel
             // 
             this.btnExportToExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExportToExcel.Location = new System.Drawing.Point(910, 72);
+            this.btnExportToExcel.Location = new System.Drawing.Point(1062, 89);
+            this.btnExportToExcel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExportToExcel.Name = "btnExportToExcel";
-            this.btnExportToExcel.Size = new System.Drawing.Size(103, 23);
+            this.btnExportToExcel.Size = new System.Drawing.Size(120, 28);
             this.btnExportToExcel.TabIndex = 105;
             this.btnExportToExcel.Text = "Xuất ra excel";
             this.btnExportToExcel.UseVisualStyleBackColor = true;
@@ -698,9 +711,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 48);
+            this.label1.Location = new System.Drawing.Point(14, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.Size = new System.Drawing.Size(40, 17);
             this.label1.TabIndex = 106;
             this.label1.Text = "Ngày";
             // 
@@ -708,31 +721,35 @@
             // 
             this.txtDate.EditValue = new System.DateTime(2012, 1, 5, 0, 0, 0, 0);
             this.txtDate.EnterMoveNextControl = true;
-            this.txtDate.Location = new System.Drawing.Point(50, 44);
+            this.txtDate.Location = new System.Drawing.Point(58, 54);
+            this.txtDate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDate.Name = "txtDate";
             this.txtDate.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtDate.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txtDate.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.txtDate.Size = new System.Drawing.Size(100, 20);
+            this.txtDate.Size = new System.Drawing.Size(117, 22);
             this.txtDate.TabIndex = 107;
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(528, 44);
+            this.btnRefresh.Location = new System.Drawing.Point(616, 54);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(75, 23);
+            this.btnRefresh.Size = new System.Drawing.Size(87, 28);
             this.btnRefresh.TabIndex = 108;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // gridControl2
             // 
-            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl2.Location = new System.Drawing.Point(5, 416);
+            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl2.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gridControl2.Location = new System.Drawing.Point(6, 512);
             this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gridControl2.Name = "gridControl2";
             this.gridControl2.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repLookUpTransactionTypeCode2,
@@ -745,7 +762,7 @@
             this.repositoryItemTimeEdit1,
             this.repositoryItemTextEdit2});
             this.gridControl2.ShowOnlyPredefinedDetails = true;
-            this.gridControl2.Size = new System.Drawing.Size(1010, 218);
+            this.gridControl2.Size = new System.Drawing.Size(1178, 268);
             this.gridControl2.TabIndex = 109;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -1171,6 +1188,14 @@
             this.colStock2.Visible = true;
             this.colStock2.VisibleIndex = 10;
             // 
+            // gridColumn28
+            // 
+            this.gridColumn28.Caption = "Lượt";
+            this.gridColumn28.FieldName = "Luot";
+            this.gridColumn28.Name = "gridColumn28";
+            this.gridColumn28.Visible = true;
+            this.gridColumn28.VisibleIndex = 23;
+            // 
             // repositoryItemTimeEdit1
             // 
             this.repositoryItemTimeEdit1.AutoHeight = false;
@@ -1188,9 +1213,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 80);
+            this.label2.Location = new System.Drawing.Point(8, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 16);
+            this.label2.Size = new System.Drawing.Size(108, 21);
             this.label2.TabIndex = 110;
             this.label2.Text = "Đã cân xong:";
             // 
@@ -1199,44 +1224,48 @@
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(8, 398);
+            this.label3.Location = new System.Drawing.Point(9, 490);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 16);
+            this.label3.Size = new System.Drawing.Size(116, 21);
             this.label3.TabIndex = 111;
             this.label3.Text = "Chờ cân lần 2:";
             // 
             // btnDuplicate
             // 
-            this.btnDuplicate.Location = new System.Drawing.Point(67, 6);
+            this.btnDuplicate.Location = new System.Drawing.Point(78, 7);
+            this.btnDuplicate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDuplicate.Name = "btnDuplicate";
-            this.btnDuplicate.Size = new System.Drawing.Size(75, 23);
+            this.btnDuplicate.Size = new System.Drawing.Size(87, 28);
             this.btnDuplicate.TabIndex = 112;
             this.btnDuplicate.Text = "Copy";
             this.btnDuplicate.Click += new System.EventHandler(this.btnDuplicate_Click);
             // 
             // btnScale2
             // 
-            this.btnScale2.Location = new System.Drawing.Point(71, 2);
+            this.btnScale2.Location = new System.Drawing.Point(83, 2);
+            this.btnScale2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnScale2.Name = "btnScale2";
-            this.btnScale2.Size = new System.Drawing.Size(75, 23);
+            this.btnScale2.Size = new System.Drawing.Size(87, 28);
             this.btnScale2.TabIndex = 113;
             this.btnScale2.Text = "Cân lần 2";
             this.btnScale2.Click += new System.EventHandler(this.btnScale2_Click);
             // 
             // btnEdit2
             // 
-            this.btnEdit2.Location = new System.Drawing.Point(439, 4);
+            this.btnEdit2.Location = new System.Drawing.Point(512, 5);
+            this.btnEdit2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEdit2.Name = "btnEdit2";
-            this.btnEdit2.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit2.Size = new System.Drawing.Size(87, 28);
             this.btnEdit2.TabIndex = 114;
             this.btnEdit2.Text = "Sửa";
             this.btnEdit2.Click += new System.EventHandler(this.btnEdit2_Click);
             // 
             // btnDelete2
             // 
-            this.btnDelete2.Location = new System.Drawing.Point(601, 4);
+            this.btnDelete2.Location = new System.Drawing.Point(701, 5);
+            this.btnDelete2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete2.Name = "btnDelete2";
-            this.btnDelete2.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete2.Size = new System.Drawing.Size(87, 28);
             this.btnDelete2.TabIndex = 115;
             this.btnDelete2.Text = "Xóa";
             this.btnDelete2.Click += new System.EventHandler(this.btnDelete2_Click);
@@ -1244,7 +1273,8 @@
             // lookUpEmp
             // 
             this.lookUpEmp.EnterMoveNextControl = true;
-            this.lookUpEmp.Location = new System.Drawing.Point(247, 44);
+            this.lookUpEmp.Location = new System.Drawing.Point(288, 54);
+            this.lookUpEmp.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lookUpEmp.Name = "lookUpEmp";
             this.lookUpEmp.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lookUpEmp.Properties.Appearance.Options.UseFont = true;
@@ -1258,64 +1288,50 @@
             this.lookUpEmp.Properties.PopupWidth = 200;
             this.lookUpEmp.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.lookUpEmp.Properties.ValueMember = "EmployeeID";
-            this.lookUpEmp.Size = new System.Drawing.Size(219, 19);
+            this.lookUpEmp.Size = new System.Drawing.Size(255, 23);
             this.lookUpEmp.TabIndex = 116;
             // 
             // lbEmployee
             // 
-            this.lbEmployee.Location = new System.Drawing.Point(158, 47);
+            this.lbEmployee.Location = new System.Drawing.Point(184, 58);
             this.lbEmployee.Name = "lbEmployee";
-            this.lbEmployee.Size = new System.Drawing.Size(87, 16);
+            this.lbEmployee.Size = new System.Drawing.Size(101, 20);
             this.lbEmployee.TabIndex = 117;
             this.lbEmployee.Text = "Nhân viên cân";
             this.lbEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.btnDuplicate);
-            this.panel1.Location = new System.Drawing.Point(7, 358);
+            this.panel1.Location = new System.Drawing.Point(8, 441);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1011, 35);
+            this.panel1.Size = new System.Drawing.Size(1179, 43);
             this.panel1.TabIndex = 118;
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.btnScale2);
             this.panel2.Controls.Add(this.btnEdit2);
             this.panel2.Controls.Add(this.btnDelete2);
-            this.panel2.Location = new System.Drawing.Point(7, 636);
+            this.panel2.Location = new System.Drawing.Point(8, 783);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1009, 30);
+            this.panel2.Size = new System.Drawing.Size(1177, 37);
             this.panel2.TabIndex = 119;
-            // 
-            // gridColumn27
-            // 
-            this.gridColumn27.Caption = "Lượt";
-            this.gridColumn27.FieldName = "Luot";
-            this.gridColumn27.Name = "gridColumn27";
-            this.gridColumn27.Visible = true;
-            this.gridColumn27.VisibleIndex = 25;
-            // 
-            // gridColumn28
-            // 
-            this.gridColumn28.Caption = "Lượt";
-            this.gridColumn28.FieldName = "Luot";
-            this.gridColumn28.Name = "gridColumn28";
-            this.gridColumn28.Visible = true;
-            this.gridColumn28.VisibleIndex = 23;
             // 
             // FormListWeightItemContainerA
             // 
             this.AllowSave = false;
             this.AllowSaveAndClose = false;
             this.AllowSaveAndNew = false;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 693);
+            this.ClientSize = new System.Drawing.Size(1190, 853);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lookUpEmp);
@@ -1333,6 +1349,8 @@
             this.Controls.Add(this.lbStockCode);
             this.Controls.Add(this.gridControl1);
             this.GridControl = this.gridControl1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MinimumSize = new System.Drawing.Size(697, 481);
             this.Name = "FormListWeightItemContainerA";
             this.Text = "Phiếu cân hàng";
             this.Load += new System.EventHandler(this.FormListWeightItemContainerA_Load);

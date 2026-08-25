@@ -32,3 +32,12 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Security\obj\Debug\VNS.Security.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Security\obj\Debug\VNS.Security.pdb
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Security\obj\Debug\VNS.Security.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\bin\Debug\VNS.Security.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\bin\Debug\VNS.Security.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\bin\Debug\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\bin\Debug\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\obj\Debug\VNS.Security.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\obj\Debug\VNS.Security.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\obj\Debug\VNS.Security.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\obj\Debug\VNS.Security.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Security\obj\Debug\VNS.Security.csproj.AssemblyReference.cache

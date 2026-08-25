@@ -48,3 +48,16 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.csproj.CopyComplete
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Debug\VNS.Scales.Control.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Debug\VNS.Scales.Control.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Debug\VNS.Scales.Helper.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Debug\VNS.Utils.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Debug\VNS.Scales.Helper.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\bin\Debug\VNS.Utils.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.UI.Receiver.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.csproj.GenerateResource.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Control\WindowsControlLibrary1\obj\Debug\VNS.Scales.Control.pdb

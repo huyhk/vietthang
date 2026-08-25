@@ -44,8 +44,8 @@ namespace VNS.ERP.GUI
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.Location = new System.Drawing.Point(0, 0);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(100, 83);
-            this.picLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.picLogo.Size = new System.Drawing.Size(120, 70);
+            this.picLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.ZoomImage;
             // 
             // ReportBase1
             // 

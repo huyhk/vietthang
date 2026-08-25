@@ -39,3 +39,14 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Context\obj\Debug\VNS.Context.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Context\obj\Debug\VNS.Context.pdb
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Context\obj\Debug\VNS.Context.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\bin\Debug\VNS.Context.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\bin\Debug\VNS.Context.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\bin\Debug\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\bin\Debug\VNS.Security.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\bin\Debug\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\bin\Debug\VNS.Security.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\obj\Debug\VNS.Context.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\obj\Debug\VNS.Context.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\obj\Debug\VNS.Context.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\obj\Debug\VNS.Context.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Context\obj\Debug\VNS.Context.csproj.AssemblyReference.cache

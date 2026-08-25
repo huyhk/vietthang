@@ -1664,6 +1664,9 @@ namespace VNS.ERP.Data.Manufactures
             dtReturnTable.Columns.Add("BaoSp10", typeof(decimal)).DefaultValue = 0;
             dtReturnTable.Columns.Add("BaoSp25", typeof(decimal)).DefaultValue = 0;
             dtReturnTable.Columns.Add("BaoSp40", typeof(decimal)).DefaultValue = 0;
+            dtReturnTable.Columns.Add("BaoSp400", typeof(decimal)).DefaultValue = 0;
+            dtReturnTable.Columns.Add("BaoSp500", typeof(decimal)).DefaultValue = 0;
+
             dtReturnTable.Columns.Add("BaoSpXA", typeof(decimal)).DefaultValue = 0;
             dtReturnTable.Columns.Add("BaoTPXL", typeof(decimal)).DefaultValue = 0;
             dtReturnTable.Columns.Add("BaoHong", typeof(decimal)).DefaultValue = 0;
@@ -1881,6 +1884,18 @@ namespace VNS.ERP.Data.Manufactures
                 rowNew["P4"] = totalP4;
                 rowNew["P5"] = totalP5;
                 rowNew["PP"] = totalPP;
+                if (row["WeightCode"].Equals("400"))
+                {
+                    rowNew["BaoSp400"] = (decimal)row["ProductWeight"] - totalTPXuly;
+                    rowNew["BaoTPXL"] = totalTPXuly / 400;
+                    //rowNew["BaoSD40"] = row["Wrapping"];
+                }
+                if (row["WeightCode"].Equals("500"))
+                {
+                    rowNew["BaoSp500"] = (decimal)row["ProductWeight"] - totalTPXuly;
+                    rowNew["BaoTPXL"] = totalTPXuly / 500;
+                    //rowNew["BaoSD40"] = row["Wrapping"];
+                }
                 if (row["WeightCode"].Equals("40"))
                 {
                     rowNew["BaoSp40"] = (decimal)row["ProductWeight"] - totalTPXuly;

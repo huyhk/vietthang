@@ -82,6 +82,7 @@ namespace VNS.ERP.Data
 
             if (!isNull("PalletWeight", reader)) palletWeight = reader.GetDecimal(reader.GetOrdinal("PalletWeight"));
             if (!isNull("Luot", reader)) luot = reader.GetInt32(reader.GetOrdinal("Luot"));
+            //CalWeight();
         }
         private Guid weightContainerID;
         public Guid WeightContainerID
@@ -170,7 +171,9 @@ namespace VNS.ERP.Data
         }
         public decimal TotalWrappingWeight
         {
-            get { return Math.Round(this.quantity * this.wrappingWeight); }
+            get { return Math.Round(this.quantity * this.wrappingWeight, 0); }
+
+            //get { return Math.Round(401.0M * this.wrappingWeight); }
         }
 
         private decimal palletWeight = 0;
@@ -324,7 +327,7 @@ namespace VNS.ERP.Data
         }
         public void CalWeight()
         {
-            this.itemWeight = Math.Abs(this.weight1 - this.weight2) - this.TotalWrappingWeight - this.palletWeight;
+            this.itemWeight = Math.Abs(Math.Round(this.weight1,0) - Math.Round(this.weight2)) - this.TotalWrappingWeight - this.palletWeight;
         }
 
         private int luot;

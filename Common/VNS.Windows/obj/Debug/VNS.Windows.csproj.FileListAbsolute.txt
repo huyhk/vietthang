@@ -176,3 +176,35 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Debug\VNS.Windows.csproj.CopyComplete
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Debug\VNS.Windows.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Windows\obj\Debug\VNS.Windows.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Windows.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Windows.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\vi-VN\VNS.Windows.resources.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Context.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Data.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Localization.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Security.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Utils.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Context.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Localization.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Security.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Utils.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\bin\Debug\VNS.Data.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Forms.FormBase.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Forms.FormCheck.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Forms.FormEditBase.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Forms.FormProgressBar.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Forms.FormSearch.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Controls.DataNavigator.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Controls.EditControlBase.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.UserControls.UCDatePeriodSelection.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.Forms.FormBase.vi-VN.resources
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.csproj.GenerateResource.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.dll.licenses
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\vi-VN\VNS.Windows.resources.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Windows\obj\Debug\VNS.Windows.pdb

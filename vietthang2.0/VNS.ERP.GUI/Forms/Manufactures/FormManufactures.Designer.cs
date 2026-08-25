@@ -456,12 +456,14 @@
             // gridControl
             // 
             this.gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             gridLevelNode1.LevelTemplate = this.gridView1;
             gridLevelNode1.RelationName = "ListManufacture";
             this.gridControl.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
             gridLevelNode1});
-            this.gridControl.Location = new System.Drawing.Point(3, 36);
+            this.gridControl.Location = new System.Drawing.Point(3, 45);
             this.gridControl.MainView = this.gridView;
+            this.gridControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gridControl.Name = "gridControl";
             this.gridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.ItemLookUpEmployee,
@@ -469,7 +471,7 @@
             this.ItemLookStatus,
             this.ItemLookPlan});
             this.gridControl.ShowOnlyPredefinedDetails = true;
-            this.gridControl.Size = new System.Drawing.Size(907, 413);
+            this.gridControl.Size = new System.Drawing.Size(1059, 519);
             this.gridControl.TabIndex = 0;
             this.gridControl.TabStop = false;
             this.gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -641,20 +643,21 @@
             this.tableLayoutPaneltest.Controls.Add(this.tableLayoutPanel3, 0, 2);
             this.tableLayoutPaneltest.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPaneltest.Location = new System.Drawing.Point(0, 46);
+            this.tableLayoutPaneltest.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPaneltest.Name = "tableLayoutPaneltest";
             this.tableLayoutPaneltest.RowCount = 3;
-            this.tableLayoutPaneltest.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPaneltest.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 41F));
             this.tableLayoutPaneltest.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPaneltest.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tableLayoutPaneltest.Size = new System.Drawing.Size(913, 499);
+            this.tableLayoutPaneltest.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tableLayoutPaneltest.Size = new System.Drawing.Size(1065, 626);
             this.tableLayoutPaneltest.TabIndex = 0;
             // 
             // tableLayoutPaneltest2
             // 
             this.tableLayoutPaneltest2.ColumnCount = 5;
-            this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
-            this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 155F));
+            this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49F));
+            this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
+            this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 181F));
             this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.21148F));
             this.tableLayoutPaneltest2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.78852F));
             this.tableLayoutPaneltest2.Controls.Add(this.btnLoadData, 0, 0);
@@ -663,19 +666,21 @@
             this.tableLayoutPaneltest2.Controls.Add(this.cboPeriodCode, 4, 0);
             this.tableLayoutPaneltest2.Controls.Add(this.lblThang, 3, 0);
             this.tableLayoutPaneltest2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPaneltest2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPaneltest2.Location = new System.Drawing.Point(3, 4);
+            this.tableLayoutPaneltest2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPaneltest2.Name = "tableLayoutPaneltest2";
             this.tableLayoutPaneltest2.RowCount = 1;
             this.tableLayoutPaneltest2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPaneltest2.Size = new System.Drawing.Size(907, 27);
+            this.tableLayoutPaneltest2.Size = new System.Drawing.Size(1059, 33);
             this.tableLayoutPaneltest2.TabIndex = 1;
             // 
             // btnLoadData
             // 
             this.btnLoadData.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLoadData.Location = new System.Drawing.Point(3, 3);
+            this.btnLoadData.Location = new System.Drawing.Point(3, 4);
+            this.btnLoadData.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLoadData.Name = "btnLoadData";
-            this.btnLoadData.Size = new System.Drawing.Size(36, 21);
+            this.btnLoadData.Size = new System.Drawing.Size(42, 25);
             this.btnLoadData.TabIndex = 8;
             this.btnLoadData.Text = "+";
             this.btnLoadData.ToolTip = "Expand All";
@@ -685,9 +690,9 @@
             // 
             this.lblKho.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblKho.AutoSize = true;
-            this.lblKho.Location = new System.Drawing.Point(48, 7);
+            this.lblKho.Location = new System.Drawing.Point(77, 0);
             this.lblKho.Name = "lblKho";
-            this.lblKho.Size = new System.Drawing.Size(70, 13);
+            this.lblKho.Size = new System.Drawing.Size(61, 33);
             this.lblKho.TabIndex = 0;
             this.lblKho.Text = "Kho sản xuất";
             this.lblKho.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -695,7 +700,8 @@
             // cboKho
             // 
             this.cboKho.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cboKho.Location = new System.Drawing.Point(124, 3);
+            this.cboKho.Location = new System.Drawing.Point(144, 5);
+            this.cboKho.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cboKho.Name = "cboKho";
             this.cboKho.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -707,7 +713,7 @@
             this.cboKho.Properties.PopupWidth = 200;
             this.cboKho.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.cboKho.Properties.ValueMember = "StockCode";
-            this.cboKho.Size = new System.Drawing.Size(146, 20);
+            this.cboKho.Size = new System.Drawing.Size(170, 22);
             this.cboKho.TabIndex = 1;
             this.cboKho.EditValueChanged += new System.EventHandler(this.cboKho_EditValueChanged);
             // 
@@ -715,7 +721,8 @@
             // 
             this.cboPeriodCode.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.cboPeriodCode.EnterMoveNextControl = true;
-            this.cboPeriodCode.Location = new System.Drawing.Point(785, 3);
+            this.cboPeriodCode.Location = new System.Drawing.Point(916, 5);
+            this.cboPeriodCode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cboPeriodCode.Name = "cboPeriodCode";
             this.cboPeriodCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -725,7 +732,7 @@
             this.cboPeriodCode.Properties.NullText = "";
             this.cboPeriodCode.Properties.PopupWidth = 200;
             this.cboPeriodCode.Properties.ValueMember = "PeriodCode";
-            this.cboPeriodCode.Size = new System.Drawing.Size(119, 20);
+            this.cboPeriodCode.Size = new System.Drawing.Size(139, 22);
             this.cboPeriodCode.TabIndex = 3;
             this.cboPeriodCode.EditValueChanged += new System.EventHandler(this.cboPeriodCode_EditValueChanged);
             // 
@@ -733,9 +740,9 @@
             // 
             this.lblThang.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblThang.AutoSize = true;
-            this.lblThang.Location = new System.Drawing.Point(742, 7);
+            this.lblThang.Location = new System.Drawing.Point(863, 8);
             this.lblThang.Name = "lblThang";
-            this.lblThang.Size = new System.Drawing.Size(37, 13);
+            this.lblThang.Size = new System.Drawing.Size(47, 17);
             this.lblThang.TabIndex = 4;
             this.lblThang.Text = "Tháng";
             this.lblThang.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -748,28 +755,31 @@
             this.tableLayoutPanel3.Controls.Add(this.pTaoPX1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.pXoaPX2, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 455);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 572);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(907, 41);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1059, 50);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
             // pTaoPX1
             // 
             this.pTaoPX1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pTaoPX1.Controls.Add(this.btnTaoPX);
-            this.pTaoPX1.Location = new System.Drawing.Point(33, 6);
+            this.pTaoPX1.Location = new System.Drawing.Point(39, 8);
+            this.pTaoPX1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pTaoPX1.Name = "pTaoPX1";
-            this.pTaoPX1.Size = new System.Drawing.Size(198, 28);
+            this.pTaoPX1.Size = new System.Drawing.Size(231, 34);
             this.pTaoPX1.TabIndex = 2;
             // 
             // btnTaoPX
             // 
             this.btnTaoPX.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTaoPX.Location = new System.Drawing.Point(2, 2);
+            this.btnTaoPX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTaoPX.Name = "btnTaoPX";
-            this.btnTaoPX.Size = new System.Drawing.Size(194, 24);
+            this.btnTaoPX.Size = new System.Drawing.Size(227, 30);
             this.btnTaoPX.TabIndex = 0;
             this.btnTaoPX.Text = "Tạo phiếu xuất";
             this.btnTaoPX.Click += new System.EventHandler(this.btnTaoPX_Click);
@@ -778,16 +788,18 @@
             // 
             this.pXoaPX2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pXoaPX2.Controls.Add(this.btnXoaPX);
-            this.pXoaPX2.Location = new System.Drawing.Point(268, 6);
+            this.pXoaPX2.Location = new System.Drawing.Point(312, 8);
+            this.pXoaPX2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pXoaPX2.Name = "pXoaPX2";
-            this.pXoaPX2.Size = new System.Drawing.Size(198, 28);
+            this.pXoaPX2.Size = new System.Drawing.Size(231, 34);
             this.pXoaPX2.TabIndex = 2;
             // 
             // btnXoaPX
             // 
             this.btnXoaPX.Location = new System.Drawing.Point(2, 2);
+            this.btnXoaPX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoaPX.Name = "btnXoaPX";
-            this.btnXoaPX.Size = new System.Drawing.Size(194, 24);
+            this.btnXoaPX.Size = new System.Drawing.Size(226, 30);
             this.btnXoaPX.TabIndex = 0;
             this.btnXoaPX.Text = "Xoá phiếu xuất";
             this.btnXoaPX.Click += new System.EventHandler(this.btnXoaPX_Click);
@@ -809,11 +821,13 @@
             this.AllowSave = false;
             this.AllowSaveAndClose = false;
             this.AllowSaveAndNew = false;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(913, 573);
+            this.ClientSize = new System.Drawing.Size(1065, 705);
             this.Controls.Add(this.tableLayoutPaneltest);
             this.GridControl = this.gridControl;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MinimumSize = new System.Drawing.Size(697, 481);
             this.Name = "FormManufactures";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Manufactures";

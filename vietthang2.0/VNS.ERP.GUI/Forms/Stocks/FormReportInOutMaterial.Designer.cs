@@ -49,6 +49,7 @@
             this.colXuatKhac = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDeltaStock = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCloseQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCloseManufactureQty = new DevExpress.XtraGrid.Columns.GridColumn();
             this.lstReportFor = new DevExpress.XtraEditors.CheckedListBoxControl();
             this.lbReportFor = new System.Windows.Forms.Label();
             this.chkReportPhanloai = new System.Windows.Forms.CheckBox();
@@ -57,7 +58,6 @@
             this.ucDatePeriodSelection1 = new VNS.Windows.UserControls.UCDatePeriodSelection();
             this.radStock = new DevExpress.XtraEditors.RadioGroup();
             this.chkIncludeTemp = new DevExpress.XtraEditors.CheckEdit();
-            this.colCloseManufactureQty = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.defaultBarAndDocking.Controller)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -354,6 +354,20 @@
             this.colCloseQuantity.VisibleIndex = 16;
             this.colCloseQuantity.Width = 108;
             // 
+            // colCloseManufactureQty
+            // 
+            this.colCloseManufactureQty.Caption = "Tồn kho sản xuất";
+            this.colCloseManufactureQty.DisplayFormat.FormatString = "n2";
+            this.colCloseManufactureQty.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colCloseManufactureQty.FieldName = "CloseManufactureQuantity";
+            this.colCloseManufactureQty.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Right;
+            this.colCloseManufactureQty.Name = "colCloseManufactureQty";
+            this.colCloseManufactureQty.SummaryItem.DisplayFormat = "{0:n0}";
+            this.colCloseManufactureQty.SummaryItem.SummaryType = DevExpress.Data.SummaryItemType.Sum;
+            this.colCloseManufactureQty.Visible = true;
+            this.colCloseManufactureQty.VisibleIndex = 17;
+            this.colCloseManufactureQty.Width = 108;
+            // 
             // lstReportFor
             // 
             this.lstReportFor.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -424,7 +438,7 @@
             // ucDatePeriodSelection1
             // 
             this.ucDatePeriodSelection1.Location = new System.Drawing.Point(5, 0);
-            this.ucDatePeriodSelection1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucDatePeriodSelection1.Margin = new System.Windows.Forms.Padding(5);
             this.ucDatePeriodSelection1.Name = "ucDatePeriodSelection1";
             this.ucDatePeriodSelection1.Size = new System.Drawing.Size(468, 76);
             this.ucDatePeriodSelection1.TabIndex = 23;
@@ -449,20 +463,6 @@
             this.chkIncludeTemp.Size = new System.Drawing.Size(313, 21);
             this.chkIncludeTemp.TabIndex = 25;
             this.chkIncludeTemp.EditValueChanged += new System.EventHandler(this.chkIncludeTemp_EditValueChanged);
-            // 
-            // colCloseManufactureQty
-            // 
-            this.colCloseManufactureQty.Caption = "Tồn kho sản xuất";
-            this.colCloseManufactureQty.DisplayFormat.FormatString = "n2";
-            this.colCloseManufactureQty.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.colCloseManufactureQty.FieldName = "CloseManufactureQuantity";
-            this.colCloseManufactureQty.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Right;
-            this.colCloseManufactureQty.Name = "colCloseManufactureQty";
-            this.colCloseManufactureQty.SummaryItem.DisplayFormat = "{0:n0}";
-            this.colCloseManufactureQty.SummaryItem.SummaryType = DevExpress.Data.SummaryItemType.Sum;
-            this.colCloseManufactureQty.Visible = true;
-            this.colCloseManufactureQty.VisibleIndex = 17;
-            this.colCloseManufactureQty.Width = 108;
             // 
             // FormReportInOutMaterial
             // 

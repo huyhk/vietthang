@@ -6450,6 +6450,8 @@
     <Content Include="Resources\BH_PhieuYeuCauBanHang.png" />
     <Content Include="Resources\BH_TonDongCongNo.png" />
     <Content Include="Resources\IIConBanHang.png" />
+    <None Include="Resources\picLogo.Image.bmp" />
+    <None Include="Resources\logo_VT_noISO.jpg" />
     <Content Include="Resources\SX_KetHoachSanXuat.png" />
     <Content Include="Resources\SX_SANXUAT_XNNGHIEN1.png" />
     <Content Include="Resources\SX_SANXUAT_XNSOCHETHUOC1.png" />

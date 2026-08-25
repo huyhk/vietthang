@@ -6,8 +6,8 @@ namespace VNS.ERP.Data.Accounting
 {
     public class Account : UserTracking2
     {
-        public static string FuelAccount = "6111";
-        public static string MaterialAccount = "6111";
+        public static string FuelAccount = "152";//"6111";
+        public static string MaterialAccount = "152";// "6111";
         public static string ExpensesAccount6113 = "6113";
         public static string ExpensesAccount6114 = "6114";
         public static string ExpensesAccount6115 = "6115";

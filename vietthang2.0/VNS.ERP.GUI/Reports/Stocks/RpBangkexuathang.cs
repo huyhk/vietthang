@@ -13,6 +13,7 @@ namespace VNS.ERP.GUI
         string date, kho;
         DataSet ds;
         DataTable dt0, dt1;
+
         public RpBangkexuathang(string pDate, string pKho, DataSet pDs, DataTable pDt)
         {
             InitializeComponent();
@@ -50,6 +51,7 @@ namespace VNS.ERP.GUI
                         if (row["TransactionID"].ToString() == this.GetCurrentColumnValue("TransactionID").ToString())
                         {
                             this.txtSoCt.Text = row["SoCt"].ToString();
+                            this.txtSoHoaDon.Text = row["SoHoadon"].ToString();
                             this.txtKhachhang.Text = row["Khachhang"].ToString();
                             this.ttxtNguoinhan.Text = row["Nguoinhan"].ToString();
                             this.txtTenPTVC.Text = row["TenPTVC"].ToString();
@@ -60,6 +62,7 @@ namespace VNS.ERP.GUI
                 else
                 {
                     this.txtSoCt.Text ="";
+                    this.txtSoHoaDon.Text = "";
                     this.txtKhachhang.Text = "";
                     this.ttxtNguoinhan.Text = "";
                     this.txtTenPTVC.Text = "";

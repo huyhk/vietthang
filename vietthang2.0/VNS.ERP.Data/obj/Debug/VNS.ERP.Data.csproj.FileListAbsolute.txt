@@ -56,3 +56,18 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vie
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.csproj.CopyComplete
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.pdb
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.ERP.Data.dll
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.ERP.Data.pdb
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Data.dll
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Utils.dll
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Security.dll
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Data.pdb
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Utils.pdb
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\bin\Debug\VNS.Security.pdb
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.dll
+C:\Users\huyhk\Source\Repos\vietthang\vietthang2.0\VNS.ERP.Data\obj\Debug\VNS.ERP.Data.pdb

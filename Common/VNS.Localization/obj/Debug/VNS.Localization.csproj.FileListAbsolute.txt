@@ -20,3 +20,9 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Debug\VNS.Localization.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Debug\VNS.Localization.pdb
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Localization\obj\Debug\VNS.Localization.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Localization\bin\Debug\VNS.Localization.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Localization\bin\Debug\VNS.Localization.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Localization\obj\Debug\VNS.Localization.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Localization\obj\Debug\VNS.Localization.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Localization\obj\Debug\VNS.Localization.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Localization\obj\Debug\VNS.Localization.csproj.AssemblyReference.cache

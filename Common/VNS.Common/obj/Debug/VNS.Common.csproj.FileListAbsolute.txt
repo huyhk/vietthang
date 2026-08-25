@@ -20,3 +20,9 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Debug\VNS.Common.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Debug\VNS.Common.pdb
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Common\obj\Debug\VNS.Common.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Common\bin\Debug\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Common\bin\Debug\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Common\obj\Debug\VNS.Common.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Common\obj\Debug\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Common\obj\Debug\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Common\obj\Debug\VNS.Common.csproj.AssemblyReference.cache

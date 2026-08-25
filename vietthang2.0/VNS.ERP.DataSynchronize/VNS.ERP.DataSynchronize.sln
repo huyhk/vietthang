@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35229.62
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNS.ERP.DataSynchronize", "VNS.ERP.DataSynchronize.csproj", "{D6FADEC2-8FA7-4A78-BADD-1BE7DD0454A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNS.Common", "..\..\Common\VNS.Common\VNS.Common.csproj", "{F40B332D-402A-4503-8F6E-FD88624A0FD1}"
@@ -40,5 +42,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {133C8772-1DD6-40D2-A05F-619185430FE5}
 	EndGlobalSection
 EndGlobal

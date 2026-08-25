@@ -32,3 +32,12 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.csproj.CopyComplete
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\bin\Debug\VNS.Scales.Helper.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\bin\Debug\VNS.Scales.Helper.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\bin\Debug\VNS.Utils.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\bin\Debug\VNS.Utils.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.csproj.AssemblyReference.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Scale.Helper\obj\Debug\VNS.Scales.Helper.pdb

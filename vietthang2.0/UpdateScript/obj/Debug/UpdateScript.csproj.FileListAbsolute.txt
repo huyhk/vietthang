@@ -1,0 +1,11 @@
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\bin\Debug\UpdateScript.exe
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\bin\Debug\UpdateScript.pdb
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\obj\Debug\UpdateScript.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\obj\Debug\UpdateScript.exe
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\obj\Debug\UpdateScript.pdb
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\obj\Debug\UpdateScript.csproj.AssemblyReference.cache
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\bin\Debug\VNS.Security.dll
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\bin\Debug\VNS.Common.dll
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\bin\Debug\VNS.Security.pdb
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\bin\Debug\VNS.Common.pdb
+C:\Users\huyhk\source\repos\vietthang\vietthang2.0\UpdateScript\obj\Debug\UpdateScript.csproj.CopyComplete

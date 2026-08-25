@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VESWS", "VESWS\VESWS.csproj", "{73B948C4-C231-4820-9D89-7D144A69A29A}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VESWSSetup", "VESWSSetup\VESWSSetup.vdproj", "{5629D104-BAD4-434A-8C4F-0D7954A5B912}"
@@ -20,5 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEF7C3CC-8F1E-4E13-9A3B-19D28FF92486}
 	EndGlobalSection
 EndGlobal

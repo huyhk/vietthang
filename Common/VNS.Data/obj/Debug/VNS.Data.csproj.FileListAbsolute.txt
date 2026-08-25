@@ -48,3 +48,16 @@ C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Com
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Data\obj\Debug\VNS.Data.csproj.CopyComplete
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Data\obj\Debug\VNS.Data.dll
 C:\Users\admin\Downloads\vietthang2.0121218\vietthang2.0121218 - Copy - Copy\Common\VNS.Data\obj\Debug\VNS.Data.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Data.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Data.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Common.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Security.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Utils.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Common.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Security.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\bin\Release\VNS.Utils.pdb
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\obj\Debug\VNS.Data.csproj.CoreCompileInputs.cache
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\obj\Debug\VNS.Data.csproj.CopyComplete
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\obj\Debug\VNS.Data.dll
+C:\Users\huyhk\Source\Repos\vietthang\Common\VNS.Data\obj\Debug\VNS.Data.pdb
+C:\Users\huyhk\source\repos\vietthang\Common\VNS.Data\obj\Debug\VNS.Data.csproj.AssemblyReference.cache
