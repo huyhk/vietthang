@@ -557,7 +557,7 @@ namespace VNS.ERP.GUI.Accounting
                     debitAmount += (decimal)dr["Amount"];
                 }
             AccountTransactionDetail1 accdetail1 = new AccountTransactionDetail1();
-            accdetail1.AccountCode = Account.ProductCostAccount;
+            accdetail1.AccountCode = Account.GetProductCostAccount(period.StartDate);
             accdetail1.DebitAmount = debitAmount;
             lstDetail1.Insert(0, accdetail1);
             return lstDetail1;

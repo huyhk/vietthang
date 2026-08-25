@@ -181,7 +181,7 @@ namespace VNS.ERP.GUI.Accounting
             accTrans.AccTransactionStock.NguoiVC = t.DonviVC;
             accTrans.AccTransactionStock.Chungtukemtheo = t.CTKemTheo;
             accTrans.AccTransactionStock.Description = t.Description;
-           
+            AccountTransactionStockNewBLL.ApplyStockAccountingPolicy(accTrans, this.AccountTransactionTypeCode, this.StockTransactionTypeCode);
             this.ucAccountTransactionStock11.BindData2();
             
             

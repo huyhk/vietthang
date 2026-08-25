@@ -651,6 +651,8 @@ namespace VNS.ERP.GUI.UserControls
             ret = ucAccTransStock.ValidateData((this.DataSource as AccountTransactionStockNew).AccTransactionStock);
             if (ret != 0) return ret;
             AccountTransactionStockNew accTrans = this.DataSource as AccountTransactionStockNew;
+            string materialInventoryAccount = Account.GetMaterialAccount(accTrans.AccountTransactionDate);
+            string productInventoryAccount = Account.GetProductAccount(accTrans.AccountTransactionDate);
 
             if (this.AccountTransactionDate.Month != this.ucAccTransStock.StockTransactionDate.Month || this.AccountTransactionDate.Year != this.ucAccTransStock.StockTransactionDate.Year)
             {
@@ -717,14 +719,14 @@ namespace VNS.ERP.GUI.UserControls
                 foreach (AccountTransactionDetail1 accTransDetail1 in accTrans.Detail1)
                 {
                     AccountTransactionStockDetail accTransStockDetail = accTrans.AccTransactionStock.Detail.Search("CreditAccountCode", accTransDetail1.AccountCode);
-                    if (accTransStockDetail == null && (accTransDetail1.AccountCode == Account.MaterialAccount))// || accTransDetail1.AccountCode == Account.ProductAccount))
+                    if (accTransStockDetail == null && (accTransDetail1.AccountCode == materialInventoryAccount))// || accTransDetail1.AccountCode == Account.ProductAccount))
                         return -105;
                 }
 
                 foreach (AccountTransactionDetail2 accTransDetail2 in accTrans.Detail2)
                 {
                     AccountTransactionStockDetail accTransStockDetail = accTrans.AccTransactionStock.Detail.Search("CreditAccountCode", accTransDetail2.CreditAccountCode);
-                    if (accTransStockDetail == null && !(new AccountTransactionBLL().CompareDetail1(accTrans)) && (accTransDetail2.CreditAccountCode == Account.MaterialAccount))// || accTransDetail2.CreditAccountCode == Account.ProductAccount))
+                    if (accTransStockDetail == null && !(new AccountTransactionBLL().CompareDetail1(accTrans)) && (accTransDetail2.CreditAccountCode == materialInventoryAccount))// || accTransDetail2.CreditAccountCode == Account.ProductAccount))
                         return -106;
                 }
 
@@ -733,7 +735,7 @@ namespace VNS.ERP.GUI.UserControls
                     AccountTransactionDetail1 accTransDetail1 = accTrans.Detail1.Search("AccountCode", accTransStockDetail.CreditAccountCode);
                     if (accTransDetail1 == null && this.StockTransactionTypeCode != enumStockTransactionType.X13.ToString() && this.StockTransactionTypeCode != enumStockTransactionType.X23.ToString())
                     {
-                        if (!accTransStockDetail.CreditAccountCode.StartsWith(Account.ProductAccount) && accTransStockDetail.CreditAccountCode != Account.MaterialAccount) return -107;
+                        if (!accTransStockDetail.CreditAccountCode.StartsWith(productInventoryAccount) && accTransStockDetail.CreditAccountCode != materialInventoryAccount) return -107;
                     }
                     else if (accTransDetail1 != null)
                     {
@@ -749,7 +751,7 @@ namespace VNS.ERP.GUI.UserControls
                     AccountTransactionDetail2 accTransDetail2 = accTrans.Detail2.Search("CreditAccountCode", accTransStockDetail.CreditAccountCode);
                     if (accTransDetail2 == null && this.stockTransactionTypeCode != enumStockTransactionType.X13.ToString() && this.stockTransactionTypeCode != enumStockTransactionType.X23.ToString())
                     {
-                        if (!accTransStockDetail.CreditAccountCode.StartsWith(Account.ProductAccount) && accTransStockDetail.CreditAccountCode != Account.MaterialAccount) return -109;
+                        if (!accTransStockDetail.CreditAccountCode.StartsWith(productInventoryAccount) && accTransStockDetail.CreditAccountCode != materialInventoryAccount) return -109;
                     }
                     else if (accTransDetail2 != null)
                     {

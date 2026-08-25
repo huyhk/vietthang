@@ -82,13 +82,18 @@ namespace VNS.ERP.GUI.Accounting
                 return;
             }
             this.accountCode = lookUpAccountCode.EditValue.ToString();
+            if (!Account.IsStockReportPeriodValid(this.ucDatePeriodSelection1.StartDate, this.ucDatePeriodSelection1.EndDate, this.accountCode))
+            {
+                MessageBox.Show("Kỳ báo cáo hoặc tài khoản kho không phù hợp với ngày thay đổi định khoản 01/01/2026. Vui lòng tách báo cáo và chọn tài khoản cũ/mới tương ứng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             dt = bll.GetReportDetail(this.accountCode, this.ucDatePeriodSelection1.StartDate, this.ucDatePeriodSelection1.EndDate);
             gridControl1.DataSource = bll.GetReportAmount(this.accountCode, this.ucDatePeriodSelection1.StartDate, this.ucDatePeriodSelection1.EndDate);
             this.RefeshDetail();
             int len1 = Account.ProductAccount.Length;
             int len2 = Account.MaterialAccount.Length;
             int visibleIndex = 4;
-            if (accountCode.Length >= len1 && accountCode.Substring(0, len1) == Account.ProductAccount)
+            if (Account.IsProductInventoryAccount(accountCode))
             {
                 col632NhapSX.Visible = true;
                 col632NhapSX.VisibleIndex = visibleIndex;
@@ -123,7 +128,7 @@ namespace VNS.ERP.GUI.Accounting
                 col6111XuatKhac.Visible = false;
                 col632TienXuatKhac.Visible = false;
             }
-            if (accountCode.Length >= len2 && accountCode.Substring(0, len2) == Account.MaterialAccount)
+            if (Account.IsMaterialInventoryAccount(accountCode))
             {
                 col6111NhapMua.Visible = true;
                 col6111NhapMua.VisibleIndex = visibleIndex;
@@ -231,7 +236,7 @@ namespace VNS.ERP.GUI.Accounting
                 ws.Cells[5, 5] = this.ucDatePeriodSelection1.PeriodText;
                 int len1 = Account.ProductAccount.Length;
                 int len2 = Account.MaterialAccount.Length;
-                if (this.accountCode.Length>=len1 && this.accountCode.Substring(0,len1) == Account.ProductAccount)
+                if (Account.IsProductInventoryAccount(this.accountCode))
                 {
                     ws.Cells[7, 6] = "Nhập SX";
                     ws.Cells[7, 7] = "Tiền nhập SX";
@@ -261,7 +266,7 @@ namespace VNS.ERP.GUI.Accounting
                     ws.Cells[row, 3] = dt.Rows[i]["ItemName"];
                     ws.Cells[row, 4] = dt.Rows[i]["OpenQuantity"];
                     ws.Cells[row, 5] = dt.Rows[i]["OpenAmount"];
-                    if (this.accountCode.Length >= len1 && this.accountCode.Substring(0, len1) == Account.ProductAccount)
+                    if (Account.IsProductInventoryAccount(this.accountCode))
                     {
                         ws.Cells[row, 6] = dt.Rows[i]["NhapSX"];
                         ws.Cells[row, 7] = dt.Rows[i]["TienNhapSX"];
@@ -272,7 +277,7 @@ namespace VNS.ERP.GUI.Accounting
                         ws.Cells[row, 12] = dt.Rows[i]["XuatKhac"];
                         ws.Cells[row, 13] = dt.Rows[i]["TienXuatKhac"];
                     }
-                    if (this.accountCode.Length >= len2 && this.accountCode.Substring(0, len2) == Account.MaterialAccount)
+                    if (Account.IsMaterialInventoryAccount(this.accountCode))
                     {
                         ws.Cells[row, 6] = dt.Rows[i]["NhapMua"];
                         ws.Cells[row, 7] = dt.Rows[i]["TienNhapMua"];
@@ -463,8 +468,8 @@ namespace VNS.ERP.GUI.Accounting
             int len1 = Account.ProductAccount.Length;
             int len2 = Account.MaterialAccount.Length;
             string strFilter = string.Empty;
-            strFilter = " left(AccountCode, " + len1.ToString() + ") = '" + Account.ProductAccount + "' ";
-            strFilter += "or left(AccountCode, " + len2.ToString() + ") = '" + Account.MaterialAccount + "'";
+            strFilter = "left(AccountCode,4) = '6111' or left(AccountCode,3) = '152' ";
+            strFilter += "or left(AccountCode,3) = '632' or left(AccountCode,3) = '155'";
             lookUpAccountCode.Properties.DataSource = new AccountBLL().GetObjectDynamic(strFilter, "");
             if ((lookUpAccountCode.Properties.DataSource as ListBase<Account>).Count > 0)
             {

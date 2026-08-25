@@ -6,8 +6,18 @@ namespace VNS.ERP.Data.Accounting
 {
     public class Account : UserTracking2
     {
-        public static string FuelAccount = "152";//"6111";
-        public static string MaterialAccount = "152";// "6111";
+        public static readonly DateTime StockAccountingEffectiveDate = new DateTime(2026, 1, 1);
+        public const string OldMaterialAccount = "6111";
+        public const string NewMaterialAccount = "152";
+        public const string OldProductAccount = "6321";
+        public const string NewProductAccount = "155";
+        public const string OldProductCostAccount = "6311";
+        public const string NewProductCostAccount = "154";
+
+        // Compatibility values for existing screens. Posting code must use the
+        // date-based account selectors below.
+        public static string FuelAccount = NewMaterialAccount;
+        public static string MaterialAccount = NewMaterialAccount;
         public static string ExpensesAccount6113 = "6113";
         public static string ExpensesAccount6114 = "6114";
         public static string ExpensesAccount6115 = "6115";
@@ -15,11 +25,11 @@ namespace VNS.ERP.Data.Accounting
         public static string ExpensesAccount6117 = "6117";
         public static string ExpensesAccount6212 = "6212";
         public static string MaterialAccount152 = "152";
-        public static string ProductAccount = "6321";
+        public static string ProductAccount = OldProductAccount;
         public static string ProductAccountTS = "63211";
         public static string ProductAccountGS = "63212";
         public static string ProductAccountCV = "63213";
-        public static string ProductAccount155 = "155";
+        public static string ProductAccount155 = NewProductAccount;
         public static string FixedAssetAccount = "211";
         public static string DiscountAccount521 = "521";
         public static string DiscountAccount5211 = "5211";
@@ -47,7 +57,7 @@ namespace VNS.ERP.Data.Accounting
         public static string IncomeProductAccountCV = "51123";
         public static string CustomerDeptAccount = "131";
         public static string VATOutAccount = "33311";
-        public static string ProductCostAccount = "6311";
+        public static string ProductCostAccount = OldProductCostAccount;
         public static string InvoiceDiscountAccount = "521";
         public static string SaleDiscountAccount = "532";
         public static string SaleProductDiscountAccount = "5211";
@@ -66,6 +76,47 @@ namespace VNS.ERP.Data.Accounting
         public static string ProfitAccount4211 = "4212";
 
         public static string TempAccount999 = "999";
+
+        public static bool UseNewStockAccounting(DateTime transactionDate)
+        {
+            return transactionDate.Date >= StockAccountingEffectiveDate;
+        }
+
+        public static string GetMaterialAccount(DateTime transactionDate)
+        {
+            return UseNewStockAccounting(transactionDate) ? NewMaterialAccount : OldMaterialAccount;
+        }
+
+        public static string GetProductAccount(DateTime transactionDate)
+        {
+            return UseNewStockAccounting(transactionDate) ? NewProductAccount : OldProductAccount;
+        }
+
+        public static string GetProductCostAccount(DateTime transactionDate)
+        {
+            return UseNewStockAccounting(transactionDate) ? NewProductCostAccount : OldProductCostAccount;
+        }
+
+        public static bool IsMaterialInventoryAccount(string accountCode)
+        {
+            return !string.IsNullOrEmpty(accountCode)
+                && (accountCode.StartsWith(OldMaterialAccount) || accountCode.StartsWith(NewMaterialAccount));
+        }
+
+        public static bool IsProductInventoryAccount(string accountCode)
+        {
+            return !string.IsNullOrEmpty(accountCode)
+                && (accountCode.StartsWith("632") || accountCode.StartsWith(NewProductAccount));
+        }
+
+        public static bool IsStockReportPeriodValid(DateTime startDate, DateTime endDate, string accountCode)
+        {
+            if (startDate.Date < StockAccountingEffectiveDate && endDate.Date >= StockAccountingEffectiveDate)
+                return false;
+            if (endDate.Date < StockAccountingEffectiveDate)
+                return accountCode.StartsWith(OldMaterialAccount) || accountCode.StartsWith("632");
+            return accountCode.StartsWith(NewMaterialAccount) || accountCode.StartsWith(NewProductAccount);
+        }
         public Account() { }
         public Account(System.Data.IDataReader reader)
         {
