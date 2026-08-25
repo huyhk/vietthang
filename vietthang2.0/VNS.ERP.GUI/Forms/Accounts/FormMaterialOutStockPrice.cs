@@ -57,17 +57,18 @@ namespace VNS.ERP.GUI.Accounting
         protected override bool SaveData()
         {
             ErrorMessageType messageType = ErrorMessageType.INSERT;
+            string materialAccount = Account.GetMaterialAccount(periodObject.StartDate);
             VNS.Common.ListBase<AccountStockPriceCost> lst = new ListBase<AccountStockPriceCost>();
             foreach (DataRow dr in this.dt.Rows)
             {
                 AccountStockPriceCost obj = new AccountStockPriceCost();
                 obj.PeriodCode = periodObject.PeriodCode;
-                obj.AccountCode = Account.MaterialAccount;
+                obj.AccountCode = materialAccount;
                 obj.ItemCode = dr["ItemCode"].ToString();
                 obj.PriceCost = Convert.ToDecimal(dr["ClosePrice"]);
                 lst.Add(obj);
             }
-            int Error = new AccountStockPriceCostBLL().Insert(lst, periodObject.PeriodCode, Account.MaterialAccount);
+            int Error = new AccountStockPriceCostBLL().Insert(lst, periodObject.PeriodCode, materialAccount);
             if (Error != 0)
             {
                 OnError(Error, messageType);

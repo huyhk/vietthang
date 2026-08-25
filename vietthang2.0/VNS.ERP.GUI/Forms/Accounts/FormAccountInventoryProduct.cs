@@ -66,12 +66,16 @@ namespace VNS.ERP.GUI.Accounting
             if (periodNextObj != null)
             {
                 ErrorMessageType messageType = ErrorMessageType.INSERT;
+                bool useNewAccounting = Account.UseNewStockAccounting(periodNextObj.StartDate);
+                string productAccount = Account.GetProductAccount(periodNextObj.StartDate);
                 VNS.Common.ListBase<AccountStockOpenings> lst = new VNS.Common.ListBase<AccountStockOpenings>();
                 foreach (DataRow dr in dt.Rows)
                 {
                     AccountStockOpenings obj = new AccountStockOpenings();
                     obj.PeriodCode = periodNextObj.PeriodCode;
-                    if (dr["ProductType"].ToString() == "TS")
+                    if (useNewAccounting)
+                        obj.AccountCode = productAccount;
+                    else if (dr["ProductType"].ToString() == "TS")
                         obj.AccountCode = Account.ProductAccountTS;
                     else if (dr["ProductType"].ToString() == "GS")
                         obj.AccountCode = Account.ProductAccountGS;
@@ -86,7 +90,7 @@ namespace VNS.ERP.GUI.Accounting
                         lst.Add(obj);
                     }
                 }
-                int Error = new AccountStockOpeningsBLL().Insert(lst, periodNextObj.PeriodCode, Account.ProductAccount);
+                int Error = new AccountStockOpeningsBLL().Insert(lst, periodNextObj.PeriodCode, productAccount);
                 if (Error != 0)
                 {
                     OnError(Error, messageType);
@@ -162,7 +166,7 @@ namespace VNS.ERP.GUI.Accounting
                             if (Convert.ToInt16(dr["ItemType"]) == (Int16)enumItemType.Product && delta != 0 && stockCode == lookUpStockCode.EditValue.ToString())
                             {
                                 AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                                objDetail.DebitAccountCode = Account.ProductAccount;
+                                objDetail.DebitAccountCode = Account.GetProductAccount(obj.AccountTransactionDate);
                                 objDetail.Quantity = delta;
                                 objDetail.StockInCode = stockCode;
                                 objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -232,7 +236,9 @@ namespace VNS.ERP.GUI.Accounting
                         //}
                         AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
                         //objDetail.DebitAccountCode = Account.ProductAccount;
-                        if (dr["ProductType"].ToString() == "TS")
+                        if (Account.UseNewStockAccounting(obj.AccountTransactionDate))
+                            objDetail.DebitAccountCode = Account.NewProductAccount;
+                        else if (dr["ProductType"].ToString() == "TS")
                             objDetail.DebitAccountCode = Account.ProductAccountTS;
                         else if (dr["ProductType"].ToString() == "GS")
                             objDetail.DebitAccountCode = Account.ProductAccountGS;

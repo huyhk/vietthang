@@ -73,12 +73,13 @@ namespace VNS.ERP.GUI.Accounting
             if (periodNextObj != null)
             {
                 ErrorMessageType messageType = ErrorMessageType.INSERT;
+                string materialAccount = Account.GetMaterialAccount(periodNextObj.StartDate);
                 VNS.Common.ListBase<AccountStockOpenings> lst = new VNS.Common.ListBase<AccountStockOpenings>();
                 foreach (DataRow dr in dt.Rows)
                 {
                     AccountStockOpenings obj = new AccountStockOpenings();
                     obj.PeriodCode = periodNextObj.PeriodCode;
-                    obj.AccountCode = Account.MaterialAccount;
+                    obj.AccountCode = materialAccount;
                     obj.ItemCode = dr["ItemCode"].ToString();
                     obj.StockCode = dr["StockCode"].ToString();
                     obj.Quantity = Convert.ToDecimal(dr["Inventory"]);
@@ -87,7 +88,7 @@ namespace VNS.ERP.GUI.Accounting
                         lst.Add(obj);
                     }
                 }
-                int Error = new AccountStockOpeningsBLL().Insert(lst, periodNextObj.PeriodCode, Account.MaterialAccount);
+                int Error = new AccountStockOpeningsBLL().Insert(lst, periodNextObj.PeriodCode, materialAccount);
                 if (Error != 0)
                 {
                     OnError(Error, messageType);
@@ -163,7 +164,7 @@ namespace VNS.ERP.GUI.Accounting
                             if (Convert.ToInt16(dr["ItemType"]) != (Int16)enumItemType.Fuel && delta != 0 && stockCode == lookUpStockCode.EditValue.ToString())
                             {
                                 AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                                objDetail.CreditAccountCode = Account.MaterialAccount;
+                                objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                                 objDetail.Quantity = delta;
                                 objDetail.StockOutCode = stockCode;
                                 objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -234,7 +235,7 @@ namespace VNS.ERP.GUI.Accounting
                         //    obj.AccTransactionStock.Tenkho += dr["StockName"].ToString();
                         //}
                         AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                        objDetail.CreditAccountCode = Account.MaterialAccount;
+                        objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                         objDetail.Quantity = delta;
                         objDetail.StockOutCode = stockCode;
                         objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -296,7 +297,7 @@ namespace VNS.ERP.GUI.Accounting
                             if (Convert.ToInt16(dr["ItemType"]) == (Int16)enumItemType.Fuel && delta != 0 && stockCode == lookUpStockCode.EditValue.ToString())
                             {
                                 AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                                objDetail.CreditAccountCode = Account.MaterialAccount;
+                                objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                                 objDetail.Quantity = delta;
                                 objDetail.StockOutCode = stockCode;
                                 objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -366,7 +367,7 @@ namespace VNS.ERP.GUI.Accounting
                         //    obj.AccTransactionStock.Tenkho += dr["StockName"].ToString();
                         //}
                         AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                        objDetail.CreditAccountCode = Account.MaterialAccount;
+                        objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                         objDetail.Quantity = delta;
                         objDetail.StockOutCode = stockCode;
                         objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -437,7 +438,7 @@ namespace VNS.ERP.GUI.Accounting
                             if (Convert.ToInt16(dr["ItemType"]) != (Int16)enumItemType.Fuel && delta != 0 && stockCode == lookUpStockCode.EditValue.ToString())
                             {
                                 AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                                objDetail.CreditAccountCode = Account.MaterialAccount;
+                                objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                                 objDetail.Quantity = delta;
                                 objDetail.StockOutCode = stockCode;
                                 objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -508,7 +509,7 @@ namespace VNS.ERP.GUI.Accounting
                         //    obj.AccTransactionStock.Tenkho += dr["StockName"].ToString();
                         //}
                         AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                        objDetail.CreditAccountCode = Account.MaterialAccount;
+                        objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                         objDetail.Quantity = delta;
                         objDetail.StockOutCode = stockCode;
                         objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -584,7 +585,7 @@ namespace VNS.ERP.GUI.Accounting
                             if (Convert.ToInt16(dr["ItemType"]) != (Int16)enumItemType.Fuel && delta != 0 && stockCode == lookUpStockCode.EditValue.ToString())
                             {
                                 AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                                objDetail.CreditAccountCode = Account.MaterialAccount;
+                                objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                                 objDetail.Quantity = delta;
                                 objDetail.StockOutCode = stockCode;
                                 objDetail.ItemCode = dr["ItemCode"].ToString();
@@ -655,7 +656,7 @@ namespace VNS.ERP.GUI.Accounting
                         //    obj.AccTransactionStock.Tenkho += dr["StockName"].ToString();
                         //}
                         AccountTransactionStockDetail objDetail = new AccountTransactionStockDetail();
-                        objDetail.CreditAccountCode = Account.MaterialAccount;
+                        objDetail.CreditAccountCode = Account.GetMaterialAccount(obj.AccountTransactionDate);
                         objDetail.Quantity = delta;
                         objDetail.StockOutCode = stockCode;
                         objDetail.ItemCode = dr["ItemCode"].ToString();

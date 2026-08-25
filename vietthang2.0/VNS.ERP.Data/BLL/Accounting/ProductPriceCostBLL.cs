@@ -261,7 +261,7 @@ namespace VNS.ERP.Data.Accounting
         public DataTable GetCostAmountCalculatorProductCode(DateTime startDate, DateTime endDate)
         {
             dal4 = new AccountTransactionDetail2DAL(dal1.DBHelper);
-            return dal4.GetByStartDate_EndDate_And_DebitAccountCode(startDate, endDate, Account.ProductCostAccount);
+            return dal4.GetByStartDate_EndDate_And_DebitAccountCode(startDate, endDate, Account.GetProductCostAccount(startDate));
         }
         public DataTable GetCloseAmountByAccountCode(DateTime startDate, DateTime endDate)
         {

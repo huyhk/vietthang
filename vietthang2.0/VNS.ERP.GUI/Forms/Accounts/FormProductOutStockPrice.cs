@@ -52,13 +52,17 @@ namespace VNS.ERP.GUI.Accounting
         protected override bool SaveData()
         {
             ErrorMessageType messageType = ErrorMessageType.INSERT;
+            bool useNewAccounting = Account.UseNewStockAccounting(periodObject.StartDate);
+            string productAccount = Account.GetProductAccount(periodObject.StartDate);
             VNS.Common.ListBase<AccountStockPriceCost> lst = new ListBase<AccountStockPriceCost>();
             foreach (DataRow dr in this.dt.Rows)
             {
                 AccountStockPriceCost obj = new AccountStockPriceCost();
                 obj.PeriodCode = periodObject.PeriodCode;
                 //obj.AccountCode = Account.ProductAccount;
-                if (dr["ProductType"].ToString() == "TS")
+                if (useNewAccounting)
+                    obj.AccountCode = productAccount;
+                else if (dr["ProductType"].ToString() == "TS")
                     obj.AccountCode = Account.ProductAccountTS;
                 else if (dr["ProductType"].ToString() == "GS")
                     obj.AccountCode = Account.ProductAccountGS;
@@ -69,7 +73,7 @@ namespace VNS.ERP.GUI.Accounting
                 obj.PriceCost = Convert.ToDecimal(dr["ClosePrice"]);
                 lst.Add(obj);
             }
-            int Error = new AccountStockPriceCostBLL().Insert(lst, periodObject.PeriodCode, Account.ProductAccount);
+            int Error = new AccountStockPriceCostBLL().Insert(lst, periodObject.PeriodCode, productAccount);
             if (Error != 0)
             {
                 OnError(Error, messageType);

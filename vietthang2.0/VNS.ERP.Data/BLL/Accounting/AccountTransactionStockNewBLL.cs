@@ -133,11 +133,12 @@ namespace VNS.ERP.Data.Accounting
                 foreach (AccountTransactionStockDetail atsd1 in t.AccTransactionStock.Detail)
                 {
                     //InStock
-                    int lenMaterialAccount = Account.MaterialAccount.Length;
+                    string materialAccountCode = Account.GetMaterialAccount(t.AccountTransactionDate);
+                    int lenMaterialAccount = materialAccountCode.Length;
                     
                     if (atsd1.DebitAccountCode != string.Empty && atsd1.DebitAccountCode != null)
                     {
-                        if (atsd1.DebitAccountCode.Length > lenMaterialAccount && atsd1.DebitAccountCode.Substring(0, lenMaterialAccount) == Account.MaterialAccount)
+                        if (atsd1.DebitAccountCode.Length >= lenMaterialAccount && atsd1.DebitAccountCode.Substring(0, lenMaterialAccount) == materialAccountCode)
                         {
                             materialAccountAmount += atsd1.CostAmount;
                         }
@@ -152,7 +153,7 @@ namespace VNS.ERP.Data.Accounting
                     }
                     else if (atsd1.CreditAccountCode != string.Empty && atsd1.CreditAccountCode != null)//OutStock
                     {
-                        if (atsd1.CreditAccountCode.Length >= lenMaterialAccount && atsd1.CreditAccountCode.Substring(0, lenMaterialAccount) == Account.MaterialAccount)
+                        if (atsd1.CreditAccountCode.Length >= lenMaterialAccount && atsd1.CreditAccountCode.Substring(0, lenMaterialAccount) == materialAccountCode)
                         {
                             materialAccountAmount += atsd1.CostAmount;
                         }
@@ -1017,6 +1018,9 @@ namespace VNS.ERP.Data.Accounting
                 t.AccTransactionStock.Description = t1.Description;
             }
             t.NgayCT = t.AccountTransactionDate;
+            string materialAccount = Account.GetMaterialAccount(t.AccountTransactionDate);
+            string productAccount = Account.GetProductAccount(t.AccountTransactionDate);
+            ApplyStockAccountingPolicy(t, accountTransactionTypeCode, stockTransactionTypeCode);
             if (accountTransactionTypeCode == enumAccountTransactionType.STOCKIN.ToString())
             {
                 foreach (StockTransaction stockTrans in lst)
@@ -1041,11 +1045,11 @@ namespace VNS.ERP.Data.Accounting
                             AccountTransactionStockDetail accTransStockDetail1 = new AccountTransactionStockDetail();
                             if (stockTransactionTypeCode.Substring(0, 2) == enumStockTransactionTypeKind.N1.ToString() || stockTransactionTypeCode.Substring(0, 2) == enumStockTransactionTypeKind.N3.ToString())
                             {
-                                accTransStockDetail1.DebitAccountCode = Account.MaterialAccount;
+                                accTransStockDetail1.DebitAccountCode = materialAccount;
                             }
                             else
                             {
-                                accTransStockDetail1.DebitAccountCode = Account.ProductAccount;
+                                accTransStockDetail1.DebitAccountCode = productAccount;
                             }
                             accTransStockDetail1.StockInCode = stockTrans.InStock;
                             accTransStockDetail1.ItemCode = stockTransSumDetail.ItemCode;
@@ -1068,13 +1072,13 @@ namespace VNS.ERP.Data.Accounting
                 
                 foreach (StockTransaction stockTrans in lst)
                 {
-                    string tkKho = Account.ProductAccountTS;
+                    string tkKho = Account.UseNewStockAccounting(t.AccountTransactionDate) ? productAccount : Account.ProductAccountTS;
                     if (stockTransactionTypeCode == enumStockTransactionType.X21.ToString())
                     {
                         Customer customerObj1 = null;
                         if (stockTrans.SaleRequestObj != null)
                             customerObj1 = new CustomerBLL().GetBySubjectCode(stockTrans.SaleRequestObj.CustomerCode);
-                        if (customerObj1 != null)
+                        if (customerObj1 != null && !Account.UseNewStockAccounting(t.AccountTransactionDate))
                         {
                             if (customerObj1.ProductType.StartsWith("02."))
                                 tkKho = Account.ProductAccountGS;
@@ -1105,7 +1109,7 @@ namespace VNS.ERP.Data.Accounting
                             AccountTransactionStockDetail accTransStockDetail1 = new AccountTransactionStockDetail();
                             if (stockTransactionTypeCode.Substring(0, 2) == enumStockTransactionTypeKind.X1.ToString() || stockTransactionTypeCode.Substring(0, 2) == enumStockTransactionTypeKind.X3.ToString())
                             {
-                                accTransStockDetail1.CreditAccountCode = Account.MaterialAccount;
+                                accTransStockDetail1.CreditAccountCode = materialAccount;
                             }
                             else
                             {
@@ -1421,6 +1425,57 @@ namespace VNS.ERP.Data.Accounting
                 //open this comment to Accounted (end 2)
             }
         }
+
+        /// <summary>
+        /// Normalizes newly generated stock postings according to the transaction
+        /// date. Existing persisted postings are never migrated here.
+        /// </summary>
+        public static void ApplyStockAccountingPolicy(AccountTransactionStockNew transaction, string accountTransactionTypeCode, string stockTransactionTypeCode)
+        {
+            bool useNewAccounting = Account.UseNewStockAccounting(transaction.AccountTransactionDate);
+            bool stockIn = accountTransactionTypeCode == enumAccountTransactionType.STOCKIN.ToString();
+            bool material = stockTransactionTypeCode.StartsWith(enumStockTransactionTypeKind.N1.ToString())
+                || stockTransactionTypeCode.StartsWith(enumStockTransactionTypeKind.N3.ToString())
+                || stockTransactionTypeCode.StartsWith(enumStockTransactionTypeKind.X1.ToString())
+                || stockTransactionTypeCode.StartsWith(enumStockTransactionTypeKind.X3.ToString());
+            string sourceInventoryAccount = useNewAccounting
+                ? (material ? Account.OldMaterialAccount : Account.OldProductAccount)
+                : (material ? Account.NewMaterialAccount : Account.NewProductAccount);
+            string targetInventoryAccount = useNewAccounting
+                ? (material ? Account.NewMaterialAccount : Account.NewProductAccount)
+                : (material ? Account.OldMaterialAccount : Account.OldProductAccount);
+            string sourceProductCostAccount = useNewAccounting ? Account.OldProductCostAccount : Account.NewProductCostAccount;
+            string targetProductCostAccount = useNewAccounting ? Account.NewProductCostAccount : Account.OldProductCostAccount;
+
+            if (transaction.Detail1 != null)
+            {
+                foreach (AccountTransactionDetail1 detail in transaction.Detail1)
+                {
+                    if (!string.IsNullOrEmpty(detail.AccountCode) && detail.AccountCode.StartsWith(sourceInventoryAccount))
+                        detail.AccountCode = targetInventoryAccount;
+                    if (stockTransactionTypeCode == enumStockTransactionType.N21.ToString()
+                        && detail.AccountCode == sourceProductCostAccount)
+                        detail.AccountCode = targetProductCostAccount;
+                }
+            }
+
+            if (transaction.Detail2 != null)
+            {
+                foreach (AccountTransactionDetail2 detail in transaction.Detail2)
+                {
+                    if (stockIn && !string.IsNullOrEmpty(detail.DebitAccountCode)
+                        && detail.DebitAccountCode.StartsWith(sourceInventoryAccount))
+                        detail.DebitAccountCode = targetInventoryAccount;
+                    if (!stockIn && !string.IsNullOrEmpty(detail.CreditAccountCode)
+                        && detail.CreditAccountCode.StartsWith(sourceInventoryAccount))
+                        detail.CreditAccountCode = targetInventoryAccount;
+                    if (stockTransactionTypeCode == enumStockTransactionType.N21.ToString()
+                        && detail.CreditAccountCode == sourceProductCostAccount)
+                        detail.CreditAccountCode = targetProductCostAccount;
+                }
+            }
+        }
+
         #region IBusiness member
         public int Insert(object obj)
         {
